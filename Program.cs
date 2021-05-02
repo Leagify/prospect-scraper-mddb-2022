@@ -25,6 +25,14 @@ namespace prospect_scraper_mddb_2022
                 var webGet = new HtmlWeb();
                 webGet.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0";
                 var document = webGet.Load(pageSection["2022Url"].StringValue);
+                // This is still messy from debugging the different values.  It should be optimized.
+                var dn = document.DocumentNode;
+                // https://html-agility-pack.net/select-nodes
+                // /html/body/div.container/div.consensus-mock-container/ul/li
+                var dns = dn.SelectNodes("/html/body/div");
+                Console.WriteLine(dns.Count);
+
+
                 AnsiConsole.MarkupLine("Doing some work...");
                 System.Threading.Thread.Sleep(1000);
                 

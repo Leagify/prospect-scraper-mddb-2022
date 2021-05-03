@@ -28,7 +28,7 @@ namespace prospect_scraper_mddb_2022
                 // This is still messy from debugging the different values.  It should be optimized.
                 var dn = document.DocumentNode;
                 // https://html-agility-pack.net/select-nodes
-                // 2022 NFL Draft was compiled using 1Big Board(s), 141st RoundMock Draft(s), and 0Team BasedMock Draft(s). 
+                // 2022 NFL Draft was compiled using 1 Big Board(s), 14 1st RoundMock Draft(s), and 0 Team BasedMock Draft(s). 
                 // /html/body/div.container/div.consensus-mock-container/ul/li
                 
                 var bigBoard = dn.SelectNodes("//div[contains(@class, 'consensus-mock-container')]/ul/li");
@@ -36,6 +36,7 @@ namespace prospect_scraper_mddb_2022
                 var mockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[2]");
                 var teamBasedMockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[3]");
                 Console.WriteLine(bigBoard.Count);
+                findProspects(bigBoard);
 
 
                 AnsiConsole.MarkupLine("Doing some work...");
@@ -60,6 +61,28 @@ namespace prospect_scraper_mddb_2022
             .AddItem("Sample Team 2", 54, Color.Green)
             .AddItem("Sample Team 3", 33, Color.Red));
 
+        }
+
+        public static void findProspects(HtmlNodeCollection nodes)
+        {
+            foreach(var node in nodes)
+            {
+                var pickStuff = node.SelectNodes("//div[contains(@class, 'pick-container')]");
+                var currentRankNode = node.SelectNodes("/html[1]/body[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/span[1]");
+                string currentRank = currentRankNode[0].InnerHtml;
+                var peakRankNode = node.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/span[1]");
+                string peakRank = peakRankNode.InnerHtml;
+                var playerStuff = node.SelectNodes("//div[contains(@class, 'player-container')]");
+                var playerNameNode = node.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/ul[1]/li[1]/div[2]/div[1]");
+                var playerName = playerNameNode.InnerText;
+                var playerPositionAndSchoolNode = node.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/ul[1]/li[1]/div[2]/div[2]");
+                var playerPositionAndShool = playerPositionAndSchoolNode.InnerText;
+                var pp = playerPositionAndShool.Split(" | ");
+                string playerPosition = pp[0];
+                string playerSchool = pp[1];
+                Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition}");
+                var asdf = "asdf";
+            }
         }
     }
 }

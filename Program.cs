@@ -67,21 +67,16 @@ namespace prospect_scraper_mddb_2022
         {
             foreach(var node in nodes)
             {
-                var pickStuff = node.SelectNodes("//div[contains(@class, 'pick-container')]");
-                var currentRankNode = node.SelectNodes("/html[1]/body[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/span[1]");
-                string currentRank = currentRankNode[0].InnerHtml;
-                var peakRankNode = node.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/ul[1]/li[1]/div[1]/div[1]/div[2]/span[1]");
-                string peakRank = peakRankNode.InnerHtml;
-                var playerStuff = node.SelectNodes("//div[contains(@class, 'player-container')]");
-                var playerNameNode = node.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/ul[1]/li[1]/div[2]/div[1]");
-                var playerName = playerNameNode.InnerText;
-                var playerPositionAndSchoolNode = node.SelectSingleNode("/html[1]/body[1]/div[1]/div[2]/ul[1]/li[1]/div[2]/div[2]");
-                var playerPositionAndShool = playerPositionAndSchoolNode.InnerText;
-                var pp = playerPositionAndShool.Split(" | ");
-                string playerPosition = pp[0];
-                string playerSchool = pp[1];
-                Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition}");
-                var asdf = "asdf";
+                var actualPickStuff = node.FirstChild.FirstChild;
+                string currentRank = actualPickStuff.FirstChild.InnerText;
+                string peakRank = actualPickStuff.LastChild.LastChild.InnerText; //Rank 1 is in the middle child, not the last child for some reason. Seems to l=only happen when actualPickStuff.LastChild has 3 children.
+                var namePositionSchool = node.LastChild;
+                string playerName = namePositionSchool.FirstChild.FirstChild.InnerText.Replace("&#39;", "'");
+                var playerPositionAndSchool = namePositionSchool.LastChild.InnerText.Split(" | ");
+                string playerPosition = playerPositionAndSchool[0];
+                string playerSchool = playerPositionAndSchool[1];                
+                
+                Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
             }
         }
     }

@@ -28,9 +28,14 @@ namespace prospect_scraper_mddb_2022
                 // This is still messy from debugging the different values.  It should be optimized.
                 var dn = document.DocumentNode;
                 // https://html-agility-pack.net/select-nodes
+                // 2022 NFL Draft was compiled using 1Big Board(s), 141st RoundMock Draft(s), and 0Team BasedMock Draft(s). 
                 // /html/body/div.container/div.consensus-mock-container/ul/li
-                var dns = dn.SelectNodes("/html/body/div");
-                Console.WriteLine(dns.Count);
+                
+                var bigBoard = dn.SelectNodes("//div[contains(@class, 'consensus-mock-container')]/ul/li");
+                var bigboardsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[1]");
+                var mockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[2]");
+                var teamBasedMockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[3]");
+                Console.WriteLine(bigBoard.Count);
 
 
                 AnsiConsole.MarkupLine("Doing some work...");

@@ -67,7 +67,7 @@ namespace prospect_scraper_mddb_2022
         {
             foreach(var node in nodes)
             {
-                var actualPickStuff = node.FirstChild.FirstChild;
+                var actualPickStuff = node.FirstChild.FirstChild;asdfkmasdjn;flkamnsvm,zx c;vjknasdo;pv skj F: Ki
                 string currentRank = actualPickStuff.FirstChild.InnerText;
                 string peakRank = actualPickStuff.LastChild.LastChild.InnerText; //Rank 1 is in the middle child, not the last child for some reason. Seems to l=only happen when actualPickStuff.LastChild has 3 children.
                 var namePositionSchool = node.LastChild;

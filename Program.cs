@@ -35,7 +35,10 @@ namespace prospect_scraper_mddb_2022
                 var bigboardsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[1]");
                 var mockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[2]");
                 var teamBasedMockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[3]");
-                Console.WriteLine(bigBoard.Count);
+                Console.WriteLine("Big Board count: " + bigboardsUsed[0].InnerText);
+                Console.WriteLine("Mock Draft count: " + mockDraftsUsed[0].InnerText);
+                Console.WriteLine("Team Mock count: " + teamBasedMockDraftsUsed[0].InnerText);
+                Console.WriteLine("Prospect count: " + bigBoard.Count);
                 findProspects(bigBoard);
 
 
@@ -67,30 +70,17 @@ namespace prospect_scraper_mddb_2022
         {
             foreach(var node in nodes)
             {
-                var pickContainer = node.SelectNodes("//div[contains(@class, 'pick-container')]").First();
-                var playerContainer = node.SelectNodes("//div[contains(@class, 'player-container')]").First();
-                var percentageContainer = node.SelectNodes("//div[contains(@class, 'percentage-container')]").First();
-
-                var pickContainer2 = node.Descendants("pick-container");
-                var playerContainer2 = node.Descendants("player-container");
-                var percentageContainer2 = node.Descendants("percentage-container");
-
-                var pickContainer3 = node.Attributes["pick-container"];
-                var playerContainer3 = node.Attributes["player-container"];
-                var percentageContainer3 = node.Attributes["percentage-container"];
+                var pickContainer = node.Descendants().Where(n => n.HasClass("pick-container")).FirstOrDefault();
+                var playerContainer = node.Descendants().Where(n => n.HasClass("player-container")).FirstOrDefault();
+                var percentageContainer = node.Descendants().Where(n => n.HasClass("percentage-container")).FirstOrDefault();
+                
                 
 
-                // foreach (var d in node.ToArray())
-                // {
-                //     var i = "i";
-
-                // }
 
 
-
-                var actualPickStuff = node.FirstChild.FirstChild;
+                var actualPickStuff = pickContainer.FirstChild;
                 string currentRank = actualPickStuff.FirstChild.InnerText;
-                string peakRank = actualPickStuff.LastChild.LastChild.InnerText; //Rank 1 is in the middle child, not the last child for some reason. Seems to l=only happen when actualPickStuff.LastChild has 3 children.
+                string peakRankHtml = actualPickStuff.LastChild.InnerHtml; //Rank 1 is in the middle child, not the last child for some reason. Seems to l=only happen when actualPickStuff.LastChild has 3 children.
                 var namePositionSchool = node.LastChild;
                 string playerName = namePositionSchool.FirstChild.FirstChild.InnerText.Replace("&#39;", "'");
                 var playerPositionAndSchool = namePositionSchool.LastChild.InnerText.Split(" | ");

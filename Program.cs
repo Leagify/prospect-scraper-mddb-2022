@@ -67,16 +67,37 @@ namespace prospect_scraper_mddb_2022
         {
             foreach(var node in nodes)
             {
-                var actualPickStuff = node.FirstChild.FirstChild;asdfkmasdjn;flkamnsvm,zx c;vjknasdo;pv skj F: Ki
+                var pickContainer = node.SelectNodes("//div[contains(@class, 'pick-container')]").First();
+                var playerContainer = node.SelectNodes("//div[contains(@class, 'player-container')]").First();
+                var percentageContainer = node.SelectNodes("//div[contains(@class, 'percentage-container')]").First();
+
+                var pickContainer2 = node.Descendants("pick-container");
+                var playerContainer2 = node.Descendants("player-container");
+                var percentageContainer2 = node.Descendants("percentage-container");
+
+                var pickContainer3 = node.Attributes["pick-container"];
+                var playerContainer3 = node.Attributes["player-container"];
+                var percentageContainer3 = node.Attributes["percentage-container"];
+                
+
+                // foreach (var d in node.ToArray())
+                // {
+                //     var i = "i";
+
+                // }
+
+
+
+                var actualPickStuff = node.FirstChild.FirstChild;
                 string currentRank = actualPickStuff.FirstChild.InnerText;
                 string peakRank = actualPickStuff.LastChild.LastChild.InnerText; //Rank 1 is in the middle child, not the last child for some reason. Seems to l=only happen when actualPickStuff.LastChild has 3 children.
                 var namePositionSchool = node.LastChild;
                 string playerName = namePositionSchool.FirstChild.FirstChild.InnerText.Replace("&#39;", "'");
                 var playerPositionAndSchool = namePositionSchool.LastChild.InnerText.Split(" | ");
-                string playerPosition = playerPositionAndSchool[0];
-                string playerSchool = playerPositionAndSchool[1];                
+                //string playerPosition = playerPositionAndSchool[0];
+                //string playerSchool = playerPositionAndSchool[1];                
                 
-                Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
+                //Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
             }
         }
     }

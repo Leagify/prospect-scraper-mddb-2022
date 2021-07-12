@@ -14,6 +14,11 @@ namespace prospect_scraper_mddb_2022
     {
         static void Main(string[] args)
         {
+            int bigBoards;
+            int mockDrafts;
+            int teamMockDrafts;
+
+
             var scraperConfig = new Configuration();
             scraperConfig = Configuration.LoadFromFile("scraper.conf");
             var pageSection = scraperConfig["Pages"];
@@ -35,6 +40,7 @@ namespace prospect_scraper_mddb_2022
                 var bigboardsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[1]");
                 var mockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[2]");
                 var teamBasedMockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[3]");
+                bool maybe = int.TryParse(bigboardsUsed[0].InnerText, out bigBoards);
                 Console.WriteLine("Big Board count: " + bigboardsUsed[0].InnerText);
                 Console.WriteLine("Mock Draft count: " + mockDraftsUsed[0].InnerText);
                 Console.WriteLine("Team Mock count: " + teamBasedMockDraftsUsed[0].InnerText);
@@ -60,7 +66,7 @@ namespace prospect_scraper_mddb_2022
             .Width(60)
             .Label("[green bold underline]Number of fruits[/]")
             .CenterLabel()
-            .AddItem("Sample Team 1", 12, Color.Yellow)
+            .AddItem("Big Boards", 12, Color.Yellow)
             .AddItem("Sample Team 2", 54, Color.Green)
             .AddItem("Sample Team 3", 33, Color.Red));
 
@@ -80,14 +86,17 @@ namespace prospect_scraper_mddb_2022
 
                 var actualPickStuff = pickContainer.FirstChild;
                 string currentRank = actualPickStuff.FirstChild.InnerText;
-                string peakRankHtml = actualPickStuff.LastChild.InnerHtml; //Rank 1 is in the middle child, not the last child for some reason. Seems to l=only happen when actualPickStuff.LastChild has 3 children.
+                var peakRankHtml = actualPickStuff.LastChild; //Rank 1 is in the middle child, not the last child for some reason. Seems to l=only happen when actualPickStuff.LastChild has 3 children.
+                string peakRank = peakRankHtml.ChildNodes[1].InnerText;  // this is inside a span, but I'm not sure if it's reliably the second element.
                 var namePositionSchool = node.LastChild;
-                string playerName = namePositionSchool.FirstChild.FirstChild.InnerText.Replace("&#39;", "'");
-                var playerPositionAndSchool = namePositionSchool.LastChild.InnerText.Split(" | ");
+                string playerName = playerContainer.FirstChild.InnerText.Replace("&#39;", "'");
+                string playerPosition = playerContainer.LastChild.FirstChild.InnerText.Replace("|", "").Trim();
+                string playerSchool = playerContainer.LastChild.LastChild.InnerText.Replace("&amp;", "&");
+                //var playerPositionAndSchool = namePositionSchool.LastChild.InnerText.Split(" | ");
                 //string playerPosition = playerPositionAndSchool[0];
                 //string playerSchool = playerPositionAndSchool[1];                
                 
-                //Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
+                Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
             }
         }
     }

@@ -26,7 +26,7 @@ namespace prospect_scraper_mddb_2022
             AnsiConsole.Status()
             .Start("Thinking...", ctx => 
             {
-                // Simulate some work
+                ctx.Spinner(Spinner.Known.Star);
                 var webGet = new HtmlWeb();
                 webGet.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:89.0) Gecko/20100101 Firefox/89.0";
                 var document = webGet.Load(pageSection["2022Url"].StringValue);
@@ -65,7 +65,7 @@ namespace prospect_scraper_mddb_2022
                 
                 // Update the status and spinner
                 ctx.Status("Thinking some more");
-                ctx.Spinner(Spinner.Known.Star);
+                
                 ctx.SpinnerStyle(Style.Parse("green"));
 
                 // Simulate some work

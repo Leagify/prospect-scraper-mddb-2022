@@ -103,10 +103,7 @@ namespace prospect_scraper_mddb_2022
                 var namePositionSchool = node.LastChild;
                 string playerName = playerContainer.FirstChild.InnerText.Replace("&#39;", "'");
                 string playerPosition = playerContainer.LastChild.FirstChild.InnerText.Replace("|", "").Trim();
-                string playerSchool = playerContainer.LastChild.LastChild.InnerText.Replace("&amp;", "&");
-                //var playerPositionAndSchool = namePositionSchool.LastChild.InnerText.Split(" | ");
-                //string playerPosition = playerPositionAndSchool[0];
-                //string playerSchool = playerPositionAndSchool[1];                
+                string playerSchool = playerContainer.LastChild.LastChild.InnerText.Replace("&amp;", "&");             
                 
                 Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
             }

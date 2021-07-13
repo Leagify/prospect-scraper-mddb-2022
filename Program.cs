@@ -103,10 +103,25 @@ namespace prospect_scraper_mddb_2022
                 var namePositionSchool = node.LastChild;
                 string playerName = playerContainer.FirstChild.InnerText.Replace("&#39;", "'");
                 string playerPosition = playerContainer.LastChild.FirstChild.InnerText.Replace("|", "").Trim();
-                string playerSchool = playerContainer.LastChild.LastChild.InnerText.Replace("&amp;", "&");             
+                string playerSchool = playerContainer.LastChild.LastChild.InnerText.Replace("&amp;", "&");
+                if (percentageContainer != null)
+                {
+                    int percentageContainerChildNodeCount = percentageContainer.ChildNodes.Count;
+                    if (percentageContainerChildNodeCount == 2)
+                    {
+                        //if projected draft spot starts with "Possible" then it's a general grade with no consensus.
+                        string projectedDraftSpot = percentageContainer.FirstChild.LastChild.InnerText.Replace("#", "").Replace(":", "");
+                        string projectedDraftTeam = percentageContainer.LastChild.InnerText;
+                    }
+
+                }
+                            
                 
                 Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
             }
         }
+
+    
+        
     }
 }

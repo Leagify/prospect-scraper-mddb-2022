@@ -112,6 +112,12 @@ namespace prospect_scraper_mddb_2022
                         //if projected draft spot starts with "Possible" then it's a general grade with no consensus.
                         string projectedDraftSpot = percentageContainer.FirstChild.LastChild.InnerText.Replace("#", "").Replace(":", "");
                         string projectedDraftTeam = percentageContainer.LastChild.InnerText;
+                        if (projectedDraftTeam != "No Consensus Available")
+                        {
+                            string projectedDraftTeamHref = percentageContainer.LastChild.FirstChild.Attributes.FirstOrDefault().Value;
+                            var hrefStrings = projectedDraftTeamHref.Split("/");
+                            projectedDraftTeam = hrefStrings[hrefStrings.Length - 1].Replace("-", " ").ToUpper();
+                        }
                     }
 
                 }

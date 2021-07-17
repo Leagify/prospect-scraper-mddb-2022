@@ -20,7 +20,8 @@
 	// Add the IDs of extensions you want installed when the container is created.
 	"extensions": [
 		"ms-dotnettools.csharp",
-		"mechatroner.rainbow-csv"
+		"mechatroner.rainbow-csv",
+		"github.copilot"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

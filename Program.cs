@@ -57,7 +57,7 @@ namespace prospect_scraper_mddb_2022
                 }
                 
                 Console.WriteLine("Prospect count: " + bigBoard.Count);
-                findProspects(bigBoard);
+                var prospects = findProspects(bigBoard);
 
 
                 AnsiConsole.MarkupLine("Doing some work...");
@@ -84,8 +84,10 @@ namespace prospect_scraper_mddb_2022
 
         }
 
-        public static void findProspects(HtmlNodeCollection nodes)
+        public static List<ProspectRanking> findProspects(HtmlNodeCollection nodes)
         {
+            List<ProspectRanking> prospectRankings = new List<ProspectRanking>();
+
             foreach(var node in nodes)
             {
                 var pickContainer = node.Descendants().Where(n => n.HasClass("pick-container")).FirstOrDefault();
@@ -125,6 +127,7 @@ namespace prospect_scraper_mddb_2022
                 
                 Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
             }
+            return prospectRankings;
         }
 
     

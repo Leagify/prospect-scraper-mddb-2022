@@ -96,7 +96,8 @@ namespace prospect_scraper_mddb_2022
                 // Update the status and spinner
                 ctx.Status("Writing draft prospect CSV");
                 var playerInfoFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}players{Path.DirectorySeparatorChar}{today}-ranks.csv";
-                
+                var collectedRanksFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}{scrapeYear}ranks.csv";
+
                 //Write projects to csv with date.
                 using (var writer = new StreamWriter(playerInfoFileName))
                 using (var csv = new CsvWriter(writer, CultureInfo.CurrentCulture))
@@ -104,8 +105,17 @@ namespace prospect_scraper_mddb_2022
                     csv.WriteRecords(prospects);
                 }
                 
+                ctx.Status("Writing to collected ranks CSV");
+                var collectedRanksConfig = new CsvConfiguration(CultureInfo.CurrentCulture);
+                collectedRanksConfig.HasHeaderRecord =  false;
+                //Write projects to csv with date.
+                using (var stream = File.Open(collectedRanksFileName, FileMode.Append))
+                using (var writer = new StreamWriter(stream))
+                using (var csv = new CsvWriter(writer, collectedRanksConfig))
+                {
+                    csv.WriteRecords(prospects);
+                }
 
-                // Simulate some work
                 
             });
 
@@ -169,6 +179,7 @@ namespace prospect_scraper_mddb_2022
                 var percentageContainer = node.Descendants().Where(n => n.HasClass("percentage-container")).FirstOrDefault();
                 string projectedDraftSpot = "";
                 string projectedDraftTeam = "";
+                string playerSchool = "";
 
 
 
@@ -179,7 +190,19 @@ namespace prospect_scraper_mddb_2022
                 var namePositionSchool = node.LastChild;
                 string playerName = playerContainer.FirstChild.InnerText.Replace("&#39;", "'");
                 string playerPosition = playerContainer.LastChild.FirstChild.InnerText.Replace("|", "").Trim();
-                string playerSchool = playerContainer.LastChild.LastChild.InnerText.Replace("&amp;", "&");
+                int afterPipeStringLength = playerContainer.LastChild.FirstChild.InnerText.Split("|")[1].Length;
+                if (playerContainer.LastChild.ChildNodes.Count == 2 && afterPipeStringLength <= 2)
+                {
+                    playerSchool = playerContainer.LastChild.LastChild.InnerText.Replace("&amp;", "&");
+                }
+                else if (afterPipeStringLength > 2)
+                {
+                    playerSchool = playerContainer.LastChild.FirstChild.InnerText.Split("|")[1].Replace("&amp;", "&").Trim();
+                }
+                else
+                {
+                    playerSchool = playerSchool = playerContainer.LastChild.ChildNodes[1].InnerText.Replace("&amp;", "&");
+                }
                 if (percentageContainer != null)
                 {
                     int percentageContainerChildNodeCount = percentageContainer.ChildNodes.Count;
@@ -201,6 +224,7 @@ namespace prospect_scraper_mddb_2022
                 //var ranking = new ProspectRanking();
                 Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
                 
+                playerSchool = convertSchool(playerSchool);
                 string schoolState = "";
                 string schoolConference = "";
                 string leagifyPoints = "";
@@ -216,6 +240,17 @@ namespace prospect_scraper_mddb_2022
 
 
             return prospectRankings;
+        }
+
+        public static string convertSchool(string schoolName)
+        {
+            schoolName = schoolName switch
+            {
+                "Mississippi" => "Ole Miss",
+                "Pittsburgh" => "Pitt",
+                _ => schoolName,
+            };
+            return schoolName;
         }
 
     

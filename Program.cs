@@ -2,11 +2,13 @@
 using Spectre.Console;
 using SharpConfig;
 using CsvHelper;
+using CsvHelper.Configuration;
 using HtmlAgilityPack;
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
 using System.Globalization;
+using System.Data;
 
 
 namespace prospect_scraper_mddb_2022
@@ -73,38 +75,38 @@ namespace prospect_scraper_mddb_2022
                 string scrapeYear = generalSection["YearToScrape"].StringValue;
                 var bigBoardInfoFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}{scrapeYear}BoardInfo.csv";
 
-                Console.WriteLine("Creating csv...");
+                Console.WriteLine("Creating Draft Info csv...");
                 
-                
+                var consensusConfig = new CsvConfiguration(CultureInfo.CurrentCulture);
+                consensusConfig.HasHeaderRecord =  false;
                 //Write projects to csv with date.
                 using (var stream = File.Open(bigBoardInfoFileName, FileMode.Append))
                 using (var writer = new StreamWriter(stream))
-                using (var csv = new CsvWriter(writer, CultureInfo.CurrentCulture))
+                using (var csv = new CsvWriter(writer, consensusConfig))
                 {
-                    bool header = csv.Configuration.HasHeaderRecord;
                     csv.WriteRecords(infos);
                 }
-
-
-
-
-
-
-
-                var prospects = findProspects(bigBoard);
-
-
-                AnsiConsole.MarkupLine("Doing some work...");
-                System.Threading.Thread.Sleep(1000);
-                
-                // Update the status and spinner
-                ctx.Status("Thinking some more");
-                
+            
                 ctx.SpinnerStyle(Style.Parse("green"));
 
+                AnsiConsole.MarkupLine("Doing some prospect work...");
+                var prospects = findProspects(bigBoard, today);
+
+                
+                // Update the status and spinner
+                ctx.Status("Writing draft prospect CSV");
+                var playerInfoFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}players{Path.DirectorySeparatorChar}{today}-ranks.csv";
+                
+                //Write projects to csv with date.
+                using (var writer = new StreamWriter(playerInfoFileName))
+                using (var csv = new CsvWriter(writer, CultureInfo.CurrentCulture))
+                {
+                    csv.WriteRecords(prospects);
+                }
+                
+
                 // Simulate some work
-                AnsiConsole.MarkupLine("Doing some more work...");
-                System.Threading.Thread.Sleep(2000);
+                
             });
 
             // Give a rendered result to the terminal.
@@ -118,17 +120,55 @@ namespace prospect_scraper_mddb_2022
 
         }
 
-        public static List<ProspectRanking> findProspects(HtmlNodeCollection nodes)
+        public static List<ProspectRanking> findProspects(HtmlNodeCollection nodes, string todayString)
         {
             List<ProspectRanking> prospectRankings = new List<ProspectRanking>();
+
+            //read in CSV from info/RanksToProjectedPoints.csv
+            var dt = new DataTable();
+            using (var reader = new StreamReader($"info{Path.DirectorySeparatorChar}RanksToProjectedPoints.csv"))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+            {
+                // Do any configuration to `CsvReader` before creating CsvDataReader.
+                using (var dr = new CsvDataReader(csv))
+                {		
+                    dt.Load(dr);
+                }
+            }
+            // Transform datatable dt to dictionary
+            var ranksToPoints = dt.AsEnumerable()
+                    .ToDictionary<DataRow, string, string>(row => row.Field<string>(0),
+                                                        row => row.Field<string>(1));
+
+
+
+            
+            var dt2 = new DataTable();
+            using (var reader = new StreamReader($"info{Path.DirectorySeparatorChar}SchoolStatesAndConferences.csv"))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+            {
+                // Do any configuration to `CsvReader` before creating CsvDataReader.
+                using (var dr = new CsvDataReader(csv))
+                {		
+                    dt2.Load(dr);
+                }
+            }
+
+            var schoolsToStatesAndConfs = dt2.AsEnumerable()
+                    .ToDictionary<DataRow, string, (string, string)>(row => row.Field<string>(0),
+                                                        row => (row.Field<string>(1), row.Field<string>(2))
+                                                        );
+
+
+
 
             foreach(var node in nodes)
             {
                 var pickContainer = node.Descendants().Where(n => n.HasClass("pick-container")).FirstOrDefault();
                 var playerContainer = node.Descendants().Where(n => n.HasClass("player-container")).FirstOrDefault();
                 var percentageContainer = node.Descendants().Where(n => n.HasClass("percentage-container")).FirstOrDefault();
-                
-                
+                string projectedDraftSpot = "";
+                string projectedDraftTeam = "";
 
 
 
@@ -146,8 +186,8 @@ namespace prospect_scraper_mddb_2022
                     if (percentageContainerChildNodeCount == 2)
                     {
                         //if projected draft spot starts with "Possible" then it's a general grade with no consensus.
-                        string projectedDraftSpot = percentageContainer.FirstChild.LastChild.InnerText.Replace("#", "").Replace(":", "");
-                        string projectedDraftTeam = percentageContainer.LastChild.InnerText;
+                        projectedDraftSpot = percentageContainer.FirstChild.LastChild.InnerText.Replace("#", "").Replace(":", "");
+                        projectedDraftTeam = percentageContainer.LastChild.InnerText;
                         if (projectedDraftTeam != "No Consensus Available")
                         {
                             string projectedDraftTeamHref = percentageContainer.LastChild.FirstChild.Attributes.FirstOrDefault().Value;
@@ -160,7 +200,21 @@ namespace prospect_scraper_mddb_2022
                             
                 //var ranking = new ProspectRanking();
                 Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
+                
+                string schoolState = "";
+                string schoolConference = "";
+                string leagifyPoints = "";
+                
+                leagifyPoints = ranksToPoints[currentRank];
+                schoolConference  = schoolsToStatesAndConfs[playerSchool].Item1;
+                schoolState = schoolsToStatesAndConfs[playerSchool].Item2;
+
+                var currentplayer = new ProspectRanking(todayString, currentRank, peakRank, playerName, playerSchool, playerPosition, schoolState, schoolConference, leagifyPoints, projectedDraftSpot, projectedDraftTeam );
+                prospectRankings.Add(currentplayer);
             }
+
+
+
             return prospectRankings;
         }
 

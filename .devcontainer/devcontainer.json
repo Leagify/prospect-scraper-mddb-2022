@@ -21,7 +21,9 @@
 	"extensions": [
 		"ms-dotnettools.csharp",
 		"mechatroner.rainbow-csv",
-		"github.copilot"
+		"github.copilot",
+		"coenraads.bracket-pair-colorizer",
+		"eamodio.gitlens"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

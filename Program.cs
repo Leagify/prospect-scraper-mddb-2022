@@ -33,7 +33,9 @@ namespace prospect_scraper_mddb_2022
                 ctx.Spinner(Spinner.Known.Star);
                 var webGet = new HtmlWeb();
                 webGet.UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0";
-                var document = webGet.Load(pageSection["2022Url"].StringValue);
+                string scrapeYear = generalSection["YearToScrape"].StringValue;
+                string urlToScrape = scrapeYear + "Url";
+                var document = webGet.Load(pageSection[urlToScrape].StringValue);
                 // This is still messy from debugging the different values.  It should be optimized.
                 var dn = document.DocumentNode;
                 // https://html-agility-pack.net/select-nodes
@@ -72,7 +74,6 @@ namespace prospect_scraper_mddb_2022
                 // use CsvWriter to write bigBoardInfo to csv
                
                 //This is the file name we are going to write.
-                string scrapeYear = generalSection["YearToScrape"].StringValue;
                 var bigBoardInfoFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}{scrapeYear}BoardInfo.csv";
 
                 Console.WriteLine("Creating Draft Info csv...");

@@ -21,6 +21,7 @@ namespace prospect_scraper_mddb_2022
             int mockDrafts = 0;
             int teamMockDrafts = 0;
             int schools = 0;
+            int states = 0;
 
 
             var scraperConfig = new Configuration();
@@ -135,6 +136,7 @@ namespace prospect_scraper_mddb_2022
                 schools = topSchools.Count();
 
                 // Chatty output to console.  It's messy but informative.
+                Console.WriteLine("\nTop Schools.....");
                 foreach (var school in topSchools)
                 {
                     Console.WriteLine($"{school.School} - {school.Conference} - {school.ProjectedPoints} - {school.NumberOfProspects}");
@@ -174,6 +176,38 @@ namespace prospect_scraper_mddb_2022
                     csv.WriteRecords(schoolInfos);
                 }
 
+                // Similar to the top schools, I want to sort the top states by points, then by number of prospects, then by number of schools.
+                var topStates = prospects.GroupBy(x => x.State)
+                    .Select(x => new {
+                        State = x.Key,
+                        ProjectedPoints = x.Sum(y => y.ProjectedPoints),
+                        NumberOfSchools = x.GroupBy(y => y.School).Count(), // Number of schools in the state.
+                        NumberOfProspects = x.Count()
+                    })
+                    .OrderByDescending(x => x.ProjectedPoints)
+                    .ThenByDescending(x => x.NumberOfProspects)
+                    .ToList();
+                // Chatty output to console.  It's messy but informative.
+                Console.WriteLine("\nTop States.....");
+                foreach (var state in topStates)
+                {
+                    Console.WriteLine($"{state.State} - {state.ProjectedPoints} - {state.NumberOfSchools} - {state.NumberOfProspects}");
+                }
+
+                states = topStates.Count();
+
+                // Now, write these top states to a CSV file in the states directory for the year in question.
+                // The file should be named with the date, then top-states.csv, such as 2021-10-03-top-states.csv
+                var stateRankInfoFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}states{Path.DirectorySeparatorChar}{today}-top-states.csv";
+                var stateInfoFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}{scrapeYear}StateInfo.csv";
+
+                //Write schools to csv with date.
+                using (var writer = new StreamWriter(stateRankInfoFileName))
+                using (var csv = new CsvWriter(writer, CultureInfo.CurrentCulture))
+                {
+                    csv.WriteRecords(topStates);
+                }
+                
                 ctx.Status("Done!");
             });
 
@@ -186,6 +220,7 @@ namespace prospect_scraper_mddb_2022
             .AddItem("Mock Drafts", mockDrafts, Color.Green)
             .AddItem("Team Mock Drafts", teamMockDrafts, Color.Red)
             .AddItem("Schools", schools, Color.Blue)
+            .AddItem("States", states, Color.Aqua)
             );
 
         }

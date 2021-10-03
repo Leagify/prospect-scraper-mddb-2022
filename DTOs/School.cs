@@ -13,14 +13,5 @@ namespace prospect_scraper_mddb_2022
             this.conference = conference;
             this.state = state;
         }
-
-        public static string CheckSchool(string schoolName)
-        {
-            schoolName = schoolName switch
-            {
-                _ => schoolName,
-            };
-            return schoolName;
-        }
     }
 }

@@ -20,6 +20,7 @@ namespace prospect_scraper_mddb_2022
             int bigBoards = 0;
             int mockDrafts = 0;
             int teamMockDrafts = 0;
+            int schools = 0;
 
 
             var scraperConfig = new Configuration();
@@ -65,7 +66,7 @@ namespace prospect_scraper_mddb_2022
                 // Get today's date in the format of yyyy-mm-dd
                 string today = DateTime.Now.ToString("yyyy-MM-dd");
 
-                // Create a ConsesusBigBoardInfo object from the parsed values.
+                // Create a ConsensusBigBoardInfo object from the parsed values.
                 var bigBoardInfo = new ConsensusBigBoardInfo(today, bigBoards, mockDrafts, teamMockDrafts, bigBoard.Count, lastUpdated);
                 List<ConsensusBigBoardInfo> infos = new List<ConsensusBigBoardInfo>();
                 infos.Add(bigBoardInfo);
@@ -117,7 +118,63 @@ namespace prospect_scraper_mddb_2022
                     csv.WriteRecords(prospects);
                 }
 
-                
+                // OK, I'm going to use LINQ to sort the top schools by points, then by number of prospects.
+                // The output I want here is: Rank, School, Conference, Points, Number of Prospects
+                ctx.Status($"Putting together top schools....");
+
+                var topSchools = prospects.GroupBy(x => x.School)
+                    .Select(x => new {
+                        School = x.Key,
+                        Conference = x.First().Conference,
+                        ProjectedPoints = x.Sum(y => y.ProjectedPoints),
+                        NumberOfProspects = x.Count()
+                    })
+                    .OrderByDescending(x => x.ProjectedPoints)
+                    .ThenByDescending(x => x.NumberOfProspects)
+                    .ToList();
+                schools = topSchools.Count();
+
+                // Chatty output to console.  It's messy but informative.
+                foreach (var school in topSchools)
+                {
+                    Console.WriteLine($"{school.School} - {school.Conference} - {school.ProjectedPoints} - {school.NumberOfProspects}");
+                }
+
+                // Update the status and spinner
+                ctx.Status("Writing Top Schools CSV");
+
+                // Now, write these top schools to a CSV file in the schools directory for the year in question.
+                // The file should be named with the date, then top-schools.csv, such as 2021-10-03-top-schools.csv
+                // Also, write one line to a file that says how many schools there are, as well as the date, similar to 2022BoardInfo.csv
+                var schoolRankInfoFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}schools{Path.DirectorySeparatorChar}{today}-top-schools.csv";
+                var schoolInfoFileName = $"ranks{Path.DirectorySeparatorChar}{scrapeYear}{Path.DirectorySeparatorChar}{scrapeYear}SchoolInfo.csv";
+
+                //Write schools to csv with date.
+                using (var writer = new StreamWriter(schoolRankInfoFileName))
+                using (var csv = new CsvWriter(writer, CultureInfo.CurrentCulture))
+                {
+                    csv.WriteRecords(topSchools);
+                }
+
+                //Add School Info
+
+                // Create a School Info object from the parsed values.
+                //ScrapeDate,NumberOfSchools,TopSchool,TopProjectedPoints,ProspectCountForTopSchool
+                var schoolBoardInfo = new SchoolRankInfo(today, topSchools.Count, topSchools.First().School, topSchools.First().ProjectedPoints, topSchools.First().NumberOfProspects);
+                List<SchoolRankInfo> schoolInfos = new List<SchoolRankInfo>();
+                schoolInfos.Add(schoolBoardInfo);
+
+                var schoolConfig = new CsvConfiguration(CultureInfo.CurrentCulture);
+                schoolConfig.HasHeaderRecord =  false;
+                //Write projects to csv with date.
+                using (var stream = File.Open(schoolInfoFileName, FileMode.Append))
+                using (var writer = new StreamWriter(stream))
+                using (var csv = new CsvWriter(writer, schoolConfig))
+                {
+                    csv.WriteRecords(schoolInfos);
+                }
+
+                ctx.Status("Done!");
             });
 
             // Give a rendered result to the terminal.
@@ -127,7 +184,9 @@ namespace prospect_scraper_mddb_2022
             .CenterLabel()
             .AddItem("Big Boards", bigBoards, Color.Yellow)
             .AddItem("Mock Drafts", mockDrafts, Color.Green)
-            .AddItem("Team Mock Drafts", teamMockDrafts, Color.Red));
+            .AddItem("Team Mock Drafts", teamMockDrafts, Color.Red)
+            .AddItem("Schools", schools, Color.Blue)
+            );
 
         }
 
@@ -223,7 +282,6 @@ namespace prospect_scraper_mddb_2022
                 }
                             
                 //var ranking = new ProspectRanking();
-                Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank}");
                 
                 playerSchool = convertSchool(playerSchool);
                 string schoolState = "";
@@ -234,6 +292,8 @@ namespace prospect_scraper_mddb_2022
                 schoolConference  = schoolsToStatesAndConfs[playerSchool].Item1;
                 schoolState = schoolsToStatesAndConfs[playerSchool].Item2;
 
+                Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank} with {leagifyPoints} possible points");
+                
                 var currentplayer = new ProspectRanking(todayString, currentRank, peakRank, playerName, playerSchool, playerPosition, schoolState, schoolConference, leagifyPoints, projectedDraftSpot, projectedDraftTeam );
                 prospectRankings.Add(currentplayer);
             }

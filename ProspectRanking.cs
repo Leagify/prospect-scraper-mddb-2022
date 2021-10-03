@@ -17,7 +17,7 @@ namespace prospect_scraper_mddb_2022
         public string ProjectedTeam { get; set; }
         public string State { get; set; }
         public string Conference { get; set; }
-        public string ProjectedPoints { get; set; }
+        public int ProjectedPoints { get; set; }
 
         public ProspectRanking(string dateString, string rank, string peak, string name, string school, string pos, 
                                string state, string conference, string projectedPoints, string projPick = "", string projTeam = "")
@@ -32,7 +32,7 @@ namespace prospect_scraper_mddb_2022
             this.ProjectedTeam = projTeam;
             this.State = state;
             this.Conference = conference;
-            this.ProjectedPoints = projectedPoints;
+            this.ProjectedPoints = Int32.Parse(projectedPoints);
         }
     }
 

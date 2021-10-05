@@ -1,4 +1,5 @@
 ﻿using CsvHelper.Configuration;
+using prospect_scraper_mddb_2022.DTOs;
 
 namespace prospect_scraper_mddb_2022.Maps
 {

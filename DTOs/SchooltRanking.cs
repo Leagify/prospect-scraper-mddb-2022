@@ -1,13 +1,13 @@
-namespace prospect_scraper_mddb_2022
+namespace prospect_scraper_mddb_2022.DTOs
 {
     public class SchoolRanking
     {
-        public string RankingDateString { get; set; }
-        public string School { get; set; }
-        public string State { get; set; }
         public string Conference { get; set; }
         public string ProjectedPoints { get; set; }
         public string ProspectCount { get; set; }
+        public string RankingDateString { get; set; }
+        public string School { get; set; }
+        public string State { get; set; }
 
         public SchoolRanking(
             string dateString, 
@@ -23,6 +23,11 @@ namespace prospect_scraper_mddb_2022
             Conference = conference;
             ProjectedPoints = projectedPoints;
             ProspectCount = prospectCount;
+        }
+
+        public SchoolRanking()
+        {
+            
         }
     }
 }

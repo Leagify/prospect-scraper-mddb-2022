@@ -11,7 +11,6 @@ using System.Globalization;
 using System.Data;
 using prospect_scraper_mddb_2022.DTOs;
 
-
 namespace prospect_scraper_mddb_2022
 {
     class Program
@@ -263,7 +262,7 @@ namespace prospect_scraper_mddb_2022
 
             //read in CSV from info/RanksToProjectedPoints.csv
             var dt = new DataTable();
-            using (var reader = new StreamReader(Path.Combine("info", "RanksToProjectedPoints.csv")))
+            using (var reader = new StreamReader(Path.Combine("Info", "RanksToProjectedPoints.csv")))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 // Do any configuration to `CsvReader` before creating CsvDataReader.
@@ -278,7 +277,7 @@ namespace prospect_scraper_mddb_2022
                                                         row => row.Field<string>(1));
                         
             var dt2 = new DataTable();
-            using (var reader = new StreamReader(Path.Combine("info", "SchoolStatesAndConferences.csv")))
+            using (var reader = new StreamReader(Path.Combine("Info", "SchoolStatesAndConferences.csv")))
             using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
             {
                 // Do any configuration to `CsvReader` before creating CsvDataReader.

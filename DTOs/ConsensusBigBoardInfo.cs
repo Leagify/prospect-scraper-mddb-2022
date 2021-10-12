@@ -1,4 +1,4 @@
-namespace prospect_scraper_mddb_2022
+namespace prospect_scraper_mddb_2022.DTOs
 {
     public class ConsensusBigBoardInfo
     {
@@ -9,15 +9,15 @@ namespace prospect_scraper_mddb_2022
         public int ProspectCount { get; set; }
         public string LastUpdated { get; set; }
 
-        public ConsensusBigBoardInfo(string scrapeDate, int bigboardsUsed, int mockDraftsUsed, int teamBasedMockDraftsUsed, int prospectCount, string lastUpdated)
+        public ConsensusBigBoardInfo(
+            string scrapeDate, int bigBoardsUsed, int mockDraftsUsed, int teamBasedMockDraftsUsed, int prospectCount, string lastUpdated)
         {
             ScrapeDate = scrapeDate;
-            BigBoardsUsed = bigboardsUsed;
+            BigBoardsUsed = bigBoardsUsed;
             MockDraftsUsed = mockDraftsUsed;
             TeamBasedMockDraftsUsed = teamBasedMockDraftsUsed;
             ProspectCount = prospectCount;
             LastUpdated = lastUpdated;
         }
-
     }
 }

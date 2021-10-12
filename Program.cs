@@ -9,6 +9,7 @@ using System.IO;
 using System.Linq;
 using System.Globalization;
 using System.Data;
+using prospect_scraper_mddb_2022.DTOs;
 
 
 namespace prospect_scraper_mddb_2022

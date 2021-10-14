@@ -225,7 +225,7 @@ namespace prospect_scraper_mddb_2022
             }
 
             // Give a rendered result to the terminal.
-            AnsiConsole.Render(new BarChart()
+            AnsiConsole.Write(new BarChart()
             .Width(60)
             .Label("[green bold underline]Number of sources[/]")
             .CenterLabel()

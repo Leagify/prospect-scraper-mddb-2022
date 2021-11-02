@@ -1,6 +1,6 @@
 using System;
 
-namespace prospect_scraper_mddb_2022
+namespace prospect_scraper_mddb_2022.DTOs
 {
     public class ProspectRanking
     {

@@ -1,5 +1,3 @@
-using System;
-
 namespace prospect_scraper_mddb_2022.DTOs
 {
     public class ProspectRanking
@@ -16,8 +14,18 @@ namespace prospect_scraper_mddb_2022.DTOs
         public string Conference { get; set; }
         public int ProjectedPoints { get; set; }
 
-        public ProspectRanking(string dateString, string rank, string peak, string name, string school, string pos, 
-                               string state, string conference, string projectedPoints, string projPick = "", string projTeam = "")
+        public ProspectRanking(
+            string dateString, 
+            string rank, 
+            string peak, 
+            string name, 
+            string school, 
+            string pos, 
+            string state, 
+            string conference, 
+            string projectedPoints, 
+            string projPick = "", 
+            string projTeam = "")
         {
             Rank = rank;
             Peak = peak;
@@ -29,7 +37,7 @@ namespace prospect_scraper_mddb_2022.DTOs
             ProjectedTeam = projTeam;
             State = state;
             Conference = conference;
-            ProjectedPoints = Int32.Parse(projectedPoints);
+            ProjectedPoints = int.Parse(projectedPoints);
         }
     }
 }

@@ -7,6 +7,7 @@ namespace prospect_scraper_mddb_2022.DTOs
         public string state;
 
         public School () {}
+        
         public School (string schoolName, string conference, string state)
         {
             this.schoolName = schoolName;

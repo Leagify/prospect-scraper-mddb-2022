@@ -10,44 +10,37 @@ using System.Linq;
 using System.Globalization;
 using System.Data;
 using prospect_scraper_mddb_2022.DTOs;
-
+using prospect_scraper_mddb_2022.Extensions;
 
 namespace prospect_scraper_mddb_2022
 {
-    class Program
+    public class Program
     {
-        static void Main(string[] args)
+        public static void Main(string[] args)
         {
             var scraperConfig = Configuration.LoadFromFile("scraper.conf");
             var pageSection = scraperConfig["Pages"];
             var generalSection = scraperConfig["General"];
 
-            AnsiConsole.Status()
-            .Start("Thinking...", ctx =>
-            {
-                ctx.Spinner(Spinner.Known.Star);
-                var webGet = new HtmlWeb
+            AnsiConsole
+                .Status()
+                .Start("Thinking...", ctx =>
                 {
-                    UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0"
-                };
+                    ctx.Spinner(Spinner.Known.Star);
+                    var webGet = new HtmlWeb
+                    {
+                        UserAgent = "Mozilla/5.0 (Windows NT 10.0; Win64; x64; rv:91.0) Gecko/20100101 Firefox/91.0"
+                    };
 
-                var scrapeYears = generalSection["YearsToScrape"].StringValueArray;
-                for (var i = 0; i < scrapeYears.Length; i++)
-                {
-                    var scrapeYear = scrapeYears[i];
-                    var urlToScrape = GetUrlToScrape(scrapeYear, pageSection);
-                    ScrapeYear(ctx, webGet, scrapeYear, urlToScrape);
-                }
+                    string[] scrapeYears = generalSection["YearsToScrape"].StringValueArray;
+                    foreach (string scrapeYear in scrapeYears)
+                    {
+                        string urlToScrape = pageSection.GetUrlToScrape(scrapeYear);
+                        ScrapeYear(ctx, webGet, scrapeYear, urlToScrape);
+                    }
 
-                ctx.Status("Done!");
-            });
-        }
-
-        private static string GetUrlToScrape(string scrapeYear, Section pageSection)
-        {
-            return pageSection.Contains(scrapeYear + "Url") ?
-                pageSection[scrapeYear + "Url"].StringValue :
-                pageSection["UrlPattern"].StringValue.Replace("{year}", scrapeYear);
+                    ctx.Status("Done!");
+                });
         }
 
         private static void ScrapeYear(StatusContext ctx, HtmlWeb webGet, string scrapeYear, string urlToScrape)
@@ -64,7 +57,7 @@ namespace prospect_scraper_mddb_2022
 
             var bigBoard = dn.SelectNodes("//div[contains(@class, 'consensus-mock-container')]/ul/li");
             var draftInfo = dn.SelectNodes("//div[contains(@class, 'list-title')]");
-            var lastUpdated = draftInfo[0].ChildNodes[2].InnerText.Replace("Last Updated: ", "").Trim();
+            string lastUpdated = draftInfo[0].ChildNodes[2].InnerText.Replace("Last Updated: ", "").Trim();
             var boardCountContainer = draftInfo[0].ChildNodes[1];
             //var bigboardsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[1]");
             //var mockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[2]");
@@ -83,7 +76,7 @@ namespace prospect_scraper_mddb_2022
             Console.WriteLine("Prospect count: " + bigBoard.Count);
 
             // Get today's date in the format of yyyy-mm-dd
-            var today = DateTime.Now.ToString("yyyy-MM-dd");
+            string today = DateTime.Now.ToString("yyyy-MM-dd");
 
             // Create a ConsensusBigBoardInfo object from the parsed values.
             var bigBoardInfo = new ConsensusBigBoardInfo(today, bigBoards, mockDrafts, teamMockDrafts, bigBoard.Count, lastUpdated);
@@ -92,13 +85,13 @@ namespace prospect_scraper_mddb_2022
                 bigBoardInfo
             };
 
-            var baseDirectory = Path.Join("ranks", scrapeYear);
+            string baseDirectory = Path.Join("ranks", scrapeYear);
             EnsureExists(baseDirectory);
 
             // use CsvWriter to write bigBoardInfo to csv
 
             //This is the file name we are going to write.
-            var bigBoardInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}BoardInfo.csv");
+            string bigBoardInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}BoardInfo.csv");
 
             Console.WriteLine("Creating Draft Info csv...");
 
@@ -114,11 +107,11 @@ namespace prospect_scraper_mddb_2022
             // Update the status and spinner
             ctx.Status("Writing draft prospect CSV");
             
-            var playerInfoDirectory = Path.Combine(baseDirectory, "players");
+            string playerInfoDirectory = Path.Combine(baseDirectory, "players");
             EnsureExists(playerInfoDirectory);
 
-            var playerInfoFileName = Path.Combine(playerInfoDirectory, $"{today}-ranks.csv");
-            var collectedRanksFileName = Path.Combine(baseDirectory, $"{scrapeYear}ranks.csv");
+            string playerInfoFileName = Path.Combine(playerInfoDirectory, $"{today}-ranks.csv");
+            string collectedRanksFileName = Path.Combine(baseDirectory, $"{scrapeYear}ranks.csv");
 
             //Write projects to csv with date.
             using (var writer = new StreamWriter(playerInfoFileName))
@@ -161,11 +154,11 @@ namespace prospect_scraper_mddb_2022
             // Now, write these top schools to a CSV file in the schools directory for the year in question.
             // The file should be named with the date, then top-schools.csv, such as 2021-10-03-top-schools.csv
             // Also, write one line to a file that says how many schools there are, as well as the date, similar to 2022BoardInfo.csv
-            var schoolInfoDirectory = Path.Combine(baseDirectory, "schools");
+            string schoolInfoDirectory = Path.Combine(baseDirectory, "schools");
             EnsureExists(schoolInfoDirectory);
 
-            var schoolRankInfoFileName = Path.Combine(schoolInfoDirectory, $"{today}-top-schools.csv");
-            var schoolInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}SchoolInfo.csv");
+            string schoolRankInfoFileName = Path.Combine(schoolInfoDirectory, $"{today}-top-schools.csv");
+            string schoolInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}SchoolInfo.csv");
 
             //Write schools to csv with date.
             using (var writer = new StreamWriter(schoolRankInfoFileName))
@@ -211,11 +204,11 @@ namespace prospect_scraper_mddb_2022
 
             // Now, write these top states to a CSV file in the states directory for the year in question.
             // The file should be named with the date, then top-states.csv, such as 2021-10-03-top-states.csv
-            var statesDirectory = Path.Combine(baseDirectory, "states");
+            string statesDirectory = Path.Combine(baseDirectory, "states");
             EnsureExists(statesDirectory);
 
-            var stateRankInfoFileName = Path.Combine(statesDirectory, $"{today}-top-states.csv");
-            var stateInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}StateInfo.csv");
+            string stateRankInfoFileName = Path.Combine(statesDirectory, $"{today}-top-states.csv");
+            string stateInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}StateInfo.csv");
 
             //Write schools to csv with date.
             using (var writer = new StreamWriter(stateRankInfoFileName))
@@ -237,18 +230,16 @@ namespace prospect_scraper_mddb_2022
             );
         }
 
-        private static void WriteToCsvFile<T>(string fileName, IList<T> data)
+        private static void WriteToCsvFile<T>(string fileName, IEnumerable<T> data)
         {
             var csvConfig = new CsvConfiguration(CultureInfo.CurrentCulture)
             {
                 HasHeaderRecord = false
             };
-            using (var stream = File.Open(fileName, FileMode.Append))
-            using (var writer = new StreamWriter(stream))
-            using (var csv = new CsvWriter(writer, csvConfig))
-            {
-                csv.WriteRecords(data);
-            }
+            using var stream = File.Open(fileName, FileMode.Append);
+            using var writer = new StreamWriter(stream);
+            using var csv = new CsvWriter(writer, csvConfig);
+            csv.WriteRecords(data);
         }
 
         private static void EnsureExists(string directory)
@@ -295,9 +286,9 @@ namespace prospect_scraper_mddb_2022
 
             foreach(var node in nodes)
             {
-                var pickContainer = node.Descendants().Where(n => n.HasClass("pick-container")).FirstOrDefault();
-                var playerContainer = node.Descendants().Where(n => n.HasClass("player-container")).FirstOrDefault();
-                var percentageContainer = node.Descendants().Where(n => n.HasClass("percentage-container")).FirstOrDefault();
+                var pickContainer = node.Descendants().FirstOrDefault(n => n.HasClass("pick-container"));
+                var playerContainer = node.Descendants().FirstOrDefault(n => n.HasClass("player-container"));
+                var percentageContainer = node.Descendants().FirstOrDefault(n => n.HasClass("percentage-container"));
                 string projectedDraftSpot = "";
                 string projectedDraftTeam = "";
                 string playerSchool = "";
@@ -333,26 +324,23 @@ namespace prospect_scraper_mddb_2022
                         if (projectedDraftTeam != "No Consensus Available")
                         {
                             string projectedDraftTeamHref = percentageContainer.LastChild.FirstChild.Attributes.FirstOrDefault().Value;
-                            var hrefStrings = projectedDraftTeamHref.Split("/");
+                            string[] hrefStrings = projectedDraftTeamHref.Split("/");
                             projectedDraftTeam = hrefStrings[hrefStrings.Length - 1].Replace("-", " ").ToUpper();
                         }
                     }
-
                 }
                             
                 //var ranking = new ProspectRanking();
                 
                 playerSchool = ConvertSchool(playerSchool);
-                var leagifyPoints = ranksToPoints.GetValueOrDefault(currentRank, "1");
+                string leagifyPoints = ranksToPoints.GetValueOrDefault(currentRank, "1");
 
-                var playerSchoolInfo = schoolsToStatesAndConfs.GetValueOrDefault(playerSchool, ("", ""));
-                var schoolConference  = playerSchoolInfo.Item1;
-                var schoolState = playerSchoolInfo.Item2;
+                (string schoolConference, string schoolState) = schoolsToStatesAndConfs.GetValueOrDefault(playerSchool, ("", ""));
 
                 Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank} with {leagifyPoints} possible points");
                 
-                var currentplayer = new ProspectRanking(todayString, currentRank, peakRank, playerName, playerSchool, playerPosition, schoolState, schoolConference, leagifyPoints, projectedDraftSpot, projectedDraftTeam );
-                prospectRankings.Add(currentplayer);
+                var currentPlayer = new ProspectRanking(todayString, currentRank, peakRank, playerName, playerSchool, playerPosition, schoolState, schoolConference, leagifyPoints, projectedDraftSpot, projectedDraftTeam );
+                prospectRankings.Add(currentPlayer);
             }
 
             return prospectRankings;

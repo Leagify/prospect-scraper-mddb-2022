@@ -6,6 +6,7 @@ namespace prospect_scraper_mddb_2022.DTOs
 		public string region;
 
 		public Region () { }
+		
 		public Region (string state, string region)
 		{
 			this.region = region;

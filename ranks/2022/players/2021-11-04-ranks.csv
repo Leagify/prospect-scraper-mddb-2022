@@ -1,0 +1,567 @@
+Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,State,Conference,ProjectedPoints
+1,1,Kayvon Thibodeaux,Oregon,EDGE,2021-11-04,1,DETROIT LIONS,Oregon,Pac 12,35
+2,2,Evan Neal,Alabama,OT,2021-11-04,4,JACKSONVILLE JAGUARS,Alabama,SEC,35
+3,3,Kyle Hamilton,Notre Dame,S,2021-11-04,3,PHILADELPHIA EAGLES,Indiana,FBS - Independent,35
+4,1,Derek Stingley Jr.,LSU,CB,2021-11-04,7,NEW YORK JETS,Louisiana,SEC,35
+5,3,Aidan Hutchinson,Michigan,EDGE,2021-11-04,Possible 1st round pick,No Consensus Available,Michigan,Big Ten,35
+6,6,Matt Corral,Ole Miss,QB,2021-11-04,2,HOUSTON TEXANS,Mississippi,SEC,35
+7,6,Tyler Linderbaum,Iowa,IOL,2021-11-04,5,NEW YORK GIANTS,Iowa,Big Ten,35
+8,5,DeMarvin Leal,Texas A&M,DL,2021-11-04,10,NEW YORK JETS,Texas,SEC,35
+9,8,George Karlaftis,Purdue,EDGE,2021-11-04,Possible 1st round pick,No Consensus Available,Indiana,Big Ten,35
+10,6,Kenyon Green,Texas A&M,IOL,2021-11-04,22,CINCINNATI BENGALS,Texas,SEC,35
+11,9,Malik Willis,Liberty,QB,2021-11-04,6,WASHINGTON FOOTBALL TEAM,Virginia,FCS,30
+12,6,Andrew Booth Jr.,Clemson,CB,2021-11-04,8,PHILADELPHIA EAGLES,South Carolina,ACC,30
+13,1,Chris Olave,Ohio State,WR,2021-11-04,9,PHILADELPHIA EAGLES,Ohio,Big Ten,30
+14,6,Kaiir Elam,Florida,CB,2021-11-04,12,ATLANTA FALCONS,Florida,SEC,30
+15,9,Garrett Wilson,Ohio State,WR,2021-11-04,15,NEW ENGLAND PATRIOTS,Ohio,Big Ten,30
+16,3,Jordan Davis,Georgia,DL,2021-11-04,18,KANSAS CITY CHIEFS,Georgia,SEC,30
+17,16,Ahmad Gardner,Cincinnati,CB,2021-11-04,14,MINNESOTA VIKINGS,Ohio,FBS - AAC,30
+18,7,Drake Jackson,USC,EDGE,2021-11-04,11,NEW YORK GIANTS,California,Pac 12,30
+19,17,Ikem Ekwonu,NC State,IOL,2021-11-04,19,CAROLINA PANTHERS,North Carolina,ACC,30
+20,14,Charles Cross,Mississippi State,OT,2021-11-04,13,MIAMI DOLPHINS,Mississippi,SEC,30
+21,18,Treylon Burks,Arkansas,WR,2021-11-04,17,CLEVELAND BROWNS,Arkansas,SEC,30
+22,1,Sam Howell,North Carolina,QB,2021-11-04,16,DENVER BRONCOS,North Carolina,ACC,30
+23,23,Drake London,USC,WR,2021-11-04,20,LOS ANGELES CHARGERS,California,Pac 12,30
+24,9,Christian Harris,Alabama,LB,2021-11-04,26,LAS VEGAS RAIDERS,Alabama,SEC,30
+25,20,Trent McDuffie,Washington,CB,2021-11-04,27,DALLAS COWBOYS,Washington,Pac 12,30
+26,24,Adam Anderson,Georgia,EDGE,2021-11-04,23,NEW ORLEANS SAINTS,Georgia,SEC,25
+27,8,Carson Strong,Nevada,QB,2021-11-04,Possible 1st round pick,No Consensus Available,Nevada,FBS - Mountain West,25
+28,14,Kingsley Enagbare,South Carolina,EDGE,2021-11-04,24,TAMPA BAY BUCCANEERS,South Carolina,SEC,25
+29,28,Nakobe Dean,Georgia,LB,2021-11-04,31,TENNESSEE TITANS,Georgia,SEC,25
+30,24,Darian Kinnard,Kentucky,OT,2021-11-04,32,ARIZONA CARDINALS,Kentucky,SEC,25
+31,31,Devin Lloyd,Utah,LB,2021-11-04,Possible 1st round pick,No Consensus Available,Utah,Pac 12,25
+32,18,Isaiah Spiller,Texas A&M,RB,2021-11-04,25,BUFFALO BILLS,Texas,SEC,25
+33,33,Trevor Penning,Northern Iowa,OT,2021-11-04,29,BALTIMORE RAVENS,Iowa,FCS,25
+34,13,Jalen Wydermyer,Texas A&M,TE,2021-11-04,,,Texas,SEC,25
+35,13,Myjai Sanders,Cincinnati,EDGE,2021-11-04,,,Ohio,FBS - AAC,25
+36,32,Nicholas Petit-Frere,Ohio State,OT,2021-11-04,,,Ohio,Big Ten,20
+37,13,Zach Harrison,Ohio State,EDGE,2021-11-04,,,Ohio,Big Ten,20
+38,16,Breece Hall,Iowa State,RB,2021-11-04,,,Iowa,Big 12,20
+39,14,Jaxson Kirkland,Washington,OT,2021-11-04,,,Washington,Pac 12,20
+40,40,Jahan Dotson,Penn State,WR,2021-11-04,,,Pennsylvania,Big Ten,20
+41,36,David Bell,Purdue,WR,2021-11-04,28,GREEN BAY PACKERS,Indiana,Big Ten,20
+42,20,Brandon Joseph,Northwestern,S,2021-11-04,,,Illinois,Big Ten,20
+43,43,Kenny Pickett,Pitt,QB,2021-11-04,21,PITTSBURGH STEELERS,Pennsylvania,ACC,20
+44,5,George Pickens,Georgia,WR,2021-11-04,,,Georgia,SEC,20
+45,44,Daxton Hill,Michigan,S,2021-11-04,,,Michigan,Big Ten,20
+46,31,Roger McCreary,Auburn,CB,2021-11-04,,,Alabama,SEC,20
+47,22,Perrion Winfrey,Oklahoma,DL,2021-11-04,,,Oklahoma,Big 12,20
+48,1,Derion Kendrick,Georgia,CB,2021-11-04,,,Georgia,SEC,20
+49,23,Josh Jobe,Alabama,CB,2021-11-04,,,Alabama,SEC,20
+50,6,Daniel Faalele,Minnesota,OT,2021-11-04,,,Minnesota,Big Ten,20
+51,18,Zion Johnson,Boston College,IOL,2021-11-04,,,Massachusetts,ACC,20
+52,51,Brandon Smith,Penn State,LB,2021-11-04,,,Pennsylvania,Big Ten,20
+53,53,Martin Emerson,Mississippi State,CB,2021-11-04,,,Mississippi,SEC,20
+54,54,Khalil Shakir,Boise State,WR,2021-11-04,,,Idaho,FBS - Mountain West,20
+55,37,Nik Bonitto,Oklahoma,EDGE,2021-11-04,,,Oklahoma,Big 12,20
+56,55,Zach Charbonnet,UCLA,RB,2021-11-04,,,California,Pac 12,20
+57,48,Kyren Williams,Notre Dame,RB,2021-11-04,,,Indiana,FBS - Independent,20
+58,58,Jameson Williams,Alabama,WR,2021-11-04,,,Alabama,SEC,20
+59,17,Trey McBride,Colorado State,TE,2021-11-04,,,Colorado,FBS - Mountain West,20
+60,4,Rasheed Walker,Penn State,OT,2021-11-04,,,Pennsylvania,Big Ten,15
+61,61,Kenneth Walker III,Michigan State,RB,2021-11-04,,,Michigan,Big Ten,15
+62,24,Desmond Ridder,Cincinnati,QB,2021-11-04,30,DETROIT LIONS,Ohio,FBS - AAC,15
+63,57,Henry To'oto'o,Alabama,LB,2021-11-04,,,Alabama,SEC,15
+64,1,Bubba Bolden,Miami (FL),S,2021-11-04,,,Florida,ACC,15
+65,65,Jaivon Heiligh,Coastal Carolina,WR,2021-11-04,,,South Carolina,FCS,15
+66,19,Sevyn Banks,Ohio State,CB,2021-11-04,,,Ohio,Big Ten,15
+67,39,Tre'Vius Hodges-Tomlinson,TCU,CB,2021-11-04,,,Texas,Big 12,15
+68,26,Sean Rhyan,UCLA,OT,2021-11-04,,,California,Pac 12,15
+69,16,Jordan Battle,Alabama,S,2021-11-04,,,Alabama,SEC,15
+70,18,John Metchie III,Alabama,WR,2021-11-04,,,Alabama,SEC,15
+71,3,Justyn Ross,Clemson,WR,2021-11-04,,,South Carolina,ACC,10
+72,14,Zion Nelson,Miami (FL),OT,2021-11-04,,,Florida,ACC,10
+73,24,Abraham Lucas,Washington State,OT,2021-11-04,,,Washington,Pac 12,10
+74,60,Jaquan Brisker,Penn State,S,2021-11-04,,,Pennsylvania,Big Ten,10
+75,37,Thayer Munford,Ohio State,OT,2021-11-04,,,Ohio,Big Ten,10
+76,46,Jalen Catalon,Arkansas,S,2021-11-04,,,Arkansas,SEC,10
+77,46,Lewis Cine,Georgia,S,2021-11-04,,,Georgia,SEC,10
+78,24,Jahleel Billingsley,Alabama,TE,2021-11-04,,,Alabama,SEC,10
+79,58,Mykael Wright,Oregon,CB,2021-11-04,,,Oregon,Pac 12,10
+80,73,Jalen Tolbert,South Alabama,WR,2021-11-04,,,Alabama,FBS - Sun Belt,10
+81,66,Jamaree Salyer,Georgia,IOL,2021-11-04,,,Georgia,SEC,10
+82,82,Devonte Wyatt,Georgia,DL,2021-11-04,,,Georgia,SEC,10
+83,58,Nolan Smith,Georgia,EDGE,2021-11-04,,,Georgia,SEC,10
+84,27,Charlie Kolar,Iowa State,TE,2021-11-04,,,Iowa,Big 12,10
+85,70,Zakoby McClain,Auburn,LB,2021-11-04,,,Alabama,SEC,10
+86,55,Demani Richardson,Texas A&M,S,2021-11-04,,,Texas,SEC,10
+87,42,Dohnovan West,Arizona State,IOL,2021-11-04,,,Arizona,Pac 12,10
+88,60,Isaiah Likely,Coastal Carolina,TE,2021-11-04,,,South Carolina,FCS,10
+89,13,Jarrett Patterson,Notre Dame,IOL,2021-11-04,,,Indiana,FBS - Independent,10
+90,48,Zion Tupuola-Fetui,Washington,EDGE,2021-11-04,,,Washington,Pac 12,10
+91,75,Bernhard Raimann,Central Michigan,OT,2021-11-04,,,Michigan,FBS - MAC,10
+92,15,Phidarian Mathis,Alabama,DL,2021-11-04,,,Alabama,SEC,10
+93,70,Grayson McCall,Coastal Carolina,QB,2021-11-04,,,South Carolina,FCS,10
+94,58,Avery Young,Rutgers,CB,2021-11-04,,,New Jersey,Big Ten,10
+95,66,Garrett Williams,Syracuse,CB,2021-11-04,,,New York,ACC,10
+96,59,Ricky Stromberg,Arkansas,IOL,2021-11-04,,,Arkansas,SEC,10
+97,61,Zay Flowers,Boston College,WR,2021-11-04,,,Massachusetts,ACC,10
+98,72,Edefuan Ulofoshio,Washington,LB,2021-11-04,,,Washington,Pac 12,10
+99,4,Owen Pappoe,Auburn,LB,2021-11-04,,,Alabama,SEC,10
+100,66,Travis Jones,UConn,DL,2021-11-04,,,Connecticut,FBS - AAC,10
+101,78,Smoke Monday,Auburn,S,2021-11-04,,,Alabama,SEC,8
+102,102,Wan'Dale Robinson,Kentucky,WR,2021-11-04,,,Kentucky,SEC,8
+103,84,Verone McKinley III,Oregon,S,2021-11-04,,,Oregon,Pac 12,8
+104,52,Austin Stogner,Oklahoma,TE,2021-11-04,,,Oklahoma,Big 12,8
+105,79,Max Mitchell,Louisiana-Lafayette,OT,2021-11-04,,,Louisiana,FBS - Sun Belt,8
+106,80,Logan Bruss,Wisconsin,IOL,2021-11-04,,,Wisconsin,Big Ten,8
+107,81,Bo Nix,Auburn,QB,2021-11-04,,,Alabama,SEC,8
+108,82,Rachaad White,Arizona State,RB,2021-11-04,,,Arizona,Pac 12,8
+109,1,Spencer Rattler,Oklahoma,QB,2021-11-04,,,Oklahoma,Big 12,8
+110,99,Cole Turner,Nevada,TE,2021-11-04,,,Nevada,FBS - Mountain West,8
+111,83,Brennan Armstrong,Virginia,QB,2021-11-04,,,Virginia,ACC,8
+112,112,Jermaine Waller,Virginia Tech,CB,2021-11-04,,,Virginia,ACC,8
+113,78,Jalen Green,Texas,CB,2021-11-04,,,Texas,Big 12,8
+114,114,Braxton Jones,Southern Utah,OT,2021-11-04,,,Utah,FCS,8
+115,86,A.J. Hampton,Northwestern,CB,2021-11-04,,,Illinois,Big Ten,8
+116,87,Chris Rodriguez Jr.,Kentucky,RB,2021-11-04,,,Kentucky,SEC,8
+117,88,Kevin Harris,South Carolina,RB,2021-11-04,,,South Carolina,SEC,8
+118,89,Josh Whyle,Cincinnati,TE,2021-11-04,,,Ohio,FBS - AAC,8
+119,90,Mataeo Durant,Duke,RB,2021-11-04,,,North Carolina,ACC,8
+120,120,Isaiah Pola-Mao,USC,S,2021-11-04,,,California,Pac 12,8
+121,93,David Ojabo,Michigan,EDGE,2021-11-04,,,Michigan,Big Ten,7
+122,94,Wanya Morris,Oklahoma,OT,2021-11-04,,,Oklahoma,Big 12,7
+123,120,Calvin Austin III,Memphis,WR,2021-11-04,,,Tennessee,FBS - AAC,7
+124,95,Dawand Jones,Ohio State,OT,2021-11-04,,,Ohio,Big Ten,7
+125,96,Gerrit Prince,UAB,TE,2021-11-04,,,Alabama,FBS - CUSA,7
+126,97,Will Levis,Kentucky,QB,2021-11-04,,,Kentucky,SEC,7
+127,98,Tyler Smith,Tulsa,OT,2021-11-04,,,Oklahoma,FBS - AAC,7
+128,99,Jake Venables,Clemson,LB,2021-11-04,,,South Carolina,ACC,7
+129,100,Dontario Drummond,Ole Miss,WR,2021-11-04,,,Mississippi,SEC,7
+130,101,Dorian Williams,Tulane,LB,2021-11-04,,,Louisiana,FBS - AAC,7
+131,102,Leo Chenal,Wisconsin,LB,2021-11-04,,,Wisconsin,Big Ten,7
+132,103,Brandon Thomas,Memphis,RB,2021-11-04,,,Tennessee,FBS - AAC,7
+133,65,Akayleb Evans,Missouri,CB,2021-11-04,,,Missouri,SEC,7
+134,134,Chad Muma,Wyoming,LB,2021-11-04,,,Wyoming,FBS - Mountain West,7
+135,135,Cam Hart,Notre Dame,CB,2021-11-04,,,Indiana,FBS - Independent,7
+136,16,Romeo Doubs,Nevada,WR,2021-11-04,,,Nevada,FBS - Mountain West,7
+137,56,Jeremy Ruckert,Ohio State,TE,2021-11-04,,,Ohio,Big Ten,7
+138,10,Brenton Cox Jr.,Florida,EDGE,2021-11-04,,,Florida,SEC,7
+139,14,Haskell Garrett,Ohio State,DL,2021-11-04,,,Ohio,Big Ten,7
+140,38,DeMarvion Overshown,Texas,LB,2021-11-04,,,Texas,Big 12,7
+141,84,Jermaine Johnson,Florida State,EDGE,2021-11-04,,,Florida,ACC,7
+142,48,Tyler Davis,Clemson,DL,2021-11-04,,,South Carolina,ACC,7
+143,32,Ventrell Miller,Florida,LB,2021-11-04,,,Florida,SEC,7
+144,87,Arnold Ebiketie,Penn State,EDGE,2021-11-04,,,Pennsylvania,Big Ten,7
+145,57,Isaiah Thomas,Oklahoma,EDGE,2021-11-04,,,Oklahoma,Big 12,7
+146,80,Brian Robinson Jr.,Alabama,RB,2021-11-04,,,Alabama,SEC,7
+147,55,Cade Otton,Washington,TE,2021-11-04,,,Washington,Pac 12,7
+148,94,Amare Barno,Virginia Tech,EDGE,2021-11-04,,,Virginia,ACC,7
+149,3,Nick Broeker,Ole Miss,OT,2021-11-04,,,Mississippi,SEC,7
+150,8,Kedon Slovis,USC,QB,2021-11-04,,,California,Pac 12,7
+151,53,Tykee Smith,Georgia,S,2021-11-04,,,Georgia,SEC,6
+152,26,Alec Lindstrom,Boston College,IOL,2021-11-04,,,Massachusetts,ACC,6
+153,63,Jermayne Lole,Arizona State,DL,2021-11-04,,,Arizona,Pac 12,6
+154,67,Christopher Hinton,Michigan,DL,2021-11-04,,,Michigan,Big Ten,6
+155,97,Sam LaPorta,Iowa,TE,2021-11-04,,,Iowa,Big Ten,6
+156,71,Jayden Daniels,Arizona State,QB,2021-11-04,,,Arizona,Pac 12,6
+157,46,Ainias Smith,Texas A&M,WR,2021-11-04,,,Texas,SEC,6
+158,84,Lecitus Smith,Virginia Tech,IOL,2021-11-04,,,Virginia,ACC,6
+159,76,Ed Ingram,LSU,IOL,2021-11-04,,,Louisiana,SEC,6
+160,121,Zachary Carter,Florida,DL,2021-11-04,,,Florida,SEC,6
+161,48,Tyreke Smith,Ohio State,EDGE,2021-11-04,,,Ohio,Big Ten,6
+162,106,Emil Ekiyor Jr.,Alabama,IOL,2021-11-04,,,Alabama,SEC,6
+163,7,Zamir White,Georgia,RB,2021-11-04,,,Georgia,SEC,6
+164,93,Marcus Hooker,Ohio State,S,2021-11-04,,,Ohio,Big Ten,6
+165,54,James Empey,BYU,IOL,2021-11-04,,,Utah,FBS - Independent,6
+166,56,Tiawan Mullen,Indiana,CB,2021-11-04,,,Indiana,Big Ten,6
+167,69,Kyler Gordon,Washington,CB,2021-11-04,,,Washington,Pac 12,6
+168,19,Tariq Castro-Fields,Penn State,CB,2021-11-04,,,Pennsylvania,Big Ten,6
+169,21,Merlin Robertson,Arizona State,LB,2021-11-04,,,Arizona,Pac 12,6
+170,86,Myron Cunningham,Arkansas,OT,2021-11-04,,,Arkansas,SEC,6
+171,14,Cade Mays,Tennessee,IOL,2021-11-04,,,Tennessee,SEC,6
+172,113,Zacch Pickens,South Carolina,DL,2021-11-04,,,South Carolina,SEC,6
+173,71,Jerrion Ealy,Ole Miss,RB,2021-11-04,,,Mississippi,SEC,6
+174,13,Reggie Roberson Jr.,SMU,WR,2021-11-04,,,Texas,FBS - AAC,6
+175,105,Travon Walker,Georgia,DL,2021-11-04,,,Georgia,SEC,6
+176,112,Dontay Demus Jr.,Maryland,WR,2021-11-04,,,Maryland,Big Ten,6
+177,74,Joseph Ngata,Clemson,WR,2021-11-04,,,South Carolina,ACC,6
+178,55,Mike Jones Jr.,LSU,LB,2021-11-04,,,Louisiana,SEC,6
+179,31,Xavier Thomas,Clemson,EDGE,2021-11-04,,,South Carolina,ACC,6
+180,94,Justin Eboigbe,Alabama,DL,2021-11-04,,,Alabama,SEC,6
+181,16,Myron Tagovailoa-Amosa,Notre Dame,DL,2021-11-04,,,Indiana,FBS - Independent,5
+182,55,Ty Fryfogle,Indiana,WR,2021-11-04,,,Indiana,Big Ten,5
+183,94,Mike Rose,Iowa State,LB,2021-11-04,,,Iowa,Big 12,5
+184,60,Phil Jurkovec,Boston College,QB,2021-11-04,,,Massachusetts,ACC,5
+185,130,Coby Bryant,Cincinnati,CB,2021-11-04,,,Ohio,FBS - AAC,5
+186,33,Jack Sanborn,Wisconsin,LB,2021-11-04,,,Wisconsin,Big Ten,5
+187,106,Micah McFadden,Indiana,LB,2021-11-04,,,Indiana,Big Ten,5
+188,129,Jalen Pitre,Baylor,S,2021-11-04,,,Texas,Big 12,5
+189,117,Mohamed Ibrahim,Minnesota,RB,2021-11-04,,,Minnesota,Big Ten,5
+190,14,J.T. Daniels,Georgia,QB,2021-11-04,,,Georgia,SEC,5
+191,160,John Michael Schmitz,Minnesota,IOL,2021-11-04,,,Minnesota,Big Ten,5
+192,145,Jake Haener,Fresno State,QB,2021-11-04,,,California,FBS - Mountain West,5
+193,151,Thomas Booker,Stanford,DL,2021-11-04,,,California,Pac 12,5
+194,100,Jordan Strachan,South Carolina,EDGE,2021-11-04,,,South Carolina,SEC,5
+195,105,Taron Vincent,Ohio State,DL,2021-11-04,,,Ohio,Big Ten,5
+196,64,Payton Wilson,NC State,LB,2021-11-04,,,North Carolina,ACC,5
+197,42,Noah Daniels,TCU,CB,2021-11-04,,,Texas,Big 12,5
+198,93,Allie Green IV,Missouri,CB,2021-11-04,,,Missouri,SEC,5
+199,68,Sam Williams,Ole Miss,EDGE,2021-11-04,,,Mississippi,SEC,5
+200,171,Josh Paschal,Kentucky,EDGE,2021-11-04,,,Kentucky,SEC,5
+201,126,Jeremiah Moon,Florida,EDGE,2021-11-04,,,Florida,SEC,5
+202,44,C.J. Verdell,Oregon,RB,2021-11-04,,,Oregon,Pac 12,5
+203,106,Kyu Blu Kelly,Stanford,CB,2021-11-04,,,California,Pac 12,5
+204,176,Dare Rosenthal,Kentucky,OT,2021-11-04,,,Kentucky,SEC,5
+205,9,Obinna Eze,TCU,OT,2021-11-04,,,Texas,Big 12,5
+206,66,Boye Mafe,Minnesota,EDGE,2021-11-04,,,Minnesota,Big Ten,5
+207,30,Kolby Harvell-Peel,Oklahoma State,S,2021-11-04,,,Oklahoma,Big 12,5
+208,53,Cory Durden,NC State,DL,2021-11-04,,,North Carolina,ACC,5
+209,81,Tyler Allgeier,BYU,RB,2021-11-04,,,Utah,FBS - Independent,5
+210,116,Sheridan Jones,Clemson,CB,2021-11-04,,,South Carolina,ACC,5
+211,74,Ochaun Mathis,TCU,EDGE,2021-11-04,,,Texas,Big 12,5
+212,76,Jeffrey Gunter,Coastal Carolina,EDGE,2021-11-04,,,South Carolina,FCS,5
+213,73,Marquis Hayes,Oklahoma,IOL,2021-11-04,,,Oklahoma,Big 12,5
+214,135,Greg Dulcich,UCLA,TE,2021-11-04,,,California,Pac 12,5
+215,60,D.J. Dale,Alabama,DL,2021-11-04,,,Alabama,SEC,5
+216,116,Logan Hall,Houston,EDGE,2021-11-04,,,Texas,FBS - AAC,5
+217,148,Leddie Brown,West Virginia,RB,2021-11-04,,,West Virginia,Big 12,5
+218,131,Jordan McFadden,Clemson,OT,2021-11-04,,,South Carolina,ACC,5
+219,85,Ali Gaye,LSU,EDGE,2021-11-04,,,Louisiana,SEC,5
+220,59,Kennedy Brooks,Oklahoma,RB,2021-11-04,,,Oklahoma,Big 12,5
+221,196,Luke Wattenberg,Washington,IOL,2021-11-04,,,Washington,Pac 12,5
+222,19,Trey Dean III,Florida,S,2021-11-04,,,Florida,SEC,5
+223,166,Matt Hankins,Iowa,CB,2021-11-04,,,Iowa,Big Ten,5
+224,158,Jack Coan,Notre Dame,QB,2021-11-04,,,Indiana,FBS - Independent,5
+225,54,Logan Brown,Wisconsin,OT,2021-11-04,,,Wisconsin,Big Ten,5
+226,155,Greg Eisworth II,Iowa State,S,2021-11-04,,,Iowa,Big 12,5
+227,138,Chris Smith II,Georgia,S,2021-11-04,,,Georgia,SEC,5
+228,175,Derick Hall,Auburn,EDGE,2021-11-04,,,Alabama,SEC,5
+229,93,Jack Campbell,Iowa,LB,2021-11-04,,,Iowa,Big Ten,5
+230,107,Channing Tindall,Georgia,LB,2021-11-04,,,Georgia,SEC,5
+231,103,Tre Turner,Virginia Tech,WR,2021-11-04,,,Virginia,ACC,5
+232,112,Tanner McKee,Stanford,QB,2021-11-04,,,California,Pac 12,5
+233,214,Darrian Beavers,Cincinnati,LB,2021-11-04,,,Ohio,FBS - AAC,5
+234,18,Jake Ferguson,Wisconsin,TE,2021-11-04,,,Wisconsin,Big Ten,5
+235,176,Amari Gainer,Florida State,LB,2021-11-04,,,Florida,ACC,5
+236,16,Chase Lucas,Arizona State,CB,2021-11-04,,,Arizona,Pac 12,5
+237,195,Jalen Cropper,Fresno State,WR,2021-11-04,,,California,FBS - Mountain West,5
+238,136,Terrel Bernard,Baylor,LB,2021-11-04,,,Texas,Big 12,5
+239,223,Grant Calcaterra,SMU,TE,2021-11-04,,,Texas,FBS - AAC,5
+240,92,Erik Ezukanma,Texas Tech,WR,2021-11-04,,,Texas,Big 12,5
+241,226,Darrian Dalcourt,Alabama,IOL,2021-11-04,,,Alabama,SEC,5
+242,132,Colin Newell,Iowa State,IOL,2021-11-04,,,Iowa,Big 12,5
+243,201,Bailey Zappe,Western Kentucky,QB,2021-11-04,,,Kentucky,FBS - CUSA,5
+244,229,Riley Moss,Iowa,CB,2021-11-04,,,Iowa,Big Ten,5
+245,195,Justin Shaffer,Georgia,IOL,2021-11-04,,,Georgia,SEC,5
+246,185,Ameer Speed,Georgia,CB,2021-11-04,,,Georgia,SEC,5
+247,98,Jadon Haselwood,Oklahoma,WR,2021-11-04,,,Oklahoma,Big 12,5
+248,199,Cordale Flott,LSU,CB,2021-11-04,,,Louisiana,SEC,5
+249,188,Akeem Dent,Florida State,CB,2021-11-04,,,Florida,ACC,5
+250,189,Mohamoud Diabate,Florida,LB,2021-11-04,,,Florida,SEC,5
+251,147,Will McDonald IV,Iowa State,EDGE,2021-11-04,,,Iowa,Big 12,2
+252,191,Mycah Pittman,Oregon,WR,2021-11-04,,,Oregon,Pac 12,2
+253,209,Doug Kramer,Illinois,IOL,2021-11-04,,,Illinois,Big Ten,2
+254,120,Nehemiah Pritchett,Auburn,CB,2021-11-04,,,Alabama,SEC,2
+255,240,Nathan Pickering,Mississippi State,DL,2021-11-04,,,Mississippi,SEC,2
+256,228,Doug Nester,West Virginia,IOL,2021-11-04,,,West Virginia,Big 12,2
+257,193,Cole Fotheringham,Utah,TE,2021-11-04,,,Utah,Pac 12,2
+258,194,Andrew Stueber,Michigan,OT,2021-11-04,,,Michigan,Big Ten,2
+259,9,Damone Clark,LSU,LB,2021-11-04,,,Louisiana,SEC,2
+260,164,Jaelyn Duncan,Maryland,OT,2021-11-04,,,Maryland,Big Ten,2
+261,156,Tanner Mordecai,SMU,QB,2021-11-04,,,Texas,FBS - AAC,2
+262,199,Kellen Diesch,Arizona State,OT,2021-11-04,,,Arizona,Pac 12,2
+263,247,Jalen Redmond,Oklahoma,DL,2021-11-04,,,Oklahoma,Big 12,2
+264,133,Isaac Taylor-Stuart,USC,CB,2021-11-04,,,California,Pac 12,2
+265,158,O'Cyrus Torrence,Louisiana-Lafayette,IOL,2021-11-04,,,Louisiana,FBS - Sun Belt,2
+266,252,P.J. Mustipher,Penn State,DL,2021-11-04,,,Pennsylvania,Big Ten,2
+267,209,Bryan Hudson,Louisville,IOL,2021-11-04,,,Kentucky,ACC,2
+268,255,Pierre Strong Jr.,South Dakota State,RB,2021-11-04,,,South Dakota,FCS,2
+269,165,Kevin Austin Jr.,Notre Dame,WR,2021-11-04,,,Indiana,FBS - Independent,2
+270,154,Tyrique Stevenson,Miami (FL),CB,2021-11-04,,,Florida,ACC,2
+271,258,Michael Barrett,Michigan,LB,2021-11-04,,,Michigan,Big Ten,2
+272,140,Nate Landman,Colorado,LB,2021-11-04,,,Colorado,Pac 12,2
+273,138,Grant Morgan,Arkansas,LB,2021-11-04,,,Arkansas,SEC,2
+274,247,Alex Forsyth,Oregon,IOL,2021-11-04,,,Oregon,Pac 12,2
+275,216,Robert Cooper,Florida State,DL,2021-11-04,,,Florida,ACC,2
+276,263,Blaise Andries,Minnesota,OT,2021-11-04,,,Minnesota,Big Ten,2
+277,27,Tyler Vrabel,Boston College,OT,2021-11-04,,,Massachusetts,ACC,2
+278,170,Tyler Snead,East Carolina,WR,2021-11-04,,,North Carolina,FBS - AAC,2
+279,266,Ryan Van Demark,UConn,OT,2021-11-04,,,Connecticut,FBS - AAC,2
+280,219,Hassan Haskins,Michigan,RB,2021-11-04,,,Michigan,Big Ten,2
+281,166,Jerrod Clark,Coastal Carolina,DL,2021-11-04,,,South Carolina,FCS,2
+282,131,Isaiah Foskey,Notre Dame,EDGE,2021-11-04,,,Indiana,FBS - Independent,2
+283,271,Jeremy James,Ole Miss,IOL,2021-11-04,,,Mississippi,SEC,2
+284,223,Armani Chatman,Virginia Tech,CB,2021-11-04,,,Virginia,ACC,2
+285,101,Jaquarii Roberson,Wake Forest,WR,2021-11-04,,,North Carolina,ACC,2
+286,86,Eric Gray,Oklahoma,RB,2021-11-04,,,Oklahoma,Big 12,2
+287,58,Graham Mertz,Wisconsin,QB,2021-11-04,,,Wisconsin,Big Ten,2
+288,227,Tyler Johnson,Arizona State,DL,2021-11-04,,,Arizona,Pac 12,2
+289,277,Liam Shanahan,LSU,IOL,2021-11-04,,,Louisiana,SEC,2
+290,230,Ryan Nelson,Virginia,OT,2021-11-04,,,Virginia,ACC,2
+291,114,Ellis Brooks,Penn State,LB,2021-11-04,,,Pennsylvania,Big Ten,2
+292,281,Carter Warren,Pitt,OT,2021-11-04,,,Pennsylvania,ACC,2
+293,128,Jayden Peevy,Texas A&M,DL,2021-11-04,,,Texas,SEC,2
+294,57,Tyler Shough,Texas Tech,QB,2021-11-04,,,Texas,Big 12,2
+295,224,Arron Mosby,Fresno State,EDGE,2021-11-04,,,California,FBS - Mountain West,2
+296,235,Brant Kuithe,Utah,TE,2021-11-04,,,Utah,Pac 12,2
+297,187,Tyler Goodson,Iowa,RB,2021-11-04,,,Iowa,Big Ten,2
+298,91,Zonovan Knight,NC State,RB,2021-11-04,,,North Carolina,ACC,2
+299,288,Lannden Zanders,Clemson,S,2021-11-04,,,South Carolina,ACC,2
+300,240,Spencer Petras,Iowa,QB,2021-11-04,,,Iowa,Big Ten,2
+301,19,Dante Stills,West Virginia,DL,2021-11-04,,,West Virginia,Big 12,1
+302,136,Ronnie Rivers,Fresno State,RB,2021-11-04,,,California,FBS - Mountain West,1
+303,117,Calijah Kancey,Pitt,DL,2021-11-04,,,Pennsylvania,ACC,1
+304,143,Demetrius Taylor,Appalachian State,DL,2021-11-04,,,North Carolina,FBS - Sun Belt,1
+305,137,Nick Cross,Maryland,S,2021-11-04,,,Maryland,Big Ten,1
+306,164,Sincere McCormick,UTSA,RB,2021-11-04,,,Texas,FBS - CUSA,1
+307,183,Josh Ross,Michigan,LB,2021-11-04,,,Michigan,Big Ten,1
+308,170,Ayodele Adeoye,Texas,EDGE,2021-11-04,,,Texas,Big 12,1
+309,298,Jesse Luketa,Penn State,LB,2021-11-04,,,Pennsylvania,Big Ten,1
+310,249,Teradja Mitchell,Ohio State,LB,2021-11-04,,,Ohio,Big Ten,1
+311,132,Steven Gilmore,Marshall,CB,2021-11-04,,,West Virginia,FBS - CUSA,1
+312,119,Viliami Fehoko,San Jose State,EDGE,2021-11-04,,,California,FBS - Mountain West,1
+313,28,Jordan Williams,Virginia Tech,DL,2021-11-04,,,Virginia,ACC,1
+314,252,Jerome Ford,Cincinnati,RB,2021-11-04,,,Ohio,FBS - AAC,1
+315,129,Cam Taylor-Britt,Nebraska,CB,2021-11-04,,,Nebraska,Big Ten,1
+316,136,Byron Young,Alabama,EDGE,2021-11-04,,,Alabama,SEC,1
+317,82,Frank Ladson Jr.,Clemson,WR,2021-11-04,,,South Carolina,ACC,1
+318,180,Shaun Jolly,Appalachian State,CB,2021-11-04,,,North Carolina,FBS - Sun Belt,1
+319,311,Sam Okuayinonu,Maryland,DL,2021-11-04,,,Maryland,Big Ten,1
+320,261,Quay Walker,Georgia,LB,2021-11-04,,,Georgia,SEC,1
+321,259,Eugene Asante,North Carolina,LB,2021-11-04,,,North Carolina,ACC,1
+322,104,Joey Porter Jr.,Penn State,CB,2021-11-04,,,Pennsylvania,Big Ten,1
+323,112,Will Mallory,Miami (FL),TE,2021-11-04,,,Florida,ACC,1
+324,203,Victor Curne,Washington,OT,2021-11-04,,,Washington,Pac 12,1
+325,160,Chris Autman-Bell,Minnesota,WR,2021-11-04,,,Minnesota,Big Ten,1
+326,19,Kuony Deng,California,LB,2021-11-04,,,California,Pac 12,1
+327,50,T'Vondre Sweat,Texas,DL,2021-11-04,,,Texas,Big 12,1
+328,269,Brandon Pili,USC,DL,2021-11-04,,,California,Pac 12,1
+329,131,Ronnie Bell,Michigan,WR,2021-11-04,,,Michigan,Big Ten,1
+330,271,George Moore,Oregon,OT,2021-11-04,,,Oregon,Pac 12,1
+331,209,Damon Miller,UAB,S,2021-11-04,,,Alabama,FBS - CUSA,1
+332,144,Dillon Gabriel,UCF,QB,2021-11-04,,,Florida,FBS - AAC,1
+333,276,DaShaun White,Oklahoma,LB,2021-11-04,,,Oklahoma,Big 12,1
+334,277,Jonathan Ford,Miami (FL),DL,2021-11-04,,,Florida,ACC,1
+335,101,Cordell Volson,North Dakota State,OT,2021-11-04,,,North Dakota,FCS,1
+336,122,Theo Wease,Oklahoma,WR,2021-11-04,,,Oklahoma,Big 12,1
+337,179,Delarrin Turner-Yell,Oklahoma,S,2021-11-04,,,Oklahoma,Big 12,1
+338,284,Michael Turk,Oklahoma,P,2021-11-04,,,Oklahoma,Big 12,1
+339,150,Drew White,Notre Dame,LB,2021-11-04,,,Indiana,FBS - Independent,1
+340,98,Kaleb Eleby,Western Michigan,QB,2021-11-04,,,Michigan,FBS - MAC,1
+341,287,Harry Miller,Ohio State,IOL,2021-11-04,,,Ohio,Big Ten,1
+342,12,Kenderick Duncan Jr.,Louisville,S,2021-11-04,,,Kentucky,ACC,1
+343,73,Emory Jones,Florida,QB,2021-11-04,,,Florida,SEC,1
+344,151,Tanner Morgan,Minnesota,QB,2021-11-04,,,Minnesota,Big Ten,1
+345,128,Colby Wooden,Auburn,DL,2021-11-04,,,Alabama,SEC,1
+346,191,James Mitchell,Virginia Tech,TE,2021-11-04,,,Virginia,ACC,1
+347,293,Qwuantrezz Knight,UCLA,S,2021-11-04,,,California,Pac 12,1
+348,279,Braylon Sanders,Ole Miss,WR,2021-11-04,,,Mississippi,SEC,1
+349,183,Tyree Johnson,Texas A&M,EDGE,2021-11-04,,,Texas,SEC,1
+350,296,Josh Lugg,Notre Dame,OT,2021-11-04,,,Indiana,FBS - Independent,1
+351,108,Dion Novil,North Texas,DL,2021-11-04,,,Texas,FBS - CUSA,1
+352,298,Josh Proctor,Ohio State,S,2021-11-04,,,Ohio,Big Ten,1
+353,8,DeAngelo Malone,Western Kentucky,EDGE,2021-11-04,,,Kentucky,FBS - CUSA,1
+354,300,Warren McClendon,Georgia,IOL,2021-11-04,,,Georgia,SEC,1
+355,233,Amari Burney,Florida,EDGE,2021-11-04,,,Florida,SEC,1
+356,125,Olakunle Fatukasi,Rutgers,LB,2021-11-04,,,New Jersey,Big Ten,1
+357,188,Charleston Rambo,Miami (FL),WR,2021-11-04,,,Florida,ACC,1
+358,123,Austin Jones,Stanford,RB,2021-11-04,,,California,Pac 12,1
+359,50,Leon O'Neal Jr.,Texas A&M,S,2021-11-04,,,Texas,SEC,1
+360,307,Mykel Jones,Tulane,WR,2021-11-04,,,Louisiana,FBS - AAC,1
+361,272,Brad Hawkins,Michigan,S,2021-11-04,,,Michigan,Big Ten,1
+362,233,James Skalski,Clemson,LB,2021-11-04,,,South Carolina,ACC,1
+363,312,Raheem Blackshear,Virginia Tech,RB,2021-11-04,,,Virginia,ACC,1
+364,185,Stewart Reese,Florida,IOL,2021-11-04,,,Florida,SEC,1
+365,268,Bo Bauer,Notre Dame,LB,2021-11-04,,,Indiana,FBS - Independent,1
+366,86,Christopher Allen,Alabama,LB,2021-11-04,,,Alabama,SEC,1
+367,11,Xavier Henderson,Michigan State,S,2021-11-04,,,Michigan,Big Ten,1
+368,121,Mitchell Agude,UCLA,EDGE,2021-11-04,,,California,Pac 12,1
+369,161,Keondre Coburn,Texas,DL,2021-11-04,,,Texas,Big 12,1
+370,364,Xavier Hutchinson,Iowa State,WR,2021-11-04,,,Iowa,Big 12,1
+371,144,Alontae Taylor,Tennessee,CB,2021-11-04,,,Tennessee,SEC,1
+372,235,Jalyn Armour-Davis,Alabama,CB,2021-11-04,,,Alabama,SEC,1
+373,237,Jestin Jacobs,Iowa,LB,2021-11-04,,,Iowa,Big Ten,1
+374,240,Alec Pierce,Cincinnati,WR,2021-11-04,,,Ohio,FBS - AAC,1
+375,153,Tyrese Robinson,Oklahoma,IOL,2021-11-04,,,Oklahoma,Big 12,1
+376,125,Rashad Wisdom,UTSA,S,2021-11-04,,,Texas,FBS - CUSA,1
+377,116,Nick Muse,South Carolina,TE,2021-11-04,,,South Carolina,SEC,1
+378,68,Cain Madden,Notre Dame,IOL,2021-11-04,,,Indiana,FBS - Independent,1
+379,224,James Cook,Georgia,RB,2021-11-04,,,Georgia,SEC,1
+380,315,Christian Watson,North Dakota State,WR,2021-11-04,,,North Dakota,FCS,1
+381,240,Chasen Hines,LSU,IOL,2021-11-04,,,Louisiana,SEC,1
+382,237,Kyle Phillips,UCLA,WR,2021-11-04,,,California,Pac 12,1
+383,164,De'Jahn Warren,Jackson State,CB,2021-11-04,,,Mississippi,FCS,1
+384,97,Isaac Rex,BYU,TE,2021-11-04,,,Utah,FBS - Independent,1
+385,112,Max Borghi,Washington State,RB,2021-11-04,,,Washington,Pac 12,1
+386,135,Dylan Parham,Memphis,IOL,2021-11-04,,,Tennessee,FBS - AAC,1
+387,75,Ben Brown,Ole Miss,IOL,2021-11-04,,,Mississippi,SEC,1
+388,120,Isaiah Chambers,McNeese State,EDGE,2021-11-04,,,Louisiana,FCS,1
+389,123,Dominick Blaylock,Georgia,WR,2021-11-04,,,Georgia,SEC,1
+390,128,Jarrett Kingston,Washington State,IOL,2021-11-04,,,Washington,Pac 12,1
+391,135,Josh Thompson,Texas,CB,2021-11-04,,,Texas,Big 12,1
+392,129,D'Eriq King,Miami (FL),QB,2021-11-04,,,Florida,ACC,1
+393,138,Cade Hall,San Jose State,EDGE,2021-11-04,,,California,FBS - Mountain West,1
+394,95,Joey Blount,Virginia,S,2021-11-04,,,Virginia,ACC,1
+395,358,Storm Duck,North Carolina,CB,2021-11-04,,,North Carolina,ACC,1
+396,283,Mike Miranda,Penn State,IOL,2021-11-04,,,Pennsylvania,Big Ten,1
+397,146,Trajan Jeffcoat,Missouri,EDGE,2021-11-04,,,Missouri,SEC,1
+398,147,Kalon Barnes,Baylor,CB,2021-11-04,,,Texas,Big 12,1
+399,148,Avery Roberts,Oregon State,LB,2021-11-04,,,Oregon,Pac 12,1
+400,152,Dell Pettus,Troy,S,2021-11-04,,,Alabama,FBS - Sun Belt,1
+401,117,Tre Sterling,Oklahoma State,S,2021-11-04,,,Oklahoma,Big 12,1
+402,154,Connor Galvin,Baylor,OT,2021-11-04,,,Texas,Big 12,1
+403,156,Bo Melton,Rutgers,WR,2021-11-04,,,New Jersey,Big Ten,1
+404,59,Master Teague III,Ohio State,RB,2021-11-04,,,Ohio,Big Ten,1
+405,34,Kobie Whiteside,Missouri,DL,2021-11-04,,,Missouri,SEC,1
+406,187,Ben Petrula,Boston College,IOL,2021-11-04,,,Massachusetts,ACC,1
+407,242,Ja'Von Hicks,Cincinnati,S,2021-11-04,,,Ohio,FBS - AAC,1
+408,402,Todd Harris Jr.,LSU,S,2021-11-04,,,Louisiana,SEC,1
+409,198,Myles Jones,Texas A&M,CB,2021-11-04,,,Texas,SEC,1
+410,306,Chase Brown,Illinois,RB,2021-11-04,,,Illinois,Big Ten,1
+411,368,Joshua Williams,Fayetteville State,CB,2021-11-04,,,North Carolina,D2,1
+412,301,Randy Charlton,Mississippi State,EDGE,2021-11-04,,,Mississippi,SEC,1
+413,278,Decobie Durant,South Carolina State,CB,2021-11-04,,,South Carolina,FCS,1
+414,225,Chandler Jones,Louisville,CB,2021-11-04,,,Kentucky,ACC,1
+415,149,Deslin Alexandre,Pitt,DL,2021-11-04,,,Pennsylvania,ACC,1
+416,198,Jordan Wright,Kentucky,EDGE,2021-11-04,,,Kentucky,SEC,1
+417,210,Otito Ogbonnia,UCLA,DL,2021-11-04,,,California,Pac 12,1
+418,59,Brian Asamoah II,Oklahoma,LB,2021-11-04,,,Oklahoma,Big 12,1
+419,193,SirVocea Dennis,Pitt,LB,2021-11-04,,,Pennsylvania,ACC,1
+420,122,Brock Purdy,Iowa State,QB,2021-11-04,,,Iowa,Big 12,1
+421,229,Jalen McKenzie,USC,OT,2021-11-04,,,California,Pac 12,1
+422,207,DeMarcco Hellams,Alabama,S,2021-11-04,,,Alabama,SEC,1
+423,208,Elijah Cooks,Nevada,WR,2021-11-04,,,Nevada,FBS - Mountain West,1
+424,209,Jammie Robinson,Florida State,CB,2021-11-04,,,Florida,ACC,1
+425,262,Will Putnam,Clemson,IOL,2021-11-04,,,South Carolina,ACC,1
+426,240,Donovan Jennings,South Florida,OT,2021-11-04,,,Florida,FBS - AAC,1
+427,239,Pat Fields,Oklahoma,S,2021-11-04,,,Oklahoma,Big 12,1
+428,178,Dorian Thompson-Robinson,UCLA,QB,2021-11-04,,,California,Pac 12,1
+429,227,Jaylon Robinson,UCF,WR,2021-11-04,,,Florida,FBS - AAC,1
+430,220,John Ridgeway,Arkansas,DL,2021-11-04,,,Arkansas,SEC,1
+431,199,Jalen Virgil,Appalachian State,WR,2021-11-04,,,North Carolina,FBS - Sun Belt,1
+432,79,Kana'i Mauga,USC,LB,2021-11-04,,,California,Pac 12,1
+433,146,Yusuf Corker,Kentucky,S,2021-11-04,,,Kentucky,SEC,1
+434,139,Dallas Gant,Ohio State,LB,2021-11-04,,,Ohio,Big Ten,1
+435,123,Bralen Trahan,Louisville,S,2021-11-04,,,Kentucky,ACC,1
+436,136,Jake Hansen,Illinois,LB,2021-11-04,,,Illinois,Big Ten,1
+437,58,LaBryan Ray,Alabama,DL,2021-11-04,,,Alabama,SEC,1
+438,158,Bru McCoy,USC,WR,2021-11-04,,,California,Pac 12,1
+439,189,Noah Cain,Penn State,RB,2021-11-04,,,Pennsylvania,Big Ten,1
+440,154,D'Jordan Strong,Coastal Carolina,CB,2021-11-04,,,South Carolina,FCS,1
+441,156,Daniel Wright,Alabama,S,2021-11-04,,,Alabama,SEC,1
+442,159,Ifeanyi Maijeh,Rutgers,DL,2021-11-04,,,New Jersey,Big Ten,1
+443,182,Silas Kelly,Coastal Carolina,LB,2021-11-04,,,South Carolina,FCS,1
+444,168,Caden McDonald,San Diego State,LB,2021-11-04,,,California,FBS - Mountain West,1
+445,169,Diego Fagot,Navy,LB,2021-11-04,,,Maryland,FBS - AAC,1
+446,173,Carlton Martial,Troy,LB,2021-11-04,,,Alabama,FBS - Sun Belt,1
+447,174,Omar Speights,Oregon State,LB,2021-11-04,,,Oregon,Pac 12,1
+448,177,Kadofi Wright,Buffalo,LB,2021-11-04,,,New York,FBS - MAC,1
+449,86,Braden Galloway,Clemson,TE,2021-11-04,,,South Carolina,ACC,1
+450,181,Hayes Maples,Southern Miss,LB,2021-11-04,,,Mississippi,FBS - CUSA,1
+451,184,Cam'Ron Harris,Miami (FL),RB,2021-11-04,,,Florida,ACC,1
+452,190,Tyler Grubbs,Louisiana Tech,LB,2021-11-04,,,Louisiana,FBS - CUSA,1
+453,192,Lyn-J Dixon,Clemson,RB,2021-11-04,,,South Carolina,ACC,1
+454,194,Darius Muasau,Hawaii,LB,2021-11-04,,,Hawaii,FBS - Mountain West,1
+455,195,Malaesala Aumavae-Laulu,Oregon,IOL,2021-11-04,,,Oregon,Pac 12,1
+456,198,Bumper Pool,Arkansas,LB,2021-11-04,,,Arkansas,SEC,1
+457,199,Nolan Turner,Clemson,S,2021-11-04,,,South Carolina,ACC,1
+458,201,D.J. Davidson,Arizona State,DL,2021-11-04,,,Arizona,Pac 12,1
+459,39,Cameron Goode,California,LB,2021-11-04,,,California,Pac 12,1
+460,203,Brandon Martin,Ball State,LB,2021-11-04,,,Indiana,FBS - MAC,1
+461,205,Troy Brown,Central Michigan,LB,2021-11-04,,,Michigan,FBS - MAC,1
+462,206,Isaiah Moore,NC State,LB,2021-11-04,,,North Carolina,ACC,1
+463,213,Caleb Johnson,UCLA,LB,2021-11-04,,,California,Pac 12,1
+464,214,Nick Jackson,Virginia,LB,2021-11-04,,,Virginia,ACC,1
+465,216,Chris Steele,USC,CB,2021-11-04,,,California,Pac 12,1
+466,217,Justin Wright,Tulsa,LB,2021-11-04,,,Oklahoma,FBS - AAC,1
+467,218,James Patterson,Buffalo,LB,2021-11-04,,,New York,FBS - MAC,1
+468,220,D'Marco Jackson,Appalachian State,LB,2021-11-04,,,North Carolina,FBS - Sun Belt,1
+469,222,Trevor Harmanson,UTSA,LB,2021-11-04,,,Texas,FBS - CUSA,1
+470,223,Jacob Copeland,Florida,WR,2021-11-04,,,Florida,SEC,1
+471,225,Tre Swilling,Georgia Tech,CB,2021-11-04,,,Georgia,ACC,1
+472,95,Peyton Hendershot,Indiana,TE,2021-11-04,,,Indiana,Big Ten,1
+473,230,Jyaire Shorter,North Texas,WR,2021-11-04,,,Texas,FBS - CUSA,1
+474,231,Corey Gaynor,Miami (FL),IOL,2021-11-04,,,Florida,ACC,1
+475,234,Trey Palmer,LSU,WR,2021-11-04,,,Louisiana,SEC,1
+476,195,Trae Barry,Jacksonville State,TE,2021-11-04,,,Alabama,FCS,1
+477,237,Nick Ford,Utah,IOL,2021-11-04,,,Utah,Pac 12,1
+478,238,Dee Wiggins,Miami (FL),WR,2021-11-04,,,Florida,ACC,1
+479,184,Paul Grattan,UCLA,IOL,2021-11-04,,,California,Pac 12,1
+480,307,Jequez Ezzard,Sam Houston State,WR,2021-11-04,,,Texas,FCS,1
+481,190,Emeka Emezie,NC State,WR,2021-11-04,,,North Carolina,ACC,1
+482,253,Xavier Williams,Alabama,WR,2021-11-04,,,Alabama,SEC,1
+483,244,Dylan Wonnum,South Carolina,OT,2021-11-04,,,South Carolina,SEC,1
+484,179,Al Blades Jr.,Miami (FL),CB,2021-11-04,,,Florida,ACC,1
+485,247,Cole Schneider,UCF,IOL,2021-11-04,,,Florida,FBS - AAC,1
+486,250,Nesta Jade Silvera,Miami (FL),DL,2021-11-04,,,Florida,ACC,1
+487,251,Vincent Gray,Michigan,CB,2021-11-04,,,Michigan,Big Ten,1
+488,252,Tariqious Tisdale,Ole Miss,DL,2021-11-04,,,Mississippi,SEC,1
+489,255,Nick Figueroa,USC,EDGE,2021-11-04,,,California,Pac 12,1
+490,130,Dishon McNary,Central Michigan,CB,2021-11-04,,,Michigan,FBS - MAC,1
+491,137,Trace Ford,Oklahoma State,EDGE,2021-11-04,,,Oklahoma,Big 12,1
+492,142,K.J. Henry,Clemson,EDGE,2021-11-04,,,South Carolina,ACC,1
+493,146,Drew Seers,Lindenwood,LB,2021-11-04,,,Missouri,D2,1
+494,149,Malik Cunningham,Louisville,QB,2021-11-04,,,Kentucky,ACC,1
+495,156,Jack Jones,Arizona State,CB,2021-11-04,,,Arizona,Pac 12,1
+496,160,Durrell Johnson,Liberty,EDGE,2021-11-04,,,Virginia,FCS,1
+497,163,Aaron Hansford,Texas A&M,LB,2021-11-04,,,Texas,SEC,1
+498,160,Adisa Isaac,Penn State,DL,2021-11-04,,,Pennsylvania,Big Ten,1
+499,303,Marcel Brooks,TCU,S,2021-11-04,,,Texas,Big 12,1
+500,182,Woodi Washington,Oklahoma,CB,2021-11-04,,,Oklahoma,Big 12,1
+501,304,Tyler Badie,Missouri,RB,2021-11-04,,,Missouri,SEC,1
+502,184,Darnell Jefferies,Clemson,DL  Clemson,2021-11-04,,,South Carolina,ACC,1
+503,185,David Ugwoegbu,Oklahoma,LB,2021-11-04,,,Oklahoma,Big 12,1
+504,218,Ali Fayad,Western Michigan,LB,2021-11-04,,,Michigan,FBS - MAC,1
+505,258,Aubrey Solomon,Tennessee,DL,2021-11-04,,,Tennessee,SEC,1
+506,259,Austin Allen,Nebraska,TE,2021-11-04,,,Nebraska,Big Ten,1
+507,194,Austin Deculus,LSU,OT,2021-11-04,,,Louisiana,SEC,1
+508,236,Baylor Cupp,Texas A&M,TE,2021-11-04,,,Texas,SEC,1
+509,226,Big Kat Bryant,Auburn,EDGE,2021-11-04,,,Alabama,SEC,1
+510,292,Caleb Jones,Indiana,OT,2021-11-04,,,Indiana,Big Ten,1
+511,303,Changa Hodge,Virginia Tech,WR,2021-11-04,,,Virginia,ACC,1
+512,216,Chase Allen,Iowa State,TE,2021-11-04,,,Iowa,Big 12,1
+513,307,Chase Garbers,California,QB,2021-11-04,,,California,Pac 12,1
+514,314,Chris Turner,Missouri,EDGE,2021-11-04,,,Missouri,SEC,1
+515,180,Christian Tutt,Auburn,CB,2021-11-04,,,Alabama,SEC,1
+516,325,Cory Trice,Purdue,S,2021-11-04,,,Indiana,Big Ten,1
+517,328,D'vonte Price,Florida International,RB,2021-11-04,,,Florida,FBS - CUSA,1
+518,351,Derrick Deese Jr.,San Jose State,TE,2021-11-04,,,California,FBS - Mountain West,1
+519,47,Dimitri Moore,Vanderbilt,LB,2021-11-04,,,Tennessee,SEC,1
+520,234,Dom Peterson,Nevada,DL,2021-11-04,,,Nevada,FBS - Mountain West,1
+521,363,Dontayvion Wicks,Virginia,WR,2021-11-04,,,Virginia,ACC,1
+522,202,Dustin Crum,Kent State,QB,2021-11-04,,,Ohio,FBS - MAC,1
+523,96,Glen Logan,LSU,DL,2021-11-04,,,Louisiana,SEC,1
+524,212,Isaac Slade-Matautia,Oregon,LB,2021-11-04,,,Oregon,Pac 12,1
+525,393,JaTarvious Whitlow,Auburn,RB,2021-11-04,,,Alabama,SEC,1
+526,396,Jack Wohlabaugh,Duke,IOL,2021-11-04,,,North Carolina,ACC,1
+527,237,John Emery Jr.,LSU,RB,2021-11-04,,,Louisiana,SEC,1
+528,435,Johnny Johnson III,Oregon,WR,2021-11-04,,,Oregon,Pac 12,1
+529,437,Jonathan Mingo,Ole Miss,WR,2021-11-04,,,Mississippi,SEC,1
+530,186,Jordan Reid,Michigan State,IOL,2021-11-04,,,Michigan,Big Ten,1
+531,195,Josh Sills,Oklahoma State,IOL,2021-11-04,,,Oklahoma,Big 12,1
+532,446,Joshua Ezeudu,North Carolina,IOL,2021-11-04,,,North Carolina,ACC,1
+533,451,K.D. Nixon,Colorado,WR,2021-11-04,,,Colorado,Pac 12,1
+534,32,Keaontay Ingram,Texas,RB,2021-11-04,,,Texas,Big 12,1
+535,455,Kearis Jackson,Georgia,WR,2021-11-04,,,Georgia,SEC,1
+536,206,Kobe Jones,Ole Miss,DL,2021-11-04,,,Mississippi,SEC,1
+537,207,Lakia Henry,Ole Miss,LB,2021-11-04,,,Mississippi,SEC,1
+538,468,Leonard Taylor,Cincinnati,TE,2021-11-04,,,Ohio,FBS - AAC,1
+539,472,Luke Matthews,Texas A&M,IOL,2021-11-04,,,Texas,SEC,1
+540,189,Marcelino Ball,Indiana,CB,2021-11-04,,,Indiana,Big Ten,1
+541,480,Mase Funa,Oregon,LB,2021-11-04,,,Oregon,Pac 12,1
+542,482,Matt Allen,Michigan State,IOL,2021-11-04,,,Michigan,Big Ten,1
+543,485,Max Duggan,TCU,QB,2021-11-04,,,Texas,Big 12,1
+544,232,Michael Penix Jr.,Indiana,QB,2021-11-04,,,Indiana,Big Ten,1
+545,490,Michael Woods II,Oklahoma,WR,2021-11-04,,,Oklahoma,Big 12,1
+546,96,Nykeim Johnson,Syracuse,WR,2021-11-04,,,New York,ACC,1
+547,510,Nyles Pinckney,Minnesota,DL,2021-11-04,,,Minnesota,Big Ten,1
+548,56,Palaie Gaoteote IV,Ohio State,LB,2021-11-04,,,Ohio,Big Ten,1
+549,71,Quentin Lake,UCLA,S,2021-11-04,,,California,Pac 12,1
+550,521,R.J. Roderick,South Carolina,S,2021-11-04,,,South Carolina,SEC,1
+551,524,Raleigh Texada,Baylor,CB,2021-11-04,,,Texas,Big 12,1
+552,60,Reed Blankenship,Middle Tennessee State,S,2021-11-04,,,Tennessee,FBS - CUSA,1
+553,529,Rodrigues Clark,Memphis,RB,2021-11-04,,,Tennessee,FBS - AAC,1
+554,530,Roger Cray,Western Kentucky,CB,2021-11-04,,,Kentucky,FBS - CUSA,1
+555,215,Sean Clifford,Penn State,QB,2021-11-04,,,Pennsylvania,Big Ten,1
+556,536,Sean Dykes,Memphis,TE,2021-11-04,,,Tennessee,FBS - AAC,1
+557,539,Shane Lee,Alabama,LB,2021-11-04,,,Alabama,SEC,1
+558,16,T.J. Carter,Memphis,CB,2021-11-04,,,Tennessee,FBS - AAC,1
+559,69,Taulia Tagovailoa,Maryland,QB,2021-11-04,,,Maryland,Big Ten,1
+560,214,Taylor Riggins,Buffalo,EDGE,2021-11-04,,,New York,FBS - MAC,1
+561,569,Trey Knox,Arkansas,WR,2021-11-04,,,Arkansas,SEC,1
+562,20,Ty Chandler,Tennessee,RB,2021-11-04,,,Tennessee,SEC,1
+563,15,Tyreke Johnson,Ohio State,CB,2021-11-04,,,Ohio,Big Ten,1
+564,192,Tyrone Truesdell,Auburn,DL,2021-11-04,,,Alabama,SEC,1
+565,38,Zach McCloud,Miami (FL),LB,2021-11-04,,,Florida,ACC,1
+566,204,Zaire Mitchell,Notre Dame,TE,2021-11-04,,,Indiana,FBS - Independent,1

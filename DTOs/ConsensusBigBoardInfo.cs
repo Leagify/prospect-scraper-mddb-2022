@@ -10,7 +10,12 @@ namespace prospect_scraper_mddb_2022.DTOs
         public string LastUpdated { get; set; }
 
         public ConsensusBigBoardInfo(
-            string scrapeDate, int bigBoardsUsed, int mockDraftsUsed, int teamBasedMockDraftsUsed, int prospectCount, string lastUpdated)
+            string scrapeDate, 
+            int bigBoardsUsed, 
+            int mockDraftsUsed, 
+            int teamBasedMockDraftsUsed, 
+            int prospectCount, 
+            string lastUpdated)
         {
             ScrapeDate = scrapeDate;
             BigBoardsUsed = bigBoardsUsed;

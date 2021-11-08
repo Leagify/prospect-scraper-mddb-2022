@@ -175,7 +175,6 @@ namespace prospect_scraper_mddb_2022.Extensions
             statesDirectory.EnsureExists();
 
             string stateRankInfoFileName = Path.Combine(statesDirectory, $"{today}-top-states.csv");
-            string stateInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}StateInfo.csv");
 
             //Write schools to csv with date.
             using (var writer = new StreamWriter(stateRankInfoFileName))

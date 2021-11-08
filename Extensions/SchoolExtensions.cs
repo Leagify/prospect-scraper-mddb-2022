@@ -1,10 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
-namespace prospect_scraper_mddb_2022.Extensions
+﻿namespace prospect_scraper_mddb_2022.Extensions
 {
     public static class SchoolExtensions
     {

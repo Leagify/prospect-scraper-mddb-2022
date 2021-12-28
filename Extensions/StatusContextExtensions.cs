@@ -183,6 +183,17 @@ namespace prospect_scraper_mddb_2022.Extensions
                 csv.WriteRecords(topStates);
             }
 
+            // Find prospects where state name is ""
+            var emptyStates = prospects.Where(x => string.IsNullOrEmpty(x.State)).ToList();
+
+            if (emptyStates.Count > 0)
+            {
+                foreach (var prospect in emptyStates)
+                {
+                    AnsiConsole.WriteLine($"Player missing state: {prospect.PlayerName} - {prospect.School} - {prospect.State}");
+                }
+            }
+
             // Give a rendered result to the terminal.
             AnsiConsole.Write(new BarChart()
             .Width(60)
@@ -193,6 +204,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             .AddItem("Team Mock Drafts", teamMockDrafts, Color.Red)
             .AddItem("Schools", schools, Color.Blue)
             .AddItem("States", states, Color.Aqua)
+            .AddItem("State mismatches", emptyStates.Count, Color.BlueViolet)
             );
         }
     }

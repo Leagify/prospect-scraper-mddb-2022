@@ -8,6 +8,7 @@
             {
                 "Mississippi" => "Ole Miss",
                 "Pittsburgh" => "Pitt",
+                "Nicholls" => "Nicholls State",
                 _ => schoolName,
             };
             return schoolName;

@@ -1,32 +1,32 @@
 State,ProjectedPoints,NumberOfSchools,NumberOfProspects
-Ohio,284,5,35
-Alabama,261,5,36
-Texas,260,10,49
-Georgia,227,2,24
+Ohio,282,5,34
+Texas,259,10,48
+Alabama,258,5,36
+Georgia,226,2,23
 Michigan,182,4,28
 California,155,7,39
-Iowa,142,3,21
 Indiana,141,4,22
-Pennsylvania,141,3,21
-Mississippi,133,4,19
-South Carolina,131,4,30
-Florida,128,8,29
+Iowa,141,3,20
+Pennsylvania,140,3,20
+Mississippi,132,4,18
+South Carolina,130,4,29
+Florida,130,8,28
 North Carolina,124,7,24
 Oklahoma,102,3,28
-Louisiana,95,7,23
-Washington,91,2,11
-Kentucky,83,3,15
+Louisiana,94,6,22
+Washington,92,2,12
+Kentucky,82,3,15
 Virginia,72,3,20
-Oregon,63,2,11
+Oregon,64,2,11
 Utah,52,4,10
-Arkansas,47,1,6
+Arkansas,46,1,5
 Nevada,44,1,4
 Tennessee,39,4,13
 Arizona,35,1,8
 Massachusetts,32,1,6
 Minnesota,29,1,5
 Illinois,26,3,7
-Wisconsin,24,1,7
+Wisconsin,25,1,7
 Colorado,22,2,3
 Missouri,21,2,7
 Nebraska,21,1,4
@@ -38,7 +38,7 @@ Idaho,10,1,1
 New Jersey,8,1,4
 South Dakota,7,1,2
 West Virginia,6,2,4
-Maryland,5,2,5
+Maryland,4,2,4
 Rhode Island,2,1,1
 Montana,1,1,1
 Kansas,1,1,1

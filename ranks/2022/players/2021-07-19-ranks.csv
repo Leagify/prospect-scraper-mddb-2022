@@ -123,19 +123,19 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 122,110,Zay Flowers,Boston College,WR,2021-07-19,,,Massachusetts,ACC,7
 123,111,Cole Turner,Nevada,TE,2021-07-19,,,Nevada,FBS - Mountain West,7
 124,120,Mykael Wright,Oregon,CB,2021-07-19,,,Oregon,Pac 12,7
-125,75,Wanya Morris,Tennessee,OT  Tennessee,2021-07-19,,,Tennessee,SEC,7
+125,75,Wanya Morris,Tennessee,OT,2021-07-19,,,Tennessee,SEC,7
 126,110,Joey Porter Jr.,Penn State,CB,2021-07-19,,,Pennsylvania,Big Ten,7
 127,62,Zion Johnson,Boston College,IOL,2021-07-19,,,Massachusetts,ACC,7
 128,4,Kyler Gordon,Washington,CB,2021-07-19,,,Washington,Pac 12,7
 129,72,Jaquarii Roberson,Wake Forest,WR,2021-07-19,,,North Carolina,ACC,7
 130,30,Khalil Shakir,Boise State,WR,2021-07-19,,,Idaho,FBS - Mountain West,7
-131,42,Taron Vincent,Ohio State,DL  Ohio State,2021-07-19,,,Ohio,Big Ten,7
+131,42,Taron Vincent,Ohio State,DL,2021-07-19,,,Ohio,Big Ten,7
 132,10,Dante Stills,West Virginia,DL,2021-07-19,,,West Virginia,Big 12,7
 133,14,Phidarian Mathis,Alabama,DL,2021-07-19,,,Alabama,SEC,7
 134,63,Obinna Eze,TCU,OT,2021-07-19,,,Texas,Big 12,7
 135,105,Emory Jones,Florida,QB,2021-07-19,,,Florida,SEC,7
 136,10,Kenny Pickett,Pitt,QB,2021-07-19,,,Pennsylvania,ACC,7
-137,41,Sheridan Jones,Clemson,CB  Clemson,2021-07-19,,,South Carolina,ACC,7
+137,41,Sheridan Jones,Clemson,CB,2021-07-19,,,South Carolina,ACC,7
 138,135,Garrett Williams,Syracuse,CB,2021-07-19,,,New York,ACC,7
 139,121,Nakobe Dean,Georgia,LB,2021-07-19,,,Georgia,SEC,7
 140,130,Jalen Tolbert,South Alabama,WR,2021-07-19,,,Alabama,FBS - Sun Belt,7
@@ -191,7 +191,7 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 190,69,Will McDonald IV,Iowa State,DL,2021-07-19,,,Iowa,Big 12,5
 191,181,Travon Walker,Georgia,DL,2021-07-19,,,Georgia,SEC,5
 192,50,Bo Nix,Auburn,QB,2021-07-19,,,Alabama,SEC,5
-193,83,Ayodele Adeoye,Texas,EDGE  Texas,2021-07-19,,,Texas,Big 12,5
+193,83,Ayodele Adeoye,Texas,EDGE,2021-07-19,,,Texas,Big 12,5
 194,50,Dorian Williams,Tulane,LB,2021-07-19,,,Louisiana,FBS - AAC,5
 195,102,Isaac Taylor-Stuart,USC,CB,2021-07-19,,,California,Pac 12,5
 196,177,Ochaun Mathis,TCU,EDGE,2021-07-19,,,Texas,Big 12,5
@@ -205,7 +205,7 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 204,181,Woodi Washington,Oklahoma,CB,2021-07-19,,,Oklahoma,Big 12,5
 205,200,Xavier Williams,Alabama,WR,2021-07-19,,,Alabama,SEC,5
 206,185,Cain Madden,Marshall,IOL,2021-07-19,,,West Virginia,FBS - CUSA,5
-207,183,Darnell Jefferies,Clemson,DL  Clemson,2021-07-19,,,South Carolina,ACC,5
+207,183,Darnell Jefferies,Clemson,DL,2021-07-19,,,South Carolina,ACC,5
 208,182,David Ugwoegbu,Oklahoma,LB,2021-07-19,,,Oklahoma,Big 12,5
 209,137,Calijah Kancey,Pitt,DL,2021-07-19,,,Pennsylvania,ACC,5
 210,121,Isaiah Foskey,Notre Dame,DL,2021-07-19,,,Indiana,FBS - Independent,5

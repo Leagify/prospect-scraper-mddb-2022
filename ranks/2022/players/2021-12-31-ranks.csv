@@ -407,7 +407,7 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 406,211,Michael Turk,Oklahoma,P,2021-12-31,,,Oklahoma,Big 12,1
 407,288,Charlie Jones,Iowa,WR,2021-12-31,,,Iowa,Big Ten,1
 408,163,Bryan Hudson,Louisville,IOL,2021-12-31,,,Kentucky,ACC,1
-409,102,Ben Brown,Ole Miss,IOL  Mississippi,2021-12-31,,,Mississippi,SEC,1
+409,102,Ben Brown,Ole Miss,IOL,2021-12-31,,,Mississippi,SEC,1
 410,354,Arron Mosby,Fresno State,EDGE,2021-12-31,,,California,FBS - Mountain West,1
 411,287,Jack Snyder,San Jose State,IOL,2021-12-31,,,California,FBS - Mountain West,1
 412,158,Jerrod Clark,Coastal Carolina,DL,2021-12-31,,,South Carolina,FCS,1
@@ -501,7 +501,7 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 500,297,Darrian Dalcourt,Alabama,IOL,2021-12-31,,,Alabama,SEC,1
 501,298,Kearis Jackson,Georgia,WR,2021-12-31,,,Georgia,SEC,1
 502,299,DeMarcco Hellams,Alabama,S,2021-12-31,,,Alabama,SEC,1
-503,235,Darnell Jefferies,Clemson,DL  Clemson,2021-12-31,,,South Carolina,ACC,1
+503,235,Darnell Jefferies,Clemson,DL,2021-12-31,,,South Carolina,ACC,1
 504,255,T.J. Carter,Memphis,CB,2021-12-31,,,Tennessee,FBS - AAC,1
 505,335,Chris Turner,Missouri,EDGE,2021-12-31,,,Missouri,SEC,1
 506,184,Cameron Goode,California,LB,2021-12-31,,,California,Pac 12,1

@@ -59,8 +59,8 @@ namespace prospect_scraper_mddb_2022.Extensions
                 string peakRank = peakRankHtml.ChildNodes[1].InnerText;  // this is inside a span, but I'm not sure if it's reliably the second element.
                 var namePositionSchool = node.LastChild;
                 string playerName = playerContainer.FirstChild.InnerText.Replace("&#39;", "'");
-                string playerPosition = playerContainer.LastChild.FirstChild.InnerText.Replace("|", "").Trim();
-                string playerPosition2ndTry = playerContainer.LastChild.LastChild.InnerText.Split("|")[0].Trim();
+                string playerPositionOld = playerContainer.LastChild.FirstChild.InnerText.Replace("|", "").Trim();
+                string playerPosition = playerContainer.LastChild.FirstChild.InnerText.Split("|")[0].Trim();
                 int afterPipeStringLength = playerContainer.LastChild.FirstChild.InnerText.Split("|")[1].Length;
                 if (playerContainer.LastChild.ChildNodes.Count == 2 && afterPipeStringLength <= 2)
                 {

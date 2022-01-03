@@ -199,12 +199,12 @@ namespace prospect_scraper_mddb_2022.Extensions
             .Width(60)
             .Label("[green bold underline]Number of sources[/]")
             .CenterLabel()
-            .AddItem("Big Boards", bigBoards, Color.Yellow)
-            .AddItem("Mock Drafts", mockDrafts, Color.Green)
-            .AddItem("Team Mock Drafts", teamMockDrafts, Color.Red)
-            .AddItem("Schools", schools, Color.Blue)
-            .AddItem("States", states, Color.Aqua)
-            .AddItem("State mismatches", emptyStates.Count, Color.BlueViolet)
+            .AddItem(":american_football: Big Boards :american_football:", bigBoards, Color.Yellow)
+            .AddItem(":american_football: Mock Drafts :american_football:", mockDrafts, Color.Green)
+            .AddItem(":american_football: Team Mock Drafts :american_football:", teamMockDrafts, Color.Red)
+            .AddItem(":school: Schools :school:", schools, Color.Blue)
+            .AddItem(":clipboard: States :clipboard:", states, Color.Aqua)
+            .AddItem(":cross_mark: State mismatches :cross_mark:", emptyStates.Count, Color.Orange1)
             );
         }
     }

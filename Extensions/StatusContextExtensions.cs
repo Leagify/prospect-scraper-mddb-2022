@@ -38,10 +38,10 @@ namespace prospect_scraper_mddb_2022.Extensions
             bool mockDraftParsed = int.TryParse(boardCountContainer.ChildNodes[4].InnerText, out int mockDrafts);
             bool teamMockDraftParsed = int.TryParse(boardCountContainer.ChildNodes[7].InnerText, out int teamMockDrafts);
 
-            Console.WriteLine("Big Board count: " + bigBoards);
-            Console.WriteLine("Mock Draft count: " + mockDrafts);
-            Console.WriteLine("Team Mock count: " + teamMockDrafts);
-            Console.WriteLine("Prospect count: " + bigBoard.Count);
+            //Console.WriteLine("Big Board count: " + bigBoards);
+            //Console.WriteLine("Mock Draft count: " + mockDrafts);
+            //Console.WriteLine("Team Mock count: " + teamMockDrafts);
+            //Console.WriteLine("Prospect count: " + bigBoard.Count);
 
             // Get today's date in the format of yyyy-mm-dd
             string today = DateTime.Now.ToString("yyyy-MM-dd");
@@ -70,6 +70,24 @@ namespace prospect_scraper_mddb_2022.Extensions
 
             AnsiConsole.MarkupLine("Doing some prospect work...");
             var prospects = bigBoard.FindProspects(today);
+
+            //Show prospects on screen.
+            Spectre.Console.Table prospectTable = new Spectre.Console.Table();
+            prospectTable.AddColumn("Player");
+            prospectTable.AddColumn("Rank");
+            prospectTable.AddColumn("School");
+            prospectTable.AddColumn("Position");
+            prospectTable.AddColumn("Peak");
+            prospectTable.AddColumn("Points");
+            prospectTable.Border(TableBorder.Ascii);
+
+            foreach (var dude in prospects)
+            {
+                //Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank} with {leagifyPoints} possible points");
+                prospectTable.AddRow(dude.PlayerName, dude.Rank, dude.School, dude.Position, dude.Peak, dude.ProjectedPoints.ToString());
+            }
+            
+            AnsiConsole.Write(prospectTable);
 
             // Update the status and spinner
             ctx.Status("Writing draft prospect CSV");
@@ -108,12 +126,21 @@ namespace prospect_scraper_mddb_2022.Extensions
                 .ToList();
             schools = topSchools.Count;
 
+            Spectre.Console.Table schoolTable = new Spectre.Console.Table();
+            schoolTable.AddColumn("School");
+            schoolTable.AddColumn("Conf");
+            schoolTable.AddColumn("Points");
+            schoolTable.AddColumn("Prospects");
+            schoolTable.Border(TableBorder.Square);
+
             // Chatty output to console.  It's messy but informative.
-            Console.WriteLine("\nTop Schools.....");
+            //Console.WriteLine("\nTop Schools.....");
             foreach (var school in topSchools)
             {
-                Console.WriteLine($"{school.School} - {school.Conference} - {school.ProjectedPoints} - {school.NumberOfProspects}");
+                //Console.WriteLine($"{school.School} - {school.Conference} - {school.ProjectedPoints} - {school.NumberOfProspects}");
+                schoolTable.AddRow(school.School, school.Conference, school.ProjectedPoints.ToString(), school.NumberOfProspects.ToString());
             }
+            AnsiConsole.Write(schoolTable);
 
             // Update the status and spinner
             ctx.Status("Writing Top Schools CSV");
@@ -135,6 +162,8 @@ namespace prospect_scraper_mddb_2022.Extensions
             }
 
             //Add School Info
+
+            
 
             // Create a School Info object from the parsed values.
             //ScrapeDate,NumberOfSchools,TopSchool,TopProjectedPoints,ProspectCountForTopSchool
@@ -161,11 +190,22 @@ namespace prospect_scraper_mddb_2022.Extensions
                 .ThenByDescending(x => x.NumberOfProspects)
                 .ToList();
             // Chatty output to console.  It's messy but informative.
-            Console.WriteLine("\nTop States.....");
+
+            Spectre.Console.Table stateTable = new Spectre.Console.Table();
+            stateTable.AddColumn("State");
+            stateTable.AddColumn("Points");
+            stateTable.AddColumn("Schools");
+            stateTable.AddColumn("Prospects");
+            stateTable.Border(TableBorder.Rounded);
+
+            //Console.WriteLine("\nTop States.....");
             foreach (var state in topStates)
             {
-                Console.WriteLine($"{state.State} - {state.ProjectedPoints} - {state.NumberOfSchools} - {state.NumberOfProspects}");
+                //Console.WriteLine($"{state.State} - {state.ProjectedPoints} - {state.NumberOfSchools} - {state.NumberOfProspects}");
+                stateTable.AddRow(state.State, state.ProjectedPoints.ToString(), state.NumberOfSchools.ToString(), state.NumberOfProspects.ToString());
             }
+
+            AnsiConsole.Write(stateTable);
 
             states = topStates.Count;
 
@@ -199,9 +239,10 @@ namespace prospect_scraper_mddb_2022.Extensions
             .Width(60)
             .Label("[green bold underline]Number of sources[/]")
             .CenterLabel()
-            .AddItem(":american_football: Big Boards :american_football:", bigBoards, Color.Yellow)
+            .AddItem(":person: Prospect count :person:", bigBoard.Count, Color.Cyan1 )
             .AddItem(":american_football: Mock Drafts :american_football:", mockDrafts, Color.Green)
             .AddItem(":american_football: Team Mock Drafts :american_football:", teamMockDrafts, Color.Red)
+            .AddItem(":american_football: Big Boards :american_football:", bigBoards, Color.Yellow)
             .AddItem(":school: Schools :school:", schools, Color.Blue)
             .AddItem(":clipboard: States :clipboard:", states, Color.Aqua)
             .AddItem(":cross_mark: State mismatches :cross_mark:", emptyStates.Count, Color.Orange1)

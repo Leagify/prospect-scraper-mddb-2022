@@ -234,12 +234,18 @@ namespace prospect_scraper_mddb_2022.Extensions
                 }
             }
 
+            AnsiConsole.Write(new BarChart()
+            .Width(120)
+            .Label("[green bold underline]Total prospects in list[/]")
+            .CenterLabel()
+            .AddItem(":person: NFL Prospects :person:", bigBoard.Count, Color.Cyan1 )
+            );
+
             // Give a rendered result to the terminal.
             AnsiConsole.Write(new BarChart()
             .Width(60)
             .Label("[green bold underline]Number of sources[/]")
             .CenterLabel()
-            .AddItem(":person: Prospect count :person:", bigBoard.Count, Color.Cyan1 )
             .AddItem(":american_football: Mock Drafts :american_football:", mockDrafts, Color.Green)
             .AddItem(":american_football: Team Mock Drafts :american_football:", teamMockDrafts, Color.Red)
             .AddItem(":american_football: Big Boards :american_football:", bigBoards, Color.Yellow)

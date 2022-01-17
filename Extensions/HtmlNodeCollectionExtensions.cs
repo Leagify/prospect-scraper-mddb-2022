@@ -12,7 +12,7 @@ namespace prospect_scraper_mddb_2022.Extensions
 {
     public static class HtmlNodeCollectionExtensions
     {
-        public static List<ProspectRanking> FindProspects(this HtmlNodeCollection nodes, string todayString)
+        public static List<ProspectRanking> FindProspects(this HtmlNodeCollection nodes, string todayString, ref Dictionary<string, string> schoolImages)
         {
             var prospectRankings = new List<ProspectRanking>();
 
@@ -72,7 +72,7 @@ namespace prospect_scraper_mddb_2022.Extensions
                 }
                 else
                 {
-                    playerSchool = playerSchool = playerContainer.LastChild.ChildNodes[1].InnerText.Replace("&amp;", "&");
+                    playerSchool = playerContainer.LastChild.ChildNodes[1].InnerText.Replace("&amp;", "&");
                 }
                 if (percentageContainer != null)
                 {
@@ -94,6 +94,13 @@ namespace prospect_scraper_mddb_2022.Extensions
                 //var ranking = new ProspectRanking();
 
                 playerSchool = playerSchool.ConvertSchool();
+
+                var schoolLogo = pickContainer.LastChild.LastChild.GetAttributeValue("src", "");
+                if (!schoolImages.ContainsKey(playerSchool))
+                {
+                    schoolImages.Add(playerSchool, schoolLogo);
+                }
+                //schoolImages.Add(playerSchool, schoolLogo);
                 string leagifyPoints = ranksToPoints.GetValueOrDefault(currentRank, "1");
 
                 (string schoolConference, string schoolState) = schoolsToStatesAndConfs.GetValueOrDefault(playerSchool, ("", ""));
@@ -105,6 +112,43 @@ namespace prospect_scraper_mddb_2022.Extensions
             }
 
             return prospectRankings;
+        }
+        public static Dictionary<string, string> GetSchoolImageLinks(this HtmlNodeCollection bigBoardNode)
+        {
+            var schoolImageLinks = new Dictionary<string, string>();
+            var lis = bigBoardNode.Elements().Where(n => n.Name == "li").ToList();
+            var nodeCount = bigBoardNode.Count();
+            foreach (var schoolImageNode in bigBoardNode)
+            {
+                var li = bigBoardNode.Where(n => n.Name == "li").ToList();
+                var schoolImageNodes = bigBoardNode.Descendants().FirstOrDefault(n => n.HasClass("school-image"));
+                var pickContainer = bigBoardNode.Descendants().FirstOrDefault(n => n.HasClass("pick-container"));
+                var playerContainer = bigBoardNode.Descendants().FirstOrDefault(n => n.HasClass("player-details"));
+
+                var schoolName = "";
+                int afterPipeStringLength = playerContainer.InnerText.Split("|")[1].Length;
+                string schoolAttempt = playerContainer.InnerText.Split("|")[1].Trim();
+
+                if (playerContainer.LastChild.ChildNodes.Count == 2 && afterPipeStringLength <= 2)
+                {
+                    schoolName = playerContainer.InnerText.Split("|")[1].Replace("&amp;", "&").Trim();
+                }
+                else if (afterPipeStringLength > 2)
+                {
+                    schoolName = playerContainer.InnerText.Split("|")[1].Replace("&amp;", "&").Trim();
+                }
+                else
+                {
+                    schoolName = playerContainer.InnerText.Split("|")[1].Replace("&amp;", "&").Trim();
+                }
+                
+                var schoolImageLink = "";
+                
+
+                
+                schoolImageLinks.Add(schoolName, schoolImageLink);
+            }
+            return schoolImageLinks;
         }
     }
 }

@@ -8,6 +8,7 @@ namespace prospect_scraper_mddb_2022.DTOs
         public string Conference { get; set; }
         public string ProjectedPoints { get; set; }
         public string ProspectCount { get; set; }
+        public string SchoolURL {get; set;}
 
         public SchoolRanking(
             string dateString, 
@@ -15,7 +16,8 @@ namespace prospect_scraper_mddb_2022.DTOs
             string state, 
             string conference, 
             string projectedPoints, 
-            string prospectCount)
+            string prospectCount,
+            string schoolURL)
         {
             School = school;
             RankingDateString = dateString;
@@ -23,6 +25,7 @@ namespace prospect_scraper_mddb_2022.DTOs
             Conference = conference;
             ProjectedPoints = projectedPoints;
             ProspectCount = prospectCount;
+            SchoolURL = schoolURL;
         }
     }
 }

@@ -69,7 +69,12 @@ namespace prospect_scraper_mddb_2022.Extensions
             ctx.SpinnerStyle(Style.Parse("green"));
 
             AnsiConsole.MarkupLine("Doing some prospect work...");
-            var prospects = bigBoard.FindProspects(today);
+
+            // get image link for schools from boardInfo
+            Dictionary<string, string> schoolImageLinks = new Dictionary<string, string>();
+            //schoolImageLinks = bigBoard.GetSchoolImageLinks();
+
+            var prospects = bigBoard.FindProspects(today, ref schoolImageLinks);
 
             //Show prospects on screen.
             Spectre.Console.Table prospectTable = new Spectre.Console.Table();
@@ -113,16 +118,21 @@ namespace prospect_scraper_mddb_2022.Extensions
             // The output I want here is: Rank, School, Conference, Points, Number of Prospects
             ctx.Status($"Putting together top schools....");
 
-            var topSchools = prospects.GroupBy(x => x.School)
+            var URLs = schoolImageLinks.ToList();
+
+            var topSchools = prospects
+                .GroupBy(x => x.School)
                 .Select(x => new
                 {
                     School = x.Key,
                     Conference = x.First().Conference,
                     ProjectedPoints = x.Sum(y => y.ProjectedPoints),
-                    NumberOfProspects = x.Count()
+                    NumberOfProspects = x.Count(),
+                    //SchoolURL = schoolImageLinks
                 })
                 .OrderByDescending(x => x.ProjectedPoints)
                 .ThenByDescending(x => x.NumberOfProspects)
+                .Join(URLs, x => x.School, y => y.Key, (x, y) => new { x.School, x.Conference, x.ProjectedPoints, x.NumberOfProspects, SchoolURL = y.Value })
                 .ToList();
             schools = topSchools.Count;
 
@@ -162,6 +172,8 @@ namespace prospect_scraper_mddb_2022.Extensions
             }
 
             //Add School Info
+
+            
 
             
 
@@ -234,12 +246,18 @@ namespace prospect_scraper_mddb_2022.Extensions
                 }
             }
 
+            AnsiConsole.Write(new BarChart()
+            .Width(120)
+            .Label("[green bold underline]Total prospects in list[/]")
+            .CenterLabel()
+            .AddItem(":person: NFL Prospects :person:", bigBoard.Count, Color.Cyan1 )
+            );
+
             // Give a rendered result to the terminal.
             AnsiConsole.Write(new BarChart()
             .Width(60)
             .Label("[green bold underline]Number of sources[/]")
             .CenterLabel()
-            .AddItem(":person: Prospect count :person:", bigBoard.Count, Color.Cyan1 )
             .AddItem(":american_football: Mock Drafts :american_football:", mockDrafts, Color.Green)
             .AddItem(":american_football: Team Mock Drafts :american_football:", teamMockDrafts, Color.Red)
             .AddItem(":american_football: Big Boards :american_football:", bigBoards, Color.Yellow)
@@ -248,5 +266,6 @@ namespace prospect_scraper_mddb_2022.Extensions
             .AddItem(":cross_mark: State mismatches :cross_mark:", emptyStates.Count, Color.Orange1)
             );
         }
+
     }
 }

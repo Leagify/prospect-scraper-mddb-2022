@@ -13,6 +13,7 @@ namespace prospect_scraper_mddb_2022.Maps
             Map(m => m.Conference).Index(3).Name("Conference");
             Map(m => m.ProjectedPoints).Index(4).Name("ProjectedPoints");
             Map(m => m.ProspectCount).Index(5).Name("ProspectCount");
+            Map(m => m.SchoolURL).Index(6).Name("SchoolURL");
         }
     }
 }

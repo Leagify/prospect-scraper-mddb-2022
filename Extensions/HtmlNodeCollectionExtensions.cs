@@ -123,7 +123,11 @@ namespace prospect_scraper_mddb_2022.Extensions
 
                 playerSchool = playerSchool.ConvertSchool();
 
-                var schoolLogo = pickContainer.LastChild.LastChild.GetAttributeValue("src", "").Replace("&amp;", "&");
+                //var schoolLogo = pickContainer.LastChild.LastChild.GetAttributeValue("src", "").Replace("&amp;", "&");
+                
+                var logoHtmlParts = node.FirstChild.LastChild.LastChild.OuterHtml.Split("\"");
+                string schoolLogo = logoHtmlParts[5];
+
                 if (!schoolImages.ContainsKey(playerSchool))
                 {
                     schoolImages.Add(playerSchool, schoolLogo);

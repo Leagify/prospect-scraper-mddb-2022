@@ -49,14 +49,23 @@ namespace prospect_scraper_mddb_2022.Extensions
                 var pickContainer = node.Descendants().FirstOrDefault(n => n.HasClass("pick-container"));
                 var playerContainer = node.Descendants().FirstOrDefault(n => n.HasClass("player-container"));
                 var percentageContainer = node.Descendants().FirstOrDefault(n => n.HasClass("percentage-container"));
+
+                var pickContainer2 = node.Descendants().FirstOrDefault(n => n.HasClass("pick-number-container"));
+                var playerContainer2 = node.Descendants().FirstOrDefault(n => n.HasClass("player-details-container"));
+                var percentageContainer2 = node.LastChild;
+                
+                pickContainer = pickContainer ?? pickContainer2;
+                playerContainer = playerContainer ?? playerContainer2;
+                percentageContainer = percentageContainer ?? percentageContainer2;
+
                 string projectedDraftSpot = "";
                 string projectedDraftTeam = "";
                 string playerSchool = "";
 
                 var actualPickStuff = pickContainer.FirstChild;
                 string currentRank = actualPickStuff.FirstChild.InnerText;
-                var peakRankHtml = actualPickStuff.LastChild; //Rank 1 is in the middle child, not the last child for some reason. Seems to l=only happen when actualPickStuff.LastChild has 3 children.
-                string peakRank = peakRankHtml.ChildNodes[1].InnerText;  // this is inside a span, but I'm not sure if it's reliably the second element.
+                var peakRankHtml = pickContainer.LastChild; //Rank 1 is in the middle child, not the last child for some reason. Seems to only happen when actualPickStuff.LastChild has 3 children.
+                string peakRank = peakRankHtml.InnerText.Replace("Peak: ", "");  // this is inside a span, but I'm not sure if it's reliably the second element.
                 var namePositionSchool = node.LastChild;
                 string playerName = playerContainer.FirstChild.InnerText.Replace("&#39;", "'");
                 string playerPositionOld = playerContainer.LastChild.FirstChild.InnerText.Replace("|", "").Trim();
@@ -74,28 +83,51 @@ namespace prospect_scraper_mddb_2022.Extensions
                 {
                     playerSchool = playerContainer.LastChild.ChildNodes[1].InnerText.Replace("&amp;", "&");
                 }
-                if (percentageContainer != null)
+
+                string asdfasdfhgh = percentageContainer.InnerText.Substring(0, 10);
+                if (percentageContainer != null && percentageContainer.InnerText.Length >= 10 && percentageContainer.InnerText.Substring(0, 10).Equals("Projection"))
                 {
-                    int percentageContainerChildNodeCount = percentageContainer.ChildNodes.Count;
-                    if (percentageContainerChildNodeCount == 2)
+                    // int percentageContainerChildNodeCount = percentageContainer.ChildNodes.Count;
+                    // if (percentageContainerChildNodeCount == 2)
+                    // {
+                    //     //if projected draft spot starts with "Possible" then it's a general grade with no consensus.
+                    //     projectedDraftSpot = percentageContainer.FirstChild.LastChild.InnerText.Replace("#", "").Replace(":", "");
+                    //     projectedDraftTeam = percentageContainer.LastChild.InnerText;
+                    //     if (projectedDraftTeam != "No Consensus Available")
+                    //     {
+                    //         string projectedDraftTeamHref = percentageContainer.LastChild.FirstChild.Attributes.FirstOrDefault()?.Value;
+                    //         string[] hrefStrings = projectedDraftTeamHref?.Split("/");
+                    //         projectedDraftTeam = hrefStrings[^1].Replace("-", " ").ToUpper();
+                    //     }
+                    // }
+                    int stringLength = percentageContainer.InnerText.Length;
+                    if (stringLength > 10)
                     {
-                        //if projected draft spot starts with "Possible" then it's a general grade with no consensus.
-                        projectedDraftSpot = percentageContainer.FirstChild.LastChild.InnerText.Replace("#", "").Replace(":", "");
-                        projectedDraftTeam = percentageContainer.LastChild.InnerText;
-                        if (projectedDraftTeam != "No Consensus Available")
+                        projectedDraftSpot = percentageContainer.InnerText.Substring(10, stringLength - 10).Replace("#", "").Replace(":", "");
+                        if (projectedDraftSpot.Equals("None"))
                         {
-                            string projectedDraftTeamHref = percentageContainer.LastChild.FirstChild.Attributes.FirstOrDefault()?.Value;
-                            string[] hrefStrings = projectedDraftTeamHref?.Split("/");
-                            projectedDraftTeam = hrefStrings[^1].Replace("-", " ").ToUpper();
+                            projectedDraftSpot = "First Round";
+                        }
+                        if (int.TryParse(projectedDraftSpot, out int projectedDraftSpotInt))
+                        {
+                            var url = percentageContainer.LastChild.FirstChild.Attributes[1].Value;
+                            string[] urlParts = url.Split("/");
+                            string team = urlParts[^1].Replace("-", " ").ToUpper();
+                            projectedDraftTeam = team;
                         }
                     }
+                    
                 }
 
                 //var ranking = new ProspectRanking();
 
                 playerSchool = playerSchool.ConvertSchool();
 
-                var schoolLogo = pickContainer.LastChild.LastChild.GetAttributeValue("src", "").Replace("&amp;", "&");
+                //var schoolLogo = pickContainer.LastChild.LastChild.GetAttributeValue("src", "").Replace("&amp;", "&");
+                
+                var logoHtmlParts = node.FirstChild.LastChild.LastChild.OuterHtml.Split("\"");
+                string schoolLogo = logoHtmlParts[5];
+
                 if (!schoolImages.ContainsKey(playerSchool))
                 {
                     schoolImages.Add(playerSchool, schoolLogo);

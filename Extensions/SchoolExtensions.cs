@@ -10,6 +10,7 @@
                 "Pittsburgh" => "Pitt",
                 "Nicholls" => "Nicholls State",
                 "Missouri Western" => "Nicholls State",
+                "Lenoir-Rhyne" => "Lenoir–Rhyne",
                 _ => schoolName,
             };
             return schoolName;

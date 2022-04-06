@@ -12,7 +12,7 @@
                 "Missouri Western" => "Nicholls State",
                 "Lenoir-Rhyne" => "Lenoir–Rhyne",
                 "CSU Pueblo" => "Colorado State–Pueblo",
-                "Umass" => "Massachusetts",
+                "UMass" => "Massachusetts",
                 _ => schoolName,
             };
             return schoolName;

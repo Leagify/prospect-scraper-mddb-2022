@@ -13,6 +13,7 @@
                 "Lenoir-Rhyne" => "Lenoir–Rhyne",
                 "CSU Pueblo" => "Colorado State–Pueblo",
                 "UMass" => "Massachusetts",
+                "Central Connecticut" => "Central Connecticut State",
                 _ => schoolName,
             };
             return schoolName;

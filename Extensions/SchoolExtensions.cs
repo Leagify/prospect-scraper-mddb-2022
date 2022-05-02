@@ -10,6 +10,11 @@
                 "Pittsburgh" => "Pitt",
                 "Nicholls" => "Nicholls State",
                 "Missouri Western" => "Nicholls State",
+                "Lenoir-Rhyne" => "Lenoir–Rhyne",
+                "CSU Pueblo" => "Colorado State–Pueblo",
+                "UMass" => "Massachusetts",
+                "Central Connecticut" => "Central Connecticut State",
+                "Penn" => "Pennsylvania",
                 _ => schoolName,
             };
             return schoolName;

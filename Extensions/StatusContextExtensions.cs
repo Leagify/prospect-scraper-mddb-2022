@@ -143,14 +143,19 @@ namespace prospect_scraper_mddb_2022.Extensions
             schoolTable.AddColumn("Prospects");
             schoolTable.Border(TableBorder.Square);
 
+            var schoolChart = new BarChart();
+            schoolChart.Label("[red]Top Schools[/]");
+
             // Chatty output to console.  It's messy but informative.
             //Console.WriteLine("\nTop Schools.....");
             foreach (var school in topSchools)
             {
                 //Console.WriteLine($"{school.School} - {school.Conference} - {school.ProjectedPoints} - {school.NumberOfProspects}");
                 schoolTable.AddRow(school.School, school.Conference, school.ProjectedPoints.ToString(), school.NumberOfProspects.ToString());
+                schoolChart.AddItem(school.School, school.ProjectedPoints, Color.Red);
             }
             AnsiConsole.Write(schoolTable);
+            AnsiConsole.Write(schoolChart);
 
             // Update the status and spinner
             ctx.Status("Writing Top Schools CSV");
@@ -209,6 +214,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             stateTable.AddColumn("Schools");
             stateTable.AddColumn("Prospects");
             stateTable.Border(TableBorder.Rounded);
+            stateTable.BorderColor(Color.Yellow);
 
             //Console.WriteLine("\nTop States.....");
             foreach (var state in topStates)

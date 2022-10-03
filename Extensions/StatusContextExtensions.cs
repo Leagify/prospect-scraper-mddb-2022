@@ -43,8 +43,29 @@ namespace prospect_scraper_mddb_2022.Extensions
             //Console.WriteLine("Team Mock count: " + teamMockDrafts);
             //Console.WriteLine("Prospect count: " + bigBoard.Count);
 
-            // Get today's date in the format of yyyy-mm-dd
-            string today = DateTime.Now.ToString("yyyy-MM-dd");
+            // Get today's date in the format of yyyy-mm-dd, in the Central Standard Time Zone
+            DateTime timeUtc = DateTime.UtcNow;
+            string today = "";
+            try
+            {
+                TimeZoneInfo cstZone = TimeZoneInfo.FindSystemTimeZoneById("Central Standard Time");
+                DateTime cstTime = TimeZoneInfo.ConvertTimeFromUtc(timeUtc, cstZone);
+                today = cstTime.ToString("yyyy-MM-dd");
+                Console.WriteLine("The date and time are {0} {1}.",
+                                    cstTime,
+                                    cstZone.IsDaylightSavingTime(cstTime) ?
+                                            cstZone.DaylightName : cstZone.StandardName);
+            }
+            catch (TimeZoneNotFoundException)
+            {
+                Console.WriteLine("The registry does not define the Central Standard Time zone.");
+                today = DateTime.UtcNow.ToString("yyyy-MM-dd");;
+            }
+            catch (InvalidTimeZoneException)
+            {
+                Console.WriteLine("Registry data on the Central Standard Time zone has been corrupted.");
+                today = DateTime.UtcNow.ToString("yyyy-MM-dd");;
+            }
 
             // Create a ConsensusBigBoardInfo object from the parsed values.
             var bigBoardInfo = new ConsensusBigBoardInfo(today, bigBoards, mockDrafts, teamMockDrafts, bigBoard.Count, lastUpdated);

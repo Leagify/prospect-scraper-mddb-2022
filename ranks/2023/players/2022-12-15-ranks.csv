@@ -1,0 +1,699 @@
+Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,State,Conference,ProjectedPoints
+1,1,Will Anderson Jr.,Alabama,EDGE,2022-12-15,3,CHICAGO BEARS,Alabama,SEC,35
+2,1,Bryce Young,Alabama,QB,2022-12-15,1,HOUSTON TEXANS,Alabama,SEC,35
+3,2,Jalen Carter,Georgia,DL,2022-12-15,2,SEATTLE SEAHAWKS,Georgia,SEC,35
+4,1,C.J. Stroud,Ohio State,QB,2022-12-15,4,DETROIT LIONS,Ohio,Big Ten,35
+5,4,Myles Murphy,Clemson,EDGE,2022-12-15,5,PHILADELPHIA EAGLES,South Carolina,ACC,35
+6,4,Kelee Ringo,Georgia,CB,2022-12-15,First Round,,Georgia,SEC,35
+7,7,Tyree Wilson,Texas Tech,EDGE,2022-12-15,12,HOUSTON TEXANS,Texas,Big 12,35
+8,7,Quentin Johnston,TCU,WR,2022-12-15,11,JACKSONVILLE JAGUARS,Texas,Big 12,35
+9,6,Bryan Bresee,Clemson,DL,2022-12-15,10,ATLANTA FALCONS,South Carolina,ACC,35
+10,8,Joey Porter Jr.,Penn State,CB,2022-12-15,13,PITTSBURGH STEELERS,Pennsylvania,Big Ten,35
+11,6,Will Levis,Kentucky,QB,2022-12-15,7,INDIANAPOLIS COLTS,Kentucky,SEC,30
+12,6,Jordan Addison,USC,WR,2022-12-15,14,GREEN BAY PACKERS,California,Pac 12,30
+13,7,Peter Skoronski,Northwestern,OT,2022-12-15,6,ARIZONA CARDINALS,Illinois,Big Ten,30
+14,14,Christian Gonzalez,Oregon,CB,2022-12-15,15,DETROIT LIONS,Oregon,Pac 12,30
+15,1,Bijan Robinson,Texas,RB,2022-12-15,19,TAMPA BAY BUCCANEERS,Texas,Big 12,30
+16,7,Paris Johnson Jr.,Ohio State,OT,2022-12-15,8,LAS VEGAS RAIDERS,Ohio,Big Ten,30
+17,9,Michael Mayer,Notre Dame,TE,2022-12-15,9,CAROLINA PANTHERS,Indiana,FBS - Independent,30
+18,12,Cam Smith,South Carolina,CB,2022-12-15,21,NEW ENGLAND PATRIOTS,South Carolina,SEC,30
+19,5,Jaxon Smith-Njigba,Ohio State,WR,2022-12-15,23,NEW YORK GIANTS,Ohio,Big Ten,30
+20,11,Isaiah Foskey,Notre Dame,EDGE,2022-12-15,17,SEATTLE SEAHAWKS,Indiana,FBS - Independent,30
+21,19,Broderick Jones,Georgia,OT,2022-12-15,18,NEW YORK JETS,Georgia,SEC,30
+22,15,Trenton Simpson,Clemson,LB,2022-12-15,First Round,,South Carolina,ACC,30
+23,23,Jared Verse,Florida State,EDGE,2022-12-15,First Round,,Florida,ACC,30
+24,23,Brian Branch,Alabama,S,2022-12-15,26,CINCINNATI BENGALS,Alabama,SEC,30
+25,23,Clark Phillips III,Utah,CB,2022-12-15,25,BALTIMORE RAVENS,Utah,Pac 12,30
+26,14,Anthony Richardson,Florida,QB,2022-12-15,22,WASHINGTON COMMANDERS,Florida,SEC,25
+27,3,Jahmyr Gibbs,Alabama,RB,2022-12-15,30,BUFFALO BILLS,Alabama,SEC,25
+28,8,Antonio Johnson,Texas A&M,S,2022-12-15,31,PHILADELPHIA EAGLES,Texas,SEC,25
+29,12,Noah Sewell,Oregon,LB,2022-12-15,16,LOS ANGELES CHARGERS,Oregon,Pac 12,25
+30,13,Nolan Smith,Georgia,EDGE,2022-12-15,24,DENVER BRONCOS,Georgia,SEC,25
+31,30,Anton Harrison,Oklahoma,OT,2022-12-15,28,KANSAS CITY CHIEFS,Oklahoma,Big 12,25
+32,26,O'Cyrus Torrence,Florida,IOL,2022-12-15,First Round,,Florida,SEC,25
+33,33,Devon Witherspoon,Illinois,CB,2022-12-15,34,SEATTLE SEAHAWKS,Illinois,Big Ten,25
+34,24,Felix Anudike-Uzomah,Kansas State,EDGE,2022-12-15,37,LOS ANGELES RAMS,Kansas,Big 12,25
+35,23,Gervon Dexter,Florida,DL,2022-12-15,33,PITTSBURGH STEELERS,Florida,SEC,25
+36,19,B.J. Ojulari,LSU,EDGE,2022-12-15,32,HOUSTON TEXANS,Louisiana,SEC,20
+37,16,Josh Downs,North Carolina,WR,2022-12-15,29,MINNESOTA VIKINGS,North Carolina,ACC,20
+38,27,Jalin Hyatt,Tennessee,WR,2022-12-15,20,TENNESSEE TITANS,Tennessee,SEC,20
+39,33,Rashee Rice,SMU,WR,2022-12-15,41,JACKSONVILLE JAGUARS,Texas,FBS - AAC,20
+40,23,Siaki Ika,Baylor,DL,2022-12-15,27,DALLAS COWBOYS,Texas,Big 12,20
+41,28,Darnell Washington,Georgia,TE,2022-12-15,35,NEW ORLEANS SAINTS,Georgia,SEC,20
+42,36,Emmanuel Forbes,Mississippi State,CB,2022-12-15,46,DETROIT LIONS,Mississippi,SEC,20
+43,22,Hendon Hooker,Tennessee,QB,2022-12-15,45,LAS VEGAS RAIDERS,Tennessee,SEC,20
+44,32,Drew Sanders,Arkansas,LB,2022-12-15,39,CAROLINA PANTHERS,Arkansas,SEC,20
+45,36,Dawand Jones,Ohio State,OT,2022-12-15,43,PITTSBURGH STEELERS,Ohio,Big Ten,20
+46,21,Andre Carter II,Army,EDGE,2022-12-15,38,INDIANAPOLIS COLTS,Kansas,FBS - Independent,20
+47,24,Jaelyn Duncan,Maryland,OT,2022-12-15,44,GREEN BAY PACKERS,Maryland,Big Ten,20
+48,40,John Michael Schmitz,Minnesota,IOL,2022-12-15,42,CLEVELAND BROWNS,Minnesota,Big Ten,20
+49,49,Zay Flowers,Boston College,WR,2022-12-15,51,NEW ENGLAND PATRIOTS,Massachusetts,ACC,20
+50,25,Derick Hall,Auburn,EDGE,2022-12-15,57,CINCINNATI BENGALS,Alabama,SEC,20
+51,20,Henry To'oto'o,Alabama,LB,2022-12-15,48,NEW YORK JETS,Alabama,SEC,20
+52,45,Mazi Smith,Michigan,DL,2022-12-15,50,TAMPA BAY BUCCANEERS,Michigan,Big Ten,20
+53,53,Dalton Kincaid,Utah,TE,2022-12-15,64,HOUSTON TEXANS,Utah,Pac 12,20
+54,16,Jordan Battle,Alabama,S,2022-12-15,59,DALLAS COWBOYS,Alabama,SEC,20
+55,18,Zach Evans,Ole Miss,RB,2022-12-15,First Round,,Mississippi,SEC,20
+56,36,Zach Harrison,Ohio State,EDGE,2022-12-15,61,KANSAS CITY CHIEFS,Ohio,Big Ten,20
+57,22,Brandon Joseph,Notre Dame,S,2022-12-15,49,LOS ANGELES CHARGERS,Indiana,FBS - Independent,20
+58,39,Andrew Vorhees,USC,IOL,2022-12-15,52,TENNESSEE TITANS,California,Pac 12,20
+59,54,Tuli Tuipulotu,USC,DL,2022-12-15,55,MIAMI DOLPHINS,California,Pac 12,20
+60,26,Cedric Tillman,Tennessee,WR,2022-12-15,First Round,,Tennessee,SEC,15
+61,46,Cody Mauch,North Dakota State,OT,2022-12-15,First Round,,North Dakota,FCS,15
+62,9,Eli Ricks,Alabama,CB,2022-12-15,53,NEW YORK GIANTS,Alabama,SEC,15
+63,18,Tank Bigsby,Auburn,RB,2022-12-15,First Round,,Alabama,SEC,15
+64,31,Devon Achane,Texas A&M,RB,2022-12-15,36,ARIZONA CARDINALS,Texas,SEC,15
+65,61,Luke Musgrave,Oregon State,TE,2022-12-15,,,Oregon,Pac 12,15
+66,30,J.L. Skinner,Boise State,S,2022-12-15,60,DETROIT LIONS,Idaho,FBS - Mountain West,15
+67,33,Marvin Mims,Oklahoma,WR,2022-12-15,,,Oklahoma,Big 12,15
+68,24,Garrett Williams,Syracuse,CB,2022-12-15,,,New York,ACC,15
+69,43,Jaquelin Roy,LSU,DL,2022-12-15,56,CHICAGO BEARS,Louisiana,SEC,15
+70,44,Darnell Wright,Tennessee,OT,2022-12-15,62,BUFFALO BILLS,Tennessee,SEC,15
+71,45,Blake Freeland,BYU,OT,2022-12-15,,,Utah,FBS - Independent,10
+72,34,Blake Corum,Michigan,RB,2022-12-15,,,Michigan,Big Ten,10
+73,36,Matthew Bergeron,Syracuse,OT,2022-12-15,,,New York,ACC,10
+74,69,D.J. Turner,Michigan,CB,2022-12-15,54,WASHINGTON COMMANDERS,Michigan,Big Ten,10
+75,42,Zach Charbonnet,UCLA,RB,2022-12-15,,,California,Pac 12,10
+76,66,Kyu Blu Kelly,Stanford,CB,2022-12-15,,,California,Pac 12,10
+77,52,Sedrick Van Pran,Georgia,IOL,2022-12-15,,,Georgia,SEC,10
+78,54,Chris Smith II,Georgia,S,2022-12-15,58,CAROLINA PANTHERS,Georgia,SEC,10
+79,42,Jaylon Jones,Texas A&M,CB,2022-12-15,,,Texas,SEC,10
+80,66,Tre'Vius Hodges-Tomlinson,TCU,CB,2022-12-15,63,PHILADELPHIA EAGLES,Texas,Big 12,10
+81,44,Lukas Van Ness,Iowa,DL,2022-12-15,,,Iowa,Big Ten,10
+82,49,Jarrett Patterson,Notre Dame,IOL,2022-12-15,40,ATLANTA FALCONS,Indiana,FBS - Independent,10
+83,24,Sean Tucker,Syracuse,RB,2022-12-15,,,New York,ACC,10
+84,30,Will McDonald IV,Iowa State,DL,2022-12-15,,,Iowa,Big 12,10
+85,38,Zion Tupuola-Fetui,Washington,EDGE,2022-12-15,,,Washington,Pac 12,10
+86,28,Tanner McKee,Stanford,QB,2022-12-15,,,California,Pac 12,10
+87,87,Nick Broeker,Ole Miss,OT,2022-12-15,,,Mississippi,SEC,10
+88,62,Sam LaPorta,Iowa,TE,2022-12-15,,,Iowa,Big Ten,10
+89,46,Jack Campbell,Iowa,LB,2022-12-15,,,Iowa,Big Ten,10
+90,67,Owen Pappoe,Auburn,LB,2022-12-15,,,Alabama,SEC,10
+91,40,Zion Nelson,Miami (FL),OT,2022-12-15,,,Florida,ACC,10
+92,62,Mekhi Garner,LSU,CB,2022-12-15,,,Louisiana,SEC,10
+94,71,Rashad Torrence II,Florida,S,2022-12-15,,,Florida,SEC,10
+95,19,Malachi Moore,Alabama,S,2022-12-15,,,Alabama,SEC,10
+96,94,Jammie Robinson,Florida State,S,2022-12-15,,,Florida,ACC,10
+97,95,Julius Brents,Kansas State,CB,2022-12-15,,,Kansas,Big 12,10
+98,37,Tucker Kraft,South Dakota State,TE,2022-12-15,,,South Dakota,FCS,10
+99,70,Emil Ekiyor Jr.,Alabama,IOL,2022-12-15,,,Alabama,SEC,10
+100,42,Jaren Hall,BYU,QB,2022-12-15,,,Utah,FBS - Independent,10
+101,72,Calijah Kancey,Pitt,DL,2022-12-15,,,Pennsylvania,ACC,8
+102,59,Cooper Beebe,Kansas State,OT,2022-12-15,,,Kansas,Big 12,8
+103,85,Chase Brown,Illinois,RB,2022-12-15,,,Illinois,Big Ten,8
+104,73,Kenny McIntosh,Georgia,RB,2022-12-15,,,Georgia,SEC,8
+105,100,Tykee Smith,Georgia,S,2022-12-15,,,Georgia,SEC,8
+106,68,Tyler Davis,Clemson,DL,2022-12-15,,,South Carolina,ACC,8
+107,79,Luke Wypler,Ohio State,IOL,2022-12-15,,,Ohio,Big Ten,8
+108,87,DeMarvion Overshown,Texas,LB,2022-12-15,,,Texas,Big 12,8
+109,69,Byron Young (TN),Tennessee,DL,2022-12-15,,,Tennessee,SEC,8
+110,65,Xavier Hutchinson,Iowa State,WR,2022-12-15,,,Iowa,Big 12,8
+111,85,Akeem Dent,Florida State,S,2022-12-15,,,Florida,ACC,8
+112,58,K.J. Henry,Clemson,EDGE,2022-12-15,,,South Carolina,ACC,8
+113,73,Carter Warren,Pitt,OT,2022-12-15,,,Pennsylvania,ACC,8
+114,72,Daiyan Henley,Washington State,LB,2022-12-15,,,Washington,Pac 12,8
+115,58,Adetomiwa Adebawore,Northwestern,EDGE,2022-12-15,,,Illinois,Big Ten,8
+116,82,Keion White,Georgia Tech,DL,2022-12-15,,,Georgia,ACC,8
+117,76,Dontayvion Wicks,Virginia,WR,2022-12-15,,,Virginia,ACC,8
+118,90,Nick Hampton,Appalachian State,EDGE,2022-12-15,,,North Carolina,FBS - Sun Belt,8
+119,113,Ryan Hayes,Michigan,OT,2022-12-15,,,Michigan,Big Ten,8
+120,90,Trey Dean III,Florida,S,2022-12-15,,,Florida,SEC,8
+121,37,Zacch Pickens,South Carolina,DL,2022-12-15,,,South Carolina,SEC,7
+122,80,Steve Avila,TCU,IOL,2022-12-15,,,Texas,Big 12,7
+123,32,A.T. Perry,Wake Forest,WR,2022-12-15,,,North Carolina,ACC,7
+124,57,Colby Wooden,Auburn,DL,2022-12-15,,,Alabama,SEC,7
+125,55,Mike Morris,Michigan,DL,2022-12-15,,,Michigan,Big Ten,7
+126,114,Henry Bainivalu,Washington,IOL,2022-12-15,,,Washington,Pac 12,7
+127,127,Sydney Brown,Illinois,S,2022-12-15,,,Illinois,Big Ten,7
+128,57,Riley Moss,Iowa,CB,2022-12-15,,,Iowa,Big Ten,7
+129,129,Cameron Mitchell,Northwestern,CB,2022-12-15,,,Illinois,Big Ten,7
+130,91,Bo Nix,Oregon,QB,2022-12-15,,,Oregon,Pac 12,7
+131,113,Jakorian Bennett,Maryland,CB,2022-12-15,,,Maryland,Big Ten,7
+132,50,Rakim Jarrett,Maryland,WR,2022-12-15,,,Maryland,Big Ten,7
+133,119,Ji'Ayir Brown,Penn State,S,2022-12-15,,,Pennsylvania,Big Ten,7
+134,111,Anthony Johnson,Virginia,CB,2022-12-15,,,Virginia,ACC,7
+135,78,Byron Young (AL),Alabama,DL,2022-12-15,,,Alabama,SEC,7
+136,39,Parker Washington,Penn State,WR,2022-12-15,,,Pennsylvania,Big Ten,7
+137,79,Brenton Cox Jr.,Florida,EDGE,2022-12-15,,,Florida,SEC,7
+138,125,Ventrell Miller,Florida,LB,2022-12-15,,,Florida,SEC,7
+139,20,Jalen Catalon,Arkansas,S,2022-12-15,,,Arkansas,SEC,7
+140,89,Cade Stover,Ohio State,TE,2022-12-15,,,Ohio,Big Ten,7
+141,141,Braeden Daniels,Utah,IOL,2022-12-15,,,Utah,Pac 12,7
+142,118,DeWayne McBride,UAB,RB,2022-12-15,,,Alabama,FBS - CUSA,7
+143,44,Tyrique Stevenson,Miami (FL),CB,2022-12-15,,,Florida,ACC,7
+144,100,Israel Abanikanda,Pitt,RB,2022-12-15,,,Pennsylvania,ACC,7
+145,81,Dontay Demus Jr.,Maryland,WR,2022-12-15,,,Maryland,Big Ten,7
+146,96,Jay Ward,LSU,S,2022-12-15,,,Louisiana,SEC,7
+147,123,Luke Schoonmaker,Michigan,TE,2022-12-15,,,Michigan,Big Ten,7
+148,124,Olusegun Oluwatimi,Michigan,IOL,2022-12-15,,,Michigan,Big Ten,7
+149,81,Jaxson Kirkland,Washington,OT,2022-12-15,,,Washington,Pac 12,7
+150,83,Lathan Ransom,Ohio State,S,2022-12-15,,,Ohio,Big Ten,7
+151,34,Habakkuk Baldonado,Pitt,EDGE,2022-12-15,,,Pennsylvania,ACC,6
+152,74,Bralen Trice,Washington,EDGE,2022-12-15,,,Washington,Pac 12,6
+153,153,Daniel Scott,California,S,2022-12-15,,,California,Pac 12,6
+154,35,Deuce Vaughn,Kansas State,RB,2022-12-15,,,Kansas,Big 12,6
+155,87,Kei'Trel Clark,Louisville,CB,2022-12-15,,,Kentucky,ACC,6
+156,156,Wanya Morris,Oklahoma,OT,2022-12-15,,,Oklahoma,Big 12,6
+157,88,Kendre Miller,TCU,RB,2022-12-15,,,Texas,Big 12,6
+158,117,Nehemiah Pritchett,Auburn,CB,2022-12-15,,,Alabama,SEC,6
+159,157,YaYa Diaby,Louisville,DL,2022-12-15,,,Kentucky,ACC,6
+160,160,Richard Gouraige,Florida,OT,2022-12-15,,,Florida,SEC,6
+161,161,Max Melton,Rutgers,CB,2022-12-15,,,New Jersey,Big Ten,6
+162,162,Jartavius Martin,Illinois,S,2022-12-15,,,Illinois,Big Ten,6
+163,66,Brandon Dorlus,Oregon,DL,2022-12-15,,,Oregon,Pac 12,6
+164,164,Quindell Johnson,Memphis,S,2022-12-15,,,Tennessee,FBS - AAC,6
+165,120,Isaiah McGuire,Missouri,DL,2022-12-15,,,Missouri,SEC,6
+166,76,Charlie Jones,Purdue,WR,2022-12-15,,,Indiana,Big Ten,6
+167,94,Karl Brooks,Bowling Green,DL,2022-12-15,,,Ohio,FBS - MAC,6
+168,121,Dylan Horton,TCU,DL,2022-12-15,,,Texas,Big 12,6
+169,169,Amari Burney,Florida,LB,2022-12-15,,,Florida,SEC,6
+170,121,Ainias Smith,Texas A&M,WR,2022-12-15,,,Texas,SEC,6
+171,142,D.J. Johnson,Oregon,LB,2022-12-15,,,Oregon,Pac 12,6
+172,90,Andrei Iosivas,Princeton,WR,2022-12-15,,,New Jersey,FCS,6
+173,86,Roschon Johnson,Texas,RB,2022-12-15,,,Texas,Big 12,6
+174,63,Keondre Coburn,Texas,DL,2022-12-15,,,Texas,Big 12,6
+175,175,Jayden Daniels,LSU,QB,2022-12-15,,,Louisiana,SEC,6
+176,56,Noah Daniels,TCU,CB,2022-12-15,,,Texas,Big 12,6
+177,127,T.J. Bass,Oregon,IOL,2022-12-15,,,Oregon,Pac 12,6
+178,137,Demani Richardson,Texas A&M,S,2022-12-15,,,Texas,SEC,6
+179,112,Tyler Lacy,Oklahoma State,DL,2022-12-15,,,Oklahoma,Big 12,6
+180,92,Josh Proctor,Ohio State,S,2022-12-15,,,Ohio,Big Ten,6
+181,181,D.J. James,Auburn,CB,2022-12-15,,,Alabama,SEC,5
+182,114,Hunter Luepke,North Dakota State,RB,2022-12-15,,,North Dakota,FCS,5
+183,115,Darrell Luter Jr.,South Alabama,CB,2022-12-15,,,Alabama,FBS - Sun Belt,5
+184,90,Josh Whyle,Cincinnati,TE,2022-12-15,,,Ohio,FBS - AAC,5
+185,94,Tyler Steen,Alabama,OT,2022-12-15,,,Alabama,SEC,5
+186,52,Ronnie Hickman,Ohio State,S,2022-12-15,,,Ohio,Big Ten,5
+187,187,Myles Brooks,Louisiana Tech,CB,2022-12-15,,,Louisiana,FBS - CUSA,5
+188,84,Kobie Turner,Wake Forest,DL,2022-12-15,,,North Carolina,ACC,5
+189,137,Andrew Raym,Oklahoma,IOL,2022-12-15,,,Oklahoma,Big 12,5
+190,70,Rome Odunze,Washington,WR,2022-12-15,,,Washington,Pac 12,5
+191,13,Cameron Ward,Washington State,QB,2022-12-15,,,Washington,Pac 12,5
+192,82,Trey Palmer,Nebraska,WR,2022-12-15,,,Nebraska,Big Ten,5
+193,193,Josh Newton,TCU,CB,2022-12-15,,,Texas,Big 12,5
+194,100,Clark Barrington,BYU,OT,2022-12-15,,,Utah,FBS - Independent,5
+195,82,Laiatu Latu,UCLA,LB,2022-12-15,,,California,Pac 12,5
+196,97,Jonathan Mingo,Ole Miss,WR,2022-12-15,,,Mississippi,SEC,5
+197,197,Durell Nchami,Maryland,LB,2022-12-15,,,Maryland,Big Ten,5
+198,104,Eric Gray,Oklahoma,RB,2022-12-15,,,Oklahoma,Big 12,5
+199,120,Davis Allen,Clemson,TE,2022-12-15,,,South Carolina,ACC,5
+200,75,Ali Gaye,LSU,EDGE,2022-12-15,,,Louisiana,SEC,5
+201,130,Tyson Bagent,Shepherd,QB,2022-12-15,,,West Virginia,D2,5
+202,133,Tommy Eichenberg,Ohio State,LB,2022-12-15,,,Ohio,Big Ten,5
+203,96,Connor Galvin,Baylor,OT,2022-12-15,,,Texas,Big 12,5
+204,204,Kingsley Eguakun,Florida,IOL,2022-12-15,,,Florida,SEC,5
+205,66,Jayden Reed,Michigan State,WR,2022-12-15,,,Michigan,Big Ten,5
+206,206,Jeremiah Martin,Washington,EDGE,2022-12-15,,,Washington,Pac 12,5
+207,138,Chamarri Conner,Virginia Tech,CB,2022-12-15,,,Virginia,ACC,5
+208,140,Jerome Carvin,Tennessee,OT,2022-12-15,,,Tennessee,SEC,5
+209,141,Shaka Heyward,Duke,LB,2022-12-15,,,North Carolina,ACC,5
+210,89,D.J. Dale,Alabama,DL,2022-12-15,,,Alabama,SEC,5
+211,211,Jermayne Lole,Louisville,DL,2022-12-15,,,Kentucky,ACC,5
+212,62,Johnny Wilson,Florida State,WR,2022-12-15,,,Florida,ACC,5
+213,147,Jalen McMillan,Washington,WR,2022-12-15,,,Washington,Pac 12,5
+214,171,Ochaun Mathis,Nebraska,EDGE,2022-12-15,,,Nebraska,Big Ten,5
+215,83,Cameron Latu,Alabama,TE,2022-12-15,,,Alabama,SEC,5
+216,101,Miyan Williams,Ohio State,RB,2022-12-15,,,Ohio,Big Ten,5
+217,46,Chris Rodriguez Jr.,Kentucky,RB,2022-12-15,,,Kentucky,SEC,5
+218,156,Sheridan Jones,Clemson,CB,2022-12-15,,,South Carolina,ACC,5
+219,219,Frank Ladson Jr.,Miami (FL),WR,2022-12-15,,,Florida,ACC,5
+220,220,Demario Douglas,Liberty,WR,2022-12-15,,,Virginia,FCS,5
+221,221,Gabriel Murphy,UCLA,EDGE,2022-12-15,,,California,Pac 12,5
+222,156,Tory Taylor,Iowa,P,2022-12-15,,,Iowa,Big Ten,5
+223,157,Antwane Wells Jr.,James Madison,WR,2022-12-15,,,Virginia,FCS,5
+224,89,Ricky Stromberg,Arkansas,IOL,2022-12-15,,,Arkansas,SEC,5
+225,225,Isheem Young,Ole Miss,S,2022-12-15,,,Mississippi,SEC,5
+226,160,Harrison Mevis,Missouri,K,2022-12-15,,,Missouri,SEC,5
+227,227,Cory Trice,Purdue,CB,2022-12-15,,,Indiana,Big Ten,5
+228,160,McClendon Curtis,Chattanooga,IOL,2022-12-15,,,Tennessee,FCS,5
+229,229,Michael Pratt,Tulane,QB,2022-12-15,,,Louisiana,FBS - AAC,5
+230,85,Ivan Pace Jr.,Cincinnati,LB,2022-12-15,,,Ohio,FBS - AAC,5
+231,74,Cameron Brown,Ohio State,CB,2022-12-15,,,Ohio,Big Ten,5
+232,138,Jadon Haselwood,Arkansas,WR,2022-12-15,,,Arkansas,SEC,5
+233,226,Davonte Brown,UCF,CB,2022-12-15,,,Florida,FBS - AAC,5
+234,121,Jake Bobo,UCLA,WR,2022-12-15,,,California,Pac 12,5
+235,235,Spencer Anderson,Maryland,OT,2022-12-15,,,Maryland,Big Ten,5
+236,172,Montrae Braswell,Missouri State,CB,2022-12-15,,,Missouri,FCS,5
+237,108,Christian Mahogany,Boston College,IOL,2022-12-15,,,Massachusetts,ACC,5
+238,173,Isaiah Land,Florida A&M,EDGE,2022-12-15,,,Florida,FCS,5
+239,164,Darius Rush,South Carolina,CB,2022-12-15,,,South Carolina,SEC,5
+240,240,Chris Murray,Oklahoma,IOL,2022-12-15,,,Oklahoma,Big 12,5
+241,119,Ronnie Bell,Michigan,WR,2022-12-15,,,Michigan,Big Ten,5
+242,177,Elijah Higgins,Stanford,WR,2022-12-15,,,California,Pac 12,5
+243,179,Gottlieb Ayedze,Frostburg State,OT,2022-12-15,,,Maryland,D3,5
+244,180,Benjamin Yurosek,Stanford,TE,2022-12-15,,,California,Pac 12,5
+245,183,Zach Frazier,West Virginia,IOL,2022-12-15,,,West Virginia,Big 12,5
+246,184,Roman Wilson,Michigan,WR,2022-12-15,,,Michigan,Big Ten,5
+247,185,Jalen Redmond,Oklahoma,DL,2022-12-15,,,Oklahoma,Big 12,5
+248,186,Jake Andrews,Troy,IOL,2022-12-15,,,Alabama,FBS - Sun Belt,5
+249,102,Jake Moody,Michigan,K,2022-12-15,,,Michigan,Big Ten,5
+250,75,Jake Haener,Fresno State,QB,2022-12-15,,,California,FBS - Mountain West,5
+251,190,Eli Cox,Kentucky,IOL,2022-12-15,,,Kentucky,SEC,2
+252,191,Charlie Thomas,Georgia Tech,LB,2022-12-15,,,Georgia,ACC,2
+253,192,Puka Nacua,BYU,WR,2022-12-15,,,Utah,FBS - Independent,2
+254,158,Brett Neilon,USC,IOL,2022-12-15,,,California,Pac 12,2
+255,195,Jeremy Banks,Tennessee,LB,2022-12-15,,,Tennessee,SEC,2
+256,118,Alex Forsyth,Oregon,IOL,2022-12-15,,,Oregon,Pac 12,2
+257,197,Xavier Gipson,Stephen F. Austin,WR,2022-12-15,,,Texas,FCS,2
+258,198,Zack Kuntz,Old Dominion,TE,2022-12-15,,,Virginia,FBS - CUSA,2
+259,199,Evan Hull,Northwestern,RB,2022-12-15,,,Illinois,Big Ten,2
+260,139,Matthew Jones,Ohio State,IOL,2022-12-15,,,Ohio,Big Ten,2
+261,156,Zak Zinter,Michigan,OT,2022-12-15,,,Michigan,Big Ten,2
+262,103,Nathaniel Dell,Houston,WR,2022-12-15,,,Texas,FBS - AAC,2
+263,29,Layden Robinson,Texas A&M,IOL,2022-12-15,,,Texas,SEC,2
+264,205,Troy Fautanu,Washington,OT,2022-12-15,,,Washington,Pac 12,2
+265,206,Rejzohn Wright,Oregon State,CB,2022-12-15,,,Oregon,Pac 12,2
+266,207,Trevor Reid,Louisville,OT,2022-12-15,,,Kentucky,ACC,2
+267,208,Dorian Williams,Tulane,LB,2022-12-15,,,Louisiana,FBS - AAC,2
+268,211,Michael Jefferson,Louisiana-Lafayette,WR,2022-12-15,,,Louisiana,FBS - Sun Belt,2
+269,212,Mark Evans II,Arkansas-Pine Bluff,OT,2022-12-15,,,Arkansas,FCS,2
+270,214,Chad Ryland,Maryland,K,2022-12-15,,,Maryland,Big Ten,2
+271,186,Mikel Jones,Syracuse,LB,2022-12-15,,,New York,ACC,2
+272,216,Keenan Isaac,Alabama State,CB,2022-12-15,,,Alabama,FCS,2
+273,217,Thomas Greaney,Albany,TE,2022-12-15,,,New York,FCS,2
+274,164,Camerun Peoples,Appalachian State,RB,2022-12-15,,,North Carolina,FBS - Sun Belt,2
+275,49,Nick Herbig,Wisconsin,LB,2022-12-15,,,Wisconsin,Big Ten,2
+276,221,Jacoby Windmon,Michigan State,LB,2022-12-15,,,Michigan,Big Ten,2
+277,103,Keeanu Benton,Wisconsin,DL,2022-12-15,,,Wisconsin,Big Ten,2
+278,152,Fabien Lovett,Florida State,DL,2022-12-15,,,Florida,ACC,2
+279,102,Joe Tippmann,Wisconsin,OT,2022-12-15,,,Wisconsin,Big Ten,2
+280,226,Tre Tucker,Cincinnati,WR,2022-12-15,,,Ohio,FBS - AAC,2
+281,227,Jacob Gall,Baylor,IOL,2022-12-15,,,Texas,Big 12,2
+282,228,Kaevon Merriweather,Iowa,S,2022-12-15,,,Iowa,Big Ten,2
+283,229,Nick Saldiveri,Old Dominion,OT,2022-12-15,,,Virginia,FBS - CUSA,2
+284,93,Moro Ojomo,Texas,DL,2022-12-15,,,Texas,Big 12,2
+285,233,Zach Heins,South Dakota State,TE,2022-12-15,,,South Dakota,FCS,2
+286,234,Tyjae Spears,Tulane,RB,2022-12-15,,,Louisiana,FBS - AAC,2
+287,235,Derius Davis,TCU,WR,2022-12-15,,,Texas,Big 12,2
+288,237,Eku Leota,Auburn,EDGE,2022-12-15,,,Alabama,SEC,2
+289,143,Trevor Downing,Iowa State,IOL,2022-12-15,,,Iowa,Big 12,2
+290,241,Aubrey Miller Jr.,Jackson State,LB,2022-12-15,,,Mississippi,FCS,2
+291,243,Adam Korsak,Rutgers,P,2022-12-15,,,New Jersey,Big Ten,2
+292,109,DeMarcco Hellams,Alabama,S,2022-12-15,,,Alabama,SEC,2
+293,244,Juice Scruggs,Penn State,IOL,2022-12-15,,,Pennsylvania,Big Ten,2
+294,70,Jordan Morgan,Arizona,OT,2022-12-15,,,Arizona,Pac 12,2
+295,247,Alex Ward,UCF,LS,2022-12-15,,,Florida,FBS - AAC,2
+296,250,Jalen Wayne,South Alabama,WR,2022-12-15,,,Alabama,FBS - Sun Belt,2
+297,153,Cameron Young,Mississippi State,DL,2022-12-15,,,Mississippi,SEC,2
+298,106,Shyheim Battle,NC State,CB,2022-12-15,,,North Carolina,ACC,2
+299,254,Joshua Gray,Oregon State,OT,2022-12-15,,,Oregon,Pac 12,2
+300,255,Kyle Patterson,Air Force,TE,2022-12-15,,,Colorado,FBS - Mountain West,2
+301,105,Ruke Orhorhoro,Clemson,DL,2022-12-15,,,South Carolina,ACC,1
+302,258,D'Shawn Jamison,Texas,CB,2022-12-15,,,Texas,Big 12,1
+303,46,Payton Wilson,NC State,EDGE,2022-12-15,,,North Carolina,ACC,1
+304,217,Noah Ruggles,Ohio State,K,2022-12-15,,,Ohio,Big Ten,1
+305,265,Clayton Tune,Houston,QB,2022-12-15,,,Texas,FBS - AAC,1
+306,266,Joey Fisher,Shepherd,OT,2022-12-15,,,West Virginia,D2,1
+307,267,Darrian Dalcourt,Alabama,IOL,2022-12-15,,,Alabama,SEC,1
+308,268,Bryce Baringer,Michigan State,P,2022-12-15,,,Michigan,Big Ten,1
+309,267,Carrington Valentine,Kentucky,CB,2022-12-15,,,Kentucky,SEC,1
+310,270,Michael Wilson,Stanford,WR,2022-12-15,,,California,Pac 12,1
+311,179,Troy Brown,Ole Miss,LB,2022-12-15,,,Mississippi,SEC,1
+312,274,A.J. Finley,Ole Miss,S,2022-12-15,,,Mississippi,SEC,1
+313,275,B.J. Wilson,Quincy,OT,2022-12-15,,,Illinois,D2,1
+314,276,Alex Austin,Oregon State,CB,2022-12-15,,,Oregon,Pac 12,1
+315,277,Patrick McMorris,San Diego State,S,2022-12-15,,,California,FBS - Mountain West,1
+316,74,Cedric Gray,North Carolina,LB,2022-12-15,,,North Carolina,ACC,1
+317,279,Thomas Incoom,Central Michigan,DL,2022-12-15,,,Michigan,FBS - MAC,1
+318,136,Jeremy James,Ole Miss,OT,2022-12-15,,,Mississippi,SEC,1
+319,140,Xazavian Valladay,Arizona State,RB,2022-12-15,,,Arizona,Pac 12,1
+320,134,Michael Jurgens,Wake Forest,IOL,2022-12-15,,,North Carolina,ACC,1
+321,284,Quavian White,Georgia State,CB,2022-12-15,,,Georgia,FBS - Sun Belt,1
+322,123,Jarrick Bernard-Converse,LSU,CB,2022-12-15,,,Louisiana,SEC,1
+323,114,Kenny Logan Jr.,Kansas,S,2022-12-15,,,Kansas,Big 12,1
+324,288,Dylan McMahon,NC State,IOL,2022-12-15,,,North Carolina,ACC,1
+325,289,Sundiata Anderson,Grambling State,DL,2022-12-15,,,Louisiana,FCS,1
+326,290,Dorian Thompson-Robinson,UCLA,QB,2022-12-15,,,California,Pac 12,1
+327,88,Deshawn Pace,Cincinnati,LB,2022-12-15,,,Ohio,FBS - AAC,1
+328,102,Mekhi Blackmon,USC,CB,2022-12-15,,,California,Pac 12,1
+329,153,Darius Muasau,UCLA,LB,2022-12-15,,,California,Pac 12,1
+330,134,P.J. Mustipher,Penn State,DL,2022-12-15,,,Pennsylvania,Big Ten,1
+331,55,Travis Dye,USC,RB,2022-12-15,,,California,Pac 12,1
+332,86,Graham Barton,Duke,OT,2022-12-15,,,North Carolina,ACC,1
+333,59,Malik Cunningham,Louisville,QB,2022-12-15,,,Kentucky,ACC,1
+334,301,Patrick Paul,Houston,OT,2022-12-15,,,Texas,FBS - AAC,1
+335,306,Connor Pay,BYU,IOL,2022-12-15,,,Utah,FBS - Independent,1
+336,118,Mike Jones Jr.,LSU,LB,2022-12-15,,,Louisiana,SEC,1
+337,98,Princely Umanmielen,Florida,DL,2022-12-15,,,Florida,SEC,1
+338,99,Christian Haynes,UConn,IOL,2022-12-15,,,Connecticut,FBS - AAC,1
+339,100,J.J. Pegues,Ole Miss,DL,2022-12-15,,,Mississippi,SEC,1
+340,134,De'Corian Clark,UTSA,WR,2022-12-15,,,Texas,FBS - CUSA,1
+341,39,Mohamed Ibrahim,Minnesota,RB,2022-12-15,,,Minnesota,Big Ten,1
+342,85,Eyabi Anoma,Michigan,EDGE,2022-12-15,,,Michigan,Big Ten,1
+343,74,Tavion Thomas,Utah,RB,2022-12-15,,,Utah,Pac 12,1
+344,159,Dee Winters,TCU,LB,2022-12-15,,,Texas,Big 12,1
+345,71,SirVocea Dennis,Pitt,LB,2022-12-15,,,Pennsylvania,ACC,1
+346,167,Zakhari Franklin,UTSA,WR,2022-12-15,,,Texas,FBS - CUSA,1
+347,173,Keytaon Thompson,Virginia,WR,2022-12-15,,,Virginia,ACC,1
+348,180,Javon Foster,Missouri,OT,2022-12-15,,,Missouri,SEC,1
+349,34,Avery Young,Rutgers,CB,2022-12-15,,,New Jersey,Big Ten,1
+350,124,Jalen Cropper,Fresno State,WR,2022-12-15,,,California,FBS - Mountain West,1
+351,201,Mohamoud Diabate,Utah,LB,2022-12-15,,,Utah,Pac 12,1
+352,51,Bumper Pool,Arkansas,LB,2022-12-15,,,Arkansas,SEC,1
+353,197,Cornelius Johnson,Michigan,WR,2022-12-15,,,Michigan,Big Ten,1
+354,108,Steven Gilmore,Marshall,CB,2022-12-15,,,West Virginia,FBS - CUSA,1
+355,111,Jordan McFadden,Clemson,IOL,2022-12-15,,,South Carolina,ACC,1
+356,203,Grayson Murphy,UCLA,EDGE,2022-12-15,,,California,Pac 12,1
+357,206,Lonnie Phelps,Kansas,EDGE,2022-12-15,,,Kansas,Big 12,1
+358,194,Viliami Fehoko,San Jose State,EDGE,2022-12-15,,,California,FBS - Mountain West,1
+359,210,Earl Bostick Jr.,Kansas,IOL,2022-12-15,,,Kansas,Big 12,1
+360,216,Jalen Graham,Purdue,S,2022-12-15,,,Indiana,Big Ten,1
+361,82,Tiawan Mullen,Indiana,CB,2022-12-15,,,Indiana,Big Ten,1
+362,219,Cam Jones,Indiana,LB,2022-12-15,,,Indiana,Big Ten,1
+363,74,Gabe Hall,Baylor,DL,2022-12-15,,,Texas,Big 12,1
+364,145,Bryce Ford-Wheaton,West Virginia,WR,2022-12-15,,,West Virginia,Big 12,1
+365,226,Al Walcott,Baylor,S,2022-12-15,,,Texas,Big 12,1
+366,69,Max Duggan,TCU,QB,2022-12-15,,,Texas,Big 12,1
+367,105,Cory Durden,NC State,DL,2022-12-15,,,North Carolina,ACC,1
+368,173,Jaxon Player,Tulsa,DL,2022-12-15,,,Oklahoma,FBS - AAC,1
+369,48,Mitchell Tinsley,Penn State,WR,2022-12-15,,,Pennsylvania,Big Ten,1
+370,137,R.J. Moten,Michigan,S,2022-12-15,,,Michigan,Big Ten,1
+371,98,Tyler Batty,BYU,DL,2022-12-15,,,Utah,FBS - Independent,1
+372,122,Rasheen Ali,Marshall,RB,2022-12-15,,,West Virginia,FBS - CUSA,1
+373,123,Xavier Henderson,Michigan State,S,2022-12-15,,,Michigan,Big Ten,1
+374,107,Will Mallory,Miami (FL),TE,2022-12-15,,,Florida,ACC,1
+375,197,Aki Ogunbiyi,Texas A&M,IOL,2022-12-15,,,Texas,SEC,1
+376,244,Malaesala Aumavae-Laulu,Oregon,OT,2022-12-15,,,Oregon,Pac 12,1
+377,103,Jahleel Billingsley,Texas,TE,2022-12-15,,,Texas,Big 12,1
+378,60,Cameron Rising,Utah,QB,2022-12-15,,,Utah,Pac 12,1
+379,248,Richard Jibunor,Troy,EDGE,2022-12-15,,,Alabama,FBS - Sun Belt,1
+380,249,Tim DeMorat,Fordham,QB,2022-12-15,,,New York,FCS,1
+381,238,Jadakis Bonds,Hampton,WR,2022-12-15,,,Virginia,FCS,1
+382,133,Kenneth Horsey,Kentucky,IOL,2022-12-15,,,Kentucky,SEC,1
+383,92,Jonah Tavai,San Diego State,DL,2022-12-15,,,California,FBS - Mountain West,1
+384,102,Yasir Abdullah,Louisville,LB,2022-12-15,,,Kentucky,ACC,1
+385,117,Khalan Laborn,Marshall,RB,2022-12-15,,,West Virginia,FBS - CUSA,1
+386,123,Deonte Banks,Maryland,CB,2022-12-15,,,Maryland,Big Ten,1
+387,86,Aidan O'Connell,Purdue,QB,2022-12-15,,,Indiana,Big Ten,1
+388,128,Keylon Stokes,Tulsa,WR,2022-12-15,,,Oklahoma,FBS - AAC,1
+389,131,Starling Thomas V,UAB,CB,2022-12-15,,,Alabama,FBS - CUSA,1
+390,132,M.J. Anderson,Iowa State,DL,2022-12-15,,,Iowa,Big 12,1
+391,136,Brevyn Spann-Ford,Minnesota,TE,2022-12-15,,,Minnesota,Big Ten,1
+392,137,Tiyon Evans,Louisville,RB,2022-12-15,,,Kentucky,ACC,1
+393,143,Beaux Limmer,Arkansas,IOL,2022-12-15,,,Arkansas,SEC,1
+394,144,Jacob Copeland,Maryland,WR,2022-12-15,,,Maryland,Big Ten,1
+395,149,Justin Shorter,Florida,WR,2022-12-15,,,Florida,SEC,1
+396,159,Sidy Sow,Eastern Michigan,OT,2022-12-15,,,Michigan,FBS - MAC,1
+397,25,Arik Gilbert,Georgia,TE,2022-12-15,,,Georgia,SEC,1
+398,42,Sam Hartman,Wake Forest,QB,2022-12-15,,,North Carolina,ACC,1
+399,178,Jaylon Carlies,Missouri,S,2022-12-15,,,Missouri,SEC,1
+400,86,D’Anthony Jones,Houston,DL,2022-12-15,,,Texas,FBS - AAC,1
+401,88,Key Lawrence,Oklahoma,S,2022-12-15,,,Oklahoma,Big 12,1
+402,77,Spencer Rattler,South Carolina,QB,2022-12-15,,,South Carolina,SEC,1
+403,116,Kenderick Duncan Jr.,Louisville,S,2022-12-15,,,Kentucky,ACC,1
+404,63,Xavier Thomas,Clemson,EDGE,2022-12-15,,,South Carolina,ACC,1
+405,79,Seth Benson,Iowa,LB,2022-12-15,,,Iowa,Big Ten,1
+406,81,Dillon Doyle,Baylor,LB,2022-12-15,,,Texas,Big 12,1
+407,44,Will Rogers,Mississippi State,QB,2022-12-15,,,Mississippi,SEC,1
+408,87,Brock Martin,Oklahoma State,EDGE,2022-12-15,,,Oklahoma,Big 12,1
+409,56,Stetson Bennett IV,Georgia,QB,2022-12-15,,,Georgia,SEC,1
+410,112,Cole Godbout,Wyoming,DL,2022-12-15,,,Wyoming,FBS - Mountain West,1
+411,71,Payton Thorne,Michigan State,QB,2022-12-15,,,Michigan,Big Ten,1
+412,72,Dillon Gabriel,Oklahoma,QB,2022-12-15,,,Oklahoma,Big 12,1
+413,117,Dalton Wagner,Arkansas,OT,2022-12-15,,,Arkansas,SEC,1
+414,51,Edefuan Ulofoshio,Washington,LB,2022-12-15,,,Washington,Pac 12,1
+415,120,Jamal Hill,Oregon,S,2022-12-15,,,Oregon,Pac 12,1
+416,80,Drake Thomas,NC State,LB,2022-12-15,,,North Carolina,ACC,1
+417,128,Seth McLaughlin,Alabama,IOL,2022-12-15,,,Alabama,SEC,1
+418,130,Taylor Upshaw,Michigan,EDGE,2022-12-15,,,Michigan,Big Ten,1
+420,141,Joe Foucha,LSU,S,2022-12-15,,,Louisiana,SEC,1
+421,143,Jason Taylor II,Oklahoma State,S,2022-12-15,,,Oklahoma,Big 12,1
+422,144,Stephan Blaylock,UCLA,S,2022-12-15,,,California,Pac 12,1
+423,145,Nesta Jade Silvera,Arizona State,DL,2022-12-15,,,Arizona,Pac 12,1
+424,147,Khris Bogle,Michigan State,EDGE,2022-12-15,,,Michigan,Big Ten,1
+425,149,Dante Stills,West Virginia,DL,2022-12-15,,,West Virginia,Big 12,1
+426,152,Merlin Robertson,Arizona State,LB,2022-12-15,,,Arizona,Pac 12,1
+427,153,Eric Douglas,South Carolina,OT,2022-12-15,,,South Carolina,SEC,1
+428,154,Michael Barrett,Michigan,S,2022-12-15,,,Michigan,Big Ten,1
+429,104,Tyler Harrell,Alabama,WR,2022-12-15,,,Alabama,SEC,1
+430,161,Darrell Simmons Jr.,Iowa State,IOL,2022-12-15,,,Iowa,Big 12,1
+431,162,Aaron Brule,Michigan State,LB,2022-12-15,,,Michigan,Big Ten,1
+432,163,Sam Pinckney,Coastal Carolina,WR,2022-12-15,,,South Carolina,FCS,1
+433,166,Luke Reimer,Nebraska,LB,2022-12-15,,,Nebraska,Big Ten,1
+434,167,Mitchell Agude,Miami (FL),EDGE,2022-12-15,,,Florida,ACC,1
+435,168,Alec Jackson,Auburn,OT,2022-12-15,,,Alabama,SEC,1
+436,169,Trey Morrison,Oklahoma,S,2022-12-15,,,Oklahoma,Big 12,1
+437,170,Justin Ford,Montana,CB,2022-12-15,,,Montana,FCS,1
+438,175,DaShaun White,Oklahoma,LB,2022-12-15,,,Oklahoma,Big 12,1
+439,177,Alan Ali,TCU,IOL,2022-12-15,,,Texas,Big 12,1
+440,189,Akheem Mesidor,Miami (FL),DL,2022-12-15,,,Florida,ACC,1
+441,147,Demond Demas,Texas A&M,WR,2022-12-15,,,Texas,SEC,1
+442,148,Dontae Manning,Oregon,CB,2022-12-15,,,Oregon,Pac 12,1
+443,150,Jordan Burch,South Carolina,DL,2022-12-15,,,South Carolina,SEC,1
+444,90,Julian Fleming,Ohio State,WR,2022-12-15,,,Ohio,Big Ten,1
+445,151,Sav'ell Smalls,Washington,LB,2022-12-15,,,Washington,Pac 12,1
+446,152,Chris Braswell,Alabama,DL,2022-12-15,,,Alabama,SEC,1
+447,153,Demarkcus Bowman,Florida,RB,2022-12-15,,,Florida,SEC,1
+448,155,Chad Lindberg,Georgia,OT,2022-12-15,,,Georgia,SEC,1
+449,156,Chris Morris,Texas A&M,IOL,2022-12-15,,,Texas,SEC,1
+450,157,Demorie Tate,Florida State,CB,2022-12-15,,,Florida,ACC,1
+451,158,Derek Wingo,Florida,LB,2022-12-15,,,Florida,SEC,1
+452,159,Donell Harris Jr.,Texas A&M,EDGE,2022-12-15,,,Texas,SEC,1
+453,160,E.J. Smith,Stanford,RB,2022-12-15,,,California,Pac 12,1
+454,161,Jalen Rivers,Miami (FL),OT,2022-12-15,,,Florida,ACC,1
+455,162,Jordan Johnson,Notre Dame,WR,2022-12-15,,,Indiana,FBS - Independent,1
+456,163,Jordan Toles,LSU,S,2022-12-15,,,Louisiana,SEC,1
+457,142,Justin Rogers,Kentucky,DL,2022-12-15,,,Kentucky,SEC,1
+458,164,Kendall Milton,Georgia,RB,2022-12-15,,,Georgia,SEC,1
+459,165,Trey Wedig,Wisconsin,OT,2022-12-15,,,Wisconsin,Big Ten,1
+460,166,Turner Corcoran,Nebraska,OT,2022-12-15,,,Nebraska,Big Ten,1
+461,167,Desmond Evans,North Carolina,EDGE,2022-12-15,,,North Carolina,ACC,1
+462,168,Troy Omeire,Texas,WR,2022-12-15,,,Texas,Big 12,1
+463,169,Walker Parks,Clemson,OT,2022-12-15,,,South Carolina,ACC,1
+464,170,Alfred Collins,Texas,EDGE,2022-12-15,,,Texas,Big 12,1
+465,172,Chantz Williams,Miami (FL),EDGE,2022-12-15,,,Florida,ACC,1
+466,173,Chris Tyree,Notre Dame,RB,2022-12-15,,,Indiana,FBS - Independent,1
+467,174,Cody Simon,Ohio State,LB,2022-12-15,,,Ohio,Big Ten,1
+468,175,DeMonte Capehart,Clemson,DL,2022-12-15,,,South Carolina,ACC,1
+469,176,DeaMonte Trayanum,Arizona State,RB,2022-12-15,,,Arizona,Pac 12,1
+470,177,Demouy Kennedy,Alabama,LB,2022-12-15,,,Alabama,SEC,1
+471,178,Gee Scott Jr.,Ohio State,TE,2022-12-15,,,Ohio,Big Ten,1
+472,179,Ja'Qurious Conley,North Carolina,S,2022-12-15,,,North Carolina,ACC,1
+473,180,Jalen Kimber,Florida,CB,2022-12-15,,,Florida,SEC,1
+474,181,Jase McClellan,Alabama,RB,2022-12-15,,,Alabama,SEC,1
+475,183,Ladarius Tennison,Ole Miss,S,2022-12-15,,,Mississippi,SEC,1
+476,185,M.J. Sherman,Georgia,LB,2022-12-15,,,Georgia,SEC,1
+477,186,Malcolm Greene,Clemson,S,2022-12-15,,,South Carolina,ACC,1
+478,187,MarShawn Lloyd,South Carolina,RB,2022-12-15,,,South Carolina,SEC,1
+479,188,Reggie Grimes,Oklahoma,EDGE,2022-12-15,,,Oklahoma,Big 12,1
+480,189,Rylie Mills,Notre Dame,EDGE,2022-12-15,,,Indiana,FBS - Independent,1
+481,190,Stephen Dix Jr.,Florida State,LB,2022-12-15,,,Florida,ACC,1
+482,191,Theo Johnson,Penn State,TE,2022-12-15,,,Pennsylvania,Big Ten,1
+483,192,Zykeivous Walker,Auburn,DL,2022-12-15,,,Alabama,SEC,1
+484,193,Jayson Jones,Auburn,DL,2022-12-15,,,Alabama,SEC,1
+485,194,Dwight McGlothern,Arkansas,CB,2022-12-15,,,Arkansas,SEC,1
+486,198,E.J. Williams,Clemson,WR,2022-12-15,,,South Carolina,ACC,1
+487,199,Andrew Gentry,Michigan,OT,2022-12-15,,,Michigan,Big Ten,1
+488,202,Ruben Hyppolite II,Maryland,LB,2022-12-15,,,Maryland,Big Ten,1
+489,205,Tyler Baron,Tennessee,DL,2022-12-15,,,Tennessee,SEC,1
+490,206,Jaylen Harrell,Michigan,EDGE,2022-12-15,,,Michigan,Big Ten,1
+491,211,Tonka Hemingway,South Carolina,DL,2022-12-15,,,South Carolina,SEC,1
+492,212,Vernon Broughton,Texas,DL,2022-12-15,,,Texas,Big 12,1
+493,213,Curtis Jacobs,Penn State,LB,2022-12-15,,,Pennsylvania,Big Ten,1
+494,216,Ajou Ajou,South Florida,WR,2022-12-15,,,Florida,FBS - AAC,1
+495,217,T.J. Tampa,Iowa State,WR,2022-12-15,,,Iowa,Big 12,1
+496,218,Chidozie Nwankwo,Houston,DL,2022-12-15,,,Texas,FBS - AAC,1
+497,219,D.J. Graham,Oklahoma,CB,2022-12-15,,,Oklahoma,Big 12,1
+498,220,Khari Coleman,Ole Miss,EDGE,2022-12-15,,,Mississippi,SEC,1
+499,221,Tyler Grubbs,Louisiana Tech,LB,2022-12-15,,,Louisiana,FBS - CUSA,1
+500,223,Caelen Carson,Wake Forest,CB,2022-12-15,,,North Carolina,ACC,1
+501,224,Clarence Lewis,Notre Dame,CB,2022-12-15,,,Indiana,FBS - Independent,1
+502,225,Corey Rucker,Arkansas State,WR,2022-12-15,,,Arkansas,FBS - Sun Belt,1
+503,228,Dorian Strong,Virginia Tech,CB,2022-12-15,,,Virginia,ACC,1
+504,230,Jaden Walley,Mississippi State,WR,2022-12-15,,,Mississippi,SEC,1
+505,231,Karon Prunty,South Carolina,CB,2022-12-15,,,South Carolina,SEC,1
+506,232,Stefon Thompson,Syracuse,LB,2022-12-15,,,New York,ACC,1
+507,233,Tre'Vez Johnson,Florida,S,2022-12-15,,,Florida,SEC,1
+508,235,Micah Mazzccua,Baylor,OT,2022-12-15,,,Texas,Big 12,1
+509,237,Brandon Thomas,Memphis,RB,2022-12-15,,,Tennessee,FBS - AAC,1
+510,239,Jalen Berger,Michigan State,RB,2022-12-15,,,Michigan,Big Ten,1
+511,241,Duece Watts,Tulane,WR,2022-12-15,,,Louisiana,FBS - AAC,1
+512,243,Konata Mumpfield,Pitt,WR,2022-12-15,,,Pennsylvania,ACC,1
+513,246,Courtland Ford,USC,OT,2022-12-15,,,California,Pac 12,1
+514,249,Delmar Glaze,Maryland,IOL,2022-12-15,,,Maryland,Big Ten,1
+515,254,DeVere Levelston,SMU,DL,2022-12-15,,,Texas,FBS - AAC,1
+516,257,Jalon Daniels,Kansas,QB,2022-12-15,,,Kansas,Big 12,1
+517,258,Kaimon Rucker,North Carolina,DL,2022-12-15,,,North Carolina,ACC,1
+518,264,Marlowe Wax,Syracuse,LB,2022-12-15,,,New York,ACC,1
+519,269,Nick Andersen,Wake Forest,S,2022-12-15,,,North Carolina,ACC,1
+520,270,Marcel Brooks,TCU,WR,2022-12-15,,,Texas,Big 12,1
+521,272,John Emery Jr.,LSU,RB,2022-12-15,,,Louisiana,SEC,1
+522,274,Caedan Wallace,Penn State,OT,2022-12-15,,,Pennsylvania,Big Ten,1
+523,275,Jirehl Brock,Iowa State,RB,2022-12-15,,,Iowa,Big 12,1
+524,276,Keilan Robinson,Alabama,RB,2022-12-15,,,Alabama,SEC,1
+525,277,Pierce Quick,Georgia Tech,OT,2022-12-15,,,Georgia,ACC,1
+526,278,Tayvion Robinson,Kentucky,WR,2022-12-15,,,Kentucky,SEC,1
+527,279,Trejan Bridges,Oklahoma,WR,2022-12-15,,,Oklahoma,Big 12,1
+528,280,Zeke Correll,Notre Dame,IOL,2022-12-15,,,Indiana,FBS - Independent,1
+529,281,Warren McClendon,Georgia,OT,2022-12-15,,,Georgia,SEC,1
+530,285,Eugene Asante,Auburn,LB,2022-12-15,,,Alabama,SEC,1
+531,289,Marcus Banks,Mississippi State,CB,2022-12-15,,,Mississippi,SEC,1
+532,290,Woodi Washington,Oklahoma,CB,2022-12-15,,,Oklahoma,Big 12,1
+533,291,Noah Cain,LSU,RB,2022-12-15,,,Louisiana,SEC,1
+534,294,Austin Jones,USC,RB,2022-12-15,,,California,Pac 12,1
+535,297,Taulia Tagovailoa,Maryland,QB,2022-12-15,,,Maryland,Big Ten,1
+536,298,Dominick Blaylock,Georgia,WR,2022-12-15,,,Georgia,SEC,1
+537,299,Joseph Ngata,Clemson,WR,2022-12-15,,,South Carolina,ACC,1
+538,300,Baylor Cupp,Texas Tech,TE,2022-12-15,,,Texas,Big 12,1
+539,302,Doug Nester,West Virginia,IOL,2022-12-15,,,West Virginia,Big 12,1
+540,303,Will Putnam,Clemson,IOL,2022-12-15,,,South Carolina,ACC,1
+541,304,Bryan Hudson,Louisville,IOL,2022-12-15,,,Kentucky,ACC,1
+542,305,Adisa Isaac,Penn State,EDGE,2022-12-15,,,Pennsylvania,Big Ten,1
+543,109,Justin Eboigbe,Alabama,DL,2022-12-15,,,Alabama,SEC,1
+544,307,David Ugwoegbu,Oklahoma,LB,2022-12-15,,,Oklahoma,Big 12,1
+545,308,Mase Funa,Oregon,LB,2022-12-15,,,Oregon,Pac 12,1
+546,309,Shane Lee,USC,LB,2022-12-15,,,California,Pac 12,1
+547,315,J.J. Weaver,Kentucky,LB,2022-12-15,,,Kentucky,SEC,1
+548,317,Jahfari Harvey,Miami (FL),DL,2022-12-15,,,Florida,ACC,1
+549,319,Zion Logue,Georgia,DL,2022-12-15,,,Georgia,SEC,1
+550,320,Cam'Ron Kelly,North Carolina,S,2022-12-15,,,North Carolina,ACC,1
+551,323,Brenton Strange,Penn State,TE,2022-12-15,,,Pennsylvania,Big Ten,1
+552,327,Jaylen McCollough,Tennessee,S,2022-12-15,,,Tennessee,SEC,1
+554,329,C.J. Johnson,East Carolina,WR,2022-12-15,,,North Carolina,FBS - AAC,1
+555,330,Easton Dean,Iowa State,TE,2022-12-15,,,Iowa,Big 12,1
+556,331,Grant Gunnell,North Texas,QB,2022-12-15,,,Texas,FBS - CUSA,1
+557,333,David Spaulding,South Carolina,CB,2022-12-15,,,South Carolina,SEC,1
+558,334,Jared Harrison-Hunte,Miami (FL),DL,2022-12-15,,,Florida,ACC,1
+559,336,Maurice Smith,Florida State,IOL,2022-12-15,,,Florida,ACC,1
+560,339,Nick Figueroa,USC,EDGE,2022-12-15,,,California,Pac 12,1
+561,340,Dell Pettus,Troy,S,2022-12-15,,,Alabama,FBS - Sun Belt,1
+562,344,McKade Mettauer,Oklahoma,IOL,2022-12-15,,,Oklahoma,Big 12,1
+563,346,Josh DeBerry,Boston College,CB,2022-12-15,,,Massachusetts,ACC,1
+564,347,Rodrigues Clark,Memphis,RB,2022-12-15,,,Tennessee,FBS - AAC,1
+565,351,Nick Jackson,Virginia,LB,2022-12-15,,,Virginia,ACC,1
+566,352,Omar Speights,Oregon State,LB,2022-12-15,,,Oregon,Pac 12,1
+567,355,Caleb Johnson,Miami (FL),LB,2022-12-15,,,Florida,ACC,1
+568,363,Will Reichard,Alabama,K,2022-12-15,,,Alabama,SEC,1
+569,47,Sincere Haynesworth,Tulane,IOL,2022-12-15,,,Louisiana,FBS - AAC,1
+570,371,Lew Nichols III,Central Michigan,RB,2022-12-15,,,Michigan,FBS - MAC,1
+571,373,Walter Rouse,Stanford,OT,2022-12-15,,,California,Pac 12,1
+572,374,A.J. Woods,Pitt,CB,2022-12-15,,,Pennsylvania,ACC,1
+573,375,Raymond Vohasek,North Carolina,DL,2022-12-15,,,North Carolina,ACC,1
+574,376,Anfernee Orji,Vanderbilt,LB,2022-12-15,,,Tennessee,SEC,1
+575,391,Brandon Hill,Pitt,S,2022-12-15,,,Pennsylvania,ACC,1
+576,392,Tre'mon Morris-Brash,UCF,EDGE,2022-12-15,,,Florida,FBS - AAC,1
+577,396,Aaron Beasley,Tennessee,LB,2022-12-15,,,Tennessee,SEC,1
+578,401,Jackson Mitchell,UConn,LB,2022-12-15,,,Connecticut,FBS - AAC,1
+579,411,Damon Miller,UAB,S,2022-12-15,,,Alabama,FBS - CUSA,1
+581,421,Keilahn Harris,Oklahoma Baptist,WR,2022-12-15,,,Oklahoma,D2,1
+582,424,Taron Vincent,Ohio State,DL,2022-12-15,,,Ohio,Big Ten,1
+583,425,Tyreke Johnson,Nebraska,CB,2022-12-15,,,Nebraska,Big Ten,1
+584,426,Palaie Gaoteote IV,Ohio State,LB,2022-12-15,,,Ohio,Big Ten,1
+585,431,Robert Cooper,Florida State,DL,2022-12-15,,,Florida,ACC,1
+586,432,Ayodele Adeoye,Texas,LB,2022-12-15,,,Texas,Big 12,1
+587,433,Dallas Gant,Toledo,LB,2022-12-15,,,Ohio,FBS - MAC,1
+588,436,Tanner Mordecai,SMU,QB,2022-12-15,,,Texas,FBS - AAC,1
+589,437,Shaun Shivers,Indiana,RB,2022-12-15,,,Indiana,Big Ten,1
+590,441,Tyler Shough,Texas Tech,QB,2022-12-15,,,Texas,Big 12,1
+591,443,Dylan Wonnum,South Carolina,OT,2022-12-15,,,South Carolina,SEC,1
+592,449,Kearis Jackson,Georgia,WR,2022-12-15,,,Georgia,SEC,1
+593,450,Xavier Williams,Utah State,WR,2022-12-15,,,Utah,FBS - Mountain West,1
+594,451,Luke Matthews,Texas A&M,IOL,2022-12-15,,,Texas,SEC,1
+595,454,Sevyn Banks,LSU,CB,2022-12-15,,,Louisiana,SEC,1
+596,455,Jalen Green,Mississippi State,CB,2022-12-15,,,Mississippi,SEC,1
+597,458,Bo Bauer,Notre Dame,LB,2022-12-15,,,Indiana,FBS - Independent,1
+598,459,Leonard Taylor,Cincinnati,TE,2022-12-15,,,Ohio,FBS - AAC,1
+599,460,Nick Tarburton,Penn State,EDGE,2022-12-15,,,Pennsylvania,Big Ten,1
+600,462,Josh Vann,South Carolina,WR,2022-12-15,,,South Carolina,SEC,1
+601,465,Micah Baskerville,LSU,LB,2022-12-15,,,Louisiana,SEC,1
+602,468,D.J. Scaife Jr.,Miami (FL),IOL,2022-12-15,,,Florida,ACC,1
+603,469,Otis Reese,Ole Miss,S,2022-12-15,,,Mississippi,SEC,1
+604,471,Jaiden Woodbey,Boston College,S,2022-12-15,,,Massachusetts,ACC,1
+605,475,Sean Shaw Jr.,Iowa State,WR,2022-12-15,,,Iowa,Big 12,1
+606,477,BeeJay Williamson,Louisiana Tech,S,2022-12-15,,,Louisiana,FBS - CUSA,1
+607,480,Dee Wiggins,Louisville,WR,2022-12-15,,,Kentucky,ACC,1
+608,482,Brant Kuithe,Utah,TE,2022-12-15,,,Utah,Pac 12,1
+609,483,Trajan Jeffcoat,Missouri,EDGE,2022-12-15,,,Missouri,SEC,1
+610,485,Pat Fields,Stanford,S,2022-12-15,,,California,Pac 12,1
+611,486,Tanner McCalister,Ohio State,S,2022-12-15,,,Ohio,Big Ten,1
+612,489,Noah Taylor,North Carolina,LB,2022-12-15,,,North Carolina,ACC,1
+614,493,Spencer Petras,Iowa,QB,2022-12-15,,,Iowa,Big Ten,1
+615,496,Jyaire Shorter,North Texas,WR,2022-12-15,,,Texas,FBS - CUSA,1
+616,497,Jaylon Robinson,Ole Miss,WR,2022-12-15,,,Mississippi,SEC,1
+617,498,Victor Curne,Washington,OT,2022-12-15,,,Washington,Pac 12,1
+618,499,Jarrett Kingston,Washington State,IOL,2022-12-15,,,Washington,Pac 12,1
+619,500,Darnell Jefferies,Clemson,DL,2022-12-15,,,South Carolina,ACC,1
+620,501,Jerrod Clark,Coastal Carolina,DL,2022-12-15,,,South Carolina,FCS,1
+621,504,Jake Venables,Clemson,LB,2022-12-15,,,South Carolina,ACC,1
+622,506,Teja Young,Florida Atlantic,S,2022-12-15,,,Florida,FBS - CUSA,1
+623,507,Ja'Von Hicks,Cincinnati,S,2022-12-15,,,Ohio,FBS - AAC,1
+624,508,Jarek Broussard,Michigan State,RB,2022-12-15,,,Michigan,Big Ten,1
+625,509,Marcus Hooker,Ohio State,S,2022-12-15,,,Ohio,Big Ten,1
+626,510,Donovan Jennings,South Florida,OT,2022-12-15,,,Florida,FBS - AAC,1
+627,511,Chandler Jones,Louisville,CB,2022-12-15,,,Kentucky,ACC,1
+628,515,Randy Charlton,Mississippi State,EDGE,2022-12-15,,,Mississippi,SEC,1
+629,516,Christian Jones,Texas,OT,2022-12-15,,,Texas,Big 12,1
+630,133,Ben Sims,Baylor,TE,2022-12-15,,,Texas,Big 12,1
+631,518,Christian Morgan,Baylor,S,2022-12-15,,,Texas,Big 12,1
+632,519,Campbell Barrington,BYU,IOL,2022-12-15,,,Utah,FBS - Independent,1
+633,522,Jacob Slade,Michigan State,DL,2022-12-15,,,Michigan,Big Ten,1
+634,523,Keshawn Banks,San Diego State,EDGE,2022-12-15,,,California,FBS - Mountain West,1
+635,524,Jaylon Thomas,SMU,IOL,2022-12-15,,,Texas,FBS - AAC,1
+636,525,SaRodorick Thompson,Texas Tech,RB,2022-12-15,,,Texas,Big 12,1
+637,526,Rondell Bothroyd,Wake Forest,DL,2022-12-15,,,North Carolina,ACC,1
+638,534,Adonis Boone,Louisville,OT,2022-12-15,,,Kentucky,ACC,1
+639,540,Jeffery Johnson,Oklahoma,DL,2022-12-15,,,Oklahoma,Big 12,1
+640,553,Payne Durham,Purdue,TE,2022-12-15,,,Indiana,Big Ten,1
+641,556,John Morgan III,Pitt,DL,2022-12-15,,,Pennsylvania,ACC,1
+642,561,Christian Izien,Rutgers,S,2022-12-15,,,New Jersey,Big Ten,1
+643,565,Jarrett Horst,Michigan State,OT,2022-12-15,,,Michigan,Big Ten,1
+644,575,Brayden Willis,Oklahoma,TE,2022-12-15,,,Oklahoma,Big 12,1
+645,578,D'Jordan Strong,Coastal Carolina,CB,2022-12-15,,,South Carolina,FCS,1
+646,580,Hayes Maples,Southern Miss,LB,2022-12-15,,,Mississippi,FBS - CUSA,1
+647,145,Cade Hall,San Jose State,EDGE,2022-12-15,,,California,FBS - Mountain West,1
+648,582,Cooper Hodges,Appalachian State,IOL,2022-12-15,,,North Carolina,FBS - Sun Belt,1
+649,585,Ty Scott,Missouri State,WR,2022-12-15,,,Missouri,FCS,1
+650,586,Lance Boykin,Coastal Carolina,CB,2022-12-15,,,South Carolina,FCS,1
+651,588,Mason Brooks,Ole Miss,IOL,2022-12-15,,,Mississippi,SEC,1
+652,591,Nick Anderson,Tulane,LB,2022-12-15,,,Louisiana,FBS - AAC,1
+653,91,Michael Turk,Oklahoma,P,2022-12-15,,,Oklahoma,Big 12,1
+654,598,Charles Woods,West Virginia,CB,2022-12-15,,,West Virginia,Big 12,1
+655,601,Caleb Murphy,Ferris State,EDGE,2022-12-15,,,Michigan,D2,1
+656,602,Chris Jefferson,Purdue,S,2022-12-15,,,Indiana,Big Ten,1
+657,603,Kahlef Hailassie,Western Kentucky,CB,2022-12-15,,,Kentucky,FBS - CUSA,1
+658,608,Sean Clifford,Penn State,QB,2022-12-15,,,Pennsylvania,Big Ten,1
+659,609,Josh Lugg,Notre Dame,OT,2022-12-15,,,Indiana,FBS - Independent,1
+660,141,Robert Beal Jr.,Georgia,EDGE,2022-12-15,,,Georgia,SEC,1
+661,611,Isaac Slade-Matautia,SMU,LB,2022-12-15,,,Texas,FBS - AAC,1
+662,612,Todd Harris Jr.,LSU,S,2022-12-15,,,Louisiana,SEC,1
+663,146,Kemore Gamble,UCF,TE,2022-12-15,,,Florida,FBS - AAC,1
+664,616,Cyrus Fagan,NC State,S,2022-12-15,,,North Carolina,ACC,1
+665,619,Tanner Morgan,Minnesota,QB,2022-12-15,,,Minnesota,Big Ten,1
+666,620,Corey Gaynor,North Carolina,IOL,2022-12-15,,,North Carolina,ACC,1
+667,621,Isaiah Moore,NC State,LB,2022-12-15,,,North Carolina,ACC,1
+668,627,Deslin Alexandre,Pitt,DL,2022-12-15,,,Pennsylvania,ACC,1
+669,628,Jordan Wright,Kentucky,EDGE,2022-12-15,,,Kentucky,SEC,1
+670,630,Ameer Speed,Michigan State,CB,2022-12-15,,,Michigan,Big Ten,1
+671,631,Isaac Rex,BYU,TE,2022-12-15,,,Utah,FBS - Independent,1
+672,633,Caden McDonald,San Diego State,LB,2022-12-15,,,California,FBS - Mountain West,1
+673,634,Gleson Sprewell,Houston,S,2022-12-15,,,Texas,FBS - AAC,1
+674,635,Brandon Pili,USC,DL,2022-12-15,,,California,Pac 12,1
+675,636,JaTarvious Whitlow,Western Illinois,RB,2022-12-15,,,Illinois,FCS,1
+676,637,Jordan Reid,Michigan State,IOL,2022-12-15,,,Michigan,Big Ten,1
+677,638,Noah Gindorff,North Dakota State,TE,2022-12-15,,,North Dakota,FCS,1
+678,639,Dom Peterson,Nevada,DL,2022-12-15,,,Nevada,FBS - Mountain West,1
+679,640,Jay Shaw,Wisconsin,CB,2022-12-15,,,Wisconsin,Big Ten,1
+680,642,Terrance Lang,Colorado,DL,2022-12-15,,,Colorado,Pac 12,1
+681,644,Tyler Beach,Wisconsin,OT,2022-12-15,,,Wisconsin,Big Ten,1
+682,645,Marcus Valdez,Boston College,DL,2022-12-15,,,Massachusetts,ACC,1
+683,646,Gabe Houy,Pitt,IOL,2022-12-15,,,Pennsylvania,ACC,1
+684,647,B.J. Thompson,Stephen F. Austin,EDGE,2022-12-15,,,Texas,FCS,1
+685,648,Caleb Chandler,Louisville,OT,2022-12-15,,,Kentucky,ACC,1
+686,653,Travis Vokolek,Nebraska,TE,2022-12-15,,,Nebraska,Big Ten,1
+687,655,Derek Parish,Houston,DL,2022-12-15,,,Texas,FBS - AAC,1
+688,659,Kemari Averett,Bethune-Cookman,TE,2022-12-15,,,Florida,FCS,1
+689,661,Elijah Cooks,San Jose State,WR,2022-12-15,,,California,FBS - Mountain West,1
+690,664,Jordan Strachan,South Carolina,EDGE,2022-12-15,,,South Carolina,SEC,1
+691,667,James Patterson,Buffalo,LB,2022-12-15,,,New York,FBS - MAC,1
+692,668,Bralen Trahan,Louisiana-Lafayette,S,2022-12-15,,,Louisiana,FBS - Sun Belt,1
+693,669,Ifeanyi Maijeh,Rutgers,DL,2022-12-15,,,New Jersey,Big Ten,1
+694,131,Dontae Bull,Fresno State,OT,2022-12-15,,,California,FBS - Mountain West,1
+695,678,Carlton Martial,Troy,LB,2022-12-15,,,Alabama,FBS - Sun Belt,1
+696,679,Kyler Schott,Iowa,IOL,2022-12-15,,,Iowa,Big Ten,1
+697,683,Mykel Jones,Tulane,WR,2022-12-15,,,Louisiana,FBS - AAC,1
+698,684,Tashawn Manning,Kentucky,IOL,2022-12-15,,,Kentucky,SEC,1
+699,686,Jaydon Grant,Oregon State,CB,2022-12-15,,,Oregon,Pac 12,1
+700,687,Timothy Smith,Alabama,DL,2022-12-15,,,Alabama,SEC,1
+701,688,Durrell Johnson,Liberty,EDGE,2022-12-15,,,Virginia,FCS,1
+702,690,Isaiah Davis,South Dakota State,RB,2022-12-15,,,South Dakota,FCS,1
+703,703,Robert Soderholm,VMI,LS,2022-12-15,,,Virginia,FCS,1

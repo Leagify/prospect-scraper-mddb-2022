@@ -15,6 +15,7 @@
                 "UMass" => "Massachusetts",
                 "Central Connecticut" => "Central Connecticut State",
                 "Penn" => "Pennsylvania",
+                "Saint John&#39;s (MN)" => "St. John's",
                 _ => schoolName,
             };
             return schoolName;

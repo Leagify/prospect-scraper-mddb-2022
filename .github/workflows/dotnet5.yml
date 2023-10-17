@@ -1,4 +1,4 @@
-name: .NET 6 Build & Test
+name: .NET 7 Build & Test
 
 on:
   push:

@@ -22,7 +22,8 @@
 		"ms-dotnettools.csharp",
 		"mechatroner.rainbow-csv",
 		"github.copilot",
-		"eamodio.gitlens"
+		"eamodio.gitlens",
+		"ms-dotnettools.csdevkit"
 	],
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.

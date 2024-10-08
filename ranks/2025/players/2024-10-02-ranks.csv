@@ -7,7 +7,7 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 6,2,Will Campbell,LSU,OT,2024-10-02,3,NEW ENGLAND PATRIOTS,Louisiana,SEC,35
 7,6,Tetairoa McMillan,Arizona,WR,2024-10-02,5,CLEVELAND BROWNS,Arizona,Pac 12,35
 8,1,James Pearce Jr.,Tennessee,EDGE,2024-10-02,7,CAROLINA PANTHERS,Tennessee,SEC,35
-9,5,Kelvin Banks,Texas,OT,2024-10-02,N/A,,Texas,Big 12,35
+9,5,Kelvin Banks,Texas,OT,2024-10-02,,,Texas,Big 12,35
 10,1,Luther Burden,Missouri,WR,2024-10-02,4,CINCINNATI BENGALS,Missouri,SEC,35
 11,7,Cameron Ward,Miami (FL),QB,2024-10-02,28,PITTSBURGH STEELERS,Florida,ACC,30
 12,12,Jalen Milroe,Alabama,QB,2024-10-02,27,SEATTLE SEAHAWKS,Alabama,SEC,30
@@ -18,7 +18,7 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 17,10,Abdul Carter,Penn State,EDGE,2024-10-02,24,DETROIT LIONS,Pennsylvania,Big Ten,30
 18,8,Deone Walker,Kentucky,DL,2024-10-02,9,ARIZONA CARDINALS,Kentucky,SEC,30
 19,13,Nic Scourton,Texas A&M,EDGE,2024-10-02,23,ATLANTA FALCONS,Texas,SEC,30
-20,11,Emery Jones Jr.,LSU,OT,2024-10-02,N/A,,Louisiana,SEC,30
+20,11,Emery Jones Jr.,LSU,OT,2024-10-02,,,Louisiana,SEC,30
 21,16,Colston Loveland,Michigan,TE,2024-10-02,12,LOS ANGELES CHARGERS,Michigan,Big Ten,30
 22,22,Ashton Jeanty,Boise State,RB,2024-10-02,14,DALLAS COWBOYS,Idaho,FBS - Mountain West,30
 23,20,Kenneth Grant,Michigan,DL,2024-10-02,22,DENVER BRONCOS,Michigan,Big Ten,30
@@ -31,38 +31,38 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 30,14,Harold Perkins,LSU,LB,2024-10-02,19,PHILADELPHIA EAGLES,Louisiana,SEC,25
 31,21,Tyleik Williams,Ohio State,DL,2024-10-02,29,HOUSTON TEXANS,Ohio,Big Ten,25
 32,20,Tacario Davis,Arizona,CB,2024-10-02,32,KANSAS CITY CHIEFS,Arizona,Pac 12,25
-33,31,Tyler Booker,Alabama,IOL,2024-10-02,N/A,,Alabama,SEC,25
+33,31,Tyler Booker,Alabama,IOL,2024-10-02,,,Alabama,SEC,25
 34,26,Walter Nolen,Ole Miss,DL,2024-10-02,17,SAN FRANCISCO 49ERS,Mississippi,SEC,25
-35,22,Jack Sawyer,Ohio State,EDGE,2024-10-02,N/A,,Ohio,Big Ten,25
-36,35,Jalon Walker,Georgia,LB,2024-10-02,N/A,,Georgia,SEC,20
-37,23,J.T. Tuimoloau,Ohio State,EDGE,2024-10-02,N/A,,Ohio,Big Ten,20
+35,22,Jack Sawyer,Ohio State,EDGE,2024-10-02,,,Ohio,Big Ten,25
+36,35,Jalon Walker,Georgia,LB,2024-10-02,,,Georgia,SEC,20
+37,23,J.T. Tuimoloau,Ohio State,EDGE,2024-10-02,,,Ohio,Big Ten,20
 38,24,Quinshon Judkins,Ohio State,RB,2024-10-02,31,MINNESOTA VIKINGS,Ohio,Big Ten,20
-39,25,Princely Umanmielen,Ole Miss,EDGE,2024-10-02,N/A,,Mississippi,SEC,20
-40,37,Landon Jackson,Arkansas,EDGE,2024-10-02,N/A,,Arkansas,SEC,20
-41,41,Nick Emmanwori,South Carolina,S,2024-10-02,N/A,,South Carolina,SEC,20
-42,41,Danny Stutsman,Oklahoma,LB,2024-10-02,N/A,,Oklahoma,Big 12,20
-43,29,Kevin Winston Jr.,Penn State,S,2024-10-02,N/A,,Pennsylvania,Big Ten,20
-44,21,Evan Stewart,Oregon,WR,2024-10-02,N/A,,Oregon,Pac 12,20
-45,26,Ollie Gordon II,Oklahoma State,RB,2024-10-02,N/A,,Oklahoma,Big 12,20
-46,28,Patrick Payton,Florida State,EDGE,2024-10-02,N/A,,Florida,ACC,20
-47,37,Tre Harris,Ole Miss,WR,2024-10-02,N/A,,Mississippi,SEC,20
-48,33,Donovan Jackson,Ohio State,IOL,2024-10-02,N/A,,Ohio,Big Ten,20
-49,40,Maxwell Hairston,Kentucky,CB,2024-10-02,N/A,,Kentucky,SEC,20
-50,50,Lander Barton,Utah,LB,2024-10-02,N/A,,Utah,Pac 12,20
-51,28,Barrett Carter,Clemson,LB,2024-10-02,N/A,,South Carolina,ACC,20
-52,49,T.J. Sanders,South Carolina,DL,2024-10-02,N/A,,South Carolina,SEC,20
-53,40,Omarion Hampton,North Carolina,RB,2024-10-02,N/A,,North Carolina,ACC,20
-54,44,Tate Ratledge,Georgia,IOL,2024-10-02,N/A,,Georgia,SEC,20
-55,54,Mansoor Delane,Virginia Tech,CB,2024-10-02,N/A,,Virginia,ACC,20
-56,51,Wyatt Milum,West Virginia,OT,2024-10-02,N/A,,West Virginia,Big 12,20
-57,56,DeMonte Capehart,Clemson,DL,2024-10-02,N/A,,South Carolina,ACC,20
-58,46,Josh Simmons,Ohio State,OT,2024-10-02,N/A,,Ohio,Big Ten,20
-59,40,Josh Conerly Jr.,Oregon,OT,2024-10-02,N/A,,Oregon,Pac 12,20
-60,45,Elic Ayomanor,Stanford,WR,2024-10-02,N/A,,California,Pac 12,15
-61,48,Blake Miller,Clemson,OT,2024-10-02,N/A,,South Carolina,ACC,15
-62,34,Garrett Nussmeier,LSU,QB,2024-10-02,N/A,,Louisiana,SEC,15
-63,31,Drew Allar,Penn State,QB,2024-10-02,N/A,,Pennsylvania,Big Ten,15
-64,64,Earnest Greene,Georgia,OT,2024-10-02,N/A,,Georgia,SEC,15
+39,25,Princely Umanmielen,Ole Miss,EDGE,2024-10-02,,,Mississippi,SEC,20
+40,37,Landon Jackson,Arkansas,EDGE,2024-10-02,,,Arkansas,SEC,20
+41,41,Nick Emmanwori,South Carolina,S,2024-10-02,,,South Carolina,SEC,20
+42,41,Danny Stutsman,Oklahoma,LB,2024-10-02,,,Oklahoma,Big 12,20
+43,29,Kevin Winston Jr.,Penn State,S,2024-10-02,,,Pennsylvania,Big Ten,20
+44,21,Evan Stewart,Oregon,WR,2024-10-02,,,Oregon,Pac 12,20
+45,26,Ollie Gordon II,Oklahoma State,RB,2024-10-02,,,Oklahoma,Big 12,20
+46,28,Patrick Payton,Florida State,EDGE,2024-10-02,,,Florida,ACC,20
+47,37,Tre Harris,Ole Miss,WR,2024-10-02,,,Mississippi,SEC,20
+48,33,Donovan Jackson,Ohio State,IOL,2024-10-02,,,Ohio,Big Ten,20
+49,40,Maxwell Hairston,Kentucky,CB,2024-10-02,,,Kentucky,SEC,20
+50,50,Lander Barton,Utah,LB,2024-10-02,,,Utah,Pac 12,20
+51,28,Barrett Carter,Clemson,LB,2024-10-02,,,South Carolina,ACC,20
+52,49,T.J. Sanders,South Carolina,DL,2024-10-02,,,South Carolina,SEC,20
+53,40,Omarion Hampton,North Carolina,RB,2024-10-02,,,North Carolina,ACC,20
+54,44,Tate Ratledge,Georgia,IOL,2024-10-02,,,Georgia,SEC,20
+55,54,Mansoor Delane,Virginia Tech,CB,2024-10-02,,,Virginia,ACC,20
+56,51,Wyatt Milum,West Virginia,OT,2024-10-02,,,West Virginia,Big 12,20
+57,56,DeMonte Capehart,Clemson,DL,2024-10-02,,,South Carolina,ACC,20
+58,46,Josh Simmons,Ohio State,OT,2024-10-02,,,Ohio,Big Ten,20
+59,40,Josh Conerly Jr.,Oregon,OT,2024-10-02,,,Oregon,Pac 12,20
+60,45,Elic Ayomanor,Stanford,WR,2024-10-02,,,California,Pac 12,15
+61,48,Blake Miller,Clemson,OT,2024-10-02,,,South Carolina,ACC,15
+62,34,Garrett Nussmeier,LSU,QB,2024-10-02,,,Louisiana,SEC,15
+63,31,Drew Allar,Penn State,QB,2024-10-02,,,Pennsylvania,Big Ten,15
+64,64,Earnest Greene,Georgia,OT,2024-10-02,,,Georgia,SEC,15
 65,50,Kyren Lacy,LSU,WR,2024-10-02,,,Louisiana,SEC,15
 66,64,Jahdae Barron,Texas,CB,2024-10-02,,,Texas,Big 12,15
 67,36,Ashton Gillotte,Louisville,EDGE,2024-10-02,,,Kentucky,ACC,15

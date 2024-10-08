@@ -1,5 +1,5 @@
 Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,State,Conference,ProjectedPoints
-1,1,Will Johnson,Michigan,CB,2024-08-12,N/A,,Michigan,Big Ten,35
+1,1,Will Johnson,Michigan,CB,2024-08-12,,,Michigan,Big Ten,35
 2,2,Carson Beck,Georgia,QB,2024-08-12,5,TENNESSEE TITANS,Georgia,SEC,35
 3,1,Travis Hunter,Colorado,CB,2024-08-12,4,WASHINGTON COMMANDERS,Colorado,Pac 12,35
 4,3,Benjamin Morrison,Notre Dame,CB,2024-08-12,3,DENVER BRONCOS,Indiana,FBS - Independent,35
@@ -7,62 +7,62 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 6,2,Shedeur Sanders,Colorado,QB,2024-08-12,1,CAROLINA PANTHERS,Colorado,Pac 12,35
 7,5,Mason Graham,Michigan,DL,2024-08-12,8,ARIZONA CARDINALS,Michigan,Big Ten,35
 8,7,Tetairoa McMillan,Arizona,WR,2024-08-12,22,MIAMI DOLPHINS,Arizona,Pac 12,35
-9,5,Will Campbell,LSU,OT,2024-08-12,N/A,,Louisiana,SEC,35
+9,5,Will Campbell,LSU,OT,2024-08-12,,,Louisiana,SEC,35
 10,6,Mykel Williams,Georgia,DL,2024-08-12,9,MINNESOTA VIKINGS,Georgia,SEC,35
-11,8,Abdul Carter,Penn State,EDGE,2024-08-12,N/A,,Pennsylvania,Big Ten,30
+11,8,Abdul Carter,Penn State,EDGE,2024-08-12,,,Pennsylvania,Big Ten,30
 12,2,Luther Burden,Missouri,WR,2024-08-12,2,NEW ENGLAND PATRIOTS,Missouri,SEC,30
 13,11,Deone Walker,Kentucky,DL,2024-08-12,14,PITTSBURGH STEELERS,Kentucky,SEC,30
-14,10,Harold Perkins,LSU,LB,2024-08-12,N/A,,Louisiana,SEC,30
+14,10,Harold Perkins,LSU,LB,2024-08-12,,,Louisiana,SEC,30
 15,12,Malaki Starks,Georgia,S,2024-08-12,11,SEATTLE SEAHAWKS,Georgia,SEC,30
 16,7,Kelvin Banks,Texas,OT,2024-08-12,12,INDIANAPOLIS COLTS,Texas,Big 12,30
 17,14,Colston Loveland,Michigan,TE,2024-08-12,15,LOS ANGELES CHARGERS,Michigan,Big Ten,30
 18,13,Denzel Burke,Ohio State,CB,2024-08-12,13,TAMPA BAY BUCCANEERS,Ohio,Big Ten,30
-19,18,Emery Jones Jr.,LSU,OT,2024-08-12,N/A,,Louisiana,SEC,30
-20,13,Nic Scourton,Texas A&M,EDGE,2024-08-12,N/A,,Texas,SEC,30
+19,18,Emery Jones Jr.,LSU,OT,2024-08-12,,,Louisiana,SEC,30
+20,13,Nic Scourton,Texas A&M,EDGE,2024-08-12,,,Texas,SEC,30
 21,18,Tacario Davis,Arizona,CB,2024-08-12,31,SAN FRANCISCO 49ERS,Arizona,Pac 12,30
 22,20,Kenneth Grant,Michigan,DL,2024-08-12,29,DETROIT LIONS,Michigan,Big Ten,30
 23,12,Emeka Egbuka,Ohio State,WR,2024-08-12,16,JACKSONVILLE JAGUARS,Ohio,Big Ten,30
 24,7,Quinn Ewers,Texas,QB,2024-08-12,7,LAS VEGAS RAIDERS,Texas,Big 12,30
-25,16,Jack Sawyer,Ohio State,EDGE,2024-08-12,N/A,,Ohio,Big Ten,30
-26,14,Evan Stewart,Oregon,WR,2024-08-12,N/A,,Oregon,Pac 12,25
+25,16,Jack Sawyer,Ohio State,EDGE,2024-08-12,,,Ohio,Big Ten,30
+26,14,Evan Stewart,Oregon,WR,2024-08-12,,,Oregon,Pac 12,25
 27,19,Tyleik Williams,Ohio State,DL,2024-08-12,20,CHICAGO BEARS,Ohio,Big Ten,25
 28,16,Patrick Payton,Florida State,EDGE,2024-08-12,25,PHILADELPHIA EAGLES,Florida,ACC,25
 29,26,Ollie Gordon II,Oklahoma State,RB,2024-08-12,26,DALLAS COWBOYS,Oklahoma,Big 12,25
 30,19,Jalen Milroe,Alabama,QB,2024-08-12,18,LOS ANGELES RAMS,Alabama,SEC,25
-31,27,Cameron Ward,Miami (FL),QB,2024-08-12,N/A,,Florida,ACC,25
+31,27,Cameron Ward,Miami (FL),QB,2024-08-12,,,Florida,ACC,25
 32,17,Walter Nolen,Ole Miss,DL,2024-08-12,17,CLEVELAND BROWNS,Mississippi,SEC,25
 33,11,Barrett Carter,Clemson,LB,2024-08-12,24,HOUSTON TEXANS,South Carolina,ACC,25
 34,25,Landon Jackson,Arkansas,DL,2024-08-12,23,GREEN BAY PACKERS,Arkansas,SEC,25
-35,11,Quinshon Judkins,Ohio State,RB,2024-08-12,N/A,,Ohio,Big Ten,25
-36,13,J.T. Tuimoloau,Ohio State,EDGE,2024-08-12,N/A,,Ohio,Big Ten,20
+35,11,Quinshon Judkins,Ohio State,RB,2024-08-12,,,Ohio,Big Ten,25
+36,13,J.T. Tuimoloau,Ohio State,EDGE,2024-08-12,,,Ohio,Big Ten,20
 37,23,Princely Umanmielen,Ole Miss,DL,2024-08-12,21,ATLANTA FALCONS,Mississippi,SEC,20
-38,17,Tyler Booker,Alabama,OT,2024-08-12,N/A,,Alabama,SEC,20
-39,26,Isaiah Bond,Texas,WR,2024-08-12,N/A,,Texas,Big 12,20
-40,39,Jaxson Dart,Ole Miss,QB,2024-08-12,N/A,,Mississippi,SEC,20
+38,17,Tyler Booker,Alabama,OT,2024-08-12,,,Alabama,SEC,20
+39,26,Isaiah Bond,Texas,WR,2024-08-12,,,Texas,Big 12,20
+40,39,Jaxson Dart,Ole Miss,QB,2024-08-12,,,Mississippi,SEC,20
 41,37,Drew Allar,Penn State,QB,2024-08-12,6,NEW YORK GIANTS,Pennsylvania,Big Ten,20
-42,22,Jabbar Muhammad,Oregon,CB,2024-08-12,N/A,,Oregon,Pac 12,20
-43,22,Jonah Savaiinaea,Arizona,IOL,2024-08-12,N/A,,Arizona,Pac 12,20
-44,38,Conner Weigman,Texas A&M,QB,2024-08-12,N/A,,Texas,SEC,20
-45,24,Dontay Corleone,Cincinnati,DL,2024-08-12,N/A,,Ohio,FBS - AAC,20
-46,41,Ashton Jeanty,Boise State,RB,2024-08-12,N/A,,Idaho,FBS - Mountain West,20
+42,22,Jabbar Muhammad,Oregon,CB,2024-08-12,,,Oregon,Pac 12,20
+43,22,Jonah Savaiinaea,Arizona,IOL,2024-08-12,,,Arizona,Pac 12,20
+44,38,Conner Weigman,Texas A&M,QB,2024-08-12,,,Texas,SEC,20
+45,24,Dontay Corleone,Cincinnati,DL,2024-08-12,,,Ohio,FBS - AAC,20
+46,41,Ashton Jeanty,Boise State,RB,2024-08-12,,,Idaho,FBS - Mountain West,20
 47,27,Rod Moore,Michigan,S,2024-08-12,19,NEW YORK JETS,Michigan,Big Ten,20
-48,29,Donovan Jackson,Ohio State,IOL,2024-08-12,N/A,,Ohio,Big Ten,20
-49,24,Tre Harris,Ole Miss,WR,2024-08-12,N/A,,Mississippi,SEC,20
-50,47,Blake Miller,Clemson,OT,2024-08-12,N/A,,South Carolina,ACC,20
-51,31,Cobee Bryant,Kansas,CB,2024-08-12,N/A,,Kansas,Big 12,20
-52,38,Ashton Gillotte,Louisville,EDGE,2024-08-12,N/A,,Kentucky,ACC,20
+48,29,Donovan Jackson,Ohio State,IOL,2024-08-12,,,Ohio,Big Ten,20
+49,24,Tre Harris,Ole Miss,WR,2024-08-12,,,Mississippi,SEC,20
+50,47,Blake Miller,Clemson,OT,2024-08-12,,,South Carolina,ACC,20
+51,31,Cobee Bryant,Kansas,CB,2024-08-12,,,Kansas,Big 12,20
+52,38,Ashton Gillotte,Louisville,EDGE,2024-08-12,,,Kentucky,ACC,20
 53,53,Parker Brailsford,Alabama,IOL,2024-08-12,30,BALTIMORE RAVENS,Alabama,SEC,20
 54,31,Joshua Gray,Oregon State,IOL,2024-08-12,32,KANSAS CITY CHIEFS,Oregon,Pac 12,20
-55,32,Aireontae Ersery,Minnesota,OT,2024-08-12,N/A,,Minnesota,Big Ten,20
-56,32,Xavier Nwankpa,Iowa,S,2024-08-12,N/A,,Iowa,Big Ten,20
-57,34,Earnest Greene,Georgia,IOL,2024-08-12,N/A,,Georgia,SEC,20
-58,30,Kevin Winston Jr.,Penn State,S,2024-08-12,N/A,,Pennsylvania,Big Ten,20
-59,42,Will Howard,Ohio State,QB,2024-08-12,N/A,,Ohio,Big Ten,20
-60,36,Dani Dennis-Sutton,Penn State,DL,2024-08-12,N/A,,Pennsylvania,Big Ten,15
-61,37,TreVeyon Henderson,Ohio State,RB,2024-08-12,N/A,,Ohio,Big Ten,15
-62,36,Omarion Hampton,North Carolina,RB,2024-08-12,N/A,,North Carolina,ACC,15
-63,47,Danny Stutsman,Oklahoma,LB,2024-08-12,N/A,,Oklahoma,Big 12,15
-64,41,Luke Lachey,Iowa,TE,2024-08-12,N/A,,Iowa,Big Ten,15
+55,32,Aireontae Ersery,Minnesota,OT,2024-08-12,,,Minnesota,Big Ten,20
+56,32,Xavier Nwankpa,Iowa,S,2024-08-12,,,Iowa,Big Ten,20
+57,34,Earnest Greene,Georgia,IOL,2024-08-12,,,Georgia,SEC,20
+58,30,Kevin Winston Jr.,Penn State,S,2024-08-12,,,Pennsylvania,Big Ten,20
+59,42,Will Howard,Ohio State,QB,2024-08-12,,,Ohio,Big Ten,20
+60,36,Dani Dennis-Sutton,Penn State,DL,2024-08-12,,,Pennsylvania,Big Ten,15
+61,37,TreVeyon Henderson,Ohio State,RB,2024-08-12,,,Ohio,Big Ten,15
+62,36,Omarion Hampton,North Carolina,RB,2024-08-12,,,North Carolina,ACC,15
+63,47,Danny Stutsman,Oklahoma,LB,2024-08-12,,,Oklahoma,Big 12,15
+64,41,Luke Lachey,Iowa,TE,2024-08-12,,,Iowa,Big Ten,15
 65,42,Howard Cross III,Notre Dame,DL,2024-08-12,,,Indiana,FBS - Independent,15
 66,27,Josh Conerly Jr.,Oregon,OT,2024-08-12,,,Oregon,Pac 12,15
 67,29,Tate Ratledge,Georgia,IOL,2024-08-12,,,Georgia,SEC,15

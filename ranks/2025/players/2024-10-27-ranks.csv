@@ -1,0 +1,976 @@
+Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,State,Conference,ProjectedPoints
+1,1,Travis Hunter,Colorado,CB,2024-10-27,1,NEW ENGLAND PATRIOTS,Colorado,Big 12,35
+2,1,Shedeur Sanders,Colorado,QB,2024-10-27,3,CLEVELAND BROWNS,Colorado,Big 12,35
+3,3,Cameron Ward,Miami (FL),QB,2024-10-27,2,CAROLINA PANTHERS,Florida,ACC,35
+4,2,Mason Graham,Michigan,DL,2024-10-27,5,NEW YORK JETS,Michigan,Big Ten,35
+5,2,Will Johnson,Michigan,CB,2024-10-27,7,JACKSONVILLE JAGUARS,Michigan,Big Ten,35
+6,6,Tetairoa McMillan,Arizona,WR,2024-10-27,12,LOS ANGELES RAMS,Arizona,Big 12,35
+7,2,Will Campbell,LSU,OT,2024-10-27,N/A,,Louisiana,SEC,35
+8,2,Kelvin Banks,Texas,OT,2024-10-27,N/A,,Texas,SEC,35
+9,9,Jalen Milroe,Alabama,QB,2024-10-27,4,TENNESSEE TITANS,Alabama,SEC,35
+10,4,Mykel Williams,Georgia,EDGE,2024-10-27,6,NEW ORLEANS SAINTS,Georgia,SEC,35
+11,1,James Pearce Jr.,Tennessee,EDGE,2024-10-27,N/A,,Tennessee,SEC,30
+12,10,Abdul Carter,Penn State,EDGE,2024-10-27,13,ARIZONA CARDINALS,Pennsylvania,Big Ten,30
+13,8,Quinn Ewers,Texas,QB,2024-10-27,8,LAS VEGAS RAIDERS,Texas,SEC,30
+14,13,Malaki Starks,Georgia,S,2024-10-27,10,MIAMI DOLPHINS,Georgia,SEC,30
+15,1,Carson Beck,Georgia,QB,2024-10-27,9,NEW YORK GIANTS,Georgia,SEC,30
+16,1,Luther Burden,Missouri,WR,2024-10-27,21,DENVER BRONCOS,Missouri,SEC,30
+17,16,Ashton Jeanty,Boise State,RB,2024-10-27,16,DALLAS COWBOYS,Idaho,FBS - Mountain West,30
+18,13,Nic Scourton,Texas A&M,EDGE,2024-10-27,18,PHILADELPHIA EAGLES,Texas,SEC,30
+19,10,Benjamin Morrison,Notre Dame,CB,2024-10-27,19,INDIANAPOLIS COLTS,Indiana,FBS - Independent,30
+20,20,Kenneth Grant,Michigan,DL,2024-10-27,11,CINCINNATI BENGALS,Michigan,Big Ten,30
+21,10,Deone Walker,Kentucky,DL,2024-10-27,15,LOS ANGELES CHARGERS,Kentucky,SEC,30
+22,14,Emery Jones Jr.,LSU,OT,2024-10-27,14,SAN FRANCISCO 49ERS,Louisiana,SEC,30
+23,22,Isaiah Bond,Texas,WR,2024-10-27,25,BUFFALO BILLS,Texas,SEC,30
+24,16,Colston Loveland,Michigan,TE,2024-10-27,32,KANSAS CITY CHIEFS,Michigan,Big Ten,30
+25,17,Emeka Egbuka,Ohio State,WR,2024-10-27,26,PITTSBURGH STEELERS,Ohio,Big Ten,30
+26,24,Jalon Walker,Georgia,LB,2024-10-27,22,ATLANTA FALCONS,Georgia,SEC,25
+27,23,Aireontae Ersery,Minnesota,OT,2024-10-27,N/A,,Minnesota,Big Ten,25
+28,26,Shavon Revel Jr.,East Carolina,CB,2024-10-27,N/A,,North Carolina,FBS - AAC,25
+29,29,Tyler Booker,Alabama,IOL,2024-10-27,23,CHICAGO BEARS,Alabama,SEC,25
+30,28,Walter Nolen,Ole Miss,DL,2024-10-27,28,GREEN BAY PACKERS,Mississippi,SEC,25
+31,25,Jack Sawyer,Ohio State,EDGE,2024-10-27,31,DETROIT LIONS,Ohio,Big Ten,25
+32,22,Tyleik Williams,Ohio State,DL,2024-10-27,27,MINNESOTA VIKINGS,Ohio,Big Ten,25
+33,21,Denzel Burke,Ohio State,CB,2024-10-27,N/A,,Ohio,Big Ten,25
+34,29,Cameron Williams,Texas,OT,2024-10-27,N/A,,Texas,SEC,25
+35,21,Jonah Savaiinaea,Arizona,IOL,2024-10-27,N/A,,Arizona,Big 12,25
+36,16,Harold Perkins,LSU,LB,2024-10-27,30,HOUSTON TEXANS,Louisiana,SEC,20
+37,21,Tacario Davis,Arizona,CB,2024-10-27,N/A,,Arizona,Big 12,20
+38,24,J.T. Tuimoloau,Ohio State,EDGE,2024-10-27,N/A,,Ohio,Big Ten,20
+39,39,Wyatt Milum,West Virginia,OT,2024-10-27,24,BALTIMORE RAVENS,West Virginia,Big 12,20
+40,40,Donovan Ezeiruaku,Boston College,EDGE,2024-10-27,17,TAMPA BAY BUCCANEERS,Massachusetts,ACC,20
+41,38,L.T. Overton,Alabama,DL,2024-10-27,N/A,,Alabama,SEC,20
+42,27,Princely Umanmielen,Ole Miss,EDGE,2024-10-27,N/A,,Mississippi,SEC,20
+43,31,Josh Simmons,Ohio State,OT,2024-10-27,N/A,,Ohio,Big Ten,20
+44,37,Landon Jackson,Arkansas,EDGE,2024-10-27,N/A,,Arkansas,SEC,20
+45,43,Derrick Harmon,Oregon,DL,2024-10-27,N/A,,Oregon,Big Ten,20
+46,29,Kevin Winston Jr.,Penn State,S,2024-10-27,N/A,,Pennsylvania,Big Ten,20
+47,34,Garrett Nussmeier,LSU,QB,2024-10-27,N/A,,Louisiana,SEC,20
+48,33,Donovan Jackson,Ohio State,IOL,2024-10-27,N/A,,Ohio,Big Ten,20
+49,46,Tyler Warren,Penn State,TE,2024-10-27,N/A,,Pennsylvania,Big Ten,20
+50,50,Jihaad Campbell,Alabama,LB,2024-10-27,20,SEATTLE SEAHAWKS,Alabama,SEC,20
+51,27,Quinshon Judkins,Ohio State,RB,2024-10-27,N/A,,Ohio,Big Ten,20
+52,49,T.J. Sanders,South Carolina,DL,2024-10-27,N/A,,South Carolina,SEC,20
+53,31,Drew Allar,Penn State,QB,2024-10-27,N/A,,Pennsylvania,Big Ten,20
+54,50,Shemar Stewart,Texas A&M,DL,2024-10-27,N/A,,Texas,SEC,20
+55,49,Nick Emmanwori,South Carolina,S,2024-10-27,N/A,,South Carolina,SEC,20
+56,48,Omarion Hampton,North Carolina,RB,2024-10-27,N/A,,North Carolina,ACC,20
+57,41,Danny Stutsman,Oklahoma,LB,2024-10-27,N/A,,Oklahoma,SEC,20
+58,44,Tate Ratledge,Georgia,IOL,2024-10-27,N/A,,Georgia,SEC,20
+59,42,Tre Harris,Ole Miss,WR,2024-10-27,N/A,,Mississippi,SEC,20
+60,28,Barrett Carter,Clemson,LB,2024-10-27,N/A,,South Carolina,ACC,15
+61,45,Mansoor Delane,Virginia Tech,CB,2024-10-27,N/A,,Virginia,ACC,15
+62,39,Maxwell Hairston,Kentucky,CB,2024-10-27,N/A,,Kentucky,SEC,15
+63,39,Dontay Corleone,Cincinnati,DL,2024-10-27,N/A,,Ohio,Big 12,15
+64,21,Evan Stewart,Oregon,WR,2024-10-27,N/A,,Oregon,Big Ten,15
+65,44,Josh Conerly Jr.,Oregon,OT,2024-10-27,,,Oregon,Big Ten,15
+66,43,Elic Ayomanor,Stanford,WR,2024-10-27,,,California,ACC,15
+67,30,Patrick Payton,Florida State,EDGE,2024-10-27,,,Florida,ACC,15
+68,65,Harold Fannin Jr.,Bowling Green,TE,2024-10-27,,,Ohio,FBS - MAC,15
+69,50,Jahdae Barron,Texas,CB,2024-10-27,,,Texas,SEC,15
+70,69,Jalen Royals,Utah State,WR,2024-10-27,,,Utah,FBS - Mountain West,15
+71,41,Ashton Gillotte,Louisville,EDGE,2024-10-27,,,Kentucky,ACC,10
+72,27,Ollie Gordon II,Oklahoma State,RB,2024-10-27,,,Oklahoma,Big 12,10
+73,73,Kobe Hudson,UCF,WR,2024-10-27,,,Florida,Big 12,10
+74,70,Azareye'h Thomas,Florida State,CB,2024-10-27,,,Florida,ACC,10
+75,17,Jaxson Dart,Ole Miss,QB,2024-10-27,,,Mississippi,SEC,10
+76,73,Daylen Everette,Georgia,CB,2024-10-27,,,Georgia,SEC,10
+77,56,Kyle Kennard,South Carolina,EDGE,2024-10-27,,,South Carolina,SEC,10
+78,37,Earnest Greene,Georgia,OT,2024-10-27,,,Georgia,SEC,10
+79,77,Bradyn Swinson,LSU,EDGE,2024-10-27,,,Louisiana,SEC,10
+80,77,Kaden Prather,Maryland,WR,2024-10-27,,,Maryland,Big Ten,10
+81,34,Nic Anderson,Oklahoma,WR,2024-10-27,,,Oklahoma,SEC,10
+82,46,Rod Moore,Michigan,S,2024-10-27,,,Michigan,Big Ten,10
+83,83,Jared Wilson,Georgia,IOL,2024-10-27,,,Georgia,SEC,10
+84,30,Jabbar Muhammad,Oregon,CB,2024-10-27,,,Oregon,Big Ten,10
+85,41,Dani Dennis-Sutton,Penn State,EDGE,2024-10-27,,,Pennsylvania,Big Ten,10
+86,54,DeMonte Capehart,Clemson,DL,2024-10-27,,,South Carolina,ACC,10
+87,56,Armand Membou,Missouri,IOL,2024-10-27,,,Missouri,SEC,10
+88,70,Howard Cross III,Notre Dame,DL,2024-10-27,,,Indiana,FBS - Independent,10
+89,50,Lander Barton,Utah,LB,2024-10-27,,,Utah,Big 12,10
+90,53,Marcus Mbow,Purdue,OT,2024-10-27,,,Indiana,Big Ten,10
+91,84,Jared Ivey,Ole Miss,EDGE,2024-10-27,,,Mississippi,SEC,10
+92,70,TreVeyon Henderson,Ohio State,RB,2024-10-27,,,Ohio,Big Ten,10
+93,53,Luke Lachey,Iowa,TE,2024-10-27,,,Iowa,Big Ten,10
+94,59,Davison Igbinosun,Ohio State,CB,2024-10-27,,,Ohio,Big Ten,10
+95,72,Kamari Ramsey,USC,S,2024-10-27,,,California,Big Ten,10
+96,64,Deion Burks,Oklahoma,WR,2024-10-27,,,Oklahoma,SEC,10
+97,86,Billy Bowman,Oklahoma,S,2024-10-27,,,Oklahoma,SEC,10
+98,55,Nick Singleton,Penn State,RB,2024-10-27,,,Pennsylvania,Big Ten,10
+99,95,Jayden Higgins,Iowa State,WR,2024-10-27,,,Iowa,Big 12,10
+100,61,Xavier Watts,Notre Dame,S,2024-10-27,,,Indiana,FBS - Independent,10
+101,44,Tory Horton,Colorado State,WR,2024-10-27,,,Colorado,FBS - Mountain West,8
+102,88,Jack Velling,Michigan State,TE,2024-10-27,,,Michigan,Big Ten,8
+103,38,Parker Brailsford,Alabama,IOL,2024-10-27,,,Alabama,SEC,8
+104,48,Blake Miller,Clemson,OT,2024-10-27,,,South Carolina,ACC,8
+105,85,Sonny Styles,Ohio State,LB,2024-10-27,,,Ohio,Big Ten,8
+106,61,Jonah Monheim,USC,IOL,2024-10-27,,,California,Big Ten,8
+107,59,Nazir Stackhouse,Georgia,DL,2024-10-27,,,Georgia,SEC,8
+108,86,Dorian Strong,Virginia Tech,CB,2024-10-27,,,Virginia,ACC,8
+109,85,Anthony Belton,NC State,OT,2024-10-27,,,North Carolina,ACC,8
+110,50,Sebastian Castro,Iowa,S,2024-10-27,,,Iowa,Big Ten,8
+111,63,Josaiah Stewart,Michigan,EDGE,2024-10-27,,,Michigan,Big Ten,8
+112,48,Kyren Lacy,LSU,WR,2024-10-27,,,Louisiana,SEC,8
+113,93,Domani Jackson,Alabama,CB,2024-10-27,,,Alabama,SEC,8
+114,92,Keon Sabb,Alabama,S,2024-10-27,,,Alabama,SEC,8
+115,50,Ajani Cornelius,Oregon,OT,2024-10-27,,,Oregon,Big Ten,8
+116,87,Jason Marshall Jr.,Florida,CB,2024-10-27,,,Florida,SEC,8
+117,55,Tez Johnson,Oregon,WR,2024-10-27,,,Oregon,Big Ten,8
+118,76,Anto Saka,Northwestern,EDGE,2024-10-27,,,Illinois,Big Ten,8
+119,70,Smael Mondon Jr.,Georgia,LB,2024-10-27,,,Georgia,SEC,8
+120,97,Moose Muhammad III,Texas A&M,WR,2024-10-27,,,Texas,SEC,8
+121,71,Trey Amos,Ole Miss,CB,2024-10-27,,,Mississippi,SEC,7
+122,61,Tai Felton,Maryland,WR,2024-10-27,,,Maryland,Big Ten,7
+123,85,Jaeden Roberts,Alabama,IOL,2024-10-27,,,Alabama,SEC,7
+124,76,Marvin Jones Jr.,Florida State,EDGE,2024-10-27,,,Florida,ACC,7
+125,80,Jordan Phillips,Maryland,DL,2024-10-27,,,Maryland,Big Ten,7
+126,102,Tahveon Nicholson,Ole Miss,S,2024-10-27,,,Mississippi,SEC,7
+127,108,Savion Williams,TCU,WR,2024-10-27,,,Texas,Big 12,7
+128,83,Jude Bowry,Boston College,OT,2024-10-27,,,Massachusetts,ACC,7
+129,70,Xavier Restrepo,Miami (FL),WR,2024-10-27,,,Florida,ACC,7
+130,40,Jay Higgins,Iowa,LB,2024-10-27,,,Iowa,Big Ten,7
+131,116,Kalel Mullings,Michigan,RB,2024-10-27,,,Michigan,Big Ten,7
+132,111,Ty Hamilton,Ohio State,DL,2024-10-27,,,Ohio,Big Ten,7
+133,68,Andrew Mukuba,Texas,S,2024-10-27,,,Texas,SEC,7
+134,98,Jamon Dumas-Johnson,Kentucky,LB,2024-10-27,,,Kentucky,SEC,7
+135,73,Riley Leonard,Notre Dame,QB,2024-10-27,,,Indiana,FBS - Independent,7
+136,58,Deontae Lawson,Alabama,LB,2024-10-27,,,Alabama,SEC,7
+137,54,Nick Martin,Oklahoma State,LB,2024-10-27,,,Oklahoma,Big 12,7
+138,109,Charles Grant,William & Mary,IOL,2024-10-27,,,Virginia,FCS,7
+139,100,Jaydn Ott,California,RB,2024-10-27,,,California,ACC,7
+140,71,Gunnar Helm,Texas,TE,2024-10-27,,,Texas,SEC,7
+141,62,Joshua Gray,Oregon State,IOL,2024-10-27,,,Oregon,Pac 12,7
+142,64,Antwaun Powell-Ryland,Virginia Tech,EDGE,2024-10-27,,,Virginia,ACC,7
+143,116,Tommi Hill,Nebraska,CB,2024-10-27,,,Nebraska,Big Ten,7
+144,82,David Bailey,Stanford,EDGE,2024-10-27,,,California,ACC,7
+145,27,Conner Weigman,Texas A&M,QB,2024-10-27,,,Texas,SEC,7
+146,64,Devin Neal,Kansas,RB,2024-10-27,,,Kansas,Big 12,7
+147,132,Jo'Quavious Marks,USC,RB,2024-10-27,,,California,Big Ten,7
+148,91,Malachi Moore,Alabama,S,2024-10-27,,,Alabama,SEC,7
+149,44,Fernando Carmona,Arkansas,OT,2024-10-27,,,Arkansas,SEC,7
+150,142,Dylan Sampson,Tennessee,RB,2024-10-27,,,Tennessee,SEC,7
+151,35,Jordan Hancock,Ohio State,CB,2024-10-27,,,Ohio,Big Ten,6
+152,76,Luke Kandra,Cincinnati,IOL,2024-10-27,,,Ohio,Big 12,6
+153,130,Jaylen Reed,Penn State,S,2024-10-27,,,Pennsylvania,Big Ten,6
+154,117,Caden Prieskorn,Ole Miss,TE,2024-10-27,,,Mississippi,SEC,6
+155,107,Mike Green,Marshall,EDGE,2024-10-27,,,West Virginia,FBS - CUSA,6
+156,73,Terrance Ferguson,Oregon,TE,2024-10-27,,,Oregon,Big Ten,6
+157,75,Jake Briningstool,Clemson,TE,2024-10-27,,,South Carolina,ACC,6
+158,51,Oscar Delp,Georgia,TE,2024-10-27,,,Georgia,SEC,6
+159,97,Kyle McCord,Syracuse,QB,2024-10-27,,,New York,ACC,6
+160,160,Hunter Wohler,Wisconsin,S,2024-10-27,,,Wisconsin,Big Ten,6
+161,57,Antwane Wells Jr.,Ole Miss,WR,2024-10-27,,,Mississippi,SEC,6
+162,71,Chris Brazzell,Tennessee,WR,2024-10-27,,,Tennessee,SEC,6
+163,86,Mason Taylor,LSU,TE,2024-10-27,,,Louisiana,SEC,6
+164,139,Kaleb Johnson,Iowa,RB,2024-10-27,,,Iowa,Big Ten,6
+165,124,Shilo Sanders,Colorado,S,2024-10-27,,,Colorado,Big 12,6
+166,108,Derrick Moore,Michigan,EDGE,2024-10-27,,,Michigan,Big Ten,6
+167,89,Shemar Turner,Texas A&M,DL,2024-10-27,,,Texas,SEC,6
+168,49,Cobee Bryant,Kansas,CB,2024-10-27,,,Kansas,Big 12,6
+169,26,Miller Moss,USC,QB,2024-10-27,,,California,Big Ten,6
+170,101,Jordan Burch,Oregon,DL,2024-10-27,,,Oregon,Big Ten,6
+171,94,Matthew Golden,Texas,WR,2024-10-27,,,Texas,SEC,6
+172,127,Bryce Foster,Texas A&M,IOL,2024-10-27,,,Texas,SEC,6
+173,120,Jack Nelson,Wisconsin,OT,2024-10-27,,,Wisconsin,Big Ten,6
+174,147,Grey Zabel,North Dakota State,OT,2024-10-27,,,North Dakota,FCS,6
+175,128,Cade Klubnik,Clemson,QB,2024-10-27,,,South Carolina,ACC,6
+176,129,D.J. Campbell,Texas,IOL,2024-10-27,,,Texas,SEC,6
+177,161,Xavier Scott,Illinois,S,2024-10-27,,,Illinois,Big Ten,6
+178,81,Bru McCoy,Tennessee,WR,2024-10-27,,,Tennessee,SEC,6
+179,174,Jermari Harris,Iowa,CB,2024-10-27,,,Iowa,Big Ten,6
+180,55,Donovan Edwards,Michigan,RB,2024-10-27,,,Michigan,Big Ten,6
+181,44,Quincy Riley,Louisville,CB,2024-10-27,,,Kentucky,ACC,5
+182,72,Rylie Mills,Notre Dame,DL,2024-10-27,,,Indiana,FBS - Independent,5
+183,159,Nohl Williams,California,CB,2024-10-27,,,California,ACC,5
+184,91,Clay Webb,Jacksonville State,IOL,2024-10-27,,,Alabama,FBS - CUSA,5
+185,36,Xavier Nwankpa,Iowa,S,2024-10-27,,,Iowa,Big Ten,5
+186,186,Kobe King,Penn State,LB,2024-10-27,,,Pennsylvania,Big Ten,5
+187,104,Aeneas Peebles,Virginia Tech,DL,2024-10-27,,,Virginia,ACC,5
+188,59,Ricardo Hallman,Wisconsin,CB,2024-10-27,,,Wisconsin,Big Ten,5
+189,164,Terrance Brooks,Illinois,CB,2024-10-27,,,Illinois,Big Ten,5
+190,166,Ar'maj Reed-Adams,Texas A&M,IOL,2024-10-27,,,Texas,SEC,5
+191,158,Ethan Burke,Texas,EDGE,2024-10-27,,,Texas,SEC,5
+192,192,Zeke Correll,NC State,IOL,2024-10-27,,,North Carolina,ACC,5
+193,149,Lathan Ransom,Ohio State,S,2024-10-27,,,Ohio,Big Ten,5
+194,194,Chris Paul Jr.,Ole Miss,LB,2024-10-27,,,Mississippi,SEC,5
+195,116,Kolbey Taylor,Vanderbilt,CB,2024-10-27,,,Tennessee,SEC,5
+196,196,Jeremiah Cooper,Iowa State,S,2024-10-27,,,Iowa,Big 12,5
+197,110,Jaheim Oatis,Alabama,DL,2024-10-27,,,Alabama,SEC,5
+198,185,Brant Kuithe,Utah,TE,2024-10-27,,,Utah,Big 12,5
+199,175,De'Braylon Carroll,Texas Tech,DL,2024-10-27,,,Texas,Big 12,5
+200,200,Mason Richman,Iowa,OT,2024-10-27,,,Iowa,Big Ten,5
+201,62,Yahya Black,Iowa,EDGE,2024-10-27,,,Iowa,Big Ten,5
+202,202,Bryce Boettcher,Oregon,LB,2024-10-27,,,Oregon,Big Ten,5
+203,131,R.J. Harvey Jr.,UCF,RB,2024-10-27,,,Florida,Big 12,5
+204,88,Micah Pettus,Ole Miss,OT,2024-10-27,,,Mississippi,SEC,5
+205,191,Kamren Fabiculanan,Washington,S,2024-10-27,,,Washington,Big Ten,5
+206,175,Connor Tollison,Missouri,IOL,2024-10-27,,,Missouri,SEC,5
+207,181,Ryan Fitzgerald,Florida State,K,2024-10-27,,,Florida,ACC,5
+208,177,Jonah Coleman,Washington,RB,2024-10-27,,,Washington,Big Ten,5
+209,125,Jaishawn Barham,Michigan,LB,2024-10-27,,,Michigan,Big Ten,5
+210,127,Kyle Monangai,Rutgers,RB,2024-10-27,,,New Jersey,Big Ten,5
+211,193,Cyrus Allen,Texas A&M,WR,2024-10-27,,,Texas,SEC,5
+212,141,Jake Slaughter,Florida,IOL,2024-10-27,,,Florida,SEC,5
+213,191,Bhayshul Tuten,Virginia Tech,RB,2024-10-27,,,Virginia,ACC,5
+214,161,Justin Walley,Minnesota,CB,2024-10-27,,,Minnesota,Big Ten,5
+215,189,Ethan Onianwa,Rice,OT,2024-10-27,,,Texas,FBS - AAC,5
+216,74,Mitchell Evans,Notre Dame,TE,2024-10-27,,,Indiana,FBS - Independent,5
+217,190,Tyree Skipper,Louisiana-Lafayette,S,2024-10-27,,,Louisiana,FBS - Sun Belt,5
+218,135,Debo Williams,South Carolina,LB,2024-10-27,,,South Carolina,SEC,5
+219,115,Will Lee III,Texas A&M,CB,2024-10-27,,,Texas,SEC,5
+220,187,D.J. Giddens,Kansas State,RB,2024-10-27,,,Kansas,Big 12,5
+221,99,Germie Bernard,Alabama,WR,2024-10-27,,,Alabama,SEC,5
+222,165,Collin Oliver,Oklahoma State,EDGE,2024-10-27,,,Oklahoma,Big 12,5
+223,108,R.J. Oben,Notre Dame,EDGE,2024-10-27,,,Indiana,FBS - Independent,5
+224,65,Oronde Gadsden II,Syracuse,TE,2024-10-27,,,New York,ACC,5
+225,177,Elijah Roberts,SMU,EDGE,2024-10-27,,,Texas,ACC,5
+226,118,Gentry Williams,Oklahoma,CB,2024-10-27,,,Oklahoma,SEC,5
+227,200,Jack Bech,TCU,WR,2024-10-27,,,Texas,Big 12,5
+228,122,Toriano Pride,Missouri,CB,2024-10-27,,,Missouri,SEC,5
+229,134,R.J. Maryland,SMU,TE,2024-10-27,,,Texas,ACC,5
+230,96,Dasan McCullough,Oklahoma,EDGE,2024-10-27,,,Oklahoma,SEC,5
+231,104,Will Sheppard,Colorado,WR,2024-10-27,,,Colorado,Big 12,5
+232,126,Garrett Dellinger,LSU,IOL,2024-10-27,,,Louisiana,SEC,5
+233,95,Samuel Brown,Miami (FL),WR,2024-10-27,,,Florida,ACC,5
+234,114,John Michael Gyllenborg,Wyoming,TE,2024-10-27,,,Wyoming,FBS - Mountain West,5
+235,96,Joshua Farmer,Florida State,DL,2024-10-27,,,Florida,ACC,5
+236,187,Jalen Catalon,UNLV,S,2024-10-27,,,Nevada,FBS - Mountain West,5
+237,113,Jah Joyner,Minnesota,EDGE,2024-10-27,,,Minnesota,Big Ten,5
+238,177,Connor O'Toole,Utah,EDGE,2024-10-27,,,Utah,Big 12,5
+239,130,Fa'alili Fa'amoe,Washington State,OT,2024-10-27,,,Washington,Pac 12,5
+240,129,Thor Griffith,Louisville,DL,2024-10-27,,,Kentucky,ACC,5
+241,192,Nash Hutmacher,Nebraska,DL,2024-10-27,,,Nebraska,Big Ten,5
+242,193,Power Echols,North Carolina,LB,2024-10-27,,,North Carolina,ACC,5
+243,205,Cashius Howell,Texas A&M,EDGE,2024-10-27,,,Texas,SEC,5
+244,204,Teddye Buchanan,California,LB,2024-10-27,,,California,ACC,5
+245,173,Omarr Norman-Lott,Tennessee,DL,2024-10-27,,,Tennessee,SEC,5
+246,117,Dillon Bell,Georgia,WR,2024-10-27,,,Georgia,SEC,5
+247,105,Dylan Fairchild,Georgia,IOL,2024-10-27,,,Georgia,SEC,5
+248,130,Tim Keenan III,Alabama,DL,2024-10-27,,,Alabama,SEC,5
+249,133,Daniel Jackson,Minnesota,WR,2024-10-27,,,Minnesota,Big Ten,5
+250,199,Nick Nash,San Jose State,WR,2024-10-27,,,California,FBS - Mountain West,5
+251,70,Jimmy Horn Jr.,Colorado,WR,2024-10-27,,,Colorado,Big 12,2
+252,186,Chase Lundt,UConn,OT,2024-10-27,,,Connecticut,FBS - AAC,2
+253,73,Tyler Baron,Miami (FL),EDGE,2024-10-27,,,Florida,ACC,2
+254,111,Dane Key,Kentucky,WR,2024-10-27,,,Kentucky,SEC,2
+255,114,Phil Mafah,Clemson,RB,2024-10-27,,,South Carolina,ACC,2
+256,194,Aydan White,NC State,CB,2024-10-27,,,North Carolina,ACC,2
+257,105,Trevor Etienne,Georgia,RB,2024-10-27,,,Georgia,SEC,2
+258,76,Noah Fifita,Arizona,QB,2024-10-27,,,Arizona,Big 12,2
+259,119,Francisco Mauigoa,Miami (FL),LB,2024-10-27,,,Florida,ACC,2
+260,66,Bryson Nesbit,North Carolina,TE,2024-10-27,,,North Carolina,ACC,2
+261,108,Raheim Sanders,South Carolina,RB,2024-10-27,,,South Carolina,SEC,2
+262,87,Jalil Farooq,Oklahoma,WR,2024-10-27,,,Oklahoma,SEC,2
+263,51,Jay Toia,UCLA,DL,2024-10-27,,,California,Big Ten,2
+264,136,Marcus Wehr,Montana State,IOL,2024-10-27,,,Montana,FCS,2
+265,80,Xavier Truss,Georgia,OT,2024-10-27,,,Georgia,SEC,2
+266,128,Jasheen Davis,Wake Forest,EDGE,2024-10-27,,,North Carolina,ACC,2
+267,120,Trey Zuhn III,Texas A&M,OT,2024-10-27,,,Texas,SEC,2
+268,210,Tyreem Powell,Rutgers,LB,2024-10-27,,,New Jersey,Big Ten,2
+269,212,Emmanuel Pregnon,USC,IOL,2024-10-27,,,California,Big Ten,2
+270,115,Darrell Jackson Jr.,Florida State,DL,2024-10-27,,,Florida,ACC,2
+271,106,Riley Mahlman,Wisconsin,OT,2024-10-27,,,Wisconsin,Big Ten,2
+272,69,Tahj Brooks,Texas Tech,RB,2024-10-27,,,Texas,Big 12,2
+273,197,Warren Brinson,Georgia,DL,2024-10-27,,,Georgia,SEC,2
+274,147,Jaylin Lane,Virginia Tech,WR,2024-10-27,,,Virginia,ACC,2
+275,55,Barion Brown,Kentucky,WR,2024-10-27,,,Kentucky,SEC,2
+276,38,Will Howard,Ohio State,QB,2024-10-27,,,Ohio,Big Ten,2
+277,121,Tonka Hemingway,South Carolina,DL,2024-10-27,,,South Carolina,SEC,2
+278,88,Da'Quan Felton,Virginia Tech,WR,2024-10-27,,,Virginia,ACC,2
+279,104,Elijhah Badger,Florida,WR,2024-10-27,,,Florida,SEC,2
+280,224,Brandon Adams,UCF,CB,2024-10-27,,,Florida,Big 12,2
+281,229,Logan Jones,Iowa,IOL,2024-10-27,,,Iowa,Big Ten,2
+282,206,Austin Barber,Florida,OT,2024-10-27,,,Florida,SEC,2
+283,101,J.Michael Sturdivant,UCLA,WR,2024-10-27,,,California,Big Ten,2
+284,106,Brady Cook,Missouri,QB,2024-10-27,,,Missouri,SEC,2
+285,143,Ryder Langsdale,Lafayette,OT,2024-10-27,,,Pennsylvania,FCS,2
+286,234,Jalen Rivers,Miami (FL),OT,2024-10-27,,,Florida,ACC,2
+287,235,Vincent Anthony Jr.,Duke,EDGE,2024-10-27,,,North Carolina,ACC,2
+288,230,Domonique Orange,Iowa State,DL,2024-10-27,,,Iowa,Big 12,2
+289,241,D.J. Wingfield,Purdue,IOL,2024-10-27,,,Indiana,Big Ten,2
+290,149,Jalin Conyers,Texas Tech,TE,2024-10-27,,,Texas,Big 12,2
+291,243,Marcus Harper II,Oregon,IOL,2024-10-27,,,Oregon,Big Ten,2
+292,244,Zakhari Franklin,Illinois,WR,2024-10-27,,,Illinois,Big Ten,2
+293,66,Trey Moore,Texas,EDGE,2024-10-27,,,Texas,SEC,2
+294,217,Glendon Miller,Maryland,S,2024-10-27,,,Maryland,Big Ten,2
+295,245,Malcolm Ray,Rutgers,DL,2024-10-27,,,New Jersey,Big Ten,2
+296,176,Ja'Quinden Jackson,Arkansas,RB,2024-10-27,,,Arkansas,SEC,2
+297,114,Barryn Sorrell,Texas,EDGE,2024-10-27,,,Texas,SEC,2
+298,142,Jalon Daniels,Kansas,QB,2024-10-27,,,Kansas,Big 12,2
+299,141,Jager Burton,Kentucky,IOL,2024-10-27,,,Kentucky,SEC,2
+300,152,Joe Brunner,Wisconsin,IOL,2024-10-27,,,Wisconsin,Big Ten,2
+301,179,Dillon Gabriel,Oregon,QB,2024-10-27,,,Oregon,Big Ten,1
+302,180,Car'lin Vigers,Louisiana-Monroe,CB,2024-10-27,,,Louisiana,FBS - Sun Belt,1
+303,163,Max Brosmer,Minnesota,QB,2024-10-27,,,Minnesota,Big Ten,1
+304,149,Kaytron Allen,Penn State,RB,2024-10-27,,,Pennsylvania,Big Ten,1
+305,115,Ephesians Prysock,Washington,CB,2024-10-27,,,Washington,Big Ten,1
+306,85,Kaimon Rucker,North Carolina,EDGE,2024-10-27,,,North Carolina,ACC,1
+307,142,Thomas Perry,Middlebury,IOL,2024-10-27,,,Vermont,D3,1
+308,110,Jonas Sanker,Virginia,S,2024-10-27,,,Virginia,ACC,1
+309,154,Kenyatta Watson II,Georgia State,S,2024-10-27,,,Georgia,FBS - Sun Belt,1
+310,158,Cole Wisniewski,North Dakota State,S,2024-10-27,,,North Dakota,FCS,1
+311,94,Donovan Smith,Houston,QB,2024-10-27,,,Texas,Big 12,1
+312,97,Ja'Mori Maclin,Kentucky,WR,2024-10-27,,,Kentucky,SEC,1
+313,151,Devin Moore,Florida,CB,2024-10-27,,,Florida,SEC,1
+314,156,Marcus Allen,North Carolina,CB,2024-10-27,,,North Carolina,ACC,1
+315,159,Malik Dixon-Williams,UConn,S,2024-10-27,,,Connecticut,FBS - AAC,1
+316,109,Jeffrey Bassa,Oregon,LB,2024-10-27,,,Oregon,Big Ten,1
+317,162,D.J. Lundy,Florida State,LB,2024-10-27,,,Florida,ACC,1
+318,114,Makari Paige,Michigan,S,2024-10-27,,,Michigan,Big Ten,1
+319,170,Terrell Dawkins,North Texas,EDGE,2024-10-27,,,Texas,FBS - AAC,1
+320,176,Corey Dyches,California,TE,2024-10-27,,,California,ACC,1
+321,121,R.J. Mickens,Clemson,S,2024-10-27,,,South Carolina,ACC,1
+322,101,Byrum Brown,South Florida,QB,2024-10-27,,,Florida,FBS - AAC,1
+323,74,J.C. Davis,Illinois,OT,2024-10-27,,,Illinois,Big Ten,1
+324,109,Connor Colby,Iowa,IOL,2024-10-27,,,Iowa,Big Ten,1
+325,139,Alfred Collins,Texas,DL,2024-10-27,,,Texas,SEC,1
+326,136,Javontez Spraggins,Tennessee,IOL,2024-10-27,,,Tennessee,SEC,1
+327,143,Ethan Downs,Oklahoma,EDGE,2024-10-27,,,Oklahoma,SEC,1
+328,80,Damien Martinez,Miami (FL),RB,2024-10-27,,,Florida,ACC,1
+329,104,Drew Shelton,Penn State,OT,2024-10-27,,,Pennsylvania,Big Ten,1
+330,110,Davin Vann,NC State,DL,2024-10-27,,,North Carolina,ACC,1
+331,114,Shemar James,Florida,LB,2024-10-27,,,Florida,SEC,1
+332,111,Malik Verdon,Iowa State,S,2024-10-27,,,Iowa,Big 12,1
+333,117,Tim Smith,Alabama,DL,2024-10-27,,,Alabama,SEC,1
+334,150,Pat Bryant,Illinois,WR,2024-10-27,,,Illinois,Big Ten,1
+335,126,Alex Huntley,South Carolina,DL,2024-10-27,,,South Carolina,SEC,1
+336,181,Matthew Bedford,Oregon,OT,2024-10-27,,,Oregon,Big Ten,1
+337,129,Cam Miller,Penn State,CB,2024-10-27,,,Pennsylvania,Big Ten,1
+338,125,Izavion Miller,Auburn,OT,2024-10-27,,,Alabama,SEC,1
+339,132,Caleb Etienne,BYU,OT,2024-10-27,,,Utah,Big 12,1
+340,137,Benjamin Yurosek,Georgia,TE,2024-10-27,,,Georgia,SEC,1
+341,117,Joey Slackman,Florida,DL,2024-10-27,,,Florida,SEC,1
+342,138,Tony Grimes,UNLV,CB,2024-10-27,,,Nevada,FBS - Mountain West,1
+343,168,Jaylin Lucas,Florida State,RB,2024-10-27,,,Florida,ACC,1
+344,129,Karene Reid,Utah,LB,2024-10-27,,,Utah,Big 12,1
+345,170,Nay'Quan Wright,South Florida,RB,2024-10-27,,,Florida,FBS - AAC,1
+346,171,Dacari Collins,NC State,WR,2024-10-27,,,North Carolina,ACC,1
+347,122,Paris Shand,LSU,DL,2024-10-27,,,Louisiana,SEC,1
+348,121,Andrew Armstrong,Arkansas,WR,2024-10-27,,,Arkansas,SEC,1
+349,132,Ty Robinson,Nebraska,DL,2024-10-27,,,Nebraska,Big Ten,1
+350,131,Jordan James,Oregon,RB,2024-10-27,,,Oregon,Big Ten,1
+351,99,Jaydon Blue,Texas,RB,2024-10-27,,,Texas,SEC,1
+352,144,Gavin Bartholomew,Pitt,TE,2024-10-27,,,Pennsylvania,ACC,1
+353,48,Tyler Onyedim,Iowa State,DL,2024-10-27,,,Iowa,Big 12,1
+354,94,Graham Mertz,Florida,QB,2024-10-27,,,Florida,SEC,1
+355,207,Amin Vanover,Penn State,EDGE,2024-10-27,,,Pennsylvania,Big Ten,1
+356,212,De'Corian Clark,UTSA,WR,2024-10-27,,,Texas,FBS - AAC,1
+357,150,Ulysses Bentley IV,Ole Miss,RB,2024-10-27,,,Mississippi,SEC,1
+358,145,Drew Azzopardi,Washington,OT,2024-10-27,,,Washington,Big Ten,1
+359,218,Tristan Leigh,Clemson,OT,2024-10-27,,,South Carolina,ACC,1
+360,154,Jayden Gibson,Oklahoma,WR,2024-10-27,,,Oklahoma,SEC,1
+361,156,Quentin Skinner,Kansas,WR,2024-10-27,,,Kansas,Big 12,1
+362,226,Deandre Jules,South Carolina,DL,2024-10-27,,,South Carolina,SEC,1
+363,229,Dymere Miller,Rutgers,WR,2024-10-27,,,New Jersey,Big Ten,1
+364,232,Dominic Lovett,Georgia,WR,2024-10-27,,,Georgia,SEC,1
+365,233,Michael Ford Jr.,Kansas,IOL,2024-10-27,,,Kansas,Big 12,1
+366,235,Seth Henigan,Memphis,QB,2024-10-27,,,Tennessee,FBS - AAC,1
+367,236,Kyron Drones,Virginia Tech,QB,2024-10-27,,,Virginia,ACC,1
+368,145,Gabe Jacas,Illinois,EDGE,2024-10-27,,,Illinois,Big Ten,1
+369,110,Hudson Clark,Arkansas,S,2024-10-27,,,Arkansas,SEC,1
+370,149,Colbie Young,Georgia,WR,2024-10-27,,,Georgia,SEC,1
+371,294,Ross James,Oregon,P,2024-10-27,,,Oregon,Big Ten,1
+372,295,David Walker,Central Arkansas,DL,2024-10-27,,,Arkansas,FCS,1
+373,268,John Pius,Wisconsin,EDGE,2024-10-27,,,Wisconsin,Big Ten,1
+374,66,Mark Gronowski,South Dakota State,QB,2024-10-27,,,South Dakota,FCS,1
+375,60,Jackson Slater,Sacramento State,IOL,2024-10-27,,,California,FCS,1
+376,64,Isas Waxter,Villanova,CB,2024-10-27,,,Pennsylvania,FCS,1
+377,296,Kenny Gallop Jr.,Howard,S,2024-10-27,,,Washington DC,FCS,1
+378,307,C.J. Hicks,Ohio State,LB,2024-10-27,,,Ohio,Big Ten,1
+379,193,Jeremiah Alexander,Alabama,EDGE,2024-10-27,,,Alabama,SEC,1
+380,166,Denver Harris,UTSA,CB,2024-10-27,,,Texas,FBS - AAC,1
+381,309,Jeadyn Lukus,Clemson,CB,2024-10-27,,,South Carolina,ACC,1
+382,310,Ty Simpson,Alabama,QB,2024-10-27,,,Alabama,SEC,1
+383,305,Jaylen Sneed,Notre Dame,LB,2024-10-27,,,Indiana,FBS - Independent,1
+384,304,Jaheim Singletary,Arkansas,CB,2024-10-27,,,Arkansas,SEC,1
+385,212,Zach Rice,North Carolina,IOL,2024-10-27,,,North Carolina,ACC,1
+386,311,Gabriel Brownlow-Dindy,Texas A&M,DL,2024-10-27,,,Texas,SEC,1
+387,308,Chris Marshall,Boise State,WR,2024-10-27,,,Idaho,FBS - Mountain West,1
+388,303,Travis Shaw,North Carolina,DL,2024-10-27,,,North Carolina,ACC,1
+389,385,Gunner Stockton,Georgia,QB,2024-10-27,,,Georgia,SEC,1
+390,390,Nyjalik Kelly,UCF,EDGE,2024-10-27,,,Florida,Big 12,1
+391,258,J.Q. Hardaway,Kentucky,CB,2024-10-27,,,Kentucky,SEC,1
+392,318,Jacolby Spells,West Virginia,CB,2024-10-27,,,West Virginia,Big 12,1
+393,236,Bryce Anderson,Texas A&M,S,2024-10-27,,,Texas,SEC,1
+394,351,Justice Finkley,Texas,EDGE,2024-10-27,,,Texas,SEC,1
+395,338,Branson Robinson,Georgia,RB,2024-10-27,,,Georgia,SEC,1
+396,341,Kenyatta Jackson,Ohio State,EDGE,2024-10-27,,,Ohio,Big Ten,1
+397,177,Noah Thomas,Texas A&M,WR,2024-10-27,,,Texas,SEC,1
+398,352,Devon Jackson,Oregon,LB,2024-10-27,,,Oregon,Big Ten,1
+399,399,Kyion Grayes,California,WR,2024-10-27,,,California,ACC,1
+400,400,Jyaire Brown,LSU,CB,2024-10-27,,,Louisiana,SEC,1
+401,264,Jacoby Mathews,Texas A&M,S,2024-10-27,,,Texas,SEC,1
+402,327,Jake Johnson,North Carolina,TE,2024-10-27,,,North Carolina,ACC,1
+403,371,Dallan Hayden,Colorado,RB,2024-10-27,,,Colorado,Big 12,1
+404,347,Kaden Helms,Oklahoma,TE,2024-10-27,,,Oklahoma,SEC,1
+405,331,Jaylon Guilbeau,Texas,CB,2024-10-27,,,Texas,SEC,1
+406,354,Jamarion Miller,Alabama,RB,2024-10-27,,,Alabama,SEC,1
+407,245,Adam Randall,Clemson,WR,2024-10-27,,,South Carolina,ACC,1
+408,399,Keaten Wade,Kentucky,EDGE,2024-10-27,,,Kentucky,SEC,1
+409,359,Raleek Brown,Arizona State,RB,2024-10-27,,,Arizona,Big 12,1
+410,370,Joshua Josephs,Tennessee,EDGE,2024-10-27,,,Tennessee,SEC,1
+411,361,Andre Greene Jr.,Virginia,WR,2024-10-27,,,Virginia,ACC,1
+412,368,Enai White,Texas A&M,EDGE,2024-10-27,,,Texas,SEC,1
+413,397,Cyrus Moss,Miami (FL),EDGE,2024-10-27,,,Florida,ACC,1
+414,374,Kaleb Brown,Iowa,WR,2024-10-27,,,Iowa,Big Ten,1
+415,332,Devin Brown,Ohio State,QB,2024-10-27,,,Ohio,Big Ten,1
+416,346,Tegra Tshabola,Ohio State,OT,2024-10-27,,,Ohio,Big Ten,1
+417,151,Amari Niblack,Texas,TE,2024-10-27,,,Texas,SEC,1
+418,378,A.J. Swann,LSU,QB,2024-10-27,,,Louisiana,SEC,1
+419,401,Emmanuel Henderson,Alabama,RB,2024-10-27,,,Alabama,SEC,1
+420,350,Zion Branch,USC,S,2024-10-27,,,California,Big Ten,1
+421,369,Kam Dewberry,Texas A&M,IOL,2024-10-27,,,Texas,SEC,1
+422,366,George Pettaway,James Madison,RB,2024-10-27,,,Virginia,FBS - Sun Belt,1
+423,229,Aaron Graves,Iowa,DL,2024-10-27,,,Iowa,Big Ten,1
+424,194,Antonio Williams,Clemson,WR,2024-10-27,,,South Carolina,ACC,1
+425,207,Jacob Sexton,Oklahoma,IOL,2024-10-27,,,Oklahoma,SEC,1
+426,340,Nick Evers,UConn,QB,2024-10-27,,,Connecticut,FBS - AAC,1
+427,414,Anthony Lucas,USC,DL,2024-10-27,,,California,Big Ten,1
+428,328,Jaleel Skinner,Louisville,TE,2024-10-27,,,Kentucky,ACC,1
+429,388,Tobias Merriweather,California,WR,2024-10-27,,,California,ACC,1
+430,389,Braylin Presley,Tulsa,WR,2024-10-27,,,Oklahoma,FBS - AAC,1
+431,322,Kamari Wilson,Florida,S,2024-10-27,,,Florida,SEC,1
+432,324,Jaren Kanak,Oklahoma,LB,2024-10-27,,,Oklahoma,SEC,1
+433,375,Zavion Thomas,LSU,WR,2024-10-27,,,Louisiana,SEC,1
+434,376,Ryan Otton,Washington,TE,2024-10-27,,,Washington,Big Ten,1
+435,390,Neto Umeozulu,Texas,IOL,2024-10-27,,,Texas,SEC,1
+436,396,Kendrick Law,Alabama,WR,2024-10-27,,,Alabama,SEC,1
+437,353,Kobe Prentice,Alabama,WR,2024-10-27,,,Alabama,SEC,1
+438,333,Popeye Williams,Western Michigan,EDGE,2024-10-27,,,Michigan,FBS - MAC,1
+439,362,Cole Hutson,Texas,IOL,2024-10-27,,,Texas,SEC,1
+440,330,Le'Veon Moss,Texas A&M,RB,2024-10-27,,,Texas,SEC,1
+441,348,P.J. Williams,SMU,OT,2024-10-27,,,Texas,ACC,1
+442,380,Dayne Shor,Akron,OT,2024-10-27,,,Ohio,FBS - MAC,1
+443,408,Carson Hinzman,Ohio State,IOL,2024-10-27,,,Ohio,Big Ten,1
+444,360,Kaden Saunders,Penn State,WR,2024-10-27,,,Pennsylvania,Big Ten,1
+445,335,Wesley Bissainthe,Miami (FL),LB,2024-10-27,,,Florida,ACC,1
+446,339,R Mason Thomas,Oklahoma,EDGE,2024-10-27,,,Oklahoma,SEC,1
+447,384,Shazz Preston,Tulane,WR,2024-10-27,,,Louisiana,FBS - AAC,1
+448,382,Emar'rion Winston,Oregon,EDGE,2024-10-27,,,Oregon,Big Ten,1
+449,343,Julian Armella,Florida State,OT,2024-10-27,,,Florida,ACC,1
+450,349,Gavin Sawchuk,Oklahoma,RB,2024-10-27,,,Oklahoma,SEC,1
+451,358,TreVonte Citizen,McNeese State,RB,2024-10-27,,,Louisiana,FCS,1
+452,391,Walker Howard,Ole Miss,QB,2024-10-27,,,Mississippi,SEC,1
+453,295,Earl Little II,Florida State,CB,2024-10-27,,,Florida,ACC,1
+454,386,Elijah Pritchett,Alabama,OT,2024-10-27,,,Alabama,SEC,1
+455,395,Jack Pedersen,UCLA,TE,2024-10-27,,,California,Big Ten,1
+456,365,Smoke Bouie,Texas A&M,S,2024-10-27,,,Texas,SEC,1
+457,402,Kevin Coleman,Mississippi State,WR,2024-10-27,,,Mississippi,SEC,1
+458,345,Donovan Green,Texas A&M,TE,2024-10-27,,,Texas,SEC,1
+459,392,Antonio Gates Jr.,Michigan State,WR,2024-10-27,,,Michigan,Big Ten,1
+460,321,Julian Humphrey,Georgia,CB,2024-10-27,,,Georgia,SEC,1
+461,393,Darris Smith,Missouri,EDGE,2024-10-27,,,Missouri,SEC,1
+462,326,Khurtiss Perry,Virginia Tech,DL,2024-10-27,,,Virginia,ACC,1
+463,383,Aaron Anderson,LSU,WR,2024-10-27,,,Louisiana,SEC,1
+464,336,Maalik Murphy,Duke,QB,2024-10-27,,,North Carolina,ACC,1
+465,364,M.J. Morris,Maryland,QB,2024-10-27,,,Maryland,Big Ten,1
+466,387,Malick Sylla,Texas A&M,EDGE,2024-10-27,,,Texas,SEC,1
+467,337,Talyn Shettron,Oklahoma State,WR,2024-10-27,,,Oklahoma,Big 12,1
+468,406,C.J. Williams,Wisconsin,WR,2024-10-27,,,Wisconsin,Big Ten,1
+469,356,Quency Wiggins,Colorado,DL,2024-10-27,,,Colorado,Big 12,1
+470,409,Sam McCall,Florida State,S,2024-10-27,,,Florida,ACC,1
+471,355,Omari Abor,SMU,EDGE,2024-10-27,,,Texas,ACC,1
+472,410,Shawn Murphy,Florida State,LB,2024-10-27,,,Florida,ACC,1
+473,400,Jaylon Glover,Utah,RB,2024-10-27,,,Utah,Big 12,1
+474,323,Holden Staes,Tennessee,TE,2024-10-27,,,Tennessee,SEC,1
+475,403,Jordan Hudson,SMU,WR,2024-10-27,,,Texas,ACC,1
+476,430,Van Wells,Oregon State,IOL,2024-10-27,,,Oregon,Pac 12,1
+477,434,Squirrel White,Tennessee,WR,2024-10-27,,,Tennessee,SEC,1
+478,473,Ti Mims,Southern Miss,WR,2024-10-27,,,Mississippi,FBS - CUSA,1
+479,460,D'Andre Martin,Charlotte,DL,2024-10-27,,,North Carolina,FBS - AAC,1
+480,469,Ernest Hausmann,Michigan,LB,2024-10-27,,,Michigan,Big Ten,1
+481,421,Asani Redwood,West Virginia,DL,2024-10-27,,,West Virginia,Big 12,1
+482,426,Ethan Moczulski,Texas A&M,K,2024-10-27,,,Texas,SEC,1
+483,448,Savion Red,Nevada,RB,2024-10-27,,,Nevada,FBS - Mountain West,1
+484,424,Gavin Gibson,East Carolina,CB,2024-10-27,,,North Carolina,FBS - AAC,1
+485,462,Jaylin Marshall,Georgia Tech,S,2024-10-27,,,Georgia,ACC,1
+486,455,Andrew Paul,Jacksonville State,RB,2024-10-27,,,Alabama,FBS - CUSA,1
+487,458,Richard Reese,Baylor,RB,2024-10-27,,,Texas,Big 12,1
+488,438,Amari Jackson,Boston College,CB,2024-10-27,,,Massachusetts,ACC,1
+489,459,Jalen Huskey,Maryland,CB,2024-10-27,,,Maryland,Big Ten,1
+490,452,Robert Gunn,Clemson,K,2024-10-27,,,South Carolina,ACC,1
+491,472,Zane Durant,Penn State,DL,2024-10-27,,,Pennsylvania,Big Ten,1
+492,416,Kobe Savage,Oregon,S,2024-10-27,,,Oregon,Big Ten,1
+493,124,C.J. Donaldson,West Virginia,RB,2024-10-27,,,West Virginia,Big 12,1
+494,435,Josh Kattus,Kentucky,TE,2024-10-27,,,Kentucky,SEC,1
+495,457,Bryce McFerson,Notre Dame,P,2024-10-27,,,Indiana,FBS - Independent,1
+496,464,Alex Bacchetta,Penn State,P,2024-10-27,,,Pennsylvania,Big Ten,1
+497,433,Cameron Ball,Mississippi State,TE,2024-10-27,,,Mississippi,SEC,1
+498,418,A.J. Haulcy,Houston,S,2024-10-27,,,Texas,Big 12,1
+499,419,Carsen Ryan,Utah,TE,2024-10-27,,,Utah,Big 12,1
+500,420,Eddie Kelly,Missouri,DL,2024-10-27,,,Missouri,SEC,1
+501,427,Sean FitzSimmons,Pitt,DL,2024-10-27,,,Pennsylvania,ACC,1
+502,463,Jayden McGowan,Boston College,WR,2024-10-27,,,Massachusetts,ACC,1
+503,453,Marlin Klein,Michigan,TE,2024-10-27,,,Michigan,Big Ten,1
+504,432,Brendan Sorsby,Cincinnati,QB,2024-10-27,,,Ohio,Big 12,1
+505,422,Jayden Maiava,USC,QB,2024-10-27,,,California,Big Ten,1
+506,468,Desmond Reid,Pitt,RB,2024-10-27,,,Pennsylvania,ACC,1
+507,431,Max Fletcher,Arkansas,P,2024-10-27,,,Arkansas,SEC,1
+508,466,Jordyn Tyson,Arizona State,WR,2024-10-27,,,Arizona,Big 12,1
+509,428,Darren Agu,Vanderbilt,EDGE,2024-10-27,,,Tennessee,SEC,1
+510,131,Jacob Parrish,Kansas State,CB,2024-10-27,,,Kansas,Big 12,1
+511,437,Brett Thorson,Georgia,P,2024-10-27,,,Georgia,SEC,1
+512,449,Alex McPherson,Auburn,K,2024-10-27,,,Alabama,SEC,1
+513,447,Jeremiah Earby,Boise State,CB,2024-10-27,,,Idaho,FBS - Mountain West,1
+514,436,Tyler Perkins,Iowa State,P,2024-10-27,,,Iowa,Big 12,1
+515,446,Owen McCown,UTSA,QB,2024-10-27,,,Texas,FBS - AAC,1
+516,445,Kyron Barnes,Southern Miss,OT,2024-10-27,,,Mississippi,FBS - CUSA,1
+517,471,John Bock II,Florida International,IOL,2024-10-27,,,Florida,FBS - CUSA,1
+518,444,Samuel Okunlola,Colorado,EDGE,2024-10-27,,,Colorado,Big 12,1
+519,289,Damonic Williams,Oklahoma,DL,2024-10-27,,,Oklahoma,SEC,1
+520,450,D.Q. Smith,South Carolina,S,2024-10-27,,,South Carolina,SEC,1
+521,442,Pichon Wimbley,Georgia Southern,IOL,2024-10-27,,,Georgia,FBS - Sun Belt,1
+522,439,Donovan Saunders,Texas A&M,CB,2024-10-27,,,Texas,SEC,1
+523,467,Bryan Thomas Jr.,South Carolina,EDGE,2024-10-27,,,South Carolina,SEC,1
+524,247,Justus Ross-Simmons,Syracuse,WR,2024-10-27,,,New York,ACC,1
+525,423,Nate Johnson,Vanderbilt,QB,2024-10-27,,,Tennessee,SEC,1
+526,417,Emmanuel McNeil-Warren,Toledo,S,2024-10-27,,,Ohio,FBS - MAC,1
+527,294,Malik Spencer,Michigan State,S,2024-10-27,,,Michigan,Big Ten,1
+528,482,John Love,Virginia Tech,K,2024-10-27,,,Virginia,ACC,1
+529,481,Will Bettridge,Virginia,K,2024-10-27,,,Virginia,ACC,1
+530,478,Jackson Lee,Florida International,LS,2024-10-27,,,Florida,FBS - CUSA,1
+531,477,Eli Stein,Arkansas,LS,2024-10-27,,,Arkansas,SEC,1
+532,483,Rino Monteforte,Notre Dame,LS,2024-10-27,,,Indiana,FBS - Independent,1
+533,474,Lance St. Louis,Texas,LS,2024-10-27,,,Texas,SEC,1
+534,484,Justin Joly,NC State,TE,2024-10-27,,,North Carolina,ACC,1
+535,476,Jay'Vion Cole,Texas,CB,2024-10-27,,,Texas,SEC,1
+536,475,Bryan McCoy,Akron,LB,2024-10-27,,,Ohio,FBS - MAC,1
+537,479,Jordan Pollard,San Jose State,LB,2024-10-27,,,California,FBS - Mountain West,1
+538,480,Nate Merchant,Coastal Carolina,LS,2024-10-27,,,South Carolina,FCS,1
+539,307,Elijah Sarratt,Indiana,WR,2024-10-27,,,Indiana,Big Ten,1
+540,192,Jamaree Caldwell,Oregon,DL,2024-10-27,,,Oregon,Big Ten,1
+541,485,Justin Kirkland,Oklahoma State,DL,2024-10-27,,,Oklahoma,Big 12,1
+542,496,Korey Foreman,Fresno State,EDGE,2024-10-27,,,California,FBS - Mountain West,1
+543,491,Brock Vandagriff,Kentucky,QB,2024-10-27,,,Kentucky,SEC,1
+544,489,Ja'Corey Brooks,Louisville,WR,2024-10-27,,,Kentucky,ACC,1
+545,495,Damon Payne,Alabama,DL,2024-10-27,,,Alabama,SEC,1
+546,498,Nolan Rucci,Penn State,OT,2024-10-27,,,Pennsylvania,Big Ten,1
+547,497,Sam Huard,Utah,QB,2024-10-27,,,Utah,Big 12,1
+548,499,Camar Wheaton,SMU,RB,2024-10-27,,,Texas,ACC,1
+549,493,Keeshawn Silver,Kentucky,DL,2024-10-27,,,Kentucky,SEC,1
+550,490,Tommy Brockermeyer,TCU,OT,2024-10-27,,,Texas,Big 12,1
+551,304,Xavian Sorey Jr.,Arkansas,LB,2024-10-27,,,Arkansas,SEC,1
+552,494,Sage Ryan,LSU,S,2024-10-27,,,Louisiana,SEC,1
+553,553,Latrell McCutchin,Houston,CB,2024-10-27,,,Texas,Big 12,1
+554,517,Byron Cardwell,California,RB,2024-10-27,,,California,ACC,1
+555,526,Lorenzo Styles Jr.,Ohio State,CB,2024-10-27,,,Ohio,Big Ten,1
+556,529,Lee Hunter,UCF,DL,2024-10-27,,,Florida,Big 12,1
+557,531,Jaylin Davies,UCLA,CB,2024-10-27,,,California,Big Ten,1
+558,558,Elliot Donald,Pitt,DL,2024-10-27,,,Pennsylvania,ACC,1
+559,559,Behren Morton,Texas Tech,QB,2024-10-27,,,Texas,Big 12,1
+560,560,Damarius McGhee,Kansas,CB,2024-10-27,,,Kansas,Big 12,1
+561,528,Deion Colzie,Notre Dame,WR,2024-10-27,,,Indiana,FBS - Independent,1
+562,562,Kelvin Gilliam,Virginia Tech,DL,2024-10-27,,,Virginia,ACC,1
+563,513,Dont'e Thornton,Tennessee,WR,2024-10-27,,,Tennessee,SEC,1
+564,545,Malik Benson,Florida State,WR,2024-10-27,,,Florida,ACC,1
+565,565,Ezra Dotson-Oyetade,TCU,IOL,2024-10-27,,,Texas,Big 12,1
+566,537,J.K. Johnson,LSU,CB,2024-10-27,,,Louisiana,SEC,1
+567,567,Kamarro Edmonds,East Carolina,RB,2024-10-27,,,North Carolina,FBS - AAC,1
+568,524,Shadrach Banks,TCU,WR,2024-10-27,,,Texas,Big 12,1
+569,569,Tyreak Sapp,Florida,DL,2024-10-27,,,Florida,SEC,1
+570,567,Jonathan Jefferson,SMU,DL,2024-10-27,,,Texas,ACC,1
+571,70,Ricky White,UNLV,WR,2024-10-27,,,Nevada,FBS - Mountain West,1
+572,562,Reid Carrico,West Virginia,LB,2024-10-27,,,West Virginia,Big 12,1
+573,568,Derrick Davis Jr.,Pitt,S,2024-10-27,,,Pennsylvania,ACC,1
+574,565,Destyn Hill,Florida State,WR,2024-10-27,,,Florida,ACC,1
+575,570,Ben Christman,Kentucky,IOL,2024-10-27,,,Kentucky,SEC,1
+576,505,JoJo Earle,TCU,WR,2024-10-27,,,Texas,Big 12,1
+577,577,Bryce Carter,Virginia,EDGE,2024-10-27,,,Virginia,ACC,1
+578,539,Morice Blackwell Jr.,Texas,LB,2024-10-27,,,Texas,SEC,1
+579,579,Quaydarius Davis,Florida Atlantic,WR,2024-10-27,,,Florida,FBS - AAC,1
+580,515,Romello Brinson,SMU,WR,2024-10-27,,,Texas,ACC,1
+581,183,Terrence Ferguson II,Florida State,IOL,2024-10-27,,,Florida,ACC,1
+582,582,Chris Hilton,LSU,WR,2024-10-27,,,Louisiana,SEC,1
+583,555,Corey Kiner,Cincinnati,RB,2024-10-27,,,Ohio,Big 12,1
+584,584,Laurance Seymore,Akron,IOL,2024-10-27,,,Ohio,FBS - MAC,1
+585,580,Aaron Willis,Houston,LB,2024-10-27,,,Texas,Big 12,1
+586,586,Preston Stone,SMU,QB,2024-10-27,,,Texas,ACC,1
+587,559,Gabriel Rubio,Notre Dame,DL,2024-10-27,,,Indiana,FBS - Independent,1
+588,561,Armoni Goodwin,UAB,RB,2024-10-27,,,Alabama,FBS - AAC,1
+589,576,Prophet Brown,USC,CB,2024-10-27,,,California,Big Ten,1
+590,558,Kaidon Salter,Liberty,QB,2024-10-27,,,Virginia,FBS - CUSA,1
+591,535,Tunmise Adeleye,Texas State,DL,2024-10-27,,,Texas,FBS - Sun Belt,1
+592,592,Thomas Fidone II,Nebraska,TE,2024-10-27,,,Nebraska,Big Ten,1
+593,525,Julien Simon,Tulsa,LB,2024-10-27,,,Oklahoma,FBS - AAC,1
+594,594,Jayden Ballard,Ohio State,WR,2024-10-27,,,Ohio,Big Ten,1
+595,595,Cade Denhoff,Clemson,EDGE,2024-10-27,,,South Carolina,ACC,1
+596,536,Devin Kirkwood,UCLA,CB,2024-10-27,,,California,Big Ten,1
+597,575,Sawyer Robertson,Baylor,QB,2024-10-27,,,Texas,Big 12,1
+598,578,Marcus Burris,Indiana,DL,2024-10-27,,,Indiana,Big Ten,1
+599,593,Jeremiah Williams,Florida,EDGE,2024-10-27,,,Florida,SEC,1
+600,581,Evan Pryor,Cincinnati,RB,2024-10-27,,,Ohio,Big 12,1
+601,556,Tywone Malone,Ohio State,DL,2024-10-27,,,Ohio,Big Ten,1
+602,566,James Brockermeyer,TCU,IOL,2024-10-27,,,Texas,Big 12,1
+603,574,Christian Leary,Georgia Tech,WR,2024-10-27,,,Georgia,ACC,1
+604,543,Alijah Clark,Syracuse,S,2024-10-27,,,New York,ACC,1
+605,594,Jake Garcia,East Carolina,QB,2024-10-27,,,North Carolina,FBS - AAC,1
+606,512,Jabari Ishmael,Marshall,EDGE,2024-10-27,,,West Virginia,FBS - CUSA,1
+607,563,Kyron Ware-Hudson,USC,WR,2024-10-27,,,California,Big Ten,1
+608,589,Carlos Del Rio-Wilson,Syracuse,QB,2024-10-27,,,New York,ACC,1
+609,518,Devonta Smith,Alabama,CB,2024-10-27,,,Alabama,SEC,1
+610,170,Reuben Fatheree II,Texas A&M,OT,2024-10-27,,,Texas,SEC,1
+611,521,Ceyair Wright,Nebraska,CB,2024-10-27,,,Nebraska,Big Ten,1
+612,508,David Daniel-Sisavanh,Georgia,S,2024-10-27,,,Georgia,SEC,1
+613,516,Elijah Arroyo,Miami (FL),TE,2024-10-27,,,Florida,ACC,1
+614,510,Zen Michalski,Ohio State,OT,2024-10-27,,,Ohio,Big Ten,1
+615,564,Michael Trigg,Baylor,TE,2024-10-27,,,Texas,Big 12,1
+616,514,Clayton Smith,Arizona State,EDGE,2024-10-27,,,Arizona,Big 12,1
+617,597,Ty Thompson,Tulane,QB,2024-10-27,,,Louisiana,FBS - AAC,1
+618,509,Drew Kendall,Boston College,IOL,2024-10-27,,,Massachusetts,ACC,1
+619,542,Kendal Daniels,Oklahoma State,S,2024-10-27,,,Oklahoma,Big 12,1
+620,500,Prince Kollie,Vanderbilt,LB,2024-10-27,,,Tennessee,SEC,1
+621,150,Jacolby George,Miami (FL),WR,2024-10-27,,,Florida,ACC,1
+622,549,Cody Jackson,Tarleton State,WR,2024-10-27,,,Texas,D2,1
+623,548,Agiye Hall,UCF,WR,2024-10-27,,,Florida,Big 12,1
+624,520,Corey Collier Jr.,Nebraska,S,2024-10-27,,,Nebraska,Big Ten,1
+625,540,Nyland Green,Purdue,CB,2024-10-27,,,Indiana,Big Ten,1
+626,600,Teddy Prochazka,Nebraska,OT,2024-10-27,,,Nebraska,Big Ten,1
+627,532,Tyrion Ingram-Dawkins,Georgia,EDGE,2024-10-27,,,Georgia,SEC,1
+628,590,Malik McClain,Arizona State,WR,2024-10-27,,,Arizona,Big 12,1
+629,606,Micah Morris,Georgia,IOL,2024-10-27,,,Georgia,SEC,1
+630,538,Wilfredo Aybar,Stanford,EDGE,2024-10-27,,,California,ACC,1
+631,511,Trevion Cooley,Georgia Tech,RB,2024-10-27,,,Georgia,ACC,1
+632,550,Donovan McMillon,Pitt,S,2024-10-27,,,Pennsylvania,ACC,1
+633,522,Easton Mascarenas-Arnold,USC,LB,2024-10-27,,,California,Big Ten,1
+634,533,Avante Dickerson,Utah State,CB,2024-10-27,,,Utah,FBS - Mountain West,1
+635,612,Ethan Calvert,Cal Poly,LB,2024-10-27,,,California,FCS,1
+636,507,Deion Smith,Ole Miss,WR,2024-10-27,,,Mississippi,SEC,1
+637,557,Dylan Brooks,Kansas,EDGE,2024-10-27,,,Kansas,Big 12,1
+638,504,Jahvaree Ritzie,North Carolina,DL,2024-10-27,,,North Carolina,ACC,1
+639,552,J.P. Benzschawel,Wisconsin,IOL,2024-10-27,,,Wisconsin,Big Ten,1
+640,560,Jardin Gilbert,LSU,S,2024-10-27,,,Louisiana,SEC,1
+641,210,Beaux Collins,Notre Dame,WR,2024-10-27,,,Indiana,FBS - Independent,1
+642,274,Mario Williams,Tulane,WR,2024-10-27,,,Louisiana,FBS - AAC,1
+643,554,Savion Byrd,SMU,IOL,2024-10-27,,,Texas,ACC,1
+644,502,Luke Altmyer,Illinois,QB,2024-10-27,,,Illinois,Big Ten,1
+645,585,L.J. Johnson Jr.,SMU,RB,2024-10-27,,,Texas,ACC,1
+646,501,Kadarius Calloway,California,RB,2024-10-27,,,California,ACC,1
+647,506,Zaire Patterson,Clemson,EDGE,2024-10-27,,,South Carolina,ACC,1
+648,519,RaRa Dillworth,Troy,LB,2024-10-27,,,Alabama,FBS - Sun Belt,1
+649,547,Payton Page,Clemson,DL,2024-10-27,,,South Carolina,ACC,1
+650,527,Bram Walden,Arizona State,IOL,2024-10-27,,,Arizona,Big 12,1
+651,651,Alton McCaskill IV,Arizona State,RB,2024-10-27,,,Arizona,Big 12,1
+652,617,Hayden Conner,Texas,IOL,2024-10-27,,,Texas,SEC,1
+653,615,Jamal Haynes,Georgia Tech,RB,2024-10-27,,,Georgia,ACC,1
+654,618,Joseph Manjack IV,Houston,WR,2024-10-27,,,Texas,Big 12,1
+655,624,B.J. Green,Colorado,DL,2024-10-27,,,Colorado,Big 12,1
+656,623,Khordae Sydnor,Purdue,EDGE,2024-10-27,,,Indiana,Big Ten,1
+657,180,Aubrey Burks,West Virginia,S,2024-10-27,,,West Virginia,Big 12,1
+658,140,Jaylin Noel,Iowa State,WR,2024-10-27,,,Iowa,Big 12,1
+659,619,Juan Davis,Texas,TE,2024-10-27,,,Texas,SEC,1
+660,628,Jared Brown,South Carolina,WR,2024-10-27,,,South Carolina,SEC,1
+661,658,Dante Trader Jr.,Maryland,S,2024-10-27,,,Maryland,Big Ten,1
+662,629,Chamon Metayer,Arizona State,TE,2024-10-27,,,Arizona,Big 12,1
+663,630,Jordan Oladokun,Bowling Green,CB,2024-10-27,,,Ohio,FBS - MAC,1
+664,244,C.J. Dippre,Alabama,TE,2024-10-27,,,Alabama,SEC,1
+665,295,Jordan van den Berg,Georgia Tech,DL,2024-10-27,,,Georgia,ACC,1
+666,646,Jaden Bray,West Virginia,WR,2024-10-27,,,West Virginia,Big 12,1
+667,194,Jason Henderson,Old Dominion,LB,2024-10-27,,,Virginia,FBS - CUSA,1
+668,637,Montrell Johnson,Florida,RB,2024-10-27,,,Florida,SEC,1
+669,242,Jarquez Hunter,Auburn,RB,2024-10-27,,,Alabama,SEC,1
+670,644,Jayden Thomas,Notre Dame,WR,2024-10-27,,,Indiana,FBS - Independent,1
+671,633,De'Zhaun Stribling,Oklahoma State,WR,2024-10-27,,,Oklahoma,Big 12,1
+672,638,Jack Kelly,BYU,EDGE,2024-10-27,,,Utah,Big 12,1
+673,300,Malachi Lawrence,UCF,EDGE,2024-10-27,,,Florida,Big 12,1
+674,641,Tiaoalii Savea,Texas,DL,2024-10-27,,,Texas,SEC,1
+675,622,Andrel Anthony,Oklahoma,WR,2024-10-27,,,Oklahoma,SEC,1
+676,660,Darian Chestnut,Syracuse,CB,2024-10-27,,,New York,ACC,1
+677,66,Roman Hemby,Maryland,RB,2024-10-27,,,Maryland,Big Ten,1
+678,645,Jake Retzlaff,BYU,QB,2024-10-27,,,Utah,Big 12,1
+679,651,Monaray Baldwin,Baylor,WR,2024-10-27,,,Texas,Big 12,1
+680,614,Caiden Woullard,Oklahoma,EDGE,2024-10-27,,,Oklahoma,SEC,1
+681,634,Dorian Singer,Utah,WR,2024-10-27,,,Utah,Big 12,1
+682,620,Antario Brown,Northern Illinois,RB,2024-10-27,,,Illinois,FBS - MAC,1
+683,241,Tyreek Chappell,Texas A&M,CB,2024-10-27,,,Texas,SEC,1
+684,260,DeAndre Boykins,North Carolina,CB,2024-10-27,,,North Carolina,ACC,1
+685,652,Jerand Bradley,Boston College,WR,2024-10-27,,,Massachusetts,ACC,1
+686,654,Jack Howell,Colorado State,S,2024-10-27,,,Colorado,FBS - Mountain West,1
+687,632,Corey Platt Jr.,Houston,LB,2024-10-27,,,Texas,Big 12,1
+688,648,Eric Gentry,USC,LB,2024-10-27,,,California,Big Ten,1
+689,647,Cole Rusk,Illinois,TE,2024-10-27,,,Illinois,Big Ten,1
+690,657,Logan Diggs,Ole Miss,RB,2024-10-27,,,Mississippi,SEC,1
+691,668,Cade Zimmerly,Bowling Green,IOL,2024-10-27,,,Ohio,FBS - MAC,1
+692,666,Tanner Koziol,Ball State,TE,2024-10-27,,,Indiana,FBS - MAC,1
+693,665,Marcus Harris,California,CB,2024-10-27,,,California,ACC,1
+694,667,Will Kacmarek,Ohio State,TE,2024-10-27,,,Ohio,Big Ten,1
+695,677,Bauer Sharp,Oklahoma,TE,2024-10-27,,,Oklahoma,SEC,1
+696,675,Sebastian Valdez,Washington,DL,2024-10-27,,,Washington,Big Ten,1
+697,678,Kamryn Waites,Florida,OT,2024-10-27,,,Florida,SEC,1
+698,302,Preston Hodge,Colorado,S,2024-10-27,,,Colorado,Big 12,1
+699,679,Seydou Traore,Mississippi State,TE,2024-10-27,,,Mississippi,SEC,1
+700,674,Michael Taaffe,Texas,S,2024-10-27,,,Texas,SEC,1
+701,672,Roderick Brown,North Texas,DL,2024-10-27,,,Texas,FBS - AAC,1
+702,673,James Burnip,Alabama,P,2024-10-27,,,Alabama,SEC,1
+703,671,Bert Auburn,Texas,K,2024-10-27,,,Texas,SEC,1
+704,684,Sav'ell Smalls,Colorado,TE,2024-10-27,,,Colorado,Big 12,1
+705,150,D.J. Uiagalelei,Florida State,QB,2024-10-27,,,Florida,ACC,1
+706,680,Julian Fleming,Penn State,WR,2024-10-27,,,Pennsylvania,Big Ten,1
+707,685,Justin Flowe,Arizona,LB,2024-10-27,,,Arizona,Big 12,1
+708,682,Dontae Manning,Oregon,CB,2024-10-27,,,Oregon,Big Ten,1
+709,709,Hudson Card,Purdue,QB,2024-10-27,,,Indiana,Big Ten,1
+710,693,Trey Wedig,Indiana,OT,2024-10-27,,,Indiana,Big Ten,1
+711,711,Jerrin Thompson,Auburn,S,2024-10-27,,,Alabama,SEC,1
+712,712,Andrew Gentry,Michigan,OT,2024-10-27,,,Michigan,Big Ten,1
+713,686,Bud Clark,TCU,S,2024-10-27,,,Texas,Big 12,1
+714,708,Arian Smith,Georgia,WR,2024-10-27,,,Georgia,SEC,1
+715,706,Walker Parks,Clemson,IOL,2024-10-27,,,South Carolina,ACC,1
+716,716,Gus Hartwig,Purdue,IOL,2024-10-27,,,Indiana,Big Ten,1
+717,704,Peny Boone,UCF,RB,2024-10-27,,,Florida,Big 12,1
+718,234,Keionte Scott,Auburn,CB,2024-10-27,,,Alabama,SEC,1
+719,301,Fadil Diggs,Syracuse,EDGE,2024-10-27,,,New York,ACC,1
+720,720,Demorie Tate,Florida A&M,CB,2024-10-27,,,Florida,FCS,1
+721,692,Xavion Alford,Arizona State,S,2024-10-27,,,Arizona,Big 12,1
+722,702,Desmond Evans,North Carolina,EDGE,2024-10-27,,,North Carolina,ACC,1
+723,723,Gee Scott Jr.,Ohio State,TE,2024-10-27,,,Ohio,Big Ten,1
+724,718,Keandre Lambert-Smith,Auburn,WR,2024-10-27,,,Alabama,SEC,1
+725,698,Chimere Dike,Florida,WR,2024-10-27,,,Florida,SEC,1
+726,726,Traeshon Holden,Oregon,WR,2024-10-27,,,Oregon,Big Ten,1
+727,713,Jalen Kimber,Penn State,CB,2024-10-27,,,Pennsylvania,Big Ten,1
+728,712,Troy Omeire,Arizona State,WR,2024-10-27,,,Arizona,Big 12,1
+729,714,Mark Redman,Louisville,TE,2024-10-27,,,Kentucky,ACC,1
+730,715,Bangally Kamara,South Carolina,LB,2024-10-27,,,South Carolina,SEC,1
+731,700,Haynes King,Georgia Tech,QB,2024-10-27,,,Georgia,ACC,1
+732,732,Malik Hornsby,Arkansas State,WR,2024-10-27,,,Arkansas,FBS - Sun Belt,1
+733,257,Major Burns,LSU,S,2024-10-27,,,Louisiana,SEC,1
+734,734,Fred Davis II,Jacksonville State,CB,2024-10-27,,,Alabama,FBS - CUSA,1
+735,735,Chad Lindberg,Rice,OT,2024-10-27,,,Texas,FBS - AAC,1
+736,306,Turner Corcoran,Nebraska,IOL,2024-10-27,,,Nebraska,Big Ten,1
+737,737,Demon Clowney,Charlotte,EDGE,2024-10-27,,,North Carolina,FBS - AAC,1
+738,716,Vernon Broughton,Texas,DL,2024-10-27,,,Texas,SEC,1
+739,725,Drew Pyne,Missouri,QB,2024-10-27,,,Missouri,SEC,1
+740,726,Ruben Hyppolite II,Maryland,LB,2024-10-27,,,Maryland,Big Ten,1
+741,731,Kitan Crawford,Nevada,S,2024-10-27,,,Nevada,FBS - Mountain West,1
+742,271,Tyler Van Dyke,Wisconsin,QB,2024-10-27,,,Wisconsin,Big Ten,1
+743,741,Xavier Carlton,California,EDGE,2024-10-27,,,California,ACC,1
+744,740,E.J. Smith,Texas A&M,RB,2024-10-27,,,Texas,SEC,1
+745,703,Roydell Williams,Florida State,RB,2024-10-27,,,Florida,ACC,1
+746,711,Nate McCollum,North Carolina,WR,2024-10-27,,,North Carolina,ACC,1
+747,699,Ladarius Tennison,Ole Miss,S,2024-10-27,,,Mississippi,SEC,1
+748,747,E.J. Williams,Indiana,WR,2024-10-27,,,Indiana,Big Ten,1
+749,749,Patrick Jenkins,Tulane,DL,2024-10-27,,,Louisiana,FBS - AAC,1
+750,717,Ozzy Trapilo,Boston College,OT,2024-10-27,,,Massachusetts,ACC,1
+751,224,Tosh Baker,Notre Dame,OT,2024-10-27,,,Indiana,FBS - Independent,1
+752,723,Chip Trayanum,Kentucky,RB,2024-10-27,,,Kentucky,SEC,1
+753,724,Aki Ogunbiyi,Texas A&M,IOL,2024-10-27,,,Texas,SEC,1
+754,710,Stephen Dix Jr.,Marshall,LB,2024-10-27,,,West Virginia,FBS - CUSA,1
+755,746,Jack Miller III,Florida,QB,2024-10-27,,,Florida,SEC,1
+756,749,J.J. Pegues,Ole Miss,DL,2024-10-27,,,Mississippi,SEC,1
+757,729,Jeff Sims,Arizona State,QB,2024-10-27,,,Arizona,Big 12,1
+758,753,Malcolm Greene,Virginia,S,2024-10-27,,,Virginia,ACC,1
+759,697,M.J. Sherman,Nebraska,LB,2024-10-27,,,Nebraska,Big Ten,1
+760,752,Myles Hinton,Michigan,OT,2024-10-27,,,Michigan,Big Ten,1
+761,732,Chris Tyree,Virginia,WR,2024-10-27,,,Virginia,ACC,1
+762,736,Joshua Braun,Arkansas,IOL,2024-10-27,,,Arkansas,SEC,1
+763,756,R.J. Moten,Florida,S,2024-10-27,,,Florida,SEC,1
+764,695,Jayson Jones,Auburn,DL,2024-10-27,,,Alabama,SEC,1
+765,730,Cooper Mays,Tennessee,IOL,2024-10-27,,,Tennessee,SEC,1
+766,689,Omari Thomas,Tennessee,DL,2024-10-27,,,Tennessee,SEC,1
+767,287,Cody Simon,Ohio State,LB,2024-10-27,,,Ohio,Big Ten,1
+768,687,Reggie Grimes,Oklahoma,EDGE,2024-10-27,,,Oklahoma,SEC,1
+769,769,Money Parks,Utah,WR,2024-10-27,,,Utah,Big 12,1
+770,274,Cam Jackson,Florida,DL,2024-10-27,,,Florida,SEC,1
+771,769,Khari Coleman,Ole Miss,EDGE,2024-10-27,,,Mississippi,SEC,1
+772,763,Karon Prunty,North Carolina A&T,CB,2024-10-27,,,North Carolina,FCS,1
+773,773,Rivaldo Fairweather,Auburn,TE,2024-10-27,,,Alabama,SEC,1
+774,774,Dillon Wade,Auburn,IOL,2024-10-27,,,Alabama,SEC,1
+775,772,Davonte Brown,Florida State,CB,2024-10-27,,,Florida,ACC,1
+776,776,Vershon Lee,South Carolina,IOL,2024-10-27,,,South Carolina,SEC,1
+777,303,Sean Martin,West Virginia,EDGE,2024-10-27,,,West Virginia,Big 12,1
+778,778,Nate Rutchena,California,LB,2024-10-27,,,California,ACC,1
+779,779,Kaden Moore,Virginia Tech,IOL,2024-10-27,,,Virginia,ACC,1
+780,780,Konata Mumpfield,Pitt,WR,2024-10-27,,,Pennsylvania,ACC,1
+781,223,Akheem Mesidor,Miami (FL),EDGE,2024-10-27,,,Florida,ACC,1
+782,779,Jaheim Thomas,Wisconsin,LB,2024-10-27,,,Wisconsin,Big Ten,1
+783,783,Marlowe Wax,Syracuse,LB,2024-10-27,,,New York,ACC,1
+784,784,Will Rogers,Washington,QB,2024-10-27,,,Washington,Big Ten,1
+785,785,Robert Scott Jr.,Florida State,OT,2024-10-27,,,Florida,ACC,1
+786,296,Ty French,West Virginia,EDGE,2024-10-27,,,West Virginia,Big 12,1
+787,238,Jalen Travis,Iowa State,OT,2024-10-27,,,Iowa,Big 12,1
+788,780,Kobe Pace,Virginia,RB,2024-10-27,,,Virginia,ACC,1
+789,100,Caullin Lacy,Louisville,WR,2024-10-27,,,Kentucky,ACC,1
+790,790,Cam Porter,Northwestern,RB,2024-10-27,,,Illinois,Big Ten,1
+791,791,Jake Majors,Texas,IOL,2024-10-27,,,Texas,SEC,1
+792,792,Braydon Bennett,Coastal Carolina,RB,2024-10-27,,,South Carolina,FCS,1
+793,793,Jalen White,Georgia Southern,RB,2024-10-27,,,Georgia,FBS - Sun Belt,1
+794,760,Dominic Richardson,Baylor,RB,2024-10-27,,,Texas,Big 12,1
+795,789,Jalen Berger,UCLA,RB,2024-10-27,,,California,Big Ten,1
+796,796,Jahmal Banks,Nebraska,WR,2024-10-27,,,Nebraska,Big Ten,1
+797,318,Cal Haladay,Michigan State,LB,2024-10-27,,,Michigan,Big Ten,1
+798,764,T.J. Finley,Western Kentucky,QB,2024-10-27,,,Kentucky,FBS - CUSA,1
+799,799,Brandon Thomas,Memphis,RB,2024-10-27,,,Tennessee,FBS - AAC,1
+800,795,Tyler Grubbs,Tulane,LB,2024-10-27,,,Louisiana,FBS - AAC,1
+801,278,Gerald Mincey,Kentucky,OT,2024-10-27,,,Kentucky,SEC,1
+802,767,Jordan Watkins,Ole Miss,WR,2024-10-27,,,Mississippi,SEC,1
+803,802,Donte Kent,Central Michigan,CB,2024-10-27,,,Michigan,FBS - MAC,1
+804,796,Henry Blackburn,Colorado State,S,2024-10-27,,,Colorado,FBS - Mountain West,1
+805,805,Silas Bolden,Texas,WR,2024-10-27,,,Texas,SEC,1
+806,806,Danny Striggow,Minnesota,EDGE,2024-10-27,,,Minnesota,Big Ten,1
+807,807,Aaron Lewis,Rutgers,EDGE,2024-10-27,,,New Jersey,Big Ten,1
+808,786,Mason Cobb,USC,LB,2024-10-27,,,California,Big Ten,1
+809,788,Willie Lampkin,North Carolina,IOL,2024-10-27,,,North Carolina,ACC,1
+810,807,Marcus Bryant,Missouri,OT,2024-10-27,,,Missouri,SEC,1
+811,783,Deshawn Pace,Cincinnati,S,2024-10-27,,,Ohio,Big 12,1
+812,805,Jahmeer Carter,Virginia,DL,2024-10-27,,,Virginia,ACC,1
+813,809,Lawrance Toafili,Florida State,RB,2024-10-27,,,Florida,ACC,1
+814,787,Kole Taylor,West Virginia,TE,2024-10-27,,,West Virginia,Big 12,1
+815,800,Deontae Craig,Iowa,DL,2024-10-27,,,Iowa,Big Ten,1
+816,117,Robert Longerbeam,Rutgers,CB,2024-10-27,,,New Jersey,Big Ten,1
+817,813,LaMiles Brooks,Georgia Tech,S,2024-10-27,,,Georgia,ACC,1
+818,818,Lawrence Arnold,Kansas,WR,2024-10-27,,,Kansas,Big 12,1
+819,811,Nate Noel,Missouri,RB,2024-10-27,,,Missouri,SEC,1
+820,778,Payton Zdroik,Air Force,DL,2024-10-27,,,Colorado,FBS - Mountain West,1
+821,784,Garrett Greene,West Virginia,QB,2024-10-27,,,West Virginia,Big 12,1
+822,790,Terion Stewart,Bowling Green,RB,2024-10-27,,,Ohio,FBS - MAC,1
+823,228,Seth McLaughlin,Ohio State,IOL,2024-10-27,,,Ohio,Big Ten,1
+824,781,Micah Mazzccua,Nebraska,IOL,2024-10-27,,,Nebraska,Big Ten,1
+825,804,Gavin Holmes,Texas,CB,2024-10-27,,,Texas,SEC,1
+826,798,Courtland Ford,Kentucky,OT,2024-10-27,,,Kentucky,SEC,1
+827,815,Marcus Carroll,Missouri,RB,2024-10-27,,,Missouri,SEC,1
+828,773,Josh Fryar,Ohio State,OT,2024-10-27,,,Ohio,Big Ten,1
+829,253,Jeremiah Hunter,Washington,WR,2024-10-27,,,Washington,Big Ten,1
+830,819,Ja'Had Carter,Ohio State,S,2024-10-27,,,Ohio,Big Ten,1
+831,771,Justin Barron,Syracuse,S,2024-10-27,,,New York,ACC,1
+832,832,Diego Pavia,Vanderbilt,QB,2024-10-27,,,Tennessee,SEC,1
+833,833,Yam Banks,Ole Miss,S,2024-10-27,,,Mississippi,SEC,1
+834,285,Miles Frazier,LSU,IOL,2024-10-27,,,Louisiana,SEC,1
+835,297,Tommy Mellott,Montana State,QB,2024-10-27,,,Montana,FCS,1
+836,836,Alex Mastromanno,Florida State,P,2024-10-27,,,Florida,ACC,1
+837,837,Noah Whittington,Oregon,RB,2024-10-27,,,Oregon,Big Ten,1
+838,837,Kendy Charles,Duke,DL,2024-10-27,,,North Carolina,ACC,1
+839,265,C.J. Daniels,LSU,WR,2024-10-27,,,Louisiana,SEC,1
+840,838,Nathan Carter,Michigan State,RB,2024-10-27,,,Michigan,Big Ten,1
+841,841,Jonah Dalmas,Boise State,K,2024-10-27,,,Idaho,FBS - Mountain West,1
+842,842,Easton Kilty,Kansas State,OT,2024-10-27,,,Kansas,Big 12,1
+843,843,Jamiri Butler,Nebraska,EDGE,2024-10-27,,,Nebraska,Big Ten,1
+844,844,Jeremiah Walker,Stephen F. Austin,CB,2024-10-27,,,Texas,FCS,1
+845,845,Tavian Coleman,Texas State,DL,2024-10-27,,,Texas,FBS - Sun Belt,1
+846,846,Anton Juncaj,Arkansas,DL,2024-10-27,,,Arkansas,SEC,1
+847,847,Isaac TeSlaa,Arkansas,WR,2024-10-27,,,Arkansas,SEC,1
+848,88,Zy Alexander,LSU,CB,2024-10-27,,,Louisiana,SEC,1
+849,849,Owen Daffer,North Carolina A&T,K,2024-10-27,,,North Carolina,FCS,1
+850,849,Zemaiah Vaughn,Utah,CB,2024-10-27,,,Utah,Big 12,1
+851,70,Kyle Morlock,Florida State,TE,2024-10-27,,,Florida,ACC,1
+852,852,Logan Brown,Kansas,OT,2024-10-27,,,Kansas,Big 12,1
+853,70,Theo Wease,Missouri,WR,2024-10-27,,,Missouri,SEC,1
+854,854,Trey Sanders,TCU,RB,2024-10-27,,,Texas,Big 12,1
+855,855,Cade McNamara,Iowa,QB,2024-10-27,,,Iowa,Big Ten,1
+856,856,Jacob Bandes,Washington,DL,2024-10-27,,,Washington,Big Ten,1
+857,857,Avery Huff,Florida International,LB,2024-10-27,,,Florida,FBS - CUSA,1
+858,291,Ja'Varrius Johnson,UCF,WR,2024-10-27,,,Florida,Big 12,1
+859,859,Keiondre Jones,Florida State,IOL,2024-10-27,,,Florida,ACC,1
+860,860,Seth Coleman,Illinois,EDGE,2024-10-27,,,Illinois,Big Ten,1
+861,861,Connor Bazelak,Bowling Green,QB,2024-10-27,,,Ohio,FBS - MAC,1
+862,862,Eugene Asante,Auburn,LB,2024-10-27,,,Alabama,SEC,1
+863,863,Patrick Herbert,Oregon,TE,2024-10-27,,,Oregon,Big Ten,1
+864,864,Jacob Lacey,Oklahoma,DL,2024-10-27,,,Oklahoma,SEC,1
+865,865,David Gbenda,Texas,LB,2024-10-27,,,Texas,SEC,1
+866,279,K.J. Jefferson,UCF,QB,2024-10-27,,,Florida,Big 12,1
+867,867,Khris Bogle,Michigan State,EDGE,2024-10-27,,,Michigan,Big Ten,1
+868,868,Frank Ladson Jr.,Massachusetts,WR,2024-10-27,,,Massachusetts,FBS - MAC,1
+869,869,Bill Norton,Texas,DL,2024-10-27,,,Texas,SEC,1
+870,870,Jestin Jacobs,Oregon,LB,2024-10-27,,,Oregon,Big Ten,1
+871,69,Woodi Washington,Oklahoma,CB,2024-10-27,,,Oklahoma,SEC,1
+872,252,J.J. Weaver,Kentucky,EDGE,2024-10-27,,,Kentucky,SEC,1
+873,873,Tyler Johnson,Colorado,IOL,2024-10-27,,,Colorado,Big 12,1
+874,874,Jahfari Harvey,SMU,EDGE,2024-10-27,,,Texas,ACC,1
+875,871,Dominick Blaylock,Georgia Tech,WR,2024-10-27,,,Georgia,ACC,1
+876,876,Donavon Greene,Wake Forest,WR,2024-10-27,,,North Carolina,ACC,1
+877,870,Keon Zipperer,Florida,TE,2024-10-27,,,Florida,SEC,1
+878,878,Hank Bachmeier,Wake Forest,QB,2024-10-27,,,North Carolina,ACC,1
+879,873,Mycah Pittman,Utah,WR,2024-10-27,,,Utah,Big 12,1
+880,316,Zion Nelson,Miami (FL),OT,2024-10-27,,,Florida,ACC,1
+881,881,David Spaulding,South Carolina,CB,2024-10-27,,,South Carolina,SEC,1
+882,882,Maurice Smith,Florida State,IOL,2024-10-27,,,Florida,ACC,1
+883,883,Luke Felix-Fualalo,Hawaii,OT,2024-10-27,,,Hawaii,FBS - Mountain West,1
+884,884,Justin Ball,Mississippi State,TE,2024-10-27,,,Mississippi,SEC,1
+885,885,Chico Bennett Jr.,Virginia,LB,2024-10-27,,,Virginia,ACC,1
+886,886,Garmon Randolph,Baylor,EDGE,2024-10-27,,,Texas,Big 12,1
+887,239,Fentrell Cypress,Florida State,CB,2024-10-27,,,Florida,ACC,1
+888,888,Elijah Simmons,Tennessee,DL,2024-10-27,,,Tennessee,SEC,1
+889,255,Xavier Guillory,Arizona State,WR,2024-10-27,,,Arizona,Big 12,1
+890,263,Steve Linton,Texas Tech,EDGE,2024-10-27,,,Texas,Big 12,1
+891,891,DeAndre Jules,South Carolina,DL,2024-10-27,,,South Carolina,SEC,1
+892,892,Treshaun Ward,Boston College,RB,2024-10-27,,,Massachusetts,ACC,1
+893,893,Darius Washington,Florida State,IOL,2024-10-27,,,Florida,ACC,1
+894,894,Darrell Simmons Jr.,Kansas,IOL,2024-10-27,,,Kansas,Big 12,1
+895,235,Jonathan Mendoza,Louisville,OT,2024-10-27,,,Kentucky,ACC,1
+896,307,Jack Kiser,Notre Dame,LB,2024-10-27,,,Indiana,FBS - Independent,1
+897,893,Jeremiah Byers,Florida State,IOL,2024-10-27,,,Florida,ACC,1
+898,898,Josh Kelly,Texas Tech,WR,2024-10-27,,,Texas,Big 12,1
+899,316,Brian Ugwu,Miami (OH),EDGE,2024-10-27,,,Ohio,FBS - MAC,1
+900,900,Trace Ford,Oklahoma,EDGE,2024-10-27,,,Oklahoma,SEC,1
+901,901,Micah Bernard,Utah,RB,2024-10-27,,,Utah,Big 12,1
+902,902,Demetrius Knight,South Carolina,LB,2024-10-27,,,South Carolina,SEC,1
+903,903,Dequan Finn,Baylor,QB,2024-10-27,,,Texas,Big 12,1
+904,904,Kris Mitchell,Notre Dame,WR,2024-10-27,,,Indiana,FBS - Independent,1
+905,905,Chase Lane,Georgia Tech,WR,2024-10-27,,,Georgia,ACC,1
+906,906,Brett Gabbert,Miami (OH),QB,2024-10-27,,,Ohio,FBS - MAC,1
+907,892,Ricky Barber,UCF,DL,2024-10-27,,,Florida,Big 12,1
+908,908,Zach Calzada,Incarnate Word,QB,2024-10-27,,,Texas,FCS,1
+909,909,Isheem Young,North Texas,S,2024-10-27,,,Texas,FBS - AAC,1
+910,904,Payton Thorne,Auburn,QB,2024-10-27,,,Alabama,SEC,1
+911,896,Trey Rucker,Oklahoma State,S,2024-10-27,,,Oklahoma,Big 12,1
+912,912,Antonio Clary,Virginia,S,2024-10-27,,,Virginia,ACC,1
+913,910,Akili Arnold,USC,S,2024-10-27,,,California,Big Ten,1
+914,914,Tyrone Broden,Arkansas,WR,2024-10-27,,,Arkansas,SEC,1
+915,911,Brandon Crenshaw-Dickson,Florida,OT,2024-10-27,,,Florida,SEC,1
+916,916,Dante Cephas,Kansas State,WR,2024-10-27,,,Kansas,Big 12,1
+917,917,Trikweze Bridges,Oregon,S,2024-10-27,,,Oregon,Big Ten,1
+918,900,Junior Tafuna,Utah,DL,2024-10-27,,,Utah,Big 12,1
+919,902,Eli Cox,Kentucky,IOL,2024-10-27,,,Kentucky,SEC,1
+920,920,Rodrigues Clark,Southern Miss,RB,2024-10-27,,,Mississippi,FBS - CUSA,1
+921,920,Nick Jackson,Iowa,LB,2024-10-27,,,Iowa,Big Ten,1
+922,898,Melquan Stovall,Arizona State,WR,2024-10-27,,,Arizona,Big 12,1
+923,923,Nate Clifton,USC,DL,2024-10-27,,,California,Big Ten,1
+924,899,Collin Schlee,Virginia Tech,QB,2024-10-27,,,Virginia,ACC,1
+925,919,Ali Jennings III,Virginia Tech,WR,2024-10-27,,,Virginia,ACC,1
+926,926,Jordan Waters,NC State,RB,2024-10-27,,,North Carolina,ACC,1
+927,927,Ben Coleman,Arizona State,IOL,2024-10-27,,,Arizona,Big 12,1
+928,230,Elijah Alston,Miami (FL),EDGE,2024-10-27,,,Florida,ACC,1
+929,929,Kurtis Rourke,Indiana,QB,2024-10-27,,,Indiana,Big Ten,1
+930,930,Josh Williams,LSU,RB,2024-10-27,,,Louisiana,SEC,1
+931,931,Isaiah Neyor,Nebraska,WR,2024-10-27,,,Nebraska,Big Ten,1
+932,932,Kendall Bohler,Florida A&M,CB,2024-10-27,,,Florida,FCS,1
+933,933,Jacob Dobbs,Holy Cross,LB,2024-10-27,,,Massachusetts,FCS,1
+934,934,Jared Penning,Northern Iowa,OT,2024-10-27,,,Iowa,FCS,1
+935,935,Johnny Hodges,TCU,LB,2024-10-27,,,Texas,Big 12,1
+936,936,Kam Alexander,Oregon,CB,2024-10-27,,,Oregon,Big Ten,1
+937,937,Cameron Skattebo,Arizona State,RB,2024-10-27,,,Arizona,Big 12,1
+938,311,Chandler Rogers,California,QB,2024-10-27,,,California,ACC,1
+939,939,Quinn Schulte,Iowa,S,2024-10-27,,,Iowa,Big Ten,1
+940,940,Tyreke Johnson,Nebraska,CB,2024-10-27,,,Nebraska,Big Ten,1
+941,941,Cameron Rising,Utah,QB,2024-10-27,,,Utah,Big 12,1
+942,942,Casey Thompson,Oklahoma,QB,2024-10-27,,,Oklahoma,SEC,1
+943,943,Dennis Briggs Jr.,Illinois,DL,2024-10-27,,,Illinois,Big Ten,1
+944,944,Jack Tuttle,Michigan,QB,2024-10-27,,,Michigan,Big Ten,1
+945,945,Gerry Bohanon,BYU,QB,2024-10-27,,,Utah,Big 12,1
+946,946,Tyler Shough,Louisville,QB,2024-10-27,,,Kentucky,ACC,1
+947,947,Dawson Jaramillo,NC State,OT,2024-10-27,,,North Carolina,ACC,1
+948,948,Tyneil Hopper,Michigan State,TE,2024-10-27,,,Michigan,Big Ten,1
+949,949,Montre Miller,Mississippi State,CB,2024-10-27,,,Mississippi,SEC,1
+950,950,Mike O'Laughlin,Houston,TE,2024-10-27,,,Texas,Big 12,1
+951,951,Darnell Jefferies,Minnesota,DL,2024-10-27,,,Minnesota,Big Ten,1
+952,952,Jacob Mangum-Farrar,Indiana,LB,2024-10-27,,,Indiana,Big Ten,1
+953,191,Marques Cox,Kentucky,OT,2024-10-27,,,Kentucky,SEC,1
+954,954,Spencer Petras,Utah State,QB,2024-10-27,,,Utah,FBS - Mountain West,1
+955,955,Jermayne Lole,Texas,DL,2024-10-27,,,Texas,SEC,1
+956,956,Kam Butler,Virginia,EDGE,2024-10-27,,,Virginia,ACC,1
+957,204,John Campbell Jr.,Tennessee,OT,2024-10-27,,,Tennessee,SEC,1
+958,958,Campbell Barrington,Baylor,OT,2024-10-27,,,Texas,Big 12,1
+959,959,Alan Bowman,Oklahoma State,QB,2024-10-27,,,Oklahoma,Big 12,1
+960,960,Trey Morrison,Oklahoma,S,2024-10-27,,,Oklahoma,SEC,1
+961,961,Connor Pay,BYU,IOL,2024-10-27,,,Utah,Big 12,1
+962,962,Jordan McCloud,Texas State,QB,2024-10-27,,,Texas,FBS - Sun Belt,1
+963,963,Abdul-Fatai Ibrahim,Louisiana Tech,WR,2024-10-27,,,Louisiana,FBS - CUSA,1
+964,964,Justin Wright,Oklahoma State,LB,2024-10-27,,,Oklahoma,Big 12,1
+965,286,Nick Kidwell,Indiana,IOL,2024-10-27,,,Indiana,Big Ten,1
+966,314,Ty Son Lawton,Indiana,RB,2024-10-27,,,Indiana,Big Ten,1
+967,967,Levani Damuni,Utah,LB,2024-10-27,,,Utah,Big 12,1
+968,282,Ben Bywater,BYU,LB,2024-10-27,,,Utah,Big 12,1
+969,969,Noah Daniels,TCU,CB,2024-10-27,,,Texas,Big 12,1
+970,266,Tyler Batty,BYU,EDGE,2024-10-27,,,Utah,Big 12,1
+971,971,Keenan Pili,Tennessee,LB,2024-10-27,,,Tennessee,SEC,1
+972,720,Chantz Williams,Charlotte,EDGE,2024-10-27,,,North Carolina,FBS - AAC,1
+973,803,Chidozie Nwankwo,Colorado,DL,2024-10-27,,,Colorado,Big 12,1
+974,808,Corey Rucker,Arkansas State,WR,2024-10-27,,,Arkansas,FBS - Sun Belt,1
+975,801,Clarence Lewis,Syracuse,CB,2024-10-27,,,New York,ACC,1

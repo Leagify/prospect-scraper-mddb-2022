@@ -42060,3 +42060,839 @@ Rank,Peak,PlayerName,School,Position,RankingDateString,Projection,ProjectedTeam,
 841,432,Moliki Matavao,UCLA,TE,2025-01-02,,,California,Big Ten,1
 842,683,Caleb Rogers,Texas Tech,IOL,2025-01-02,,,Texas,Big 12,1
 843,753,Jared Harrison-Hunte,SMU,DL,2025-01-02,,,Texas,ACC,1
+1,1,Cameron Ward,Miami (FL),QB,2025-01-13,1,TENNESSEE TITANS,Florida,ACC,35
+2,1,Shedeur Sanders,Colorado,QB,2025-01-13,3,NEW YORK GIANTS,Colorado,Big 12,35
+3,1,Travis Hunter,Colorado,CB,2025-01-13,2,CLEVELAND BROWNS,Colorado,Big 12,35
+4,2,Mason Graham,Michigan,DL,2025-01-13,7,NEW YORK JETS,Michigan,Big Ten,35
+5,4,Abdul Carter,Penn State,EDGE,2025-01-13,8,CAROLINA PANTHERS,Pennsylvania,Big Ten,35
+6,2,Will Johnson,Michigan,CB,2025-01-13,5,JACKSONVILLE JAGUARS,Michigan,Big Ten,35
+7,2,Will Campbell,LSU,OT,2025-01-13,N/A,,Louisiana,SEC,35
+8,4,Tetairoa McMillan,Arizona,WR,2025-01-13,4,NEW ENGLAND PATRIOTS,Arizona,Big 12,35
+9,3,Kelvin Banks,Texas,OT,2025-01-13,10,CHICAGO BEARS,Texas,SEC,35
+10,10,Ashton Jeanty,Boise State,RB,2025-01-13,6,LAS VEGAS RAIDERS,Idaho,FBS - Mountain West,35
+11,8,Mykel Williams,Georgia,EDGE,2025-01-13,9,NEW ORLEANS SAINTS,Georgia,SEC,30
+12,10,Malaki Starks,Georgia,S,2025-01-13,13,MIAMI DOLPHINS,Georgia,SEC,30
+13,2,James Pearce Jr.,Tennessee,EDGE,2025-01-13,15,ATLANTA FALCONS,Tennessee,SEC,30
+14,12,Jalon Walker,Georgia,LB,2025-01-13,11,SAN FRANCISCO 49ERS,Georgia,SEC,30
+15,10,Luther Burden,Missouri,WR,2025-01-13,17,CINCINNATI BENGALS,Missouri,SEC,30
+16,13,Nic Scourton,Texas A&M,EDGE,2025-01-13,12,DALLAS COWBOYS,Texas,SEC,30
+17,17,Tyler Warren,Penn State,TE,2025-01-13,14,INDIANAPOLIS COLTS,Pennsylvania,Big Ten,30
+18,17,Josh Simmons,Ohio State,OT,2025-01-13,31,KANSAS CITY CHIEFS,Ohio,Big Ten,30
+19,8,Jalen Milroe,Alabama,QB,2025-01-13,N/A,,Alabama,SEC,30
+20,17,Colston Loveland,Michigan,TE,2025-01-13,19,DENVER BRONCOS,Michigan,Big Ten,30
+21,17,Kenneth Grant,Michigan,DL,2025-01-13,N/A,,Michigan,Big Ten,30
+22,18,Shavon Revel Jr.,East Carolina,CB,2025-01-13,20,TAMPA BAY BUCCANEERS,North Carolina,FBS - AAC,30
+23,13,Benjamin Morrison,Notre Dame,CB,2025-01-13,24,GREEN BAY PACKERS,Indiana,FBS - Independent,30
+24,20,Emeka Egbuka,Ohio State,WR,2025-01-13,21,PITTSBURGH STEELERS,Ohio,Big Ten,30
+25,24,Walter Nolen,Ole Miss,DL,2025-01-13,25,HOUSTON TEXANS,Mississippi,SEC,30
+26,23,Derrick Harmon,Oregon,DL,2025-01-13,16,ARIZONA CARDINALS,Oregon,Big Ten,25
+27,18,Aireontae Ersery,Minnesota,OT,2025-01-13,22,LOS ANGELES RAMS,Minnesota,Big Ten,25
+28,28,Tyler Booker,Alabama,IOL,2025-01-13,18,SEATTLE SEAHAWKS,Alabama,SEC,25
+29,20,Shemar Stewart,Texas A&M,DL,2025-01-13,23,LOS ANGELES CHARGERS,Texas,SEC,25
+30,30,Jahdae Barron,Texas,CB,2025-01-13,28,MINNESOTA VIKINGS,Texas,SEC,25
+31,23,Cameron Williams,Texas,OT,2025-01-13,N/A,,Texas,SEC,25
+32,32,Mike Green,Marshall,EDGE,2025-01-13,27,BALTIMORE RAVENS,West Virginia,FBS - CUSA,25
+33,32,Josh Conerly Jr.,Oregon,OT,2025-01-13,N/A,,Oregon,Big Ten,25
+34,24,Tyleik Williams,Ohio State,DL,2025-01-13,29,BUFFALO BILLS,Ohio,Big Ten,25
+35,33,Jihaad Campbell,Alabama,LB,2025-01-13,N/A,,Alabama,SEC,25
+36,29,Princely Umanmielen,Ole Miss,EDGE,2025-01-13,30,PHILADELPHIA EAGLES,Mississippi,SEC,20
+37,20,Jonah Savaiinaea,Arizona,IOL,2025-01-13,N/A,,Arizona,Big 12,20
+38,32,Landon Jackson,Arkansas,EDGE,2025-01-13,32,DETROIT LIONS,Arkansas,SEC,20
+39,31,Wyatt Milum,West Virginia,OT,2025-01-13,N/A,,West Virginia,Big 12,20
+40,36,Nick Emmanwori,South Carolina,S,2025-01-13,N/A,,South Carolina,SEC,20
+41,20,Isaiah Bond,Texas,WR,2025-01-13,26,WASHINGTON COMMANDERS,Texas,SEC,20
+42,41,Trey Amos,Ole Miss,CB,2025-01-13,N/A,,Mississippi,SEC,20
+43,38,Tre Harris,Ole Miss,WR,2025-01-13,N/A,,Mississippi,SEC,20
+44,39,Donovan Jackson,Ohio State,IOL,2025-01-13,N/A,,Ohio,Big Ten,20
+45,41,Omarion Hampton,North Carolina,RB,2025-01-13,N/A,,North Carolina,ACC,20
+46,46,Armand Membou,Missouri,IOL,2025-01-13,N/A,,Missouri,SEC,20
+47,29,Jack Sawyer,Ohio State,EDGE,2025-01-13,N/A,,Ohio,Big Ten,20
+48,7,Quinn Ewers,Texas,QB,2025-01-13,N/A,,Texas,SEC,20
+49,16,Deone Walker,Kentucky,DL,2025-01-13,N/A,,Kentucky,SEC,20
+50,28,J.T. Tuimoloau,Ohio State,EDGE,2025-01-13,N/A,,Ohio,Big Ten,20
+51,15,Emery Jones Jr.,LSU,OT,2025-01-13,N/A,,Louisiana,SEC,20
+52,52,Alfred Collins,Texas,DL,2025-01-13,N/A,,Texas,SEC,20
+53,41,Elic Ayomanor,Stanford,WR,2025-01-13,N/A,,California,ACC,20
+54,42,Kaleb Johnson,Iowa,RB,2025-01-13,N/A,,Iowa,Big Ten,20
+55,48,Harold Fannin Jr.,Bowling Green,TE,2025-01-13,N/A,,Ohio,FBS - MAC,20
+56,45,T.J. Sanders,South Carolina,DL,2025-01-13,N/A,,South Carolina,SEC,20
+57,37,Maxwell Hairston,Kentucky,CB,2025-01-13,N/A,,Kentucky,SEC,20
+58,51,Xavier Watts,Notre Dame,S,2025-01-13,N/A,,Indiana,FBS - Independent,20
+59,59,Omarr Norman-Lott,Tennessee,DL,2025-01-13,N/A,,Tennessee,SEC,20
+60,54,Kyle Kennard,South Carolina,EDGE,2025-01-13,N/A,,South Carolina,SEC,15
+61,61,Jordan Burch,Oregon,DL,2025-01-13,N/A,,Oregon,Big Ten,15
+62,34,Quinshon Judkins,Ohio State,RB,2025-01-13,N/A,,Ohio,Big Ten,15
+63,53,Shemar Turner,Texas A&M,DL,2025-01-13,N/A,,Texas,SEC,15
+64,39,Donovan Ezeiruaku,Boston College,EDGE,2025-01-13,N/A,,Massachusetts,ACC,15
+65,52,Grey Zabel,North Dakota State,OT,2025-01-13,,,North Dakota,FCS,15
+66,55,Xavier Restrepo,Miami (FL),WR,2025-01-13,,,Florida,ACC,15
+67,53,Azareye'h Thomas,Florida State,CB,2025-01-13,,,Florida,ACC,15
+68,45,Marcus Mbow,Purdue,OT,2025-01-13,,,Indiana,Big Ten,15
+69,68,Jared Ivey,Ole Miss,EDGE,2025-01-13,,,Mississippi,SEC,15
+70,70,Andrew Mukuba,Texas,S,2025-01-13,,,Texas,SEC,15
+71,42,Tate Ratledge,Georgia,IOL,2025-01-13,,,Georgia,SEC,10
+72,67,Mason Taylor,LSU,TE,2025-01-13,,,Louisiana,SEC,10
+73,54,Darien Porter,Iowa State,CB,2025-01-13,,,Iowa,Big 12,10
+74,58,Josaiah Stewart,Michigan,EDGE,2025-01-13,,,Michigan,Big Ten,10
+75,70,TreVeyon Henderson,Ohio State,RB,2025-01-13,,,Ohio,Big Ten,10
+76,33,Kevin Winston Jr.,Penn State,S,2025-01-13,,,Pennsylvania,Big Ten,10
+77,67,Savion Williams,TCU,WR,2025-01-13,,,Texas,Big 12,10
+78,20,Denzel Burke,Ohio State,CB,2025-01-13,,,Ohio,Big Ten,10
+79,45,Ashton Gillotte,Louisville,EDGE,2025-01-13,,,Kentucky,ACC,10
+80,65,Daylen Everette,Georgia,CB,2025-01-13,,,Georgia,SEC,10
+81,53,Jalen Royals,Utah State,WR,2025-01-13,,,Utah,FBS - Mountain West,10
+82,79,Cameron Skattebo,Arizona State,RB,2025-01-13,,,Arizona,Big 12,10
+83,65,Bradyn Swinson,LSU,EDGE,2025-01-13,,,Louisiana,SEC,10
+84,39,Jaxson Dart,Ole Miss,QB,2025-01-13,,,Mississippi,SEC,10
+85,73,Lathan Ransom,Ohio State,S,2025-01-13,,,Ohio,Big Ten,10
+86,36,Danny Stutsman,Oklahoma,LB,2025-01-13,,,Oklahoma,SEC,10
+87,43,Barrett Carter,Clemson,LB,2025-01-13,,,South Carolina,ACC,10
+88,77,Anthony Belton,NC State,OT,2025-01-13,,,North Carolina,ACC,10
+89,69,Jayden Higgins,Iowa State,WR,2025-01-13,,,Iowa,Big 12,10
+90,49,DeMonte Capehart,Clemson,DL,2025-01-13,,,South Carolina,ACC,10
+91,40,Ollie Gordon II,Oklahoma State,RB,2025-01-13,,,Oklahoma,Big 12,10
+92,64,Tez Johnson,Oregon,WR,2025-01-13,,,Oregon,Big Ten,10
+93,61,Gunnar Helm,Texas,TE,2025-01-13,,,Texas,SEC,10
+95,81,Matthew Golden,Texas,WR,2025-01-13,,,Texas,SEC,10
+96,69,Zy Alexander,LSU,CB,2025-01-13,,,Louisiana,SEC,10
+97,43,Kyren Lacy,LSU,WR,2025-01-13,,,Louisiana,SEC,10
+98,84,Devin Neal,Kansas,RB,2025-01-13,,,Kansas,Big 12,10
+99,67,Earnest Greene,Georgia,OT,2025-01-13,,,Georgia,SEC,10
+100,88,Kaden Prather,Maryland,WR,2025-01-13,,,Maryland,Big Ten,10
+101,65,David Walker,Central Arkansas,EDGE,2025-01-13,,,Arkansas,FCS,8
+102,93,Dorian Strong,Virginia Tech,CB,2025-01-13,,,Virginia,ACC,8
+103,86,Dylan Fairchild,Georgia,IOL,2025-01-13,,,Georgia,SEC,8
+104,84,Chris Paul Jr.,Ole Miss,LB,2025-01-13,,,Mississippi,SEC,8
+105,58,Davison Igbinosun,Ohio State,CB,2025-01-13,,,Ohio,Big Ten,8
+106,69,Tory Horton,Colorado State,WR,2025-01-13,,,Colorado,FBS - Mountain West,8
+107,87,Charles Grant,William & Mary,IOL,2025-01-13,,,Virginia,FCS,8
+108,104,Carson Schwesinger,UCLA,LB,2025-01-13,,,California,Big Ten,8
+109,77,Billy Bowman,Oklahoma,S,2025-01-13,,,Oklahoma,SEC,8
+110,101,Will Howard,Ohio State,QB,2025-01-13,,,Ohio,Big Ten,8
+111,45,Lander Barton,Utah,LB,2025-01-13,,,Utah,Big 12,8
+112,75,Rod Moore,Michigan,S,2025-01-13,,,Michigan,Big Ten,8
+113,98,Jake Majors,Texas,IOL,2025-01-13,,,Texas,SEC,8
+114,96,Dillon Gabriel,Oregon,QB,2025-01-13,,,Oregon,Big Ten,8
+115,68,Jared Wilson,Georgia,IOL,2025-01-13,,,Georgia,SEC,8
+116,89,Dylan Sampson,Tennessee,RB,2025-01-13,,,Tennessee,SEC,8
+117,89,D.J. Giddens,Kansas State,RB,2025-01-13,,,Kansas,Big 12,8
+118,69,Sebastian Castro,Iowa,S,2025-01-13,,,Iowa,Big Ten,8
+119,105,Mello Dotson,Kansas,CB,2025-01-13,,,Kansas,Big 12,8
+120,50,Tai Felton,Maryland,WR,2025-01-13,,,Maryland,Big Ten,8
+121,65,Kamari Ramsey,USC,S,2025-01-13,,,California,Big Ten,7
+122,95,Ty Robinson,Nebraska,DL,2025-01-13,,,Nebraska,Big Ten,7
+123,82,Ajani Cornelius,Oregon,OT,2025-01-13,,,Oregon,Big Ten,7
+124,96,Jeffrey Bassa,Oregon,LB,2025-01-13,,,Oregon,Big Ten,7
+125,55,Dani Dennis-Sutton,Penn State,EDGE,2025-01-13,,,Pennsylvania,Big Ten,7
+126,56,Antwaun Powell-Ryland,Virginia Tech,EDGE,2025-01-13,,,Virginia,ACC,7
+127,99,Xavier Scott,Illinois,S,2025-01-13,,,Illinois,Big Ten,7
+128,87,Malachi Moore,Alabama,S,2025-01-13,,,Alabama,SEC,7
+129,82,Oronde Gadsden II,Syracuse,TE,2025-01-13,,,New York,ACC,7
+130,68,Howard Cross III,Notre Dame,DL,2025-01-13,,,Indiana,FBS - Independent,7
+131,123,Vernon Broughton,Texas,DL,2025-01-13,,,Texas,SEC,7
+132,108,Smael Mondon Jr.,Georgia,LB,2025-01-13,,,Georgia,SEC,7
+133,133,Justin Walley,Minnesota,CB,2025-01-13,,,Minnesota,Big Ten,7
+134,122,Ja'Corey Brooks,Louisville,WR,2025-01-13,,,Kentucky,ACC,7
+135,109,Fadil Diggs,Syracuse,EDGE,2025-01-13,,,New York,ACC,7
+136,50,Blake Miller,Clemson,OT,2025-01-13,,,South Carolina,ACC,7
+137,105,Bhayshul Tuten,Virginia Tech,RB,2025-01-13,,,Virginia,ACC,7
+138,59,Jabbar Muhammad,Oregon,CB,2025-01-13,,,Oregon,Big Ten,7
+139,112,Jack Bech,TCU,WR,2025-01-13,,,Texas,Big 12,7
+140,101,Jay Higgins,Iowa,LB,2025-01-13,,,Iowa,Big Ten,7
+141,134,Jo'Quavious Marks,USC,RB,2025-01-13,,,California,Big Ten,7
+142,102,Jake Briningstool,Clemson,TE,2025-01-13,,,South Carolina,ACC,7
+143,83,Cobee Bryant,Kansas,CB,2025-01-13,,,Kansas,Big 12,7
+144,89,Terrance Ferguson,Oregon,TE,2025-01-13,,,Oregon,Big Ten,7
+145,96,Deion Burks,Oklahoma,WR,2025-01-13,,,Oklahoma,SEC,7
+146,117,Riley Leonard,Notre Dame,QB,2025-01-13,,,Indiana,FBS - Independent,7
+147,52,Luke Lachey,Iowa,TE,2025-01-13,,,Iowa,Big Ten,7
+148,46,Tyler Baron,Miami (FL),EDGE,2025-01-13,,,Florida,ACC,7
+149,77,Oscar Delp,Georgia,TE,2025-01-13,,,Georgia,SEC,7
+150,102,Jack Nelson,Wisconsin,OT,2025-01-13,,,Wisconsin,Big Ten,7
+151,84,Nazir Stackhouse,Georgia,DL,2025-01-13,,,Georgia,SEC,6
+152,103,Phil Mafah,Clemson,RB,2025-01-13,,,South Carolina,ACC,6
+153,148,Seth McLaughlin,Ohio State,IOL,2025-01-13,,,Ohio,Big Ten,6
+154,112,Aeneas Peebles,Virginia Tech,DL,2025-01-13,,,Virginia,ACC,6
+155,118,Ty Hamilton,Ohio State,DL,2025-01-13,,,Ohio,Big Ten,6
+156,51,Quincy Riley,Louisville,CB,2025-01-13,,,Kentucky,ACC,6
+157,93,Pat Bryant,Illinois,WR,2025-01-13,,,Illinois,Big Ten,6
+158,84,Jermari Harris,Iowa,CB,2025-01-13,,,Iowa,Big Ten,6
+159,113,Kyle McCord,Syracuse,QB,2025-01-13,,,New York,ACC,6
+160,129,Jamon Dumas-Johnson,Kentucky,LB,2025-01-13,,,Kentucky,SEC,6
+161,133,Chase Lundt,UConn,OT,2025-01-13,,,Connecticut,FBS - AAC,6
+162,87,Jaeden Roberts,Alabama,IOL,2025-01-13,,,Alabama,SEC,6
+163,121,Rylie Mills,Notre Dame,DL,2025-01-13,,,Indiana,FBS - Independent,6
+164,114,Jacob Parrish,Kansas State,CB,2025-01-13,,,Kansas,Big 12,6
+165,54,Antwane Wells Jr.,Ole Miss,WR,2025-01-13,,,Mississippi,SEC,6
+166,102,Tonka Hemingway,South Carolina,DL,2025-01-13,,,South Carolina,SEC,6
+167,155,Ozzy Trapilo,Boston College,OT,2025-01-13,,,Massachusetts,ACC,6
+168,95,Jaylin Noel,Iowa State,WR,2025-01-13,,,Iowa,Big 12,6
+169,137,Darius Alexander,Toledo,DL,2025-01-13,,,Ohio,FBS - MAC,6
+170,84,Kyle Monangai,Rutgers,RB,2025-01-13,,,New Jersey,Big Ten,6
+171,102,Raheim Sanders,South Carolina,RB,2025-01-13,,,South Carolina,SEC,6
+172,83,Domani Jackson,Alabama,CB,2025-01-13,,,Alabama,SEC,6
+173,59,Will Lee III,Texas A&M,CB,2025-01-13,,,Texas,SEC,6
+174,134,Jordan James,Oregon,RB,2025-01-13,,,Oregon,Big Ten,6
+175,100,R.J. Harvey Jr.,UCF,RB,2025-01-13,,,Florida,Big 12,6
+176,100,Tommi Hill,Nebraska,CB,2025-01-13,,,Nebraska,Big Ten,6
+177,106,Jamaree Caldwell,Oregon,DL,2025-01-13,,,Oregon,Big Ten,6
+178,100,Dante Trader Jr.,Maryland,S,2025-01-13,,,Maryland,Big Ten,6
+179,86,Jason Marshall Jr.,Florida,CB,2025-01-13,,,Florida,SEC,6
+180,134,J.J. Pegues,Ole Miss,DL,2025-01-13,,,Mississippi,SEC,6
+181,108,Damien Martinez,Miami (FL),RB,2025-01-13,,,Florida,ACC,5
+182,182,Jackson Hawes,Georgia Tech,TE,2025-01-13,,,Georgia,ACC,5
+183,142,Miles Frazier,LSU,IOL,2025-01-13,,,Louisiana,SEC,5
+184,177,Jalen Rivers,Miami (FL),OT,2025-01-13,,,Florida,ACC,5
+185,72,Luke Kandra,Cincinnati,IOL,2025-01-13,,,Ohio,Big 12,5
+186,149,Upton Stout,Western Kentucky,CB,2025-01-13,,,Kentucky,FBS - CUSA,5
+187,84,Jonah Monheim,USC,IOL,2025-01-13,,,California,Big Ten,5
+188,97,Kalel Mullings,Michigan,RB,2025-01-13,,,Michigan,Big Ten,5
+189,125,Mitchell Evans,Notre Dame,TE,2025-01-13,,,Indiana,FBS - Independent,5
+190,190,Jack Kiser,Notre Dame,LB,2025-01-13,,,Indiana,FBS - Independent,5
+191,109,Joshua Gray,Oregon State,IOL,2025-01-13,,,Oregon,Pac 12,5
+192,153,Corey Kiner,Cincinnati,RB,2025-01-13,,,Ohio,Big 12,5
+193,168,Chandler Rivers,Duke,CB,2025-01-13,,,North Carolina,ACC,5
+194,107,Jaylen Reed,Penn State,S,2025-01-13,,,Pennsylvania,Big Ten,5
+196,126,Saivion Jones,LSU,EDGE,2025-01-13,,,Louisiana,SEC,5
+197,172,Elijhah Badger,Florida,WR,2025-01-13,,,Florida,SEC,5
+198,110,Simeon Barrow Jr.,Miami (FL),DL,2025-01-13,,,Florida,ACC,5
+199,180,Carson Vinson,Alabama A&M,IOL,2025-01-13,,,Alabama,FCS,5
+200,114,Elijah Arroyo,Miami (FL),TE,2025-01-13,,,Florida,ACC,5
+201,148,Brandon Crenshaw-Dickson,Florida,OT,2025-01-13,,,Florida,SEC,5
+202,89,Kurtis Rourke,Indiana,QB,2025-01-13,,,Indiana,Big Ten,5
+203,134,Garrett Dellinger,LSU,IOL,2025-01-13,,,Louisiana,SEC,5
+204,204,Corey Thornton,Louisville,CB,2025-01-13,,,Kentucky,ACC,5
+205,159,Jaylin Lane,Virginia Tech,WR,2025-01-13,,,Virginia,ACC,5
+206,81,Xavier Nwankpa,Iowa,S,2025-01-13,,,Iowa,Big Ten,5
+207,54,Jordan Hancock,Ohio State,CB,2025-01-13,,,Ohio,Big Ten,5
+208,100,Yahya Black,Iowa,DL,2025-01-13,,,Iowa,Big Ten,5
+209,110,Kaimon Rucker,North Carolina,EDGE,2025-01-13,,,North Carolina,ACC,5
+210,70,Anto Saka,Northwestern,EDGE,2025-01-13,,,Illinois,Big Ten,5
+211,182,Brandon Adams,UCF,CB,2025-01-13,,,Florida,Big 12,5
+212,146,Craig Woodson,California,S,2025-01-13,,,California,ACC,5
+213,147,Cam Jackson,Florida,DL,2025-01-13,,,Florida,SEC,5
+214,178,Tyreem Powell,Rutgers,LB,2025-01-13,,,New Jersey,Big Ten,5
+215,49,Nick Martin,Oklahoma State,LB,2025-01-13,,,Oklahoma,Big 12,5
+216,154,Elijah Roberts,SMU,EDGE,2025-01-13,,,Texas,ACC,5
+217,201,Garnett Hollis Jr.,West Virginia,CB,2025-01-13,,,West Virginia,Big 12,5
+218,200,Jalin Conyers,Texas Tech,TE,2025-01-13,,,Texas,Big 12,5
+219,130,Hunter Wohler,Wisconsin,S,2025-01-13,,,Wisconsin,Big Ten,5
+220,58,Ricardo Hallman,Wisconsin,CB,2025-01-13,,,Wisconsin,Big Ten,5
+221,160,David Bailey,Stanford,EDGE,2025-01-13,,,California,ACC,5
+222,148,Brant Kuithe,Utah,TE,2025-01-13,,,Utah,Big 12,5
+223,97,Jonas Sanker,Virginia,S,2025-01-13,,,Virginia,ACC,5
+224,205,Gavin Bartholomew,Pitt,TE,2025-01-13,,,Pennsylvania,ACC,5
+225,186,Bud Clark,TCU,S,2025-01-13,,,Texas,Big 12,5
+226,128,Will Sheppard,Colorado,WR,2025-01-13,,,Colorado,Big 12,5
+227,109,Ricky White,UNLV,WR,2025-01-13,,,Nevada,FBS - Mountain West,5
+228,150,Benjamin Yurosek,Georgia,TE,2025-01-13,,,Georgia,SEC,5
+229,191,Malik Verdon,Iowa State,S,2025-01-13,,,Iowa,Big 12,5
+230,230,Jahvaree Ritzie,North Carolina,DL,2025-01-13,,,North Carolina,ACC,5
+231,231,Josh Priebe,Michigan,IOL,2025-01-13,,,Michigan,Big Ten,5
+232,166,R Mason Thomas,Oklahoma,EDGE,2025-01-13,,,Oklahoma,SEC,5
+233,70,Kobe Hudson,UCF,WR,2025-01-13,,,Florida,Big 12,5
+234,133,John Michael Gyllenborg,Wyoming,TE,2025-01-13,,,Wyoming,FBS - Mountain West,5
+235,219,Eli Cox,Kentucky,IOL,2025-01-13,,,Kentucky,SEC,5
+236,155,Trevor Etienne,Georgia,RB,2025-01-13,,,Georgia,SEC,5
+237,178,Beaux Collins,Notre Dame,WR,2025-01-13,,,Indiana,FBS - Independent,5
+238,183,Ethan Downs,Oklahoma,EDGE,2025-01-13,,,Oklahoma,SEC,5
+239,232,Cam Miller,Penn State,CB,2025-01-13,,,Pennsylvania,Big Ten,5
+240,222,Marcus Tate,Clemson,IOL,2025-01-13,,,South Carolina,ACC,5
+241,153,Nick Nash,San Jose State,WR,2025-01-13,,,California,FBS - Mountain West,5
+242,144,Kenny Gallop Jr.,Howard,S,2025-01-13,,,Washington DC,FCS,5
+243,140,Thor Griffith,Louisville,DL,2025-01-13,,,Kentucky,ACC,5
+244,202,Zakhari Franklin,Illinois,WR,2025-01-13,,,Illinois,Big Ten,5
+245,225,Nick Dawkins,Penn State,IOL,2025-01-13,,,Pennsylvania,Big Ten,5
+246,78,Jude Bowry,Boston College,OT,2025-01-13,,,Massachusetts,ACC,5
+247,197,Cooper Mays,Tennessee,IOL,2025-01-13,,,Tennessee,SEC,5
+248,227,Tysheem Johnson,Oregon,S,2025-01-13,,,Oregon,Big Ten,5
+249,249,Aiden Williams,Minnesota Duluth,IOL,2025-01-13,,,Minnesota,D2,5
+250,125,Brady Cook,Missouri,QB,2025-01-13,,,Missouri,SEC,5
+251,181,Bilhal Kone,Western Michigan,CB,2025-01-13,,,Michigan,FBS - MAC,2
+252,252,Myles Hinton,Michigan,OT,2025-01-13,,,Michigan,Big Ten,2
+253,146,Jah Joyner,Minnesota,EDGE,2025-01-13,,,Minnesota,Big Ten,2
+254,121,Connor Colby,Iowa,IOL,2025-01-13,,,Iowa,Big Ten,2
+255,196,Oluwafemi Oladejo,UCLA,EDGE,2025-01-13,,,California,Big Ten,2
+256,256,Robert Longerbeam,Rutgers,CB,2025-01-13,,,New Jersey,Big Ten,2
+257,257,Garrett Greene,West Virginia,QB,2025-01-13,,,West Virginia,Big 12,2
+258,162,Ryan Fitzgerald,Florida State,K,2025-01-13,,,Florida,ACC,2
+259,143,John Williams,Cincinnati,OT,2025-01-13,,,Ohio,Big 12,2
+260,231,Drew Kendall,Boston College,IOL,2025-01-13,,,Massachusetts,ACC,2
+261,154,Daniel Jackson,Minnesota,WR,2025-01-13,,,Minnesota,Big Ten,2
+262,173,Maxen Hook,Toledo,S,2025-01-13,,,Ohio,FBS - MAC,2
+263,153,Tim Keenan III,Alabama,DL,2025-01-13,,,Alabama,SEC,2
+264,118,Joshua Farmer,Florida State,DL,2025-01-13,,,Florida,ACC,2
+265,201,Jaylin Smith,USC,CB,2025-01-13,,,California,Big Ten,2
+266,97,Sonny Styles,Ohio State,LB,2025-01-13,,,Ohio,Big Ten,2
+267,139,Jalen Travis,Iowa State,OT,2025-01-13,,,Iowa,Big 12,2
+268,245,William Wagner,Michigan,LS,2025-01-13,,,Michigan,Big Ten,2
+269,185,Glendon Miller,Maryland,S,2025-01-13,,,Maryland,Big Ten,2
+270,127,Barryn Sorrell,Texas,EDGE,2025-01-13,,,Texas,SEC,2
+271,146,Collin Oliver,Oklahoma State,EDGE,2025-01-13,,,Oklahoma,Big 12,2
+272,227,Brashard Smith,SMU,RB,2025-01-13,,,Texas,ACC,2
+273,192,Hollin Pierce,Rutgers,OT,2025-01-13,,,New Jersey,Big Ten,2
+274,134,Tahj Brooks,Texas Tech,RB,2025-01-13,,,Texas,Big 12,2
+275,169,Nash Hutmacher,Nebraska,DL,2025-01-13,,,Nebraska,Big Ten,2
+276,111,Trey Moore,Texas,EDGE,2025-01-13,,,Texas,SEC,2
+277,140,Xavier Truss,Georgia,OT,2025-01-13,,,Georgia,SEC,2
+279,131,Jay Toia,UCLA,DL,2025-01-13,,,California,Big Ten,2
+280,126,Caden Prieskorn,Ole Miss,TE,2025-01-13,,,Mississippi,SEC,2
+281,234,Johnny Walker Jr.,Missouri,EDGE,2025-01-13,,,Missouri,SEC,2
+282,183,Warren Brinson,Georgia,DL,2025-01-13,,,Georgia,SEC,2
+283,174,Da'Quan Felton,Virginia Tech,WR,2025-01-13,,,Virginia,ACC,2
+284,225,Quentin Skinner,Kansas,WR,2025-01-13,,,Kansas,Big 12,2
+285,185,Jarquez Hunter,Auburn,RB,2025-01-13,,,Alabama,SEC,2
+286,102,Jeremiah Cooper,Iowa State,S,2025-01-13,,,Iowa,Big 12,2
+287,167,Francisco Mauigoa,Miami (FL),LB,2025-01-13,,,Florida,ACC,2
+288,152,Dillon Bell,Georgia,WR,2025-01-13,,,Georgia,SEC,2
+289,171,Marcus Wehr,Montana State,IOL,2025-01-13,,,Montana,FCS,2
+290,108,Drew Shelton,Penn State,OT,2025-01-13,,,Pennsylvania,Big Ten,2
+291,210,LaJohntay Wester,Colorado,WR,2025-01-13,,,Colorado,Big 12,2
+292,199,Domonique Orange,Iowa State,DL,2025-01-13,,,Iowa,Big 12,2
+293,121,Keandre Lambert-Smith,Auburn,WR,2025-01-13,,,Alabama,SEC,2
+294,216,Rayuan Lane III,Navy,S,2025-01-13,,,Maryland,FBS - AAC,2
+295,87,Jaishawn Barham,Michigan,LB,2025-01-13,,,Michigan,Big Ten,2
+296,257,Dont'e Thornton,Tennessee,WR,2025-01-13,,,Tennessee,SEC,2
+297,265,Tamuarion Wilson,Central Arkansas,LB,2025-01-13,,,Arkansas,FCS,2
+298,214,Marcus Yarns,Delaware,RB,2025-01-13,,,Delaware,FCS,2
+299,206,Ulysses Bentley IV,Ole Miss,RB,2025-01-13,,,Mississippi,SEC,2
+300,147,Bryce Boettcher,Oregon,LB,2025-01-13,,,Oregon,Big Ten,2
+301,228,Dymere Miller,Rutgers,WR,2025-01-13,,,New Jersey,Big Ten,1
+302,175,Jasheen Davis,Wake Forest,EDGE,2025-01-13,,,North Carolina,ACC,1
+303,96,Bru McCoy,Tennessee,WR,2025-01-13,,,Tennessee,SEC,1
+304,226,David Gbenda,Texas,LB,2025-01-13,,,Texas,SEC,1
+305,244,Miles Scott,Illinois,S,2025-01-13,,,Illinois,Big Ten,1
+306,175,Eugene Asante,Auburn,LB,2025-01-13,,,Alabama,SEC,1
+307,276,Dartanyan Tinsley,Cincinnati,IOL,2025-01-13,,,Ohio,Big 12,1
+308,259,Traeshon Holden,Oregon,WR,2025-01-13,,,Oregon,Big Ten,1
+309,56,Ephesians Prysock,Washington,CB,2025-01-13,,,Washington,Big Ten,1
+310,121,Anthony Lucas,USC,EDGE,2025-01-13,,,California,Big Ten,1
+311,160,Ja'Quinden Jackson,Arkansas,RB,2025-01-13,,,Arkansas,SEC,1
+312,148,Jimmy Horn Jr.,Colorado,WR,2025-01-13,,,Colorado,Big 12,1
+313,200,Shilo Sanders,Colorado,S,2025-01-13,,,Colorado,Big 12,1
+314,120,J.C. Davis,Illinois,OT,2025-01-13,,,Illinois,Big Ten,1
+315,221,Caleb Ransaw,Tulane,S,2025-01-13,,,Louisiana,FBS - AAC,1
+316,173,Teddye Buchanan,California,LB,2025-01-13,,,California,ACC,1
+317,138,Kobe King,Penn State,LB,2025-01-13,,,Pennsylvania,Big Ten,1
+318,165,Le'Veon Moss,Texas A&M,RB,2025-01-13,,,Texas,SEC,1
+319,219,Greg Penn III,LSU,LB,2025-01-13,,,Louisiana,SEC,1
+320,116,Que Robinson,Alabama,EDGE,2025-01-13,,,Alabama,SEC,1
+321,164,Tyler Batty,BYU,EDGE,2025-01-13,,,Utah,Big 12,1
+322,194,Hayden Conner,Texas,IOL,2025-01-13,,,Texas,SEC,1
+323,240,Jalen McLeod,Auburn,LB,2025-01-13,,,Alabama,SEC,1
+324,122,Bryson Nesbit,North Carolina,TE,2025-01-13,,,North Carolina,ACC,1
+325,207,Zemaiah Vaughn,Utah,CB,2025-01-13,,,Utah,Big 12,1
+326,243,Sean Martin,West Virginia,DL,2025-01-13,,,West Virginia,Big 12,1
+327,143,Nohl Williams,California,CB,2025-01-13,,,California,ACC,1
+328,167,Theo Wease,Missouri,WR,2025-01-13,,,Missouri,SEC,1
+329,245,B.J. Mayes,Texas A&M,CB,2025-01-13,,,Texas,SEC,1
+330,246,Shamari Simmons,Arizona State,CB,2025-01-13,,,Arizona,Big 12,1
+331,142,Gus Hartwig,Purdue,IOL,2025-01-13,,,Indiana,Big Ten,1
+332,187,Tim Smith,Alabama,DL,2025-01-13,,,Alabama,SEC,1
+333,201,Trey Rucker,Oklahoma State,S,2025-01-13,,,Oklahoma,Big 12,1
+334,110,Izavion Miller,Auburn,OT,2025-01-13,,,Alabama,SEC,1
+335,257,Sulaiman Kpaka,Mississippi State,DL,2025-01-13,,,Mississippi,SEC,1
+336,259,Seyi Oladipo,Boise State,S,2025-01-13,,,Idaho,FBS - Mountain West,1
+337,202,Robert Spears-Jennings,Oklahoma,S,2025-01-13,,,Oklahoma,SEC,1
+338,266,Austin Brinkman,West Virginia,LS,2025-01-13,,,West Virginia,Big 12,1
+339,131,C.J. West,Indiana,DL,2025-01-13,,,Indiana,Big Ten,1
+340,265,Shaquan Loyal,Rutgers,S,2025-01-13,,,New Jersey,Big Ten,1
+341,157,De'Braylon Carroll,Texas Tech,DL,2025-01-13,,,Texas,Big 12,1
+342,199,O'Donnell Fortune,South Carolina,CB,2025-01-13,,,South Carolina,SEC,1
+343,227,Cody Lindenberg,Minnesota,LB,2025-01-13,,,Minnesota,Big Ten,1
+344,166,Malik Dixon-Williams,UConn,S,2025-01-13,,,Connecticut,FBS - AAC,1
+345,268,Montorie Foster,Michigan State,WR,2025-01-13,,,Michigan,Big Ten,1
+346,235,Akili Arnold,USC,S,2025-01-13,,,California,Big Ten,1
+347,242,Michael Taaffe,Texas,S,2025-01-13,,,Texas,SEC,1
+348,194,Alijah Clark,Syracuse,S,2025-01-13,,,New York,ACC,1
+349,253,Daylan Carnell,Missouri,S,2025-01-13,,,Missouri,SEC,1
+350,254,Cam Horsley,Boston College,DL,2025-01-13,,,Massachusetts,ACC,1
+351,196,Graham Mertz,Florida,QB,2025-01-13,,,Florida,SEC,1
+352,136,Karene Reid,Utah,LB,2025-01-13,,,Utah,Big 12,1
+353,260,Aubrey Burks,West Virginia,S,2025-01-13,,,West Virginia,Big 12,1
+354,261,Jailin Walker,Indiana,LB,2025-01-13,,,Indiana,Big Ten,1
+355,133,Clay Webb,Jacksonville State,IOL,2025-01-13,,,Alabama,FBS - CUSA,1
+356,263,Gaethan Bernadel,Stanford,LB,2025-01-13,,,California,ACC,1
+357,209,Fentrell Cypress,Florida State,CB,2025-01-13,,,Florida,ACC,1
+358,224,Aaron Smith,South Carolina State,LB,2025-01-13,,,South Carolina,FCS,1
+359,212,Jacory Croskey-Merritt,Arizona,RB,2025-01-13,,,Arizona,Big 12,1
+360,274,Elijah Alston,Miami (FL),EDGE,2025-01-13,,,Florida,ACC,1
+361,126,Samuel Brown,Miami (FL),WR,2025-01-13,,,Florida,ACC,1
+362,198,Carson Bruener,Washington,LB,2025-01-13,,,Washington,Big Ten,1
+363,279,Roc Taylor,Memphis,WR,2025-01-13,,,Tennessee,FBS - AAC,1
+364,280,De'Rickey Wright,Vanderbilt,S,2025-01-13,,,Tennessee,SEC,1
+365,205,Nay'Quan Wright,South Florida,RB,2025-01-13,,,Florida,FBS - AAC,1
+366,197,Samuel Okunlola,Colorado,EDGE,2025-01-13,,,Colorado,Big 12,1
+367,141,Zeke Correll,NC State,IOL,2025-01-13,,,North Carolina,ACC,1
+368,215,Darian Chestnut,Syracuse,CB,2025-01-13,,,New York,ACC,1
+369,153,Ethan Burke,Texas,EDGE,2025-01-13,,,Texas,SEC,1
+370,156,Mason Richman,Iowa,OT,2025-01-13,,,Iowa,Big Ten,1
+371,159,Kolbey Taylor,Vanderbilt,CB,2025-01-13,,,Tennessee,SEC,1
+372,163,Emmanuel McNeil-Warren,Toledo,S,2025-01-13,,,Ohio,FBS - MAC,1
+373,163,Donovan Smith,Houston,QB,2025-01-13,,,Texas,Big 12,1
+374,188,Elijah Sarratt,Indiana,WR,2025-01-13,,,Indiana,Big Ten,1
+375,155,Car'lin Vigers,Louisiana-Monroe,CB,2025-01-13,,,Louisiana,FBS - Sun Belt,1
+376,129,Joey Slackman,Florida,DL,2025-01-13,,,Florida,SEC,1
+377,201,Marcus Harper II,Oregon,IOL,2025-01-13,,,Oregon,Big Ten,1
+378,229,D.J. Uiagalelei,Florida State,QB,2025-01-13,,,Florida,ACC,1
+379,115,Donovan Edwards,Michigan,RB,2025-01-13,,,Michigan,Big Ten,1
+380,77,Chris Brazzell,Tennessee,WR,2025-01-13,,,Tennessee,SEC,1
+381,141,D.J. Campbell,Texas,IOL,2025-01-13,,,Texas,SEC,1
+382,199,Dominic Zvada,Michigan,K,2025-01-13,,,Michigan,Big Ten,1
+383,207,Bryce Anderson,Texas A&M,S,2025-01-13,,,Texas,SEC,1
+384,199,Gentry Williams,Oklahoma,CB,2025-01-13,,,Oklahoma,SEC,1
+385,121,Germie Bernard,Alabama,WR,2025-01-13,,,Alabama,SEC,1
+386,294,R.J. Oben,Notre Dame,EDGE,2025-01-13,,,Indiana,FBS - Independent,1
+387,163,Debo Williams,South Carolina,LB,2025-01-13,,,South Carolina,SEC,1
+388,322,Toriano Pride,Missouri,CB,2025-01-13,,,Missouri,SEC,1
+389,389,Demetrius Knight,South Carolina,LB,2025-01-13,,,South Carolina,SEC,1
+390,155,Eric Gregory,Arkansas,DL,2025-01-13,,,Arkansas,SEC,1
+391,168,Power Echols,North Carolina,LB,2025-01-13,,,North Carolina,ACC,1
+392,167,Connor O'Toole,Utah,EDGE,2025-01-13,,,Utah,Big 12,1
+393,189,Davin Vann,NC State,DL,2025-01-13,,,North Carolina,ACC,1
+394,200,Nick Jackson,Iowa,LB,2025-01-13,,,Iowa,Big Ten,1
+395,202,Thaddeus Dixon,Washington,CB,2025-01-13,,,Washington,Big Ten,1
+396,144,R.J. Maryland,SMU,TE,2025-01-13,,,Texas,ACC,1
+397,203,Akheem Mesidor,Miami (FL),EDGE,2025-01-13,,,Florida,ACC,1
+398,177,Trey Zuhn III,Texas A&M,OT,2025-01-13,,,Texas,SEC,1
+399,73,Jordan Phillips,Maryland,DL,2025-01-13,,,Maryland,Big Ten,1
+400,166,Aydan White,NC State,CB,2025-01-13,,,North Carolina,ACC,1
+401,198,Andre Jefferson,Lenoir–Rhyne,DL,2025-01-13,,,North Carolina,D2,1
+402,198,Vincent Anthony Jr.,Duke,EDGE,2025-01-13,,,North Carolina,ACC,1
+403,213,Amin Vanover,Penn State,EDGE,2025-01-13,,,Pennsylvania,Big Ten,1
+404,253,Xavier Carlton,California,EDGE,2025-01-13,,,California,ACC,1
+405,205,Malcolm Ray,Rutgers,DL,2025-01-13,,,New Jersey,Big Ten,1
+406,219,Easton Mascarenas-Arnold,USC,LB,2025-01-13,,,California,Big Ten,1
+407,156,Max Brosmer,Minnesota,QB,2025-01-13,,,Minnesota,Big Ten,1
+408,166,Tyree Skipper,Louisiana-Lafayette,S,2025-01-13,,,Louisiana,FBS - Sun Belt,1
+409,202,Kain Medrano,UCLA,LB,2025-01-13,,,California,Big Ten,1
+410,174,Patrick Jenkins,Tulane,DL,2025-01-13,,,Louisiana,FBS - AAC,1
+411,146,Ja'Mori Maclin,Kentucky,WR,2025-01-13,,,Kentucky,SEC,1
+412,156,Kenyatta Watson II,Georgia State,S,2025-01-13,,,Georgia,FBS - Sun Belt,1
+413,413,Ceyair Wright,Nebraska,CB,2025-01-13,,,Nebraska,Big Ten,1
+414,98,Terrance Brooks,Illinois,CB,2025-01-13,,,Illinois,Big Ten,1
+415,161,Devin Moore,Florida,CB,2025-01-13,,,Florida,SEC,1
+416,168,D.J. Lundy,Florida State,LB,2025-01-13,,,Florida,ACC,1
+417,171,Terrell Dawkins,North Texas,EDGE,2025-01-13,,,Texas,FBS - AAC,1
+418,173,Makari Paige,Michigan,S,2025-01-13,,,Michigan,Big Ten,1
+419,146,Thomas Perry,Middlebury,IOL,2025-01-13,,,Vermont,D3,1
+420,182,R.J. Mickens,Clemson,S,2025-01-13,,,South Carolina,ACC,1
+421,188,Javontez Spraggins,Tennessee,IOL,2025-01-13,,,Tennessee,SEC,1
+422,167,Kamren Fabiculanan,Washington,S,2025-01-13,,,Washington,Big Ten,1
+423,215,Moose Muhammad III,Texas A&M,WR,2025-01-13,,,Texas,SEC,1
+424,424,Tahveon Nicholson,Ole Miss,S,2025-01-13,,,Mississippi,SEC,1
+425,213,Shemar James,Florida,LB,2025-01-13,,,Florida,SEC,1
+426,223,Alex Huntley,South Carolina,DL,2025-01-13,,,South Carolina,SEC,1
+427,172,Marcus Allen,North Carolina,CB,2025-01-13,,,North Carolina,ACC,1
+428,237,Matthew Bedford,Oregon,OT,2025-01-13,,,Oregon,Big Ten,1
+429,233,Caleb Etienne,BYU,OT,2025-01-13,,,Utah,Big 12,1
+430,184,Corey Dyches,California,TE,2025-01-13,,,California,ACC,1
+431,249,Dacari Collins,NC State,WR,2025-01-13,,,North Carolina,ACC,1
+432,274,Paris Shand,LSU,DL,2025-01-13,,,Louisiana,SEC,1
+433,275,Andrew Armstrong,Arkansas,WR,2025-01-13,,,Arkansas,SEC,1
+434,200,Jaydon Blue,Texas,RB,2025-01-13,,,Texas,SEC,1
+435,217,De'Corian Clark,UTSA,WR,2025-01-13,,,Texas,FBS - AAC,1
+436,224,Jayden Gibson,Oklahoma,WR,2025-01-13,,,Oklahoma,SEC,1
+437,231,Dominic Lovett,Georgia,WR,2025-01-13,,,Georgia,SEC,1
+438,234,Michael Ford Jr.,Kansas,IOL,2025-01-13,,,Kansas,Big 12,1
+439,236,Seth Henigan,Memphis,QB,2025-01-13,,,Tennessee,FBS - AAC,1
+440,163,Hudson Clark,Arkansas,S,2025-01-13,,,Arkansas,SEC,1
+441,291,Colbie Young,Georgia,WR,2025-01-13,,,Georgia,SEC,1
+442,299,Ross James,Oregon,P,2025-01-13,,,Oregon,Big Ten,1
+443,304,John Pius,Wisconsin,EDGE,2025-01-13,,,Wisconsin,Big Ten,1
+444,302,Jackson Slater,Sacramento State,IOL,2025-01-13,,,California,FCS,1
+445,293,Isas Waxter,Villanova,CB,2025-01-13,,,Pennsylvania,FCS,1
+446,308,C.J. Hicks,Ohio State,LB,2025-01-13,,,Ohio,Big Ten,1
+447,306,Jeadyn Lukus,Clemson,CB,2025-01-13,,,South Carolina,ACC,1
+448,310,Jaylen Sneed,Notre Dame,LB,2025-01-13,,,Indiana,FBS - Independent,1
+449,307,Jaheim Singletary,Arkansas,CB,2025-01-13,,,Arkansas,SEC,1
+450,309,Chris Marshall,Boise State,WR,2025-01-13,,,Idaho,FBS - Mountain West,1
+451,327,J.Q. Hardaway,Kentucky,CB,2025-01-13,,,Kentucky,SEC,1
+452,335,Jacolby Spells,West Virginia,CB,2025-01-13,,,West Virginia,Big 12,1
+453,320,Kenyatta Jackson,Ohio State,EDGE,2025-01-13,,,Ohio,Big Ten,1
+454,352,Devon Jackson,Oregon,LB,2025-01-13,,,Oregon,Big Ten,1
+455,353,Kyion Grayes,California,WR,2025-01-13,,,California,ACC,1
+456,323,Jacoby Mathews,Texas A&M,S,2025-01-13,,,Texas,SEC,1
+457,342,Jaylon Guilbeau,Texas,CB,2025-01-13,,,Texas,SEC,1
+458,314,Jamarion Miller,Alabama,RB,2025-01-13,,,Alabama,SEC,1
+459,319,Adam Randall,Clemson,WR,2025-01-13,,,South Carolina,ACC,1
+460,331,Joshua Josephs,Tennessee,EDGE,2025-01-13,,,Tennessee,SEC,1
+461,338,Andre Greene Jr.,Virginia,WR,2025-01-13,,,Virginia,ACC,1
+462,339,Cyrus Moss,Miami (FL),EDGE,2025-01-13,,,Florida,ACC,1
+463,315,Tobias Merriweather,California,WR,2025-01-13,,,California,ACC,1
+464,321,Braylin Presley,Tulsa,WR,2025-01-13,,,Oklahoma,FBS - AAC,1
+465,318,Kamari Wilson,Florida,S,2025-01-13,,,Florida,SEC,1
+466,350,Jaren Kanak,Oklahoma,LB,2025-01-13,,,Oklahoma,SEC,1
+467,312,Zavion Thomas,LSU,WR,2025-01-13,,,Louisiana,SEC,1
+468,343,Popeye Williams,Western Michigan,EDGE,2025-01-13,,,Michigan,FBS - MAC,1
+469,328,P.J. Williams,SMU,OT,2025-01-13,,,Texas,ACC,1
+470,330,Kaden Saunders,Penn State,WR,2025-01-13,,,Pennsylvania,Big Ten,1
+471,345,Wesley Bissainthe,Miami (FL),LB,2025-01-13,,,Florida,ACC,1
+472,346,Shazz Preston,Tulane,WR,2025-01-13,,,Louisiana,FBS - AAC,1
+473,333,Earl Little II,Florida State,CB,2025-01-13,,,Florida,ACC,1
+474,344,Smoke Bouie,Texas A&M,S,2025-01-13,,,Texas,SEC,1
+475,341,Darris Smith,Missouri,EDGE,2025-01-13,,,Missouri,SEC,1
+476,349,Aaron Anderson,LSU,WR,2025-01-13,,,Louisiana,SEC,1
+477,347,Talyn Shettron,Oklahoma State,WR,2025-01-13,,,Oklahoma,Big 12,1
+478,332,Quency Wiggins,Colorado,DL,2025-01-13,,,Colorado,Big 12,1
+479,316,Sam McCall,Florida State,S,2025-01-13,,,Florida,ACC,1
+480,329,Jordan Hudson,SMU,WR,2025-01-13,,,Texas,ACC,1
+481,394,Van Wells,Oregon State,IOL,2025-01-13,,,Oregon,Pac 12,1
+482,382,Ti Mims,Southern Miss,WR,2025-01-13,,,Mississippi,FBS - CUSA,1
+483,366,D'Andre Martin,Charlotte,DL,2025-01-13,,,North Carolina,FBS - AAC,1
+484,381,Ernest Hausmann,Michigan,LB,2025-01-13,,,Michigan,Big Ten,1
+485,363,Asani Redwood,West Virginia,DL,2025-01-13,,,West Virginia,Big 12,1
+486,360,Ethan Moczulski,Texas A&M,K,2025-01-13,,,Texas,SEC,1
+487,357,Gavin Gibson,East Carolina,CB,2025-01-13,,,North Carolina,FBS - AAC,1
+488,383,Jaylin Marshall,Georgia Tech,S,2025-01-13,,,Georgia,ACC,1
+489,384,Amari Jackson,Boston College,CB,2025-01-13,,,Massachusetts,ACC,1
+490,355,Jalen Huskey,Maryland,CB,2025-01-13,,,Maryland,Big Ten,1
+491,390,Robert Gunn,Clemson,K,2025-01-13,,,South Carolina,ACC,1
+492,356,Kobe Savage,Oregon,S,2025-01-13,,,Oregon,Big Ten,1
+493,393,Josh Kattus,Kentucky,TE,2025-01-13,,,Kentucky,SEC,1
+494,374,Bryce McFerson,Notre Dame,P,2025-01-13,,,Indiana,FBS - Independent,1
+495,364,Alex Bacchetta,Penn State,P,2025-01-13,,,Pennsylvania,Big Ten,1
+496,361,Cameron Ball,Mississippi State,TE,2025-01-13,,,Mississippi,SEC,1
+497,372,A.J. Haulcy,Houston,S,2025-01-13,,,Texas,Big 12,1
+498,367,Eddie Kelly,Missouri,DL,2025-01-13,,,Missouri,SEC,1
+499,379,Jayden McGowan,Boston College,WR,2025-01-13,,,Massachusetts,ACC,1
+500,387,Max Fletcher,Arkansas,P,2025-01-13,,,Arkansas,SEC,1
+501,370,Jordyn Tyson,Arizona State,WR,2025-01-13,,,Arizona,Big 12,1
+502,376,Brett Thorson,Georgia,P,2025-01-13,,,Georgia,SEC,1
+503,369,Alex McPherson,Auburn,K,2025-01-13,,,Alabama,SEC,1
+504,392,Jeremiah Earby,Boise State,CB,2025-01-13,,,Idaho,FBS - Mountain West,1
+505,391,Tyler Perkins,Iowa State,P,2025-01-13,,,Iowa,Big 12,1
+506,388,Kyron Barnes,Southern Miss,OT,2025-01-13,,,Mississippi,FBS - CUSA,1
+507,345,Damonic Williams,Oklahoma,DL,2025-01-13,,,Oklahoma,SEC,1
+508,358,D.Q. Smith,South Carolina,S,2025-01-13,,,South Carolina,SEC,1
+509,365,Pichon Wimbley,Georgia Southern,IOL,2025-01-13,,,Georgia,FBS - Sun Belt,1
+510,377,Bryan Thomas Jr.,South Carolina,EDGE,2025-01-13,,,South Carolina,SEC,1
+511,320,Justus Ross-Simmons,Syracuse,WR,2025-01-13,,,New York,ACC,1
+512,386,Malik Spencer,Michigan State,S,2025-01-13,,,Michigan,Big Ten,1
+513,399,John Love,Virginia Tech,K,2025-01-13,,,Virginia,ACC,1
+514,401,Will Bettridge,Virginia,K,2025-01-13,,,Virginia,ACC,1
+515,400,Jackson Lee,Florida International,LS,2025-01-13,,,Florida,FBS - CUSA,1
+516,398,Eli Stein,Arkansas,LS,2025-01-13,,,Arkansas,SEC,1
+517,397,Rino Monteforte,Notre Dame,LS,2025-01-13,,,Indiana,FBS - Independent,1
+518,396,Lance St. Louis,Texas,LS,2025-01-13,,,Texas,SEC,1
+519,403,Jordan Pollard,San Jose State,LB,2025-01-13,,,California,FBS - Mountain West,1
+520,402,Nate Merchant,Coastal Carolina,LS,2025-01-13,,,South Carolina,FCS,1
+521,407,Korey Foreman,Fresno State,EDGE,2025-01-13,,,California,FBS - Mountain West,1
+522,408,Tommy Brockermeyer,TCU,OT,2025-01-13,,,Texas,Big 12,1
+523,410,Xavian Sorey Jr.,Arkansas,LB,2025-01-13,,,Arkansas,SEC,1
+524,462,Latrell McCutchin,Houston,CB,2025-01-13,,,Texas,Big 12,1
+525,459,Lorenzo Styles Jr.,Ohio State,CB,2025-01-13,,,Ohio,Big Ten,1
+526,444,Jaylin Davies,UCLA,CB,2025-01-13,,,California,Big Ten,1
+527,447,Damarius McGhee,Kansas,CB,2025-01-13,,,Kansas,Big 12,1
+528,433,Deion Colzie,Notre Dame,WR,2025-01-13,,,Indiana,FBS - Independent,1
+529,440,Kelvin Gilliam,Virginia Tech,DL,2025-01-13,,,Virginia,ACC,1
+530,425,Ezra Dotson-Oyetade,TCU,IOL,2025-01-13,,,Texas,Big 12,1
+531,418,Tyreak Sapp,Florida,DL,2025-01-13,,,Florida,SEC,1
+532,413,Jonathan Jefferson,SMU,DL,2025-01-13,,,Texas,ACC,1
+533,432,Reid Carrico,West Virginia,LB,2025-01-13,,,West Virginia,Big 12,1
+534,460,Derrick Davis Jr.,Pitt,S,2025-01-13,,,Pennsylvania,ACC,1
+535,470,Bryce Carter,Virginia,EDGE,2025-01-13,,,Virginia,ACC,1
+536,463,Morice Blackwell Jr.,Texas,LB,2025-01-13,,,Texas,SEC,1
+537,466,Quaydarius Davis,Florida Atlantic,WR,2025-01-13,,,Florida,FBS - AAC,1
+538,453,Romello Brinson,SMU,WR,2025-01-13,,,Texas,ACC,1
+539,423,Terrence Ferguson II,Florida State,IOL,2025-01-13,,,Florida,ACC,1
+540,428,Chris Hilton,LSU,WR,2025-01-13,,,Louisiana,SEC,1
+541,476,Aaron Willis,Houston,LB,2025-01-13,,,Texas,Big 12,1
+542,485,Prophet Brown,USC,CB,2025-01-13,,,California,Big Ten,1
+543,451,Tunmise Adeleye,Texas State,DL,2025-01-13,,,Texas,FBS - Sun Belt,1
+544,443,Julien Simon,Tulsa,LB,2025-01-13,,,Oklahoma,FBS - AAC,1
+545,424,Devin Kirkwood,UCLA,CB,2025-01-13,,,California,Big Ten,1
+546,429,Marcus Burris,Indiana,DL,2025-01-13,,,Indiana,Big Ten,1
+547,480,Jeremiah Williams,Florida,EDGE,2025-01-13,,,Florida,SEC,1
+548,475,Tywone Malone,Ohio State,DL,2025-01-13,,,Ohio,Big Ten,1
+549,421,Jabari Ishmael,Marshall,EDGE,2025-01-13,,,West Virginia,FBS - CUSA,1
+550,292,Reuben Fatheree II,Texas A&M,OT,2025-01-13,,,Texas,SEC,1
+551,419,Michael Trigg,Baylor,TE,2025-01-13,,,Texas,Big 12,1
+552,450,Clayton Smith,Arizona State,EDGE,2025-01-13,,,Arizona,Big 12,1
+553,455,Prince Kollie,Vanderbilt,LB,2025-01-13,,,Tennessee,SEC,1
+554,474,Jacolby George,Miami (FL),WR,2025-01-13,,,Florida,ACC,1
+555,483,Cody Jackson,Tarleton State,WR,2025-01-13,,,Texas,D2,1
+556,464,Agiye Hall,UCF,WR,2025-01-13,,,Florida,Big 12,1
+557,457,Corey Collier Jr.,Nebraska,S,2025-01-13,,,Nebraska,Big Ten,1
+558,472,Nyland Green,Purdue,CB,2025-01-13,,,Indiana,Big Ten,1
+559,469,Teddy Prochazka,Nebraska,OT,2025-01-13,,,Nebraska,Big Ten,1
+560,478,Tyrion Ingram-Dawkins,Georgia,EDGE,2025-01-13,,,Georgia,SEC,1
+561,415,Malik McClain,Arizona State,WR,2025-01-13,,,Arizona,Big 12,1
+562,446,Micah Morris,Georgia,IOL,2025-01-13,,,Georgia,SEC,1
+563,473,Wilfredo Aybar,Stanford,EDGE,2025-01-13,,,California,ACC,1
+564,448,Trevion Cooley,Georgia Tech,RB,2025-01-13,,,Georgia,ACC,1
+565,420,Donovan McMillon,Pitt,S,2025-01-13,,,Pennsylvania,ACC,1
+566,417,Avante Dickerson,Utah State,CB,2025-01-13,,,Utah,FBS - Mountain West,1
+567,431,Ethan Calvert,Cal Poly,LB,2025-01-13,,,California,FCS,1
+568,414,Deion Smith,Ole Miss,WR,2025-01-13,,,Mississippi,SEC,1
+569,449,Dylan Brooks,Kansas,EDGE,2025-01-13,,,Kansas,Big 12,1
+570,412,J.P. Benzschawel,Wisconsin,IOL,2025-01-13,,,Wisconsin,Big Ten,1
+571,442,Jardin Gilbert,LSU,S,2025-01-13,,,Louisiana,SEC,1
+572,339,Mario Williams,Tulane,WR,2025-01-13,,,Louisiana,FBS - AAC,1
+573,481,Savion Byrd,SMU,IOL,2025-01-13,,,Texas,ACC,1
+574,452,Zaire Patterson,Clemson,EDGE,2025-01-13,,,South Carolina,ACC,1
+575,456,RaRa Dillworth,Troy,LB,2025-01-13,,,Alabama,FBS - Sun Belt,1
+576,479,Payton Page,Clemson,DL,2025-01-13,,,South Carolina,ACC,1
+577,439,Bram Walden,Arizona State,IOL,2025-01-13,,,Arizona,Big 12,1
+578,503,B.J. Green,Colorado,DL,2025-01-13,,,Colorado,Big 12,1
+579,488,Khordae Sydnor,Purdue,EDGE,2025-01-13,,,Indiana,Big Ten,1
+580,507,Juan Davis,Texas,TE,2025-01-13,,,Texas,SEC,1
+581,282,Jared Brown,South Carolina,WR,2025-01-13,,,South Carolina,SEC,1
+582,509,Jordan Oladokun,Bowling Green,CB,2025-01-13,,,Ohio,FBS - MAC,1
+583,317,C.J. Dippre,Alabama,TE,2025-01-13,,,Alabama,SEC,1
+584,505,Jaden Bray,West Virginia,WR,2025-01-13,,,West Virginia,Big 12,1
+585,301,Jason Henderson,Old Dominion,LB,2025-01-13,,,Virginia,FBS - CUSA,1
+586,522,Montrell Johnson,Florida,RB,2025-01-13,,,Florida,SEC,1
+587,517,Jayden Thomas,Notre Dame,WR,2025-01-13,,,Indiana,FBS - Independent,1
+588,520,De'Zhaun Stribling,Oklahoma State,WR,2025-01-13,,,Oklahoma,Big 12,1
+589,500,Malachi Lawrence,UCF,EDGE,2025-01-13,,,Florida,Big 12,1
+590,494,Monaray Baldwin,Baylor,WR,2025-01-13,,,Texas,Big 12,1
+591,487,Caiden Woullard,Oklahoma,EDGE,2025-01-13,,,Oklahoma,SEC,1
+592,501,Dorian Singer,Utah,WR,2025-01-13,,,Utah,Big 12,1
+593,107,Antario Brown,Northern Illinois,RB,2025-01-13,,,Illinois,FBS - MAC,1
+594,312,Tyreek Chappell,Texas A&M,CB,2025-01-13,,,Texas,SEC,1
+595,323,DeAndre Boykins,North Carolina,CB,2025-01-13,,,North Carolina,ACC,1
+596,498,Jack Howell,Colorado State,S,2025-01-13,,,Colorado,FBS - Mountain West,1
+597,499,Corey Platt Jr.,Houston,LB,2025-01-13,,,Texas,Big 12,1
+598,511,Eric Gentry,USC,LB,2025-01-13,,,California,Big Ten,1
+599,525,Cole Rusk,Illinois,TE,2025-01-13,,,Illinois,Big Ten,1
+600,502,Logan Diggs,Ole Miss,RB,2025-01-13,,,Mississippi,SEC,1
+601,528,Cade Zimmerly,Bowling Green,IOL,2025-01-13,,,Ohio,FBS - MAC,1
+602,529,Marcus Harris,California,CB,2025-01-13,,,California,ACC,1
+603,527,Will Kacmarek,Ohio State,TE,2025-01-13,,,Ohio,Big Ten,1
+604,534,Sebastian Valdez,Washington,DL,2025-01-13,,,Washington,Big Ten,1
+605,542,Kamryn Waites,Florida,OT,2025-01-13,,,Florida,SEC,1
+606,538,Preston Hodge,Colorado,S,2025-01-13,,,Colorado,Big 12,1
+607,531,Seydou Traore,Mississippi State,TE,2025-01-13,,,Mississippi,SEC,1
+608,540,Roderick Brown,North Texas,DL,2025-01-13,,,Texas,FBS - AAC,1
+609,535,James Burnip,Alabama,P,2025-01-13,,,Alabama,SEC,1
+610,536,Bert Auburn,Texas,K,2025-01-13,,,Texas,SEC,1
+611,544,Sav'ell Smalls,Colorado,TE,2025-01-13,,,Colorado,Big 12,1
+612,545,Julian Fleming,Penn State,WR,2025-01-13,,,Pennsylvania,Big Ten,1
+613,543,Justin Flowe,Arizona,LB,2025-01-13,,,Arizona,Big 12,1
+614,546,Dontae Manning,Oregon,CB,2025-01-13,,,Oregon,Big Ten,1
+615,582,Hudson Card,Purdue,QB,2025-01-13,,,Indiana,Big Ten,1
+616,584,Trey Wedig,Indiana,OT,2025-01-13,,,Indiana,Big Ten,1
+617,571,Jerrin Thompson,Auburn,S,2025-01-13,,,Alabama,SEC,1
+618,547,Arian Smith,Georgia,WR,2025-01-13,,,Georgia,SEC,1
+619,600,Walker Parks,Clemson,IOL,2025-01-13,,,South Carolina,ACC,1
+620,604,Peny Boone,UCF,RB,2025-01-13,,,Florida,Big 12,1
+621,593,Demorie Tate,Florida A&M,CB,2025-01-13,,,Florida,FCS,1
+622,598,Xavion Alford,Arizona State,S,2025-01-13,,,Arizona,Big 12,1
+623,575,Desmond Evans,North Carolina,EDGE,2025-01-13,,,North Carolina,ACC,1
+624,579,Gee Scott Jr.,Ohio State,TE,2025-01-13,,,Ohio,Big Ten,1
+625,558,Chimere Dike,Florida,WR,2025-01-13,,,Florida,SEC,1
+626,573,Jalen Kimber,Penn State,CB,2025-01-13,,,Pennsylvania,Big Ten,1
+627,562,Troy Omeire,Arizona State,WR,2025-01-13,,,Arizona,Big 12,1
+628,577,Mark Redman,Louisville,TE,2025-01-13,,,Kentucky,ACC,1
+629,587,Malik Hornsby,Arkansas State,WR,2025-01-13,,,Arkansas,FBS - Sun Belt,1
+630,326,Major Burns,LSU,S,2025-01-13,,,Louisiana,SEC,1
+631,567,Fred Davis II,Jacksonville State,CB,2025-01-13,,,Alabama,FBS - CUSA,1
+632,602,Turner Corcoran,Nebraska,IOL,2025-01-13,,,Nebraska,Big Ten,1
+633,569,Drew Pyne,Missouri,QB,2025-01-13,,,Missouri,SEC,1
+634,594,Ruben Hyppolite II,Maryland,LB,2025-01-13,,,Maryland,Big Ten,1
+635,588,Kitan Crawford,Nevada,S,2025-01-13,,,Nevada,FBS - Mountain West,1
+636,601,E.J. Smith,Texas A&M,RB,2025-01-13,,,Texas,SEC,1
+637,550,Roydell Williams,Florida State,RB,2025-01-13,,,Florida,ACC,1
+638,554,Nate McCollum,North Carolina,WR,2025-01-13,,,North Carolina,ACC,1
+639,556,Ladarius Tennison,Ole Miss,S,2025-01-13,,,Mississippi,SEC,1
+640,580,E.J. Williams,Indiana,WR,2025-01-13,,,Indiana,Big Ten,1
+641,306,Tosh Baker,Notre Dame,OT,2025-01-13,,,Indiana,FBS - Independent,1
+642,586,Stephen Dix Jr.,Marshall,LB,2025-01-13,,,West Virginia,FBS - CUSA,1
+643,581,Jack Miller III,Florida,QB,2025-01-13,,,Florida,SEC,1
+644,553,Jeff Sims,Arizona State,QB,2025-01-13,,,Arizona,Big 12,1
+645,597,Malcolm Greene,Virginia,S,2025-01-13,,,Virginia,ACC,1
+646,560,M.J. Sherman,Nebraska,LB,2025-01-13,,,Nebraska,Big Ten,1
+647,599,Chris Tyree,Virginia,WR,2025-01-13,,,Virginia,ACC,1
+648,552,R.J. Moten,Florida,S,2025-01-13,,,Florida,SEC,1
+649,549,Jayson Jones,Auburn,DL,2025-01-13,,,Alabama,SEC,1
+650,563,Omari Thomas,Tennessee,DL,2025-01-13,,,Tennessee,SEC,1
+651,342,Cody Simon,Ohio State,LB,2025-01-13,,,Ohio,Big Ten,1
+652,564,Reggie Grimes,Memphis,EDGE,2025-01-13,,,Tennessee,FBS - AAC,1
+653,614,Money Parks,Utah,WR,2025-01-13,,,Utah,Big 12,1
+654,654,Khari Coleman,Ole Miss,EDGE,2025-01-13,,,Mississippi,SEC,1
+655,616,Karon Prunty,North Carolina A&T,CB,2025-01-13,,,North Carolina,FCS,1
+656,606,Rivaldo Fairweather,Auburn,TE,2025-01-13,,,Alabama,SEC,1
+657,608,Davonte Brown,Florida State,CB,2025-01-13,,,Florida,ACC,1
+658,651,Vershon Lee,South Carolina,IOL,2025-01-13,,,South Carolina,SEC,1
+659,654,Nate Rutchena,California,LB,2025-01-13,,,California,ACC,1
+660,630,Kaden Moore,Virginia Tech,IOL,2025-01-13,,,Virginia,ACC,1
+661,611,Konata Mumpfield,Pitt,WR,2025-01-13,,,Pennsylvania,ACC,1
+662,662,Jaheim Thomas,Wisconsin,LB,2025-01-13,,,Wisconsin,Big Ten,1
+663,662,Marlowe Wax,Syracuse,LB,2025-01-13,,,New York,ACC,1
+664,657,Will Rogers,Washington,QB,2025-01-13,,,Washington,Big Ten,1
+665,258,Robert Scott Jr.,Florida State,OT,2025-01-13,,,Florida,ACC,1
+666,622,Ty French,West Virginia,EDGE,2025-01-13,,,West Virginia,Big 12,1
+667,667,Kobe Pace,Virginia,RB,2025-01-13,,,Virginia,ACC,1
+668,661,Cam Porter,Northwestern,RB,2025-01-13,,,Illinois,Big Ten,1
+669,646,Jalen White,Georgia Southern,RB,2025-01-13,,,Georgia,FBS - Sun Belt,1
+670,670,Jalen Berger,UCLA,RB,2025-01-13,,,California,Big Ten,1
+671,659,Jahmal Banks,Nebraska,WR,2025-01-13,,,Nebraska,Big Ten,1
+672,626,Cal Haladay,Michigan State,LB,2025-01-13,,,Michigan,Big Ten,1
+673,615,Brandon Thomas,Memphis,RB,2025-01-13,,,Tennessee,FBS - AAC,1
+674,668,Tyler Grubbs,Tulane,LB,2025-01-13,,,Louisiana,FBS - AAC,1
+675,335,Gerald Mincey,Kentucky,OT,2025-01-13,,,Kentucky,SEC,1
+676,673,Jordan Watkins,Ole Miss,WR,2025-01-13,,,Mississippi,SEC,1
+677,639,Donte Kent,Central Michigan,CB,2025-01-13,,,Michigan,FBS - MAC,1
+678,631,Henry Blackburn,Colorado State,S,2025-01-13,,,Colorado,FBS - Mountain West,1
+679,647,Silas Bolden,Texas,WR,2025-01-13,,,Texas,SEC,1
+680,620,Danny Striggow,Minnesota,EDGE,2025-01-13,,,Minnesota,Big Ten,1
+681,641,Aaron Lewis,Rutgers,EDGE,2025-01-13,,,New Jersey,Big Ten,1
+682,653,Mason Cobb,USC,LB,2025-01-13,,,California,Big Ten,1
+683,633,Willie Lampkin,North Carolina,IOL,2025-01-13,,,North Carolina,ACC,1
+684,607,Marcus Bryant,Missouri,OT,2025-01-13,,,Missouri,SEC,1
+685,256,Deshawn Pace,Cincinnati,S,2025-01-13,,,Ohio,Big 12,1
+686,663,Jahmeer Carter,Virginia,DL,2025-01-13,,,Virginia,ACC,1
+687,678,Lawrance Toafili,Florida State,RB,2025-01-13,,,Florida,ACC,1
+688,652,Kole Taylor,West Virginia,TE,2025-01-13,,,West Virginia,Big 12,1
+689,636,Deontae Craig,Iowa,DL,2025-01-13,,,Iowa,Big Ten,1
+690,262,LaMiles Brooks,Georgia Tech,S,2025-01-13,,,Georgia,ACC,1
+691,645,Lawrence Arnold,Kansas,WR,2025-01-13,,,Kansas,Big 12,1
+692,679,Nate Noel,Missouri,RB,2025-01-13,,,Missouri,SEC,1
+693,675,Payton Zdroik,Air Force,DL,2025-01-13,,,Colorado,FBS - Mountain West,1
+694,666,Micah Mazzccua,Nebraska,IOL,2025-01-13,,,Nebraska,Big Ten,1
+695,665,Gavin Holmes,Texas,CB,2025-01-13,,,Texas,SEC,1
+696,676,Marcus Carroll,Missouri,RB,2025-01-13,,,Missouri,SEC,1
+697,628,Josh Fryar,Ohio State,OT,2025-01-13,,,Ohio,Big Ten,1
+698,289,Jeremiah Hunter,Washington,WR,2025-01-13,,,Washington,Big Ten,1
+699,655,Ja'Had Carter,Ohio State,S,2025-01-13,,,Ohio,Big Ten,1
+700,680,Justin Barron,Syracuse,S,2025-01-13,,,New York,ACC,1
+701,263,Yam Banks,Ole Miss,S,2025-01-13,,,Mississippi,SEC,1
+702,689,Tommy Mellott,Montana State,QB,2025-01-13,,,Montana,FCS,1
+703,695,Alex Mastromanno,Florida State,P,2025-01-13,,,Florida,ACC,1
+704,697,Noah Whittington,Oregon,RB,2025-01-13,,,Oregon,Big Ten,1
+705,694,Kendy Charles,Duke,DL,2025-01-13,,,North Carolina,ACC,1
+706,688,Nathan Carter,Michigan State,RB,2025-01-13,,,Michigan,Big Ten,1
+707,707,Jonah Dalmas,Boise State,K,2025-01-13,,,Idaho,FBS - Mountain West,1
+708,708,Easton Kilty,Kansas State,OT,2025-01-13,,,Kansas,Big 12,1
+709,704,Jeremiah Walker,Stephen F. Austin,CB,2025-01-13,,,Texas,FCS,1
+710,705,Anton Juncaj,Arkansas,DL,2025-01-13,,,Arkansas,SEC,1
+711,706,Isaac TeSlaa,Arkansas,WR,2025-01-13,,,Arkansas,SEC,1
+712,702,Owen Daffer,North Carolina A&T,K,2025-01-13,,,North Carolina,FCS,1
+713,711,Kyle Morlock,Florida State,TE,2025-01-13,,,Florida,ACC,1
+714,714,Logan Brown,Kansas,OT,2025-01-13,,,Kansas,Big 12,1
+715,715,Trey Sanders,TCU,RB,2025-01-13,,,Texas,Big 12,1
+716,716,Jacob Bandes,Washington,DL,2025-01-13,,,Washington,Big Ten,1
+717,717,Avery Huff,Florida International,LB,2025-01-13,,,Florida,FBS - CUSA,1
+718,346,Ja'Varrius Johnson,UCF,WR,2025-01-13,,,Florida,Big 12,1
+719,719,Keiondre Jones,Florida State,IOL,2025-01-13,,,Florida,ACC,1
+720,720,Seth Coleman,Illinois,EDGE,2025-01-13,,,Illinois,Big Ten,1
+721,721,Connor Bazelak,Bowling Green,QB,2025-01-13,,,Ohio,FBS - MAC,1
+722,722,Patrick Herbert,Oregon,TE,2025-01-13,,,Oregon,Big Ten,1
+723,723,Jacob Lacey,Oklahoma,DL,2025-01-13,,,Oklahoma,SEC,1
+724,337,K.J. Jefferson,UCF,QB,2025-01-13,,,Florida,Big 12,1
+725,725,Khris Bogle,Michigan State,EDGE,2025-01-13,,,Michigan,Big Ten,1
+726,726,Frank Ladson Jr.,Massachusetts,WR,2025-01-13,,,Massachusetts,FBS - MAC,1
+727,722,Bill Norton,Texas,DL,2025-01-13,,,Texas,SEC,1
+728,259,Jestin Jacobs,Oregon,LB,2025-01-13,,,Oregon,Big Ten,1
+729,729,Woodi Washington,Oklahoma,CB,2025-01-13,,,Oklahoma,SEC,1
+730,324,J.J. Weaver,Kentucky,EDGE,2025-01-13,,,Kentucky,SEC,1
+731,730,Jahfari Harvey,SMU,EDGE,2025-01-13,,,Texas,ACC,1
+732,732,Dominick Blaylock,Georgia Tech,WR,2025-01-13,,,Georgia,ACC,1
+733,731,Keon Zipperer,Florida,TE,2025-01-13,,,Florida,SEC,1
+734,734,Hank Bachmeier,Wake Forest,QB,2025-01-13,,,North Carolina,ACC,1
+735,735,Mycah Pittman,Utah,WR,2025-01-13,,,Utah,Big 12,1
+736,736,David Spaulding,South Carolina,CB,2025-01-13,,,South Carolina,SEC,1
+737,737,Maurice Smith,Florida State,IOL,2025-01-13,,,Florida,ACC,1
+738,738,Luke Felix-Fualalo,Hawaii,OT,2025-01-13,,,Hawaii,FBS - Mountain West,1
+739,739,Justin Ball,Mississippi State,TE,2025-01-13,,,Mississippi,SEC,1
+740,740,Chico Bennett Jr.,Virginia,LB,2025-01-13,,,Virginia,ACC,1
+741,741,Garmon Randolph,Baylor,EDGE,2025-01-13,,,Texas,Big 12,1
+742,742,Elijah Simmons,Tennessee,DL,2025-01-13,,,Tennessee,SEC,1
+743,321,Xavier Guillory,Arizona State,WR,2025-01-13,,,Arizona,Big 12,1
+744,331,Steve Linton,Baylor,EDGE,2025-01-13,,,Texas,Big 12,1
+745,745,DeAndre Jules,South Carolina,DL,2025-01-13,,,South Carolina,SEC,1
+746,746,Treshaun Ward,Boston College,RB,2025-01-13,,,Massachusetts,ACC,1
+747,747,Darius Washington,Florida State,IOL,2025-01-13,,,Florida,ACC,1
+748,748,Darrell Simmons Jr.,Kansas,IOL,2025-01-13,,,Kansas,Big 12,1
+749,311,Jonathan Mendoza,Louisville,OT,2025-01-13,,,Kentucky,ACC,1
+750,750,Jeremiah Byers,Florida State,IOL,2025-01-13,,,Florida,ACC,1
+751,751,Josh Kelly,Texas Tech,WR,2025-01-13,,,Texas,Big 12,1
+752,752,Brian Ugwu,Miami (OH),EDGE,2025-01-13,,,Ohio,FBS - MAC,1
+753,753,Trace Ford,Oklahoma,EDGE,2025-01-13,,,Oklahoma,SEC,1
+754,754,Micah Bernard,Utah,RB,2025-01-13,,,Utah,Big 12,1
+755,755,Kris Mitchell,Notre Dame,WR,2025-01-13,,,Indiana,FBS - Independent,1
+756,756,Chase Lane,Georgia Tech,WR,2025-01-13,,,Georgia,ACC,1
+757,757,Brett Gabbert,Miami (OH),QB,2025-01-13,,,Ohio,FBS - MAC,1
+758,758,Ricky Barber,UCF,DL,2025-01-13,,,Florida,Big 12,1
+759,759,Isheem Young,North Texas,S,2025-01-13,,,Texas,FBS - AAC,1
+760,760,Payton Thorne,Auburn,QB,2025-01-13,,,Alabama,SEC,1
+761,761,Antonio Clary,Virginia,S,2025-01-13,,,Virginia,ACC,1
+762,762,Tyrone Broden,Arkansas,WR,2025-01-13,,,Arkansas,SEC,1
+763,763,Dante Cephas,Kansas State,WR,2025-01-13,,,Kansas,Big 12,1
+764,745,Trikweze Bridges,Oregon,S,2025-01-13,,,Oregon,Big Ten,1
+765,765,Junior Tafuna,Utah,DL,2025-01-13,,,Utah,Big 12,1
+766,748,Rodrigues Clark,Southern Miss,RB,2025-01-13,,,Mississippi,FBS - CUSA,1
+767,746,Melquan Stovall,Arizona State,WR,2025-01-13,,,Arizona,Big 12,1
+768,768,Nate Clifton,USC,DL,2025-01-13,,,California,Big Ten,1
+769,753,Collin Schlee,Virginia Tech,QB,2025-01-13,,,Virginia,ACC,1
+770,755,Ali Jennings III,Virginia Tech,WR,2025-01-13,,,Virginia,ACC,1
+771,744,Jordan Waters,NC State,RB,2025-01-13,,,North Carolina,ACC,1
+772,772,Ben Coleman,Arizona State,IOL,2025-01-13,,,Arizona,Big 12,1
+773,773,Josh Williams,LSU,RB,2025-01-13,,,Louisiana,SEC,1
+774,249,Kendall Bohler,Florida A&M,CB,2025-01-13,,,Florida,FCS,1
+775,775,Jacob Dobbs,Holy Cross,LB,2025-01-13,,,Massachusetts,FCS,1
+776,776,Jared Penning,Northern Iowa,OT,2025-01-13,,,Iowa,FCS,1
+777,777,Johnny Hodges,TCU,LB,2025-01-13,,,Texas,Big 12,1
+778,778,Kam Alexander,Oregon,CB,2025-01-13,,,Oregon,Big Ten,1
+779,779,Quinn Schulte,Iowa,S,2025-01-13,,,Iowa,Big Ten,1
+780,780,Tyreke Johnson,Nebraska,CB,2025-01-13,,,Nebraska,Big Ten,1
+781,781,Casey Thompson,Oklahoma,QB,2025-01-13,,,Oklahoma,SEC,1
+782,782,Dennis Briggs Jr.,Illinois,DL,2025-01-13,,,Illinois,Big Ten,1
+783,783,Gerry Bohanon,BYU,QB,2025-01-13,,,Utah,Big 12,1
+784,784,Tyler Shough,Louisville,QB,2025-01-13,,,Kentucky,ACC,1
+785,785,Dawson Jaramillo,NC State,OT,2025-01-13,,,North Carolina,ACC,1
+786,786,Tyneil Hopper,Michigan State,TE,2025-01-13,,,Michigan,Big Ten,1
+787,787,Montre Miller,Mississippi State,CB,2025-01-13,,,Mississippi,SEC,1
+788,788,Mike O'Laughlin,Houston,TE,2025-01-13,,,Texas,Big 12,1
+789,789,Darnell Jefferies,Minnesota,DL,2025-01-13,,,Minnesota,Big Ten,1
+790,790,Jacob Mangum-Farrar,Indiana,LB,2025-01-13,,,Indiana,Big Ten,1
+791,298,Marques Cox,Kentucky,OT,2025-01-13,,,Kentucky,SEC,1
+792,792,Spencer Petras,Utah State,QB,2025-01-13,,,Utah,FBS - Mountain West,1
+793,793,Jermayne Lole,Texas,DL,2025-01-13,,,Texas,SEC,1
+794,794,Kam Butler,Virginia,EDGE,2025-01-13,,,Virginia,ACC,1
+795,303,John Campbell Jr.,Tennessee,OT,2025-01-13,,,Tennessee,SEC,1
+796,796,Campbell Barrington,Baylor,OT,2025-01-13,,,Texas,Big 12,1
+797,797,Alan Bowman,Oklahoma State,QB,2025-01-13,,,Oklahoma,Big 12,1
+798,798,Trey Morrison,Oklahoma,S,2025-01-13,,,Oklahoma,SEC,1
+799,799,Connor Pay,BYU,IOL,2025-01-13,,,Utah,Big 12,1
+800,800,Jordan McCloud,Texas State,QB,2025-01-13,,,Texas,FBS - Sun Belt,1
+801,801,Abdul-Fatai Ibrahim,Louisiana Tech,WR,2025-01-13,,,Louisiana,FBS - CUSA,1
+802,802,Justin Wright,Oklahoma State,LB,2025-01-13,,,Oklahoma,Big 12,1
+803,341,Nick Kidwell,Indiana,IOL,2025-01-13,,,Indiana,Big Ten,1
+804,804,Ty Son Lawton,Indiana,RB,2025-01-13,,,Indiana,Big Ten,1
+805,805,Levani Damuni,Utah,LB,2025-01-13,,,Utah,Big 12,1
+806,344,Ben Bywater,BYU,LB,2025-01-13,,,Utah,Big 12,1
+807,807,Noah Daniels,TCU,CB,2025-01-13,,,Texas,Big 12,1
+808,808,Keenan Pili,Tennessee,LB,2025-01-13,,,Tennessee,SEC,1
+809,585,Chantz Williams,Charlotte,EDGE,2025-01-13,,,North Carolina,FBS - AAC,1
+810,241,Nofoafia Tulafono,Wyoming,IOL,2025-01-13,,,Wyoming,FBS - Mountain West,1
+811,638,Chidozie Nwankwo,Colorado,DL,2025-01-13,,,Colorado,Big 12,1
+812,242,Aamir Hall,Michigan,CB,2025-01-13,,,Michigan,Big Ten,1
+813,648,Corey Rucker,Arkansas State,WR,2025-01-13,,,Arkansas,FBS - Sun Belt,1
+814,243,Brian Stevens,Virginia,IOL,2025-01-13,,,Virginia,ACC,1
+815,672,Clarence Lewis,Syracuse,CB,2025-01-13,,,New York,ACC,1
+816,246,Jacob Gideon,Western Michigan,IOL,2025-01-13,,,Michigan,FBS - MAC,1
+817,255,Joseph Evans,UTSA,DL,2025-01-13,,,Texas,FBS - AAC,1
+818,267,Leon Lowery Jr.,Wisconsin,LB,2025-01-13,,,Wisconsin,Big Ten,1
+819,268,Jordan Favors,Appalachian State,S,2025-01-13,,,North Carolina,FBS - Sun Belt,1
+820,269,Daylan Dotson,UCF,EDGE,2025-01-13,,,Florida,Big 12,1
+821,270,Maliq Carr,Houston,TE,2025-01-13,,,Texas,Big 12,1
+822,271,Gilber Edmond,South Carolina,EDGE,2025-01-13,,,South Carolina,SEC,1
+823,294,Ashton Grable,Florida A&M,IOL,2025-01-13,,,Florida,FCS,1
+824,284,Sean Brown,NC State,S,2025-01-13,,,North Carolina,ACC,1
+825,288,Branson Taylor,Pitt,OT,2025-01-13,,,Pennsylvania,ACC,1
+826,634,Daryl Porter Jr.,Miami (FL),CB,2025-01-13,,,Florida,ACC,1
+827,693,Jeremy Crawshaw,Florida,P,2025-01-13,,,Florida,SEC,1
+828,700,Colin Ramos,Navy,LB,2025-01-13,,,Maryland,FBS - AAC,1
+829,747,Mohamed Toure,Rutgers,LB,2025-01-13,,,New Jersey,Big Ten,1
+830,812,Jelani Stafford,UConn,DL,2025-01-13,,,Connecticut,FBS - AAC,1
+831,767,Caden Davis,Ole Miss,K,2025-01-13,,,Mississippi,SEC,1
+832,708,Joe Huber,Wisconsin,IOL,2025-01-13,,,Wisconsin,Big Ten,1
+833,776,Jack Conley,Boston College,IOL,2025-01-13,,,Massachusetts,ACC,1
+834,411,Moliki Matavao,UCLA,TE,2025-01-13,,,California,Big Ten,1
+835,643,Caleb Rogers,Texas Tech,IOL,2025-01-13,,,Texas,Big 12,1
+836,773,Jared Harrison-Hunte,SMU,DL,2025-01-13,,,Texas,ACC,1
+837,691,Mac McWilliams,UCF,S,2025-01-13,,,Florida,Big 12,1
+838,623,Kyle Williams,Washington State,WR,2025-01-13,,,Washington,Pac 12,1
+839,371,LeQuint Allen Jr.,Syracuse,RB,2025-01-13,,,New York,ACC,1

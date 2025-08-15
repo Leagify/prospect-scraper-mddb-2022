@@ -26,6 +26,11 @@ namespace prospect_scraper_mddb_2022.Extensions
 
             var bigBoard = dn.SelectNodes("//div[contains(@class, 'consensus-mock-container')]/ul/li");
             var draftInfo = dn.SelectNodes("//div[contains(@class, 'list-title')]");
+            if (draftInfo is null)
+            {
+                AnsiConsole.MarkupLine($"[bold red]Could not find draft info for year {scrapeYear}. Skipping.[/]");
+                return;
+            }
             string lastUpdated = draftInfo[0].ChildNodes[2].InnerText.Replace("Last Updated: ", "").Trim();
             var boardCountContainer = draftInfo[0].ChildNodes[1];
             //var bigboardsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[1]");

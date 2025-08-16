@@ -27,7 +27,9 @@ namespace prospect_scraper_mddb_2022
                     foreach (string scrapeYear in scrapeYears)
                     {
                         string urlToScrape = pageSection.GetUrlToScrape(scrapeYear);
-                        ctx.ScrapeYear(webGet, scrapeYear, urlToScrape);
+                        var htmlDoc = webGet.Load(urlToScrape);
+                        var htmlContent = htmlDoc.DocumentNode.OuterHtml;
+                        ctx.ScrapeYear(htmlContent, scrapeYear);
                     }
 
                     ctx.Status("Done!");

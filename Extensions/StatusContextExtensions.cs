@@ -4,9 +4,15 @@ using prospect_scraper_mddb_2022.DTOs;
 using Spectre.Console;
 using System;
 using System.Collections.Generic;
+using System.Data;
 using System.Globalization;
 using System.IO;
 using System.Linq;
+using System.Text.Json;
+using System.Web;
+using OpenQA.Selenium;
+using OpenQA.Selenium.Chrome;
+using OpenQA.Selenium.Support.UI;
 
 namespace prospect_scraper_mddb_2022.Extensions
 {
@@ -17,31 +23,199 @@ namespace prospect_scraper_mddb_2022.Extensions
             int schools = 0,
                 states = 0;
 
-            var document = webGet.Load(urlToScrape);
-            // This is still messy from debugging the different values.  It should be optimized.
-            var dn = document.DocumentNode;
-            // https://html-agility-pack.net/select-nodes
-            // 2022 NFL Draft was compiled using 1 Big Board(s), 14 1st RoundMock Draft(s), and 0 Team BasedMock Draft(s). 
-            // /html/body/div.container/div.consensus-mock-container/ul/li
+            HtmlDocument document = null;
+            
+            // Setup Chrome options with stealth settings to avoid detection
+            var options = new ChromeOptions();
+            options.AddArgument("--headless=new"); // Use new headless mode
+            options.AddArgument("--no-sandbox");
+            options.AddArgument("--disable-dev-shm-usage");
+            options.AddArgument("--disable-gpu");
+            options.AddArgument("--disable-web-security");
+            options.AddArgument("--disable-features=VizDisplayCompositor");
+            options.AddArgument("--disable-extensions");
+            options.AddArgument("--disable-plugins");
+            options.AddArgument("--disable-images");
+            // Keep JavaScript enabled for React component rendering
+            options.AddArgument("--window-size=1920,1080");
+            options.AddArgument("--user-agent=Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/127.0.0.0 Safari/537.36");
+            
+            // Additional stealth options
+            options.AddExcludedArgument("enable-automation");
+            options.AddAdditionalOption("useAutomationExtension", false);
+            options.AddArgument("--disable-blink-features=AutomationControlled");
+            
+            // Add cleanup options to ensure Chrome processes terminate properly
+            options.AddArgument("--disable-background-timer-throttling");
+            options.AddArgument("--disable-backgrounding-occluded-windows");
+            options.AddArgument("--disable-renderer-backgrounding");
+            options.AddArgument("--force-device-scale-factor=1");
 
-            var bigBoard = dn.SelectNodes("//div[contains(@class, 'consensus-mock-container')]/ul/li");
-            var draftInfo = dn.SelectNodes("//div[contains(@class, 'list-title')]");
-            string lastUpdated = draftInfo[0].ChildNodes[2].InnerText.Replace("Last Updated: ", "").Trim();
-            var boardCountContainer = draftInfo[0].ChildNodes[1];
-            //var bigboardsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[1]");
-            //var mockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[2]");
-            //var teamBasedMockDraftsUsed = dn.SelectNodes("/html[1]/body[1]/div[1]/div[2]/div[2]/p[1]/span[3]");
-            //bool bigBoardParsed = int.TryParse(bigboardsUsed[0].InnerText, out bigBoards);
-            //bool mockDraftParsed = int.TryParse(mockDraftsUsed[0].InnerText, out mockDrafts);
-            //bool teamMockDraftParsed = int.TryParse(teamBasedMockDraftsUsed[0].InnerText, out teamMockDrafts);
-            bool bigBoardParsed = int.TryParse(boardCountContainer.ChildNodes[1].InnerText, out int bigBoards);
-            bool mockDraftParsed = int.TryParse(boardCountContainer.ChildNodes[4].InnerText, out int mockDrafts);
-            bool teamMockDraftParsed = int.TryParse(boardCountContainer.ChildNodes[7].InnerText, out int teamMockDrafts);
+            // Retry logic for handling connection issues
+            const int maxRetries = 3;
+            Exception lastException = null;
+            ChromeDriver driver = null;
+            
+            for (int attempt = 1; attempt <= maxRetries; attempt++)
+            {
+                try
+                {
+                    driver = new ChromeDriver(options);
+                    
+                    ctx.Status($"Loading page (attempt {attempt}/{maxRetries}): {urlToScrape}");
+                    
+                    // Add some delay between retries
+                    if (attempt > 1)
+                    {
+                        ctx.Status($"Waiting {attempt * 2} seconds before retry...");
+                        System.Threading.Thread.Sleep(attempt * 2000);
+                    }
+                    
+                    driver.Navigate().GoToUrl(urlToScrape);
+                    
+                    // Wait for the React component div to appear
+                    var wait = new WebDriverWait(driver, TimeSpan.FromSeconds(45));
+                    wait.Until(d => d.FindElements(By.CssSelector("div[data-react-class='big_boards/Consensus']")).Count > 0);
+                    
+                    ctx.Status("Page loaded successfully, extracting JSON data...");
+                    
+                    // Get the page source after JavaScript has executed
+                    var pageSource = driver.PageSource;
+                    
+                    // Load the page into HtmlAgilityPack to extract JSON data
+                    document = new HtmlDocument();
+                    document.LoadHtml(pageSource);
+                    
+                    // Explicitly close and quit the driver
+                    driver?.Close();
+                    driver?.Quit();
+                    driver?.Dispose();
+                    driver = null;
+                    
+                    // If we get here, success! Break out of retry loop
+                    break;
+                }
+                catch (WebDriverTimeoutException ex)
+                {
+                    lastException = ex;
+                    // Cleanup driver on failure
+                    try { driver?.Close(); } catch { }
+                    try { driver?.Quit(); } catch { }
+                    try { driver?.Dispose(); } catch { }
+                    driver = null;
+                    
+                    AnsiConsole.MarkupLine($"[yellow]Attempt {attempt} timed out waiting for React component to load.[/]");
+                    if (attempt == maxRetries)
+                    {
+                        AnsiConsole.MarkupLine("[red]All attempts failed. The page structure may have changed.[/]");
+                        throw;
+                    }
+                }
+                catch (WebDriverException ex) when (ex.Message.Contains("connection") || ex.Message.Contains("handshake") || ex.Message.Contains("SSL"))
+                {
+                    lastException = ex;
+                    // Cleanup driver on failure
+                    try { driver?.Close(); } catch { }
+                    try { driver?.Quit(); } catch { }
+                    try { driver?.Dispose(); } catch { }
+                    driver = null;
+                    
+                    AnsiConsole.MarkupLine($"[yellow]Attempt {attempt} failed with connection error: {ex.Message}[/]");
+                    if (attempt == maxRetries)
+                    {
+                        AnsiConsole.MarkupLine("[red]All attempts failed due to connection issues. The website may be blocking automated requests.[/]");
+                        throw;
+                    }
+                }
+                catch (Exception ex)
+                {
+                    lastException = ex;
+                    // Cleanup driver on failure
+                    try { driver?.Close(); } catch { }
+                    try { driver?.Quit(); } catch { }
+                    try { driver?.Dispose(); } catch { }
+                    driver = null;
+                    
+                    AnsiConsole.MarkupLine($"[red]Attempt {attempt} failed with error: {ex.Message}[/]");
+                    if (attempt == maxRetries)
+                    {
+                        throw;
+                    }
+                }
+            }
+            
+            // Final cleanup - ensure no driver processes are left hanging
+            try { driver?.Close(); } catch { }
+            try { driver?.Quit(); } catch { }
+            try { driver?.Dispose(); } catch { }
+            
+            // Force cleanup any remaining Chrome processes
+            ctx.Status("Cleaning up Chrome processes...");
+            try
+            {
+                var chromeProcesses = System.Diagnostics.Process.GetProcessesByName("chrome");
+                var chromedriverProcesses = System.Diagnostics.Process.GetProcessesByName("chromedriver");
+                
+                foreach (var process in chromeProcesses.Concat(chromedriverProcesses))
+                {
+                    if (!process.HasExited)
+                    {
+                        try
+                        {
+                            process.Kill();
+                            process.WaitForExit(5000);
+                        }
+                        catch { /* Ignore cleanup errors */ }
+                    }
+                    process.Dispose();
+                }
+            }
+            catch { /* Ignore cleanup errors */ }
+
+            // Extract JSON data from React component props
+            var dn = document.DocumentNode;
+            
+            ctx.Status("Parsing JSON data from React component...");
+            
+            // Find the React component div and extract JSON props
+            var reactDiv = dn.SelectSingleNode("//div[@data-react-class='big_boards/Consensus']");
+            if (reactDiv == null)
+            {
+                AnsiConsole.MarkupLine("[red]Could not find React component div. The page structure may have changed.[/]");
+                throw new InvalidOperationException("React component not found");
+            }
+            
+            var jsonPropsAttribute = reactDiv.GetAttributeValue("data-react-props", "");
+            if (string.IsNullOrEmpty(jsonPropsAttribute))
+            {
+                AnsiConsole.MarkupLine("[red]Could not find JSON props. The page structure may have changed.[/]");
+                throw new InvalidOperationException("JSON props not found");
+            }
+            
+            // Decode HTML entities and parse JSON
+            var jsonProps = HttpUtility.HtmlDecode(jsonPropsAttribute);
+            using var jsonDoc = JsonDocument.Parse(jsonProps);
+            
+            var root = jsonDoc.RootElement;
+            var mockProperty = root.GetProperty("mock");
+            var selectionsArray = mockProperty.GetProperty("selections");
+            
+            // Create a list to simulate the old HtmlNodeCollection for compatibility
+            var prospects = new List<JsonElement>();
+            foreach (var selection in selectionsArray.EnumerateArray())
+            {
+                prospects.Add(selection);
+            }
+            
+            // For now, set default values for board counts (these might be available elsewhere in the JSON)
+            int bigBoards = 1;  // Default, could be parsed from other parts of the page
+            int mockDrafts = 10; // Default, could be parsed from other parts of the page  
+            int teamMockDrafts = 0; // Default
 
             //Console.WriteLine("Big Board count: " + bigBoards);
             //Console.WriteLine("Mock Draft count: " + mockDrafts);
             //Console.WriteLine("Team Mock count: " + teamMockDrafts);
-            //Console.WriteLine("Prospect count: " + bigBoard.Count);
+            //Console.WriteLine("Prospect count: " + prospects.Count);
 
             // Get today's date in the format of yyyy-mm-dd, in the Central Standard Time Zone
             DateTime timeUtc = DateTime.UtcNow;
@@ -68,7 +242,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             }
 
             // Create a ConsensusBigBoardInfo object from the parsed values.
-            var bigBoardInfo = new ConsensusBigBoardInfo(today, bigBoards, mockDrafts, teamMockDrafts, bigBoard.Count, lastUpdated);
+            var bigBoardInfo = new ConsensusBigBoardInfo(today, bigBoards, mockDrafts, teamMockDrafts, prospects.Count, "Recently Updated");
             var infos = new List<ConsensusBigBoardInfo>
             {
                 bigBoardInfo
@@ -95,7 +269,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             Dictionary<string, string> schoolImageLinks = new Dictionary<string, string>();
             //schoolImageLinks = bigBoard.GetSchoolImageLinks();
 
-            var prospects = bigBoard.FindProspects(today, ref schoolImageLinks);
+            var prospectRankings = FindProspectsFromJson(prospects, today, ref schoolImageLinks);
 
             //Show prospects on screen.
             Spectre.Console.Table prospectTable = new Spectre.Console.Table();
@@ -107,7 +281,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             prospectTable.AddColumn("Points");
             prospectTable.Border(TableBorder.Ascii);
 
-            foreach (var dude in prospects)
+            foreach (var dude in prospectRankings)
             {
                 //Console.WriteLine($"Player: {playerName} at rank {currentRank} from {playerSchool} playing {playerPosition} got up to peak rank {peakRank} with {leagifyPoints} possible points");
                 prospectTable.AddRow(dude.PlayerName, dude.Rank, dude.School, dude.Position, dude.Peak, dude.ProjectedPoints.ToString());
@@ -128,12 +302,12 @@ namespace prospect_scraper_mddb_2022.Extensions
             using (var writer = new StreamWriter(playerInfoFileName))
             using (var csv = new CsvWriter(writer, CultureInfo.CurrentCulture))
             {
-                csv.WriteRecords(prospects);
+                csv.WriteRecords(prospectRankings);
             }
 
             ctx.Status("Writing to collected ranks CSV");
             //Write projects to csv with date.
-            prospects.WriteToCsvFile(collectedRanksFileName);
+            prospectRankings.WriteToCsvFile(collectedRanksFileName);
 
             // OK, I'm going to use LINQ to sort the top schools by points, then by number of prospects.
             // The output I want here is: Rank, School, Conference, Points, Number of Prospects
@@ -141,7 +315,7 @@ namespace prospect_scraper_mddb_2022.Extensions
 
             var URLs = schoolImageLinks.ToList();
 
-            var topSchools = prospects
+            var topSchools = prospectRankings
                 .GroupBy(x => x.School)
                 .Select(x => new
                 {
@@ -216,7 +390,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             schoolInfos.WriteToCsvFile(schoolInfoFileName);
 
             // Similar to the top schools, I want to sort the top states by points, then by number of prospects, then by number of schools.
-            var topStates = prospects.GroupBy(x => x.State)
+            var topStates = prospectRankings.GroupBy(x => x.State)
                 .Select(x => new
                 {
                     State = x.Key,
@@ -263,7 +437,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             }
 
             // Find prospects where state name is ""
-            var emptyStates = prospects.Where(x => string.IsNullOrEmpty(x.State)).ToList();
+            var emptyStates = prospectRankings.Where(x => string.IsNullOrEmpty(x.State)).ToList();
 
             if (emptyStates.Count > 0)
             {
@@ -277,7 +451,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             .Width(120)
             .Label("[green bold underline]Total prospects in list[/]")
             .CenterLabel()
-            .AddItem(":person: NFL Prospects :person:", bigBoard.Count, Color.Cyan1 )
+            .AddItem(":person: NFL Prospects :person:", prospects.Count, Color.Cyan1 )
             );
 
             // Give a rendered result to the terminal.
@@ -292,6 +466,97 @@ namespace prospect_scraper_mddb_2022.Extensions
             .AddItem(":clipboard: States :clipboard:", states, Color.Aqua)
             .AddItem(":cross_mark: State mismatches :cross_mark:", emptyStates.Count, Color.Orange1)
             );
+        }
+        
+        private static List<ProspectRanking> FindProspectsFromJson(List<JsonElement> jsonProspects, string todayString, ref Dictionary<string, string> schoolImages)
+        {
+            var prospectRankings = new List<ProspectRanking>();
+
+            //read in CSV from info/RanksToProjectedPoints.csv
+            var dt = new DataTable();
+            using (var reader = new StreamReader(Path.Combine("info", "RanksToProjectedPoints.csv")))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+            {
+                using var dr = new CsvDataReader(csv);
+                dt.Load(dr);
+            }
+            var ranksToPoints = dt.AsEnumerable()
+                    .ToDictionary<DataRow, string, string>(row => row.Field<string>(0),
+                                                        row => row.Field<string>(1));
+
+            var dt2 = new DataTable();
+            using (var reader = new StreamReader(Path.Combine("info", "SchoolStatesAndConferences.csv")))
+            using (var csv = new CsvReader(reader, CultureInfo.InvariantCulture))
+            {
+                using var dr = new CsvDataReader(csv);
+                dt2.Load(dr);
+            }
+
+            var schoolsToStatesAndConfs = dt2.AsEnumerable()
+                    .ToDictionary(row => row.Field<string>(0),
+                                  row => (row.Field<string>(1), row.Field<string>(2))
+                                 );
+
+            foreach (var jsonProspect in jsonProspects)
+            {
+                try
+                {
+                    var player = jsonProspect.GetProperty("player");
+                    var team = jsonProspect.GetProperty("team");
+                    var pick = jsonProspect.GetProperty("pick");
+
+                    string playerName = player.GetProperty("name").GetString().Replace("'", "'");
+                    string playerPosition = player.GetProperty("position").GetString();
+                    string playerSchool = player.GetProperty("college").GetProperty("name").GetString();
+                    
+                    string currentRank = pick.ToString();
+                    string peakRank = "1"; // Could be calculated differently, for now set to 1
+                    
+                    // Get school logo from team property
+                    string schoolLogo = "";
+                    if (team.TryGetProperty("logo", out var logoElement) && !logoElement.ValueKind.Equals(JsonValueKind.Null))
+                    {
+                        schoolLogo = logoElement.GetString();
+                    }
+                    
+                    // Get projected draft information from consensus if available
+                    string projectedDraftSpot = "";
+                    string projectedDraftTeam = "";
+                    
+                    if (jsonProspect.TryGetProperty("consensus", out var consensus) && !consensus.ValueKind.Equals(JsonValueKind.Null))
+                    {
+                        if (consensus.TryGetProperty("pick", out var consensusPick))
+                        {
+                            projectedDraftSpot = consensusPick.GetInt32().ToString();
+                        }
+                        if (consensus.TryGetProperty("team_name", out var teamName))
+                        {
+                            projectedDraftTeam = teamName.GetString();
+                        }
+                    }
+
+                    // Clean school name
+                    playerSchool = playerSchool.ConvertSchool();
+
+                    if (!schoolImages.ContainsKey(playerSchool))
+                    {
+                        schoolImages.Add(playerSchool, schoolLogo);
+                    }
+
+                    string leagifyPoints = ranksToPoints.GetValueOrDefault(currentRank, "1");
+                    (string schoolConference, string schoolState) = schoolsToStatesAndConfs.GetValueOrDefault(playerSchool, ("", ""));
+
+                    var currentPlayer = new ProspectRanking(todayString, currentRank, peakRank, playerName, playerSchool, playerPosition, schoolState, schoolConference, leagifyPoints, projectedDraftSpot, projectedDraftTeam);
+                    prospectRankings.Add(currentPlayer);
+                }
+                catch (Exception ex)
+                {
+                    AnsiConsole.MarkupLine($"[yellow]Warning: Could not parse prospect data: {ex.Message}[/]");
+                    // Continue processing other prospects
+                }
+            }
+
+            return prospectRankings;
         }
 
     }

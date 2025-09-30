@@ -66,3 +66,13 @@ Edit `scraper.conf` to:
 - Change years to scrape (YearsToScrape array)
 - Modify URL patterns for different draft years
 - Add new year-specific URLs if needed
+- Switch between Web and CSV data sources
+- Configure CSV processing options (base path, run count)
+
+## Development Guidelines
+
+**CRITICAL: Always commit before running `dotnet run`**
+- The application creates/modifies files in `ranks/` directory
+- CSV mode moves files to `processed/` subfolders
+- If errors occur, you need to revert both code changes AND file system changes
+- Commit code changes first, then test, then commit results if successful

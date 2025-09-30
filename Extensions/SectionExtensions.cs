@@ -41,12 +41,14 @@ namespace prospect_scraper_mddb_2022.Extensions
             if (!Directory.Exists(yearPath))
                 return new string[0];
 
-            var files = Directory.GetFiles(yearPath, $"consensus-big-board-{year}-*.csv")
+            // Only get files from main directory, excluding processed subfolder
+            var files = Directory.GetFiles(yearPath, $"consensus-big-board-{year}-*.csv", SearchOption.TopDirectoryOnly)
                 .OrderBy(f => ExtractDateFromFilename(f))
                 .ToArray();
 
             int runCount = config.GetCsvRunCount();
-            return files.TakeLast(runCount).ToArray();
+            // Take the oldest N files and return them in chronological order (oldest to newest)
+            return files.Take(runCount).ToArray();
         }
 
         public static DateTime ExtractDateFromFilename(string filename)

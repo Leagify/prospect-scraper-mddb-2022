@@ -93,6 +93,9 @@ namespace prospect_scraper_mddb_2022.Extensions
 
             schoolInfos.WriteToCsvFile(schoolRankInfoFileName);
 
+            // Move processed CSV file to processed subfolder
+            MoveToProcessedFolder(csvFilePath);
+
             ctx.Status("CSV processing complete!");
         }
 
@@ -175,6 +178,24 @@ namespace prospect_scraper_mddb_2022.Extensions
                 .ToDictionary(
                     row => row.Field<string>(0),
                     row => (row.Field<string>(1), row.Field<string>(2)));
+        }
+
+        private static void MoveToProcessedFolder(string csvFilePath)
+        {
+            string directory = Path.GetDirectoryName(csvFilePath);
+            string fileName = Path.GetFileName(csvFilePath);
+            string processedDir = Path.Combine(directory, "processed");
+
+            // Create processed directory if it doesn't exist
+            if (!Directory.Exists(processedDir))
+            {
+                Directory.CreateDirectory(processedDir);
+            }
+
+            string destinationPath = Path.Combine(processedDir, fileName);
+
+            // Move the file (this will overwrite if file already exists)
+            File.Move(csvFilePath, destinationPath, true);
         }
     }
 }

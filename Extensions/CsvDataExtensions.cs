@@ -140,6 +140,12 @@ namespace prospect_scraper_mddb_2022.Extensions
                 // Look up state and conference
                 (string schoolConference, string schoolState) = schoolsToStatesAndConfs.GetValueOrDefault(college, ("", ""));
 
+                // Debug: Check first few lookups
+                if (prospects.Count < 3)
+                {
+                    AnsiConsole.MarkupLine($"[yellow]DEBUG: {playerName} from {college} -> State: '{schoolState}', Conference: '{schoolConference}'[/]");
+                }
+
                 // Get projected points
                 string projectedPoints = ranksToPoints.GetValueOrDefault(rank, "1");
 

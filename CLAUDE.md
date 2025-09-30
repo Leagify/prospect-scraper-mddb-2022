@@ -76,3 +76,10 @@ Edit `scraper.conf` to:
 - CSV mode moves files to `processed/` subfolders
 - If errors occur, you need to revert both code changes AND file system changes
 - Commit code changes first, then test, then commit results if successful
+
+**CRITICAL: Always check for state mapping errors after running `dotnet run`**
+- The most important thing to verify is whether there are state/conference mapping mismatches
+- Look for error messages about prospects with missing state information
+- State mapping errors indicate schools missing from `info/SchoolStatesAndConferences.csv`
+- Do NOT commit if there are unresolved state mapping errors
+- Add missing schools to the mapping file before proceeding

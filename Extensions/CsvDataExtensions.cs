@@ -44,6 +44,9 @@ namespace prospect_scraper_mddb_2022.Extensions
             ctx.SpinnerStyle(Style.Parse("green"));
             AnsiConsole.MarkupLine("Processing prospect data from CSV...");
 
+            // Display prospect table
+            DisplayProspectTable(prospects);
+
             // Write prospect rankings
             string playerInfoFileName = Path.Combine(baseDirectory, $"ProspectRankings{dateString}.csv");
             prospects.WriteToCsvFile(playerInfoFileName);
@@ -62,6 +65,9 @@ namespace prospect_scraper_mddb_2022.Extensions
                 .ThenByDescending(x => x.NumberOfProspects)
                 .ToList();
 
+            // Display school table and chart
+            DisplaySchoolTable(topSchools.Cast<object>().ToList());
+
             // Generate state statistics
             var topStates = prospects.GroupBy(x => x.State)
                 .Select(x => new
@@ -74,6 +80,12 @@ namespace prospect_scraper_mddb_2022.Extensions
                 .OrderByDescending(x => x.ProjectedPoints)
                 .ThenByDescending(x => x.NumberOfProspects)
                 .ToList();
+
+            // Display state table
+            DisplayStateTable(topStates.Cast<object>().ToList());
+
+            // Check for state mapping issues
+            CheckStateMappingIssues(prospects);
 
             // Create school info
             var topSchool = topSchools.First();
@@ -196,6 +208,107 @@ namespace prospect_scraper_mddb_2022.Extensions
 
             // Move the file (this will overwrite if file already exists)
             File.Move(csvFilePath, destinationPath, true);
+        }
+
+        private static void DisplayProspectTable(List<ProspectRanking> prospects)
+        {
+            var prospectTable = new Spectre.Console.Table();
+            prospectTable.AddColumn("Player");
+            prospectTable.AddColumn("Rank");
+            prospectTable.AddColumn("School");
+            prospectTable.AddColumn("Position");
+            prospectTable.AddColumn("Peak");
+            prospectTable.AddColumn("Points");
+            prospectTable.Border(TableBorder.Ascii);
+
+            foreach (var prospect in prospects)
+            {
+                prospectTable.AddRow(prospect.PlayerName, prospect.Rank, prospect.School, prospect.Position, prospect.Peak, prospect.ProjectedPoints.ToString());
+            }
+
+            AnsiConsole.Write(prospectTable);
+        }
+
+        private static void DisplaySchoolTable(List<object> topSchools)
+        {
+            var schoolTable = new Spectre.Console.Table();
+            schoolTable.AddColumn("School");
+            schoolTable.AddColumn("Conf");
+            schoolTable.AddColumn("Points");
+            schoolTable.AddColumn("Prospects");
+            schoolTable.Border(TableBorder.Square);
+
+            var schoolChart = new BarChart();
+            schoolChart.Label("[red]Top Schools[/]");
+
+            foreach (dynamic school in topSchools)
+            {
+                string schoolName = school.School;
+                string conference = school.Conference;
+                string points = school.ProjectedPoints.ToString();
+                string prospects = school.NumberOfProspects.ToString();
+
+                schoolTable.AddRow(schoolName, conference, points, prospects);
+                schoolChart.AddItem(schoolName, (double)school.ProjectedPoints, Color.Red);
+            }
+
+            AnsiConsole.Write(schoolTable);
+            AnsiConsole.Write(schoolChart);
+        }
+
+        private static void DisplayStateTable(List<object> topStates)
+        {
+            var stateTable = new Spectre.Console.Table();
+            stateTable.AddColumn("State");
+            stateTable.AddColumn("Points");
+            stateTable.AddColumn("Schools");
+            stateTable.AddColumn("Prospects");
+            stateTable.Border(TableBorder.Rounded);
+            stateTable.BorderColor(Color.Yellow);
+
+            foreach (dynamic state in topStates)
+            {
+                string stateName = state.State;
+                string points = state.ProjectedPoints.ToString();
+                string schools = state.NumberOfSchools.ToString();
+                string prospects = state.NumberOfProspects.ToString();
+
+                stateTable.AddRow(stateName, points, schools, prospects);
+            }
+
+            AnsiConsole.Write(stateTable);
+        }
+
+        private static void CheckStateMappingIssues(List<ProspectRanking> prospects)
+        {
+            var emptyStates = prospects.Where(x => string.IsNullOrEmpty(x.State)).ToList();
+
+            if (emptyStates.Count > 0)
+            {
+                AnsiConsole.MarkupLine($"[red]WARNING: {emptyStates.Count} prospects have missing state information:[/]");
+
+                var missingStateTable = new Spectre.Console.Table();
+                missingStateTable.AddColumn("Rank");
+                missingStateTable.AddColumn("Player");
+                missingStateTable.AddColumn("School");
+                missingStateTable.Border(TableBorder.Simple);
+
+                foreach (var prospect in emptyStates.Take(10)) // Show first 10
+                {
+                    missingStateTable.AddRow(prospect.Rank, prospect.PlayerName, prospect.School);
+                }
+
+                AnsiConsole.Write(missingStateTable);
+
+                if (emptyStates.Count > 10)
+                {
+                    AnsiConsole.MarkupLine($"[yellow]... and {emptyStates.Count - 10} more prospects with missing state data[/]");
+                }
+            }
+            else
+            {
+                AnsiConsole.MarkupLine("[green]✓ All prospects have state information[/]");
+            }
         }
     }
 }

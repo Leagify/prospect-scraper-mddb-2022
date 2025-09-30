@@ -41,7 +41,7 @@ namespace prospect_scraper_mddb_2022
 
                             foreach (string csvFile in csvFiles)
                             {
-                                ctx.ProcessCsvFile(csvFile, scrapeYear);
+                                ctx.ProcessCsvFile(csvFile, scrapeYear, scraperConfig);
                             }
                         }
                     }

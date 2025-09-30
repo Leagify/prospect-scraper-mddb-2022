@@ -1,6 +1,7 @@
 using CsvHelper;
 using HtmlAgilityPack;
 using prospect_scraper_mddb_2022.DTOs;
+using SharpConfig;
 using Spectre.Console;
 using System;
 using System.Collections.Generic;
@@ -13,7 +14,7 @@ namespace prospect_scraper_mddb_2022.Extensions
 {
     public static class CsvDataExtensions
     {
-        public static void ProcessCsvFile(this StatusContext ctx, string csvFilePath, string scrapeYear)
+        public static void ProcessCsvFile(this StatusContext ctx, string csvFilePath, string scrapeYear, Configuration config)
         {
             var csvDate = SectionExtensions.ExtractDateFromFilename(csvFilePath);
             string dateString = csvDate.ToString("yyyy-MM-dd");
@@ -44,8 +45,12 @@ namespace prospect_scraper_mddb_2022.Extensions
             ctx.SpinnerStyle(Style.Parse("green"));
             AnsiConsole.MarkupLine("Processing prospect data from CSV...");
 
-            // Display prospect table
-            DisplayProspectTable(prospects);
+            // Display prospect table only if verbose output is enabled
+            bool verboseOutput = config.GetVerboseOutput();
+            if (verboseOutput)
+            {
+                DisplayProspectTable(prospects);
+            }
 
             // Write prospect rankings
             string playerInfoFileName = Path.Combine(baseDirectory, $"ProspectRankings{dateString}.csv");
@@ -65,8 +70,11 @@ namespace prospect_scraper_mddb_2022.Extensions
                 .ThenByDescending(x => x.NumberOfProspects)
                 .ToList();
 
-            // Display school table and chart
-            DisplaySchoolTable(topSchools.Cast<object>().ToList());
+            // Display school table and chart only if verbose output is enabled
+            if (verboseOutput)
+            {
+                DisplaySchoolTable(topSchools.Cast<object>().ToList());
+            }
 
             // Generate state statistics
             var topStates = prospects.GroupBy(x => x.State)
@@ -81,10 +89,13 @@ namespace prospect_scraper_mddb_2022.Extensions
                 .ThenByDescending(x => x.NumberOfProspects)
                 .ToList();
 
-            // Display state table
-            DisplayStateTable(topStates.Cast<object>().ToList());
+            // Display state table only if verbose output is enabled
+            if (verboseOutput)
+            {
+                DisplayStateTable(topStates.Cast<object>().ToList());
+            }
 
-            // Check for state mapping issues
+            // Always check for state mapping issues (this is the key output we want to see)
             CheckStateMappingIssues(prospects);
 
             // Create school info

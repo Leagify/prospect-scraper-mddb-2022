@@ -33,6 +33,12 @@ namespace prospect_scraper_mddb_2022.Extensions
                 config["DataSource"]["CsvRunCount"].IntValue : 1;
         }
 
+        public static bool GetVerboseOutput(this Configuration config)
+        {
+            return config.Contains("DataSource") && config["DataSource"].Contains("VerboseOutput") ?
+                config["DataSource"]["VerboseOutput"].BoolValue : false;
+        }
+
         public static string[] GetCsvFilesForYear(this Configuration config, string year)
         {
             string basePath = config.GetCsvBasePath();

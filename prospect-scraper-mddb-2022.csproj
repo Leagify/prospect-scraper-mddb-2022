@@ -11,6 +11,8 @@
     <PackageReference Include="scrapysharp" Version="3.0.0" />
     <PackageReference Include="SharpConfig" Version="3.2.9.1" />
     <PackageReference Include="Spectre.Console" Version="0.42.0" />
+    <PackageReference Include="Selenium.WebDriver" Version="4.24.0" />
+    <PackageReference Include="Selenium.WebDriver.ChromeDriver" Version="127.0.6533.11900" />
   </ItemGroup>
 
   <ItemGroup>

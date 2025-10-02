@@ -14,7 +14,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             {
                 HasHeaderRecord = false
             };
-            using var stream = File.Open(fileName, FileMode.Append);
+            using var stream = File.Open(fileName, FileMode.Create);
             using var writer = new StreamWriter(stream);
             using var csv = new CsvWriter(writer, csvConfig);
             csv.WriteRecords(data);

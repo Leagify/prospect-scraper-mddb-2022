@@ -38,9 +38,9 @@ namespace prospect_scraper_mddb_2022.Extensions
             string baseDirectory = Path.Join("ranks", scrapeYear);
             baseDirectory.EnsureExists();
 
-            // Write BoardInfo
+            // Write BoardInfo (append to preserve history)
             string bigBoardInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}BoardInfo.csv");
-            infos.WriteToCsvFile(bigBoardInfoFileName);
+            infos.AppendToCsvFile(bigBoardInfoFileName);
 
             ctx.SpinnerStyle(Style.Parse("green"));
             AnsiConsole.MarkupLine("Processing prospect data from CSV...");
@@ -106,6 +106,7 @@ namespace prospect_scraper_mddb_2022.Extensions
             // Write files
             string schoolRankingFileName = Path.Combine(baseDirectory, $"SchoolRankings{dateString}.csv");
             string schoolRankInfoFileName = Path.Combine(baseDirectory, $"SchoolRankInfo{dateString}.csv");
+            string schoolInfoFileName = Path.Combine(baseDirectory, $"{scrapeYear}SchoolInfo.csv");
 
             // Note: topSchools is anonymous type, need to create proper objects or use dynamic writing
             using (var writer = new StreamWriter(schoolRankingFileName))
@@ -114,7 +115,8 @@ namespace prospect_scraper_mddb_2022.Extensions
                 csv.WriteRecords(topSchools);
             }
 
-            schoolInfos.WriteToCsvFile(schoolRankInfoFileName);
+            schoolInfos.AppendToCsvFile(schoolRankInfoFileName);
+            schoolInfos.AppendToCsvFile(schoolInfoFileName);
 
             // Move processed CSV file to processed subfolder
             MoveToProcessedFolder(csvFilePath);

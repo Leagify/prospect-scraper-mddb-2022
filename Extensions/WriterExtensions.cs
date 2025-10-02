@@ -20,6 +20,18 @@ namespace prospect_scraper_mddb_2022.Extensions
             csv.WriteRecords(data);
         }
 
+        public static void AppendToCsvFile<T>(this IEnumerable<T> data, string fileName)
+        {
+            var csvConfig = new CsvConfiguration(CultureInfo.CurrentCulture)
+            {
+                HasHeaderRecord = false
+            };
+            using var stream = File.Open(fileName, FileMode.Append);
+            using var writer = new StreamWriter(stream);
+            using var csv = new CsvWriter(writer, csvConfig);
+            csv.WriteRecords(data);
+        }
+
         public static void EnsureExists(this string directory)
         {
             if (!Directory.Exists(directory))

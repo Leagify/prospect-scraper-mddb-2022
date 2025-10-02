@@ -83,3 +83,32 @@ Edit `scraper.conf` to:
 - State mapping errors indicate schools missing from `info/SchoolStatesAndConferences.csv`
 - Do NOT commit if there are unresolved state mapping errors
 - Add missing schools to the mapping file before proceeding
+
+## Known Issues
+
+### Web Scraping Mode (as of 2025-09-29)
+
+**Status**: BROKEN - NullReferenceException when parsing website data
+
+**Error Details**:
+- Exception occurs in `StatusContextExtensions.cs` at line 29
+- Specific failure: `draftInfo[0].ChildNodes[2].InnerText` returns null
+- Root cause: nflmockdraftdatabase.com website structure has changed since code was written
+
+**Error Location**:
+```csharp
+// This line fails with NullReferenceException:
+string lastUpdated = draftInfo[0].ChildNodes[2].InnerText.Replace("Last Updated: ", "").Trim();
+```
+
+**Impact**:
+- Web scraping mode (`DataSource.Mode = "Web"`) is currently non-functional
+- CSV processing mode (`DataSource.Mode = "CSV"`) works perfectly as an alternative
+
+**Next Steps for Fixing**:
+1. Inspect current HTML structure of nflmockdraftdatabase.com/big-boards/2026/consensus-big-board-2026
+2. Update XPath selectors in `StatusContextExtensions.cs` to match new DOM structure
+3. Particularly focus on the "Last Updated" parsing logic and board count extraction
+4. Test against multiple years to ensure robustness
+
+**Workaround**: Use CSV processing mode, which is fully functional and provides the same data structure.

@@ -58,6 +58,9 @@ namespace prospect_scraper_mddb_2022.Extensions
             string playerInfoFileName = Path.Combine(playerInfoDirectory, $"{dateString}-ranks.csv");
             prospects.WriteToCsvFile(playerInfoFileName);
 
+            string collectedRanksFileName = Path.Combine(baseDirectory, $"{scrapeYear}ranks.csv");
+            prospects.AppendToCsvFile(collectedRanksFileName);
+
             // Generate school statistics
             var topSchools = prospects
                 .GroupBy(x => x.School)
